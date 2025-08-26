@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emmett Stralka’s E155-Website",
+    "section": "",
+    "text": "Emmett Stralka is a Harvey Mudd College student majoring in Engineering and Economics with a strong background in product management, digital electronics, and UX/UI design. He has completed internships at Ford, Abercrombie & Fitch, and North American Switchgear, gaining experience in both technical engineering and business-focused roles. Actively involved in advanced rocketry, robotics, and signal processing projects, Emmett combines hands-on hardware expertise with analytical problem-solving. He is also a varsity track and field athlete and SCIAC champion, balancing technical rigor with competitive athletics. Passionate about innovation, design, and practical impact, he thrives at the intersection of engineering, economics, and leadership. You can find more projects Emmett has done [here].(https://github.com/stremme1/E155-Website-Emmett_Stralka)"
+  },
+  {
+    "objectID": "posts/blog.html",
+    "href": "posts/blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Hello Quarto\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 26, 2025\n\n\nEmmett Stralka\n\n\n\n\n\nNo matching items"
+  }
+]

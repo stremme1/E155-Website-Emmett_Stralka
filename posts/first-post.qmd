@@ -1,0 +1,10 @@
+---
+title: "Hello Quarto"
+description: "Welcome to my Quarto portfolio"
+author: "Emmett Stralka"
+date: "8/26/25"
+categories:
+  - reflection
+  - labreport
+draft: false
+---
