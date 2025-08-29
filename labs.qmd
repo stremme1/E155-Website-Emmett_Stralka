@@ -1,0 +1,33 @@
+## HMC E155 Labs
+
+### Lab 1: FPGA and MCU Setup and Testing
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab1/](https://hmc-e155.github.io/lab/lab1/)
+- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
+- **PDF Report**: [Lab 1 Report](path/to/lab1_report.pdf)
+
+### Lab 2: Assembly Language Programming
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab2/](https://hmc-e155.github.io/lab/lab2/)
+- **PDF Report**: [Lab 2 Report](path/to/lab2_report.pdf)
+
+### Lab 3: Interrupts and Timers
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab3/](https://hmc-e155.github.io/lab/lab3/)
+- **PDF Report**: [Lab 3 Report](path/to/lab3_report.pdf)
+
+### Lab 4: Memory-Mapped I/O
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab4/](https://hmc-e155.github.io/lab/lab4/)
+- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
+- **PDF Report**: [Lab 4 Report](path/to/lab4_report.pdf)
+
+### Lab 5: Analog-to-Digital Conversion
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab5/](https://hmc-e155.github.io/lab/lab5/)
+- **PDF Report**: [Lab 5 Report](path/to/lab5_report.pdf)
+
+### Lab 6: Pulse Width Modulation
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab6/](https://hmc-e155.github.io/lab/lab6/)
+- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
+- **PDF Report**: [Lab 6 Report](path/to/lab6_report.pdf)
+
+### Lab 7: Serial Communication
+- **Lab Page**: [https://hmc-e155.github.io/lab/lab7/](https://hmc-e155.github.io/lab/lab7/)
+- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
+- **PDF Report**: [Lab 7 Report](path/to/lab7_report.pdf)

@@ -1,12 +1,10 @@
 [
   {
-    "listing": "/posts/blog.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
-      "/posts/first-post.html"
+      "/posts/StarWars.html",
+      "/posts/first-post.html",
+      "/posts/Week-1-Reflection.html"
     ]
   }
 ]

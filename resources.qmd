@@ -1,0 +1,11 @@
+---
+title: "Resources"
+---
+
+Here are some useful resources related to my E155 labs:
+
+- **E155 Course Website**: [https://hmc-e155.github.io/](https://hmc-e155.github.io/)  
+  The official site for course materials, lab instructions, and additional references.
+
+- **E155 GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)  
+  The main repository containing lab code, examples, and project templates.

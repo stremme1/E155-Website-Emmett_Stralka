@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-About this site
+Welcome to my site! Here, I document my lab experiences from [E155: Microcontrollers and FPGA Design](https://hmc-e155.github.io/).  
+You'll find detailed reports, project files, and reflections on each lab I completed throughout the course.

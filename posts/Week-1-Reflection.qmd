@@ -1,0 +1,14 @@
+---
+title: "Week 1 Reflection"
+description: "Hello I published this website"
+author: "Emmett Stralka"
+date: "8/26/25"
+categories:
+  - reflection
+  - labreport
+draft: false
+---
+
+##Summary 
+
+## Reflection on Lab

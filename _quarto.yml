@@ -11,7 +11,11 @@ website:
         text: Labs
       - href: blog.qmd
         text: Blog
-      - about.qmd
+      - href: resources.qmd
+        text: Resources
+      - href: about.qmd
+        text: About
+
 
 format:
   html:
@@ -20,6 +24,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
