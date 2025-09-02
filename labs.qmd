@@ -3,7 +3,7 @@
 ### Lab 1: FPGA and MCU Setup and Testing
 - **Lab Page**: [https://hmc-e155.github.io/lab/lab1/](https://hmc-e155.github.io/lab/lab1/)
 - **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
-- **PDF Report**: [Lab 1 Report](LabPdfs/MicroP's Lab1.pdf)
+- **PDF Report**: [Lab 1 Report](LabPdfs/MicroP's Lab1 (2).pdf)
 
 ### Lab 2: Assembly Language Programming
 - **Lab Page**: [https://hmc-e155.github.io/lab/lab2/](https://hmc-e155.github.io/lab/lab2/)
