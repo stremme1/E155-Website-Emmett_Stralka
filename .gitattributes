@@ -1,0 +1,25 @@
+# Binary files - don't modify line endings
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Text files - normalize line endings
+*.md text
+*.qmd text
+*.html text
+*.css text
+*.js text
+*.yml text
+*.yaml text
+*.json text
+*.txt text
+*.xml text
