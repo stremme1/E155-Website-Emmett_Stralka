@@ -7,7 +7,7 @@
 
 ### Lab 2: Assembly Language Programming
 - **Lab Page**: [https://hmc-e155.github.io/lab/lab2/](https://hmc-e155.github.io/lab/lab2/)
-- **PDF Report**: Coming Soon
+- **PDF Report**: [Lab 2 Report](LabPdfs/MicroP's Lab2.pdf)
 
 ### Lab 3: Interrupts and Timers
 - **Lab Page**: [https://hmc-e155.github.io/lab/lab3/](https://hmc-e155.github.io/lab/lab3/)
