@@ -4,10 +4,6 @@ subtitle: "Harvey Mudd College | Engineering & Economics | Microcontrollers & FP
 image: images/headshot.jpg
 ---
 
-::: {.hero-section}
-::: {.hero-content}
-![Emmett Stralka](images/headshot.jpg){.hero-image}
-
 # Emmett Stralka
 
 ## Engineering Student & Technical Innovator
@@ -15,26 +11,9 @@ image: images/headshot.jpg
 Harvey Mudd College student majoring in Engineering and Economics with expertise in 
 microcontrollers, FPGA design, product management, and UX/UI design.
 
-::: {.cta-buttons}
-[View My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
-[About Me](about.qmd){.btn .btn-outline-primary .btn-secondary-custom}
-:::
-:::
-:::
-
-::: {.content-section}
-## About Me
-
-I'm a dedicated student at **Harvey Mudd College**, pursuing a dual major in Engineering and Economics. I've gained valuable experience through internships at **Ford**, **Abercrombie & Fitch**, and **North American Switchgear**, working on both technical engineering and business-focused projects.
-
-I'm actively involved in **advanced rocketry**, **robotics**, and **signal processing** projects, combining hands-on hardware expertise with analytical problem-solving. Beyond academics, I'm a **varsity track and field athlete** and **SCIAC champion**.
-:::
-
-::: {.content-section}
 ## E155: Microcontrollers & FPGA Design
 
 This website documents my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. Here you'll find detailed lab reports, code implementations, and technical documentation showcasing my engineering problem-solving process.
 
 [Explore My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
-:::
 
