@@ -15,7 +15,7 @@ image: images/headshot.jpg
 Harvey Mudd College student majoring in Engineering and Economics with expertise in 
 microcontrollers, FPGA design, product management, and UX/UI design.
 
-> **NEW DESIGN:** This website has been completely redesigned with a clean, professional layout!
+> **NEW DESIGN:** This website has been completely redesigned with a clean, professional layout! **UPDATED:** 2024-12-19 15:30
 
 ::: {.cta-buttons}
 [View My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
