@@ -1,17 +1,36 @@
 ---
-title: "Emmett Stralka's E155-Website"
+title: "Emmett Stralka - Engineering Portfolio"
+subtitle: "Harvey Mudd College | Engineering & Economics | Microcontrollers & FPGA Design"
 image: images/headshot.jpg
-about: 
-    template: jolla
-    links:
-        - icon: linkedin
-          text: linkedin
-          href: https://www.linkedin.com/in/emmett-stralka-b41575213/
-        - icon: github
-          text: github
-          href: https://github.com/stremme1
 ---
 
+::: {.hero-section}
+::: {.hero-content}
+![Emmett Stralka](images/headshot.jpg){.hero-image}
 
-Emmett Stralka is a [Harvey Mudd College](https://hmc.edu) student majoring in Engineering and Economics with a strong background in product management, digital electronics, and UX/UI design. He has completed internships at Ford, Abercrombie & Fitch, and North American Switchgear, gaining experience in both technical engineering and business-focused roles. Actively involved in advanced rocketry, robotics, and signal processing projects, Emmett combines hands-on hardware expertise with analytical problem-solving. He is also a varsity track and field athlete and SCIAC champion, balancing technical rigor with competitive athletics. Passionate about innovation, design, and practical impact, he thrives at the intersection of engineering, economics, and leadership. You can find more projects Emmett has done [here].(https://github.com/stremme1/E155-Website-Emmett_Stralka)
+# Emmett Stralka
+
+## Engineering Student & Technical Innovator
+
+Harvey Mudd College student majoring in Engineering and Economics with expertise in 
+microcontrollers, FPGA design, product management, and UX/UI design.
+
+::: {.cta-buttons}
+[View My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
+[About Me](about.qmd){.btn .btn-outline-primary .btn-secondary-custom}
+:::
+:::
+:::
+
+## About
+
+I'm a dedicated student at **Harvey Mudd College**, pursuing a dual major in Engineering and Economics. I've gained valuable experience through internships at **Ford**, **Abercrombie & Fitch**, and **North American Switchgear**, working on both technical engineering and business-focused projects.
+
+I'm actively involved in **advanced rocketry**, **robotics**, and **signal processing** projects, combining hands-on hardware expertise with analytical problem-solving. Beyond academics, I'm a **varsity track and field athlete** and **SCIAC champion**.
+
+## E155: Microcontrollers & FPGA Design
+
+This website documents my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. Here you'll find detailed lab reports, code implementations, and technical documentation showcasing my engineering problem-solving process.
+
+[Explore My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
 

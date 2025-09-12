@@ -2,7 +2,8 @@ project:
   type: website
 
 website:
-  title: "E155-Website"
+  title: "Emmett Stralka - Engineering Portfolio"
+  description: "Harvey Mudd College Engineering Student | Microcontrollers & FPGA Design | Product Management & UX/UI"
   navbar:
     left:
       - href: index.qmd
@@ -15,12 +16,20 @@ website:
         text: Resources
       - href: about.qmd
         text: About
-
+    right:
+      - icon: github
+        href: https://github.com/stremme1
+      - icon: linkedin
+        href: https://www.linkedin.com/in/emmett-stralka-b41575213/
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - flatly
+      - custom.scss
     css: styles.css
     toc: true
+    toc-depth: 3
+    embed-resources: true
+    link-external-newwindow: true
+    search: true

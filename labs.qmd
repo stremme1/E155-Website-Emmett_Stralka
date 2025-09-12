@@ -1,33 +1,133 @@
-## HMC E155 Labs
+---
+title: "E155 Labs - Microcontrollers & FPGA Design"
+subtitle: "Harvey Mudd College | Technical Documentation & Project Showcase"
+---
 
-### Lab 1: FPGA and MCU Setup and Testing
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab1/](https://hmc-e155.github.io/lab/lab1/)
-- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
-- **PDF Report**: [Lab 1 Report](LabPdfs/MicroP's Lab1 (2).pdf)
+# E155 Labs: Microcontrollers & FPGA Design
+
+Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
+
+**Progress:** 2/7 labs completed (29%) | **Current:** Interrupts and Timers | **Next:** Memory-Mapped I/O
+
+## Lab Portfolio
+
+::: {.lab-cards-grid}
+
+::: {.lab-card .completed}
+::: {.lab-status .completed}
+Completed
+:::
+
+### Lab 1: FPGA and MCU Setup
+
+Initial setup and configuration of the development environment, including FPGA programming and microcontroller initialization.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab1/){.lab-link target="_blank"}
+[📄 Report](LabPdfs/MicroP's Lab1 (2).pdf){.lab-link target="_blank"}
+[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
+:::
+:::
+
+::: {.lab-card .completed}
+::: {.lab-status .completed}
+Completed
+:::
 
 ### Lab 2: Assembly Language Programming
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab2/](https://hmc-e155.github.io/lab/lab2/)
-- **PDF Report**: [Lab 2 Report](LabPdfs/MicroP's Lab2.pdf)
+
+Deep dive into low-level programming with assembly language, implementing core algorithms and data manipulation techniques directly on the microcontroller.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab2/){.lab-link target="_blank"}
+[📄 Report](LabPdfs/MicroP's Lab2.pdf){.lab-link target="_blank"}
+:::
+:::
+
+::: {.lab-card .in-progress}
+::: {.lab-status .in-progress}
+In Progress
+:::
 
 ### Lab 3: Interrupts and Timers
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab3/](https://hmc-e155.github.io/lab/lab3/)
-- **PDF Report**: Coming Soon
+
+Exploring real-time programming concepts through interrupt-driven systems and timer-based operations.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab3/){.lab-link target="_blank"}
+[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+:::
+:::
+
+::: {.lab-card}
+::: {.lab-status .pending}
+Pending
+:::
 
 ### Lab 4: Memory-Mapped I/O
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab4/](https://hmc-e155.github.io/lab/lab4/)
-- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
-- **PDF Report**: Coming Soon
+
+Implementation of memory-mapped input/output operations, enabling direct hardware control through memory addressing.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab4/){.lab-link target="_blank"}
+[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
+[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+:::
+:::
+
+::: {.lab-card}
+::: {.lab-status .pending}
+Pending
+:::
 
 ### Lab 5: Analog-to-Digital Conversion
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab5/](https://hmc-e155.github.io/lab/lab5/)
-- **PDF Report**: Coming Soon
+
+Working with ADC peripherals to interface with analog sensors and signals, covering signal conditioning and sampling theory.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab5/){.lab-link target="_blank"}
+[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+:::
+:::
+
+::: {.lab-card}
+::: {.lab-status .pending}
+Pending
+:::
 
 ### Lab 6: Pulse Width Modulation
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab6/](https://hmc-e155.github.io/lab/lab6/)
-- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
-- **PDF Report**: Coming Soon
+
+Implementation of PWM for motor control, LED dimming, and power management applications.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab6/){.lab-link target="_blank"}
+[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
+[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+:::
+:::
+
+::: {.lab-card}
+::: {.lab-status .pending}
+Pending
+:::
 
 ### Lab 7: Serial Communication
-- **Lab Page**: [https://hmc-e155.github.io/lab/lab7/](https://hmc-e155.github.io/lab/lab7/)
-- **GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)
-- **PDF Report**: Coming Soon
+
+Implementation of UART, SPI, and I2C communication protocols for device interfacing and data exchange.
+
+::: {.lab-links}
+[📖 Instructions](https://hmc-e155.github.io/lab/lab7/){.lab-link target="_blank"}
+[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
+[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+:::
+:::
+
+:::
+
+## Skills Developed
+
+**Hardware:** FPGA programming, microcontroller architecture, digital circuit design, hardware debugging
+
+**Software:** Assembly language, C programming for embedded systems, interrupt-driven programming, real-time system design
+
+**Tools:** Quartus Prime, ARM Cortex-M development tools, oscilloscopes, logic analyzers, Git

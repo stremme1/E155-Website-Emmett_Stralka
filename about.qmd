@@ -1,6 +1,180 @@
 ---
-title: "About"
+title: "About Emmett Stralka"
+subtitle: "Engineering Student | Technical Innovator | Problem Solver"
 ---
 
-Welcome to my site! Here, I document my lab experiences from [E155: Microcontrollers and FPGA Design](https://hmc-e155.github.io/).  
-You'll find detailed reports, project files, and reflections on each lab I completed throughout the course.
+::: {.hero-section}
+::: {.hero-content}
+![Emmett Stralka](images/headshot.jpg){.hero-image}
+
+# About Me {.hero-title}
+
+Welcome to my technical portfolio! I'm a dedicated engineering student passionate about 
+bridging the gap between innovative technology and practical solutions.
+{.hero-description}
+:::
+:::
+
+## My Journey
+
+::: {.card .card-custom}
+::: {.card-header}
+::: {.card-icon}
+🎓
+:::
+### Academic Foundation {.card-title}
+:::
+
+::: {.card-content}
+I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey Mudd College**, one of the nation's premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.
+
+My coursework spans across multiple disciplines including:
+
+- Microcontrollers and FPGA Design (E155)
+- Digital Electronics and Circuit Design
+- Product Management and UX/UI Design
+- Economic Analysis and Market Strategy
+:::
+:::
+
+::: {.card .card-custom}
+::: {.card-header}
+::: {.card-icon}
+💼
+:::
+### Professional Experience {.card-title}
+:::
+
+::: {.card-content}
+I've had the privilege of gaining hands-on experience through internships at leading companies:
+
+#### Ford Motor Company
+Worked on automotive engineering projects, gaining insight into large-scale manufacturing and product development processes.
+
+#### Abercrombie & Fitch
+Contributed to business strategy and market analysis, understanding the intersection of technology and consumer behavior.
+
+#### North American Switchgear
+Applied technical engineering skills in electrical systems and power distribution, working on critical infrastructure projects.
+
+These diverse experiences have given me a unique perspective on how technical innovation drives business success across different industries.
+:::
+:::
+
+::: {.card .card-custom}
+::: {.card-header}
+::: {.card-icon}
+🚀
+:::
+### Technical Projects & Interests {.card-title}
+:::
+
+::: {.card-content}
+I'm actively involved in several exciting technical domains:
+
+#### Advanced Rocketry
+Working on high-performance rocket systems, focusing on propulsion, guidance, and recovery systems. This combines mechanical engineering, electronics, and systems integration.
+
+#### Robotics & Automation
+Developing autonomous systems and robotic solutions for various applications, from industrial automation to research platforms.
+
+#### Signal Processing
+Exploring digital signal processing techniques for communication systems, sensor data analysis, and real-time processing applications.
+
+These projects allow me to apply theoretical knowledge to real-world challenges while developing practical engineering skills.
+:::
+:::
+
+<div class="card-custom">
+  <div class="card-header">
+    <div class="card-icon">🏃</div>
+    <h3 class="card-title">Athletic Excellence</h3>
+  </div>
+  <div class="card-content">
+    <p>Beyond academics and engineering, I'm a <strong>varsity track and field athlete</strong> and <strong>SCIAC champion</strong>. This experience has taught me invaluable lessons about:</p>
+    
+    <ul>
+      <li><strong>Discipline:</strong> The importance of consistent practice and continuous improvement</li>
+      <li><strong>Teamwork:</strong> Working collaboratively toward common goals</li>
+      <li><strong>Resilience:</strong> Overcoming setbacks and pushing beyond perceived limits</li>
+      <li><strong>Time Management:</strong> Balancing rigorous training with academic excellence</li>
+    </ul>
+    
+    <p>These qualities directly translate to my engineering work, where persistence, collaboration, and attention to detail are essential for success.</p>
+  </div>
+</div>
+
+## E155: Microcontrollers & FPGA Design
+
+<div class="card-custom">
+  <div class="card-header">
+    <div class="card-icon">⚡</div>
+    <h3 class="card-title">Course Overview</h3>
+  </div>
+  <div class="card-content">
+    <p>This website documents my comprehensive journey through <strong>E155: Microcontrollers and FPGA Design</strong> at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.</p>
+    
+    <p>Throughout this course, I'm developing expertise in:</p>
+    <ul>
+      <li>FPGA programming and digital circuit design</li>
+      <li>Microcontroller architecture and peripheral programming</li>
+      <li>Assembly language and low-level programming</li>
+      <li>Real-time systems and interrupt-driven programming</li>
+      <li>Hardware debugging and testing methodologies</li>
+    </ul>
+    
+    <p>Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design.</p>
+  </div>
+</div>
+
+## My Approach to Engineering
+
+<div class="card-custom">
+  <div class="card-header">
+    <div class="card-icon">🎯</div>
+    <h3 class="card-title">Problem-Solving Philosophy</h3>
+  </div>
+  <div class="card-content">
+    <p>I believe in a systematic approach to engineering challenges:</p>
+    
+    <h4>1. Understanding the Problem</h4>
+    <p>Thoroughly analyzing requirements, constraints, and stakeholder needs before jumping to solutions.</p>
+    
+    <h4>2. Research & Analysis</h4>
+    <p>Investigating existing solutions, best practices, and emerging technologies that could inform the design.</p>
+    
+    <h4>3. Iterative Design</h4>
+    <p>Building prototypes, testing assumptions, and refining solutions based on real-world feedback.</p>
+    
+    <h4>4. Documentation & Communication</h4>
+    <p>Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.</p>
+  </div>
+</div>
+
+## Connect With Me
+
+<div class="card-custom">
+  <div class="card-header">
+    <div class="card-icon">🤝</div>
+    <h3 class="card-title">Let's Collaborate</h3>
+  </div>
+  <div class="card-content">
+    <p>I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:</p>
+    
+    <ul>
+      <li>Technical collaboration on embedded systems projects</li>
+      <li>Discussing engineering education and career development</li>
+      <li>Exploring opportunities in product management or technical leadership</li>
+      <li>Sharing insights about the intersection of engineering and business</li>
+    </ul>
+    
+    <div class="cta-buttons">
+      <a href="https://www.linkedin.com/in/emmett-stralka-b41575213/" class="btn-primary-custom" target="_blank">
+        Connect on LinkedIn
+      </a>
+      <a href="https://github.com/stremme1" class="btn-secondary-custom" target="_blank">
+        View My GitHub
+      </a>
+    </div>
+  </div>
+</div>
