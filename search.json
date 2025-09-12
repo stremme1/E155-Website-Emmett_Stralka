@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Star Wars Episode III Reflection\n\n\nThoughts on Episode III and its storytelling\n\n\n\n\n\nAug 29, 2025\n\n\nEmmett Stralka\n\n\n\n\n\n\n\n\n\n\n\n\nHello Quarto\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 26, 2025\n\n\nEmmett Stralka\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1 Reflection\n\n\nHello I published this website\n\n\n\n\n\nAug 26, 2025\n\n\nEmmett Stralka\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Emmett Stralka",
+    "section": "",
+    "text": "Emmett Stralka\n\n\n\n\nWelcome to my technical portfolio! I’m a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. {.hero-description}"
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "About Emmett Stralka",
+    "section": "My Journey",
+    "text": "My Journey\n\n\n\n🎓\n\n\nAcademic Foundation\n\n\n\nI’m currently pursuing a dual major in Engineering and Economics at Harvey Mudd College, one of the nation’s premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.\nMy coursework spans across multiple disciplines including:\n\nMicrocontrollers and FPGA Design (E155)\nDigital Electronics and Circuit Design\nProduct Management and UX/UI Design\nEconomic Analysis and Market Strategy\n\n\n\n\n\n\n💼\n\n\nProfessional Experience\n\n\n\nI’ve had the privilege of gaining hands-on experience through internships at leading companies:\n\nFord Motor Company\nWorked on automotive engineering projects, gaining insight into large-scale manufacturing and product development processes.\n\n\nAbercrombie & Fitch\nContributed to business strategy and market analysis, understanding the intersection of technology and consumer behavior.\n\n\nNorth American Switchgear\nApplied technical engineering skills in electrical systems and power distribution, working on critical infrastructure projects.\nThese diverse experiences have given me a unique perspective on how technical innovation drives business success across different industries.\n\n\n\n\n\n\n🚀\n\n\nTechnical Projects & Interests\n\n\n\nI’m actively involved in several exciting technical domains:\n\nAdvanced Rocketry\nWorking on high-performance rocket systems, focusing on propulsion, guidance, and recovery systems. This combines mechanical engineering, electronics, and systems integration.\n\n\nRobotics & Automation\nDeveloping autonomous systems and robotic solutions for various applications, from industrial automation to research platforms.\n\n\nSignal Processing\nExploring digital signal processing techniques for communication systems, sensor data analysis, and real-time processing applications.\nThese projects allow me to apply theoretical knowledge to real-world challenges while developing practical engineering skills.\n\n\n\n\n\n&lt;div class=\"card-icon\"&gt;🏃&lt;/div&gt;\n&lt;h3 class=\"card-title\"&gt;Athletic Excellence&lt;/h3&gt;\n\n\n&lt;p&gt;Beyond academics and engineering, I'm a &lt;strong&gt;varsity track and field athlete&lt;/strong&gt; and &lt;strong&gt;SCIAC champion&lt;/strong&gt;. This experience has taught me invaluable lessons about:&lt;/p&gt;\n\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Discipline:&lt;/strong&gt; The importance of consistent practice and continuous improvement&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Teamwork:&lt;/strong&gt; Working collaboratively toward common goals&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Resilience:&lt;/strong&gt; Overcoming setbacks and pushing beyond perceived limits&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;Time Management:&lt;/strong&gt; Balancing rigorous training with academic excellence&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;These qualities directly translate to my engineering work, where persistence, collaboration, and attention to detail are essential for success.&lt;/p&gt;"
+  },
+  {
+    "objectID": "about.html#e155-microcontrollers-fpga-design",
+    "href": "about.html#e155-microcontrollers-fpga-design",
+    "title": "About Emmett Stralka",
+    "section": "E155: Microcontrollers & FPGA Design",
+    "text": "E155: Microcontrollers & FPGA Design\n\n\n&lt;div class=\"card-icon\"&gt;⚡&lt;/div&gt;\n&lt;h3 class=\"card-title\"&gt;Course Overview&lt;/h3&gt;\n\n\n&lt;p&gt;This website documents my comprehensive journey through &lt;strong&gt;E155: Microcontrollers and FPGA Design&lt;/strong&gt; at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.&lt;/p&gt;\n\n&lt;p&gt;Throughout this course, I'm developing expertise in:&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;FPGA programming and digital circuit design&lt;/li&gt;\n  &lt;li&gt;Microcontroller architecture and peripheral programming&lt;/li&gt;\n  &lt;li&gt;Assembly language and low-level programming&lt;/li&gt;\n  &lt;li&gt;Real-time systems and interrupt-driven programming&lt;/li&gt;\n  &lt;li&gt;Hardware debugging and testing methodologies&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design.&lt;/p&gt;"
+  },
+  {
+    "objectID": "about.html#my-approach-to-engineering",
+    "href": "about.html#my-approach-to-engineering",
+    "title": "About Emmett Stralka",
+    "section": "My Approach to Engineering",
+    "text": "My Approach to Engineering\n\n\n&lt;div class=\"card-icon\"&gt;🎯&lt;/div&gt;\n&lt;h3 class=\"card-title\"&gt;Problem-Solving Philosophy&lt;/h3&gt;\n\n\n&lt;p&gt;I believe in a systematic approach to engineering challenges:&lt;/p&gt;\n\n&lt;h4&gt;1. Understanding the Problem&lt;/h4&gt;\n&lt;p&gt;Thoroughly analyzing requirements, constraints, and stakeholder needs before jumping to solutions.&lt;/p&gt;\n\n&lt;h4&gt;2. Research & Analysis&lt;/h4&gt;\n&lt;p&gt;Investigating existing solutions, best practices, and emerging technologies that could inform the design.&lt;/p&gt;\n\n&lt;h4&gt;3. Iterative Design&lt;/h4&gt;\n&lt;p&gt;Building prototypes, testing assumptions, and refining solutions based on real-world feedback.&lt;/p&gt;\n\n&lt;h4&gt;4. Documentation & Communication&lt;/h4&gt;\n&lt;p&gt;Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.&lt;/p&gt;"
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About Emmett Stralka",
+    "section": "Connect With Me",
+    "text": "Connect With Me\n\n\n&lt;div class=\"card-icon\"&gt;🤝&lt;/div&gt;\n&lt;h3 class=\"card-title\"&gt;Let's Collaborate&lt;/h3&gt;\n\n\n&lt;p&gt;I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:&lt;/p&gt;\n\n&lt;ul&gt;\n  &lt;li&gt;Technical collaboration on embedded systems projects&lt;/li&gt;\n  &lt;li&gt;Discussing engineering education and career development&lt;/li&gt;\n  &lt;li&gt;Exploring opportunities in product management or technical leadership&lt;/li&gt;\n  &lt;li&gt;Sharing insights about the intersection of engineering and business&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;div class=\"cta-buttons\"&gt;\n  &lt;a href=\"https://www.linkedin.com/in/emmett-stralka-b41575213/\" class=\"btn-primary-custom\" target=\"_blank\"&gt;\n    Connect on LinkedIn\n  &lt;/a&gt;\n  &lt;a href=\"https://github.com/stremme1\" class=\"btn-secondary-custom\" target=\"_blank\"&gt;\n    View My GitHub\n  &lt;/a&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "E155 Labs - Microcontrollers & FPGA Design",
+    "section": "",
+    "text": "Documentation of my journey through E155: Microcontrollers and FPGA Design at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.\nProgress: 2/7 labs completed (29%) | Current: Interrupts and Timers | Next: Memory-Mapped I/O\n\n\n\n\n\nCompleted\n\n\n\nInitial setup and configuration of the development environment, including FPGA programming and microcontroller initialization.\n\n📖 Instructions 📄 Report 💻 Code\n\n\n\n\n\nCompleted\n\n\n\nDeep dive into low-level programming with assembly language, implementing core algorithms and data manipulation techniques directly on the microcontroller.\n\n📖 Instructions 📄 Report\n\n\n\n\n\nIn Progress\n\n\n\nExploring real-time programming concepts through interrupt-driven systems and timer-based operations.\n\n📖 Instructions 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of memory-mapped input/output operations, enabling direct hardware control through memory addressing.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nWorking with ADC peripherals to interface with analog sensors and signals, covering signal conditioning and sampling theory.\n\n📖 Instructions 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of PWM for motor control, LED dimming, and power management applications.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of UART, SPI, and I2C communication protocols for device interfacing and data exchange.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon\n\n\n\n\n\n\n\nHardware: FPGA programming, microcontroller architecture, digital circuit design, hardware debugging\nSoftware: Assembly language, C programming for embedded systems, interrupt-driven programming, real-time system design\nTools: Quartus Prime, ARM Cortex-M development tools, oscilloscopes, logic analyzers, Git"
+  },
+  {
+    "objectID": "labs.html#lab-portfolio",
+    "href": "labs.html#lab-portfolio",
+    "title": "E155 Labs - Microcontrollers & FPGA Design",
+    "section": "",
+    "text": "Completed\n\n\n\nInitial setup and configuration of the development environment, including FPGA programming and microcontroller initialization.\n\n📖 Instructions 📄 Report 💻 Code\n\n\n\n\n\nCompleted\n\n\n\nDeep dive into low-level programming with assembly language, implementing core algorithms and data manipulation techniques directly on the microcontroller.\n\n📖 Instructions 📄 Report\n\n\n\n\n\nIn Progress\n\n\n\nExploring real-time programming concepts through interrupt-driven systems and timer-based operations.\n\n📖 Instructions 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of memory-mapped input/output operations, enabling direct hardware control through memory addressing.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nWorking with ADC peripherals to interface with analog sensors and signals, covering signal conditioning and sampling theory.\n\n📖 Instructions 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of PWM for motor control, LED dimming, and power management applications.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon\n\n\n\n\n\nPending\n\n\n\nImplementation of UART, SPI, and I2C communication protocols for device interfacing and data exchange.\n\n📖 Instructions 💻 Code 📄 Report - Coming Soon"
+  },
+  {
+    "objectID": "labs.html#skills-developed",
+    "href": "labs.html#skills-developed",
+    "title": "E155 Labs - Microcontrollers & FPGA Design",
+    "section": "",
+    "text": "Hardware: FPGA programming, microcontroller architecture, digital circuit design, hardware debugging\nSoftware: Assembly language, C programming for embedded systems, interrupt-driven programming, real-time system design\nTools: Quartus Prime, ARM Cortex-M development tools, oscilloscopes, logic analyzers, Git"
+  },
+  {
+    "objectID": "posts/StarWars.html",
+    "href": "posts/StarWars.html",
+    "title": "Star Wars Episode III Reflection",
+    "section": "",
+    "text": "Star Wars: Episode III – Revenge of the Sith is the culmination of the prequel trilogy, showing Anakin Skywalker’s tragic fall to the dark side and the rise of the Empire. The film covers critical events like the Clone Wars ending, Order 66, and Anakin becoming Darth Vader. Visually, it features stunning space battles, lightsaber duels, and iconic planets such as Mustafar and Coruscant."
+  },
+  {
+    "objectID": "posts/StarWars.html#summary",
+    "href": "posts/StarWars.html#summary",
+    "title": "Star Wars Episode III Reflection",
+    "section": "",
+    "text": "Star Wars: Episode III – Revenge of the Sith is the culmination of the prequel trilogy, showing Anakin Skywalker’s tragic fall to the dark side and the rise of the Empire. The film covers critical events like the Clone Wars ending, Order 66, and Anakin becoming Darth Vader. Visually, it features stunning space battles, lightsaber duels, and iconic planets such as Mustafar and Coruscant."
+  },
+  {
+    "objectID": "posts/StarWars.html#reflection",
+    "href": "posts/StarWars.html#reflection",
+    "title": "Star Wars Episode III Reflection",
+    "section": "Reflection",
+    "text": "Reflection\nWatching Episode III again, I was struck by how much the film balances political intrigue with personal tragedy. Anakin’s internal conflict is central, and Hayden Christensen’s portrayal really conveys the tension between his loyalty, fear, and ambition. I also appreciated how the film connects the prequels to the original trilogy, giving context to Darth Vader’s character and the Empire’s rise."
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html",
+    "href": "posts/Week-1-Reflection.html",
+    "title": "Week 1 Reflection",
+    "section": "",
+    "text": "##Summary"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#reflection-on-lab",
+    "href": "posts/Week-1-Reflection.html#reflection-on-lab",
+    "title": "Week 1 Reflection",
+    "section": "Reflection on Lab",
+    "text": "Reflection on Lab"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "",
+    "text": "Emmett Stralka\n\n\n\n\n\n\nHarvey Mudd College student majoring in Engineering and Economics with expertise in microcontrollers, FPGA design, product management, and UX/UI design.\n\nNEW DESIGN: This website has been completely redesigned with a clean, professional layout! UPDATED: 2024-12-19 15:30\n\n\nView My Labs About Me"
+  },
+  {
+    "objectID": "index.html#engineering-student-technical-innovator",
+    "href": "index.html#engineering-student-technical-innovator",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "",
+    "text": "Harvey Mudd College student majoring in Engineering and Economics with expertise in microcontrollers, FPGA design, product management, and UX/UI design.\n\nNEW DESIGN: This website has been completely redesigned with a clean, professional layout! UPDATED: 2024-12-19 15:30\n\n\nView My Labs About Me"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "About",
+    "text": "About\nI’m a dedicated student at Harvey Mudd College, pursuing a dual major in Engineering and Economics. I’ve gained valuable experience through internships at Ford, Abercrombie & Fitch, and North American Switchgear, working on both technical engineering and business-focused projects.\nI’m actively involved in advanced rocketry, robotics, and signal processing projects, combining hands-on hardware expertise with analytical problem-solving. Beyond academics, I’m a varsity track and field athlete and SCIAC champion."
+  },
+  {
+    "objectID": "index.html#e155-microcontrollers-fpga-design",
+    "href": "index.html#e155-microcontrollers-fpga-design",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "E155: Microcontrollers & FPGA Design",
+    "text": "E155: Microcontrollers & FPGA Design\nThis website documents my journey through E155: Microcontrollers and FPGA Design at Harvey Mudd College. Here you’ll find detailed lab reports, code implementations, and technical documentation showcasing my engineering problem-solving process.\nExplore My Labs"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Here are some useful resources related to my E155 labs:\n\nE155 Course Website: https://hmc-e155.github.io/\nThe official site for course materials, lab instructions, and additional references.\nE155 GitHub Repository: https://github.com/HMC-E155/hmc-e155/tree/main/lab\nThe main repository containing lab code, examples, and project templates."
+  }
+]
