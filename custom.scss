@@ -1,220 +1,169 @@
 /*-- scss:defaults --*/
 
-// Override Bootstrap variables
-$primary: #2b6cb0;
-$secondary: #4a5568;
-$success: #38a169;
-$warning: #ed8936;
-$info: #3182ce;
-$light: #f7fafc;
-$dark: #1a365d;
-
-// Custom variables
-$gradient-primary: linear-gradient(135deg, #1a365d, #2b6cb0);
-$gradient-accent: linear-gradient(135deg, #3182ce, #2b6cb0);
-$shadow-custom: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-
-// Typography overrides
-$font-family-sans-serif: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-$font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Monaco', monospace;
+// Override Quarto's default container constraints
+$content-max-width: 100%;
+$content-width: 100%;
 
 /*-- scss:rules --*/
 
-// Custom component overrides
+/* ===============================================
+   CUSTOM SCSS OVERRIDES FOR FULL-WIDTH LAYOUT
+   =============================================== */
+
+/* Override Quarto's default container constraints */
+#quarto-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.quarto-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.page-columns {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.page-rows-contents {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.page-layout-article {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Override main content area */
+main.content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Override title block */
+.quarto-title-block {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Override any Bootstrap containers */
+.container,
+.container-fluid {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Override Bootstrap grid system */
+.row {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.col,
+[class*="col-"] {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  flex: none !important;
+}
+
+/* Additional Quarto layout overrides */
+.quarto-layout-panel,
+.quarto-layout-row,
+.quarto-layout-col,
+.quarto-layout-cell,
+.quarto-layout-cell-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure navbar takes full width */
 .navbar {
-  background: $gradient-primary !important;
-  box-shadow: $shadow-custom;
-  
-  .navbar-brand {
-    font-weight: 700;
-    font-size: 1.5rem;
-  }
-  
-  .nav-link {
-    font-weight: 500;
-    transition: all 0.15s ease-in-out;
-    
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-      transform: translateY(-1px);
-    }
-  }
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-// Card enhancements
-.card {
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  box-shadow: $shadow-custom;
-  transition: all 0.25s ease-in-out;
-  
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-  
-  .card-header {
-    background: linear-gradient(90deg, #3182ce, #2b6cb0);
-    color: white;
-    border-bottom: none;
-    border-radius: 12px 12px 0 0 !important;
-  }
+/* Quarto-specific overrides for full-width layout */
+.quarto-title-block {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-// Button enhancements
-.btn {
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 0.25s ease-in-out;
-  
-  &:hover {
-    transform: translateY(-2px);
-  }
+/* Override Quarto's page layout system completely */
+.page-layout-custom {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.btn-primary {
-  background: $gradient-accent;
-  border: none;
-  
-  &:hover {
-    background: $gradient-primary;
-  }
+.page-layout-custom .page-layout {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-// Code block enhancements
-pre {
-  background: #2d3748;
-  color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #e2e8f0;
-  box-shadow: $shadow-custom;
-}
-
-code {
-  background: #f7fafc;
-  color: #2b6cb0;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-weight: 500;
-}
-
-// Table enhancements
-.table {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: $shadow-custom;
-  
-  thead th {
-    background: $gradient-primary;
-    color: white;
-    border: none;
-    font-weight: 600;
-  }
-  
-  tbody tr {
-    transition: background-color 0.15s ease-in-out;
-    
-    &:hover {
-      background-color: #f7fafc;
-    }
-  }
-}
-
-// Alert enhancements
-.alert {
-  border-radius: 8px;
-  border: none;
-  box-shadow: $shadow-custom;
-  
-  &.alert-info {
-    background: linear-gradient(135deg, #bee3f8, #90cdf4);
-    color: #1a365d;
-  }
-  
-  &.alert-success {
-    background: linear-gradient(135deg, #c6f6d5, #9ae6b4);
-    color: #22543d;
-  }
-  
-  &.alert-warning {
-    background: linear-gradient(135deg, #fbd38d, #f6ad55);
-    color: #744210;
-  }
-}
-
-// Progress bar enhancements
-.progress {
-  height: 8px;
-  border-radius: 4px;
-  background-color: #e2e8f0;
-  
-  .progress-bar {
-    background: $gradient-accent;
-    border-radius: 4px;
-  }
-}
-
-// Badge enhancements
-.badge {
-  border-radius: 6px;
-  font-weight: 600;
-  padding: 0.5rem 0.75rem;
-  
-  &.badge-primary {
-    background: $gradient-accent;
-  }
-  
-  &.badge-success {
-    background: linear-gradient(135deg, #38a169, #2f855a);
-  }
-  
-  &.badge-warning {
-    background: linear-gradient(135deg, #ed8936, #dd6b20);
-  }
-}
-
-// Footer enhancements
-.footer {
-  background: $gradient-primary;
-  color: white;
-  padding: 3rem 0;
-  margin-top: 4rem;
-  
-  a {
-    color: #90cdf4;
-    
-    &:hover {
-      color: white;
-    }
-  }
-}
-
-// Responsive adjustments
-@media (max-width: 768px) {
-  .navbar-brand {
-    font-size: 1.25rem;
-  }
-  
-  .card {
-    margin-bottom: 1rem;
-  }
-  
-  .btn {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-}
-
-// Print styles
-@media print {
-  .navbar,
-  .footer,
-  .btn {
-    display: none !important;
-  }
-  
-  .card {
-    box-shadow: none;
-    border: 1px solid #000;
-  }
+/* Force all content to break out of containers */
+.quarto-layout-panel,
+.quarto-layout-row,
+.quarto-layout-col,
+.quarto-layout-cell,
+.quarto-layout-cell-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
 }

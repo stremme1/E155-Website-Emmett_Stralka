@@ -1,11 +1,90 @@
 ---
 title: "Resources"
+subtitle: "Learning Materials & Development Tools"
 ---
 
-Here are some useful resources related to my E155 labs:
+::: {.resources-intro}
+# Resources {.resources-title}
 
-- **E155 Course Website**: [https://hmc-e155.github.io/](https://hmc-e155.github.io/)  
-  The official site for course materials, lab instructions, and additional references.
+## Learning Materials & Development Tools {.resources-subtitle}
 
-- **E155 GitHub Repository**: [https://github.com/HMC-E155/hmc-e155/tree/main/lab](https://github.com/HMC-E155/hmc-e155/tree/main/lab)  
-  The main repository containing lab code, examples, and project templates.
+Curated collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth.
+
+::: {.resources-actions}
+[Explore Resources](#resource-categories){.btn .btn-primary}
+[View Labs](labs.qmd){.btn .btn-secondary}
+:::
+:::
+
+## Resource Categories {.section-title}
+
+::: {.resources-grid}
+
+::: {.resource-card .scroll-animate-left}
+::: {.resource-icon}
+📚
+:::
+### Course Materials
+**E155 Learning Resources**
+
+Essential materials for microcontrollers and FPGA design:
+
+- **[E155 Course Website](https://hmc-e155.github.io/)** - Official course materials and lab instructions
+- **[E155 GitHub Repository](https://github.com/HMC-E155/hmc-e155/tree/main/lab)** - Lab code and project templates
+- **Quartus Prime** - FPGA development environment
+- **ARM Cortex-M Tools** - Microcontroller development suite
+
+[Visit Course Site](https://hmc-e155.github.io/){.resource-link target="_blank"}
+:::
+
+::: {.resource-card .scroll-animate-scale}
+::: {.resource-icon}
+🛠️
+:::
+### Development Tools
+**Hardware & Software Stack**
+
+Professional tools for embedded systems development:
+
+- **Quartus Prime** - Intel FPGA design and simulation
+- **ARM Keil MDK** - Microcontroller development environment
+- **Git & GitHub** - Version control and collaboration
+- **Oscilloscopes & Logic Analyzers** - Hardware debugging tools
+
+[View GitHub Repo](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.resource-link target="_blank"}
+:::
+
+::: {.resource-card .scroll-animate-right}
+::: {.resource-icon}
+📖
+:::
+### Learning References
+**Technical Documentation**
+
+Comprehensive guides and references for embedded systems:
+
+- **ARM Cortex-M Documentation** - Official processor reference manuals
+- **FPGA Design Guidelines** - Best practices for digital design
+- **Embedded Systems Programming** - C and assembly language resources
+- **Hardware Debugging Techniques** - Troubleshooting methodologies
+
+[Explore Documentation](https://hmc-e155.github.io/){.resource-link target="_blank"}
+:::
+
+:::
+:::
+
+::: {.additional-resources .scroll-animate}
+## Additional Resources {.section-title}
+
+### Quick Links
+- **[Harvey Mudd College](https://www.hmc.edu/)** - My academic institution
+- **[E155 Course Materials](https://hmc-e155.github.io/)** - Complete course documentation
+- **[My GitHub Profile](https://github.com/stremme1)** - Personal projects and contributions
+- **[LinkedIn Profile](https://www.linkedin.com/in/emmett-stralka-b41575213/)** - Professional networking
+
+### Contact & Collaboration
+Interested in collaborating on embedded systems projects or discussing engineering education? Feel free to reach out through any of the channels above.
+:::
+
+<script src="scroll-animations.js"></script>

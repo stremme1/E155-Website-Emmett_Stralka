@@ -1,19 +1,88 @@
 ---
-title: "Emmett Stralka - Engineering Portfolio"
-subtitle: "Harvey Mudd College | Engineering & Economics | Microcontrollers & FPGA Design"
-image: images/headshot.jpg
 ---
 
-# Emmett Stralka
+::: {.hero-section}
+::: {.hero-content}
+::: {.hero-text}
+::: {.hero-name-container}
+# Emmett Stralka {.hero-title}
+:::
 
-## Engineering Student & Technical Innovator
+::: {.hero-subtitle-container}
+## Engineering Student & Technical Innovator {.hero-subtitle}
+:::
 
-Harvey Mudd College student majoring in Engineering and Economics with expertise in 
-microcontrollers, FPGA design, product management, and UX/UI design.
+::: {.hero-description}
+Harvey Mudd College student majoring in Engineering and Economics with expertise in microcontrollers, FPGA design, product management, and UX/UI design.
+:::
 
-## E155: Microcontrollers & FPGA Design
+::: {.hero-actions}
+[Explore My Work](#featured-work){.btn .btn-primary}
+[Learn About Me](about.qmd){.btn .btn-secondary}
+:::
 
-This website documents my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. Here you'll find detailed lab reports, code implementations, and technical documentation showcasing my engineering problem-solving process.
+:::
 
-[Explore My Labs](labs.qmd){.btn .btn-primary .btn-primary-custom}
+![](images/headshot.jpg){.hero-image}
+
+:::
+:::
+::: {.featured-section #featured-work}
+## Featured Work {.section-title}
+
+::: {.featured-grid}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+⚡
+:::
+### E155 Labs
+**Microcontrollers & FPGA Design** {.card-subtitle}
+
+Comprehensive documentation of my journey through embedded systems, digital design, and hardware-software integration.
+
+[View Labs](labs.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+📝
+:::
+### Technical Blog
+**Engineering Insights** {.card-subtitle}
+
+Reflections on learning, project documentation, and technical discoveries from my engineering journey.
+
+[Read Blog](blog.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
+🎯
+:::
+### About Me
+**My Story** {.card-subtitle}
+
+Learn about my academic journey, professional experience, and approach to engineering problem-solving.
+
+[Learn More](about.qmd){.featured-link}
+:::
+:::
+:::
+:::
+
+::: {.about-preview .scroll-animate}
+## About Me {.section-title}
+
+I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. Currently pursuing dual majors in Engineering and Economics at Harvey Mudd College, I bring both technical rigor and business acumen to every project.
+
+[Read Full Story](about.qmd){.btn .btn-secondary}
+:::
+
+<script src="scroll-animations.js"></script>
+
 

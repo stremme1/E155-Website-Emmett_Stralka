@@ -3,29 +3,27 @@ title: "About Emmett Stralka"
 subtitle: "Engineering Student | Technical Innovator | Problem Solver"
 ---
 
-::: {.hero-section}
-::: {.hero-content}
-![Emmett Stralka](images/headshot.jpg){.hero-image}
+::: {.about-intro}
+# About Me {.about-title}
 
-# About Me {.hero-title}
+## Engineering Student & Technical Innovator {.about-subtitle}
 
 Welcome to my technical portfolio! I'm a dedicated engineering student passionate about 
 bridging the gap between innovative technology and practical solutions.
-{.hero-description}
-:::
+
+![Emmett Stralka](images/headshot.jpg){.about-image}
 :::
 
-## My Journey
+## My Journey {.section-title}
 
-::: {.card .card-custom}
-::: {.card-header}
+::: {.journey-grid}
+
+::: {.journey-card .scroll-animate-left}
 ::: {.card-icon}
 🎓
 :::
-### Academic Foundation {.card-title}
-:::
+### Academic Foundation
 
-::: {.card-content}
 I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey Mudd College**, one of the nation's premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.
 
 My coursework spans across multiple disciplines including:
@@ -35,17 +33,13 @@ My coursework spans across multiple disciplines including:
 - Product Management and UX/UI Design
 - Economic Analysis and Market Strategy
 :::
-:::
 
-::: {.card .card-custom}
-::: {.card-header}
+::: {.journey-card .scroll-animate-scale}
 ::: {.card-icon}
 💼
 :::
-### Professional Experience {.card-title}
-:::
+### Professional Experience
 
-::: {.card-content}
 I've had the privilege of gaining hands-on experience through internships at leading companies:
 
 #### Ford Motor Company
@@ -59,17 +53,13 @@ Applied technical engineering skills in electrical systems and power distributio
 
 These diverse experiences have given me a unique perspective on how technical innovation drives business success across different industries.
 :::
-:::
 
-::: {.card .card-custom}
-::: {.card-header}
+::: {.journey-card .scroll-animate-right}
 ::: {.card-icon}
 🚀
 :::
-### Technical Projects & Interests {.card-title}
-:::
+### Technical Projects & Interests
 
-::: {.card-content}
 I'm actively involved in several exciting technical domains:
 
 #### Advanced Rocketry
@@ -83,98 +73,94 @@ Exploring digital signal processing techniques for communication systems, sensor
 
 These projects allow me to apply theoretical knowledge to real-world challenges while developing practical engineering skills.
 :::
+
+::: {.journey-card .scroll-animate-left}
+::: {.card-icon}
+🏃
+:::
+### Athletic Excellence
+
+Beyond academics and engineering, I'm a **varsity track and field athlete** and **SCIAC champion**. This experience has taught me invaluable lessons about:
+
+- **Discipline:** The importance of consistent practice and continuous improvement
+- **Teamwork:** Working collaboratively toward common goals
+- **Resilience:** Overcoming setbacks and pushing beyond perceived limits
+- **Time Management:** Balancing rigorous training with academic excellence
+
+These qualities directly translate to my engineering work, where persistence, collaboration, and attention to detail are essential for success.
 :::
 
-<div class="card-custom">
-  <div class="card-header">
-    <div class="card-icon">🏃</div>
-    <h3 class="card-title">Athletic Excellence</h3>
-  </div>
-  <div class="card-content">
-    <p>Beyond academics and engineering, I'm a <strong>varsity track and field athlete</strong> and <strong>SCIAC champion</strong>. This experience has taught me invaluable lessons about:</p>
-    
-    <ul>
-      <li><strong>Discipline:</strong> The importance of consistent practice and continuous improvement</li>
-      <li><strong>Teamwork:</strong> Working collaboratively toward common goals</li>
-      <li><strong>Resilience:</strong> Overcoming setbacks and pushing beyond perceived limits</li>
-      <li><strong>Time Management:</strong> Balancing rigorous training with academic excellence</li>
-    </ul>
-    
-    <p>These qualities directly translate to my engineering work, where persistence, collaboration, and attention to detail are essential for success.</p>
-  </div>
-</div>
+:::
 
-## E155: Microcontrollers & FPGA Design
+## E155: Microcontrollers & FPGA Design {.section-title}
 
-<div class="card-custom">
-  <div class="card-header">
-    <div class="card-icon">⚡</div>
-    <h3 class="card-title">Course Overview</h3>
-  </div>
-  <div class="card-content">
-    <p>This website documents my comprehensive journey through <strong>E155: Microcontrollers and FPGA Design</strong> at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.</p>
-    
-    <p>Throughout this course, I'm developing expertise in:</p>
-    <ul>
-      <li>FPGA programming and digital circuit design</li>
-      <li>Microcontroller architecture and peripheral programming</li>
-      <li>Assembly language and low-level programming</li>
-      <li>Real-time systems and interrupt-driven programming</li>
-      <li>Hardware debugging and testing methodologies</li>
-    </ul>
-    
-    <p>Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design.</p>
-  </div>
-</div>
+::: {.e155-section}
+::: {.e155-card .scroll-animate-scale}
+::: {.card-icon}
+⚡
+:::
+### Course Overview
 
-## My Approach to Engineering
+This website documents my comprehensive journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.
 
-<div class="card-custom">
-  <div class="card-header">
-    <div class="card-icon">🎯</div>
-    <h3 class="card-title">Problem-Solving Philosophy</h3>
-  </div>
-  <div class="card-content">
-    <p>I believe in a systematic approach to engineering challenges:</p>
-    
-    <h4>1. Understanding the Problem</h4>
-    <p>Thoroughly analyzing requirements, constraints, and stakeholder needs before jumping to solutions.</p>
-    
-    <h4>2. Research & Analysis</h4>
-    <p>Investigating existing solutions, best practices, and emerging technologies that could inform the design.</p>
-    
-    <h4>3. Iterative Design</h4>
-    <p>Building prototypes, testing assumptions, and refining solutions based on real-world feedback.</p>
-    
-    <h4>4. Documentation & Communication</h4>
-    <p>Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.</p>
-  </div>
-</div>
+Throughout this course, I'm developing expertise in:
 
-## Connect With Me
+- FPGA programming and digital circuit design
+- Microcontroller architecture and peripheral programming
+- Assembly language and low-level programming
+- Real-time systems and interrupt-driven programming
+- Hardware debugging and testing methodologies
 
-<div class="card-custom">
-  <div class="card-header">
-    <div class="card-icon">🤝</div>
-    <h3 class="card-title">Let's Collaborate</h3>
-  </div>
-  <div class="card-content">
-    <p>I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:</p>
-    
-    <ul>
-      <li>Technical collaboration on embedded systems projects</li>
-      <li>Discussing engineering education and career development</li>
-      <li>Exploring opportunities in product management or technical leadership</li>
-      <li>Sharing insights about the intersection of engineering and business</li>
-    </ul>
-    
-    <div class="cta-buttons">
-      <a href="https://www.linkedin.com/in/emmett-stralka-b41575213/" class="btn-primary-custom" target="_blank">
-        Connect on LinkedIn
-      </a>
-      <a href="https://github.com/stremme1" class="btn-secondary-custom" target="_blank">
-        View My GitHub
-      </a>
-    </div>
-  </div>
-</div>
+Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design.
+:::
+:::
+
+## My Approach to Engineering {.section-title}
+
+::: {.approach-section}
+::: {.approach-card .scroll-animate-left}
+::: {.card-icon}
+🎯
+:::
+### Problem-Solving Philosophy
+
+I believe in a systematic approach to engineering challenges:
+
+#### 1. Understanding the Problem
+Thoroughly analyzing requirements, constraints, and stakeholder needs before jumping to solutions.
+
+#### 2. Research & Analysis
+Investigating existing solutions, best practices, and emerging technologies that could inform the design.
+
+#### 3. Iterative Design
+Building prototypes, testing assumptions, and refining solutions based on real-world feedback.
+
+#### 4. Documentation & Communication
+Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.
+:::
+:::
+
+## Connect With Me {.section-title}
+
+::: {.connect-section}
+::: {.connect-card .scroll-animate-right}
+::: {.card-icon}
+🤝
+:::
+### Let's Collaborate
+
+I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:
+
+- Technical collaboration on embedded systems projects
+- Discussing engineering education and career development
+- Exploring opportunities in product management or technical leadership
+- Sharing insights about the intersection of engineering and business
+
+::: {.cta-buttons}
+[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.btn .btn-primary target="_blank"}
+[View My GitHub](https://github.com/stremme1){.btn .btn-secondary target="_blank"}
+:::
+:::
+:::
+
+<script src="scroll-animations.js"></script>

@@ -1,5 +1,6 @@
 ---
 title: "E155 Blog"
+subtitle: "Engineering Insights & Technical Discoveries"
 listing:
   contents: posts
   sort: "date desc"
@@ -7,3 +8,27 @@ listing:
   categories: false
 ---
 
+::: {.blog-intro}
+# Technical Blog {.blog-title}
+
+## Engineering Insights & Discoveries {.blog-subtitle}
+
+Reflections on learning, project documentation, and technical discoveries from my engineering journey. Explore my thoughts on embedded systems, product development, and the intersection of technology and innovation.
+
+::: {.blog-actions}
+[Explore Posts](#blog-posts){.btn .btn-primary}
+[View All Posts](posts/){.btn .btn-secondary}
+:::
+:::
+
+## Latest Posts {.section-title}
+
+::: {.blog-preview .scroll-animate}
+## About This Blog {.section-title}
+
+This blog serves as a documentation of my engineering journey, capturing insights, challenges, and discoveries along the way. Each post reflects my learning process and technical growth in embedded systems, product development, and engineering innovation.
+
+[Read All Posts](posts/){.btn .btn-primary}
+:::
+
+<script src="scroll-animations.js"></script>

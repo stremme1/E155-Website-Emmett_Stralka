@@ -1,21 +1,27 @@
 ---
-title: "E155 Labs - Microcontrollers & FPGA Design"
-subtitle: "Harvey Mudd College | Technical Documentation & Project Showcase"
+title: "E155 Labs"
+subtitle: "Microcontrollers & FPGA Design"
 ---
 
-# E155 Labs: Microcontrollers & FPGA Design
+::: {.labs-intro}
+# E155 Labs {.labs-title}
+
+## Microcontrollers & FPGA Design {.labs-subtitle}
 
 Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
 
+::: {.progress-indicator}
 **Progress:** 2/7 labs completed (29%) | **Current:** Interrupts and Timers | **Next:** Memory-Mapped I/O
+:::
+:::
 
-## Lab Portfolio
+## Lab Portfolio {.section-title}
 
 ::: {.lab-cards-grid}
 
-::: {.lab-card .completed}
+::: {.lab-card .completed .scroll-animate-left}
 ::: {.lab-status .completed}
-Completed
+✓ Completed
 :::
 
 ### Lab 1: FPGA and MCU Setup
@@ -29,9 +35,9 @@ Initial setup and configuration of the development environment, including FPGA p
 :::
 :::
 
-::: {.lab-card .completed}
+::: {.lab-card .completed .scroll-animate-scale}
 ::: {.lab-status .completed}
-Completed
+✓ Completed
 :::
 
 ### Lab 2: Assembly Language Programming
@@ -44,9 +50,9 @@ Deep dive into low-level programming with assembly language, implementing core a
 :::
 :::
 
-::: {.lab-card .in-progress}
+::: {.lab-card .in-progress .scroll-animate-right}
 ::: {.lab-status .in-progress}
-In Progress
+🔄 In Progress
 :::
 
 ### Lab 3: Interrupts and Timers
@@ -55,13 +61,13 @@ Exploring real-time programming concepts through interrupt-driven systems and ti
 
 ::: {.lab-links}
 [📖 Instructions](https://hmc-e155.github.io/lab/lab3/){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+[📄 Report - Coming Soon]{.lab-link .disabled}
 :::
 :::
 
-::: {.lab-card}
+::: {.lab-card .scroll-animate-left}
 ::: {.lab-status .pending}
-Pending
+⏳ Pending
 :::
 
 ### Lab 4: Memory-Mapped I/O
@@ -71,13 +77,13 @@ Implementation of memory-mapped input/output operations, enabling direct hardwar
 ::: {.lab-links}
 [📖 Instructions](https://hmc-e155.github.io/lab/lab4/){.lab-link target="_blank"}
 [💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+[📄 Report - Coming Soon]{.lab-link .disabled}
 :::
 :::
 
-::: {.lab-card}
+::: {.lab-card .scroll-animate-scale}
 ::: {.lab-status .pending}
-Pending
+⏳ Pending
 :::
 
 ### Lab 5: Analog-to-Digital Conversion
@@ -86,13 +92,13 @@ Working with ADC peripherals to interface with analog sensors and signals, cover
 
 ::: {.lab-links}
 [📖 Instructions](https://hmc-e155.github.io/lab/lab5/){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+[📄 Report - Coming Soon]{.lab-link .disabled}
 :::
 :::
 
-::: {.lab-card}
+::: {.lab-card .scroll-animate-right}
 ::: {.lab-status .pending}
-Pending
+⏳ Pending
 :::
 
 ### Lab 6: Pulse Width Modulation
@@ -102,13 +108,13 @@ Implementation of PWM for motor control, LED dimming, and power management appli
 ::: {.lab-links}
 [📖 Instructions](https://hmc-e155.github.io/lab/lab6/){.lab-link target="_blank"}
 [💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+[📄 Report - Coming Soon]{.lab-link .disabled}
 :::
 :::
 
-::: {.lab-card}
+::: {.lab-card .scroll-animate-left}
 ::: {.lab-status .pending}
-Pending
+⏳ Pending
 :::
 
 ### Lab 7: Serial Communication
@@ -118,16 +124,40 @@ Implementation of UART, SPI, and I2C communication protocols for device interfac
 ::: {.lab-links}
 [📖 Instructions](https://hmc-e155.github.io/lab/lab7/){.lab-link target="_blank"}
 [💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link style="background: var(--neutral-medium); color: var(--primary-steel);"}
+[📄 Report - Coming Soon]{.lab-link .disabled}
 :::
 :::
 
 :::
 
-## Skills Developed
+::: {.skills-section}
+## Skills Developed {.section-title}
 
-**Hardware:** FPGA programming, microcontroller architecture, digital circuit design, hardware debugging
+::: {.skills-grid}
+::: {.skill-category .scroll-animate-left}
+::: {.skill-icon}
+🔧
+:::
+### Hardware
+FPGA programming, microcontroller architecture, digital circuit design, hardware debugging
+:::
 
-**Software:** Assembly language, C programming for embedded systems, interrupt-driven programming, real-time system design
+::: {.skill-category .scroll-animate-scale}
+::: {.skill-icon}
+💻
+:::
+### Software
+Assembly language, C programming for embedded systems, interrupt-driven programming, real-time system design
+:::
 
-**Tools:** Quartus Prime, ARM Cortex-M development tools, oscilloscopes, logic analyzers, Git
+::: {.skill-category .scroll-animate-right}
+::: {.skill-icon}
+🛠️
+:::
+### Tools
+Quartus Prime, ARM Cortex-M development tools, oscilloscopes, logic analyzers, Git
+:::
+:::
+
+<script src="scroll-animations.js"></script>
+:::

@@ -24,10 +24,12 @@ website:
 
 format:
   html:
-    theme: flatly
     css: styles.css
-    toc: true
+    toc: false
     toc-depth: 3
     embed-resources: true
     link-external-newwindow: true
     search: true
+    theme: 
+      - custom.scss
+    page-layout: custom
