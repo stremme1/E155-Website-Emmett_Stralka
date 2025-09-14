@@ -23,7 +23,7 @@ Harvey Mudd College student majoring in Engineering and Economics with expertise
 
 :::
 
-![](images/headshot.jpg){.hero-image}
+![](images/headshot.jpg){.hero-image alt="Emmett Stralka - Engineering Student at Harvey Mudd College"}
 
 :::
 :::

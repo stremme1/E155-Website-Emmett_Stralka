@@ -212,6 +212,8 @@ p {
   transition: all var(--transition-normal) !important;
   transform: none !important;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
+  height: 80px !important;
+  min-height: 80px !important;
 }
 
 .navbar-brand {
@@ -323,35 +325,9 @@ p {
   }
 }
 
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: 
-    radial-gradient(circle at 20% 80%, rgba(0, 122, 255, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(255, 107, 107, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 50% 50%, rgba(52, 199, 89, 0.05) 0%, transparent 70%);
-  pointer-events: none;
-  animation: backgroundShift 20s ease-in-out infinite;
-}
+/* Simplified background - removed complex animated gradients */
 
-@keyframes backgroundShift {
-  0%, 100% {
-    transform: translateX(0) translateY(0);
-  }
-  25% {
-    transform: translateX(10px) translateY(-5px);
-  }
-  50% {
-    transform: translateX(-5px) translateY(10px);
-  }
-  75% {
-    transform: translateX(-10px) translateY(-5px);
-  }
-}
+/* Removed backgroundShift animation for performance */
 
 .hero-content {
   max-width: 100% !important;
@@ -421,9 +397,7 @@ p {
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
   background-size: 300% 300% !important;
-  animation: 
-    fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-    gradientFlow 6s ease-in-out infinite !important;
+  animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
   position: relative !important;
   transition: all var(--transition-slow) !important;
   cursor: pointer !important;
@@ -432,23 +406,7 @@ p {
   visibility: visible !important;
 }
 
-.hero-title::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, 
-    transparent 0%, 
-    rgba(255, 255, 255, 0.4) 50%, 
-    transparent 100%);
-  background-size: 200% 100%;
-  animation: shiny 3s ease-in-out infinite;
-  -webkit-background-clip: text;
-  background-clip: text;
-  pointer-events: none;
-}
+/* Simplified hero title - removed complex shine effect */
 
 .hero-title:hover {
   background: linear-gradient(135deg, 
@@ -517,25 +475,7 @@ p {
   animation: fadeInUp 1s ease-out 1.2s both;
 }
 
-.hero-image::before {
-  content: '';
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
-  background: linear-gradient(135deg, 
-    var(--apple-blue) 0%, 
-    var(--apple-accent) 25%, 
-    var(--apple-success) 50%, 
-    var(--apple-blue) 75%, 
-    var(--apple-accent) 100%);
-  border-radius: var(--radius-3xl);
-  z-index: -1;
-  opacity: 0;
-  transition: all var(--transition-normal);
-  animation: gradientShift 3s ease-in-out infinite;
-}
+/* Simplified hero image - removed complex gradient border animation */
 
 .hero-image:hover {
   transform: scale(1.05);
@@ -546,10 +486,7 @@ p {
   filter: brightness(1.1) contrast(1.15);
 }
 
-.hero-image:hover::before {
-  opacity: 1;
-  transform: scale(1.02);
-}
+/* Removed complex hover effect for hero image */
 
 /* ===============================================
    PREMIUM ANIMATIONS
@@ -565,38 +502,7 @@ p {
   }
 }
 
-@keyframes gradientFlow {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-@keyframes shiny {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
-@keyframes gradientShift {
-  0%, 100% {
-    transform: translateX(0) translateY(0);
-  }
-  25% {
-    transform: translateX(10px) translateY(-5px);
-  }
-  50% {
-    transform: translateX(-5px) translateY(10px);
-  }
-  75% {
-    transform: translateX(-10px) translateY(-5px);
-  }
-}
+/* Removed unused animation keyframes for performance optimization */
 
 /* ===============================================
    MODERN BUTTONS
@@ -1023,6 +929,12 @@ p {
 @media (max-width: 1024px) {
   .navbar {
     padding: 0.5rem 2rem !important;
+    height: 70px !important;
+    min-height: 70px !important;
+  }
+  
+  body {
+    padding-top: 70px !important;
   }
   
   .hero-section {
@@ -1105,7 +1017,9 @@ p {
   .about-intro,
   .blog-intro,
   .resources-intro {
-    padding: var(--space-14) var(--space-8);
+    padding: var(--space-16) var(--space-8) var(--space-12) var(--space-8);
+    margin-top: 0 !important;
+    min-height: 350px;
   }
   
   .about-image {
@@ -1116,6 +1030,12 @@ p {
 @media (max-width: 768px) {
   .navbar {
     padding: 0.5rem 1.5rem !important;
+    height: 60px !important;
+    min-height: 60px !important;
+  }
+  
+  body {
+    padding-top: 60px !important;
   }
   
   .hero-section {
@@ -1201,7 +1121,9 @@ p {
   .about-intro,
   .blog-intro,
   .resources-intro {
-    padding: var(--space-12) var(--space-6);
+    padding: var(--space-14) var(--space-6) var(--space-10) var(--space-6);
+    margin-top: 0 !important;
+    min-height: 300px;
   }
   
   .about-image {
@@ -1219,6 +1141,12 @@ p {
 @media (max-width: 480px) {
   .navbar {
     padding: 0.25rem 1rem !important;
+    height: 55px !important;
+    min-height: 55px !important;
+  }
+  
+  body {
+    padding-top: 55px !important;
   }
   
   .hero-section {
@@ -1320,16 +1248,45 @@ p {
 }
 
 /* ===============================================
-   QUARTO CONTAINER MANAGEMENT
+   QUARTO CONTAINER MANAGEMENT & NAVBAR FIXES
    =============================================== */
-/* Work with Quarto's container system instead of against it */
-.quarto-container {
-  max-width: 100%;
-  width: 100%;
+
+/* Fix navbar covering content */
+body {
+  padding-top: 80px !important;
 }
 
-/* Work with Quarto's container system - no aggressive overrides */
-/* Let Quarto handle the container management naturally */
+/* Ensure all pages have consistent spacing */
+.quarto-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Fix page-specific spacing issues */
+.labs-intro,
+.about-intro,
+.blog-intro,
+.resources-intro {
+  margin-top: 0 !important;
+  padding-top: var(--space-16) !important;
+}
+
+/* Ensure consistent page layout */
+.page-layout-custom {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Fix content sections to not be covered by navbar */
+.section-title,
+.featured-section,
+.skills-section,
+.additional-resources {
+  margin-top: 0 !important;
+  padding-top: var(--space-8) !important;
+}
 
 /* ===============================================
    CONTAINER CONTENT MANAGEMENT
@@ -1367,12 +1324,17 @@ p {
 .blog-intro,
 .resources-intro {
   background: linear-gradient(135deg, var(--apple-white) 0%, var(--apple-gray-light) 100%);
-  padding: var(--space-16) var(--space-8);
+  padding: var(--space-20) var(--space-8) var(--space-16) var(--space-8);
+  margin-top: 0 !important;
   margin-bottom: var(--space-12);
   border-radius: var(--radius-xl);
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .labs-intro::before,
