@@ -26,17 +26,17 @@ bridging the gap between innovative technology and practical solutions.
 
 I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey Mudd College**, one of the nation's premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.
 
-**Current Coursework & Achievements:**
-- **E155: Microcontrollers & FPGA Design** - Achieving 60% performance improvements through assembly optimization
-- **Digital Electronics** - Designing circuits with sub-microsecond timing precision
-- **Product Management** - Leading cross-functional teams in technical product development
-- **Economic Analysis** - Applying quantitative methods to engineering decision-making
+**Current Coursework:**
+- **E155: Microcontrollers & FPGA Design** - Learning embedded systems and digital design
+- **Digital Electronics** - Circuit design and analysis fundamentals
+- **Product Management** - Understanding business strategy and market analysis
+- **Economic Analysis** - Quantitative methods and decision-making frameworks
 
-**Academic Highlights:**
-- **GPA**: 3.8/4.0 with focus on technical excellence
-- **Research**: Working on real-time signal processing algorithms for embedded systems
-- **Leadership**: President of Engineering Student Council, organizing technical workshops
-- **Recognition**: Dean's List for three consecutive semesters
+**Academic Focus:**
+- Pursuing dual majors in Engineering and Economics
+- Developing expertise in embedded systems and FPGA programming
+- Building foundation in both technical and business domains
+- Active in engineering student organizations and technical projects
 :::
 
 ::: {.journey-card .scroll-animate-scale}
@@ -45,90 +45,84 @@ I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey
 :::
 ### Professional Experience
 
-I've gained hands-on experience through strategic internships that bridge engineering and business:
+I'm building my professional foundation through academic projects and coursework that bridge engineering and business:
 
-#### Ford Motor Company - Automotive Engineering Intern
-**Summer 2023** - **Key Achievements:**
-- Optimized manufacturing processes, reducing production time by 12%
-- Developed automated testing protocols for electronic control units
-- Collaborated with cross-functional teams on next-generation vehicle systems
-- **Impact**: Contributed to $2.3M annual cost savings through process improvements
+#### Academic Projects
+**Current Focus** - **Learning Areas:**
+- Embedded systems development and FPGA programming
+- Digital circuit design and analysis
+- Business strategy and economic analysis
+- Product management and market research
 
-#### Abercrombie & Fitch - Business Strategy Intern  
-**Summer 2022** - **Key Achievements:**
-- Analyzed consumer behavior data to optimize digital marketing campaigns
-- Developed predictive models for inventory management using machine learning
-- Led market research project on sustainable fashion trends
-- **Impact**: 18% improvement in campaign conversion rates through data-driven insights
+#### Technical Skills Development
+**Coursework & Projects** - **Key Areas:**
+- Microcontroller programming and assembly language
+- FPGA design and digital systems
+- Data analysis and quantitative methods
+- Project management and team collaboration
 
-#### North American Switchgear - Electrical Engineering Intern
-**Summer 2021** - **Key Achievements:**
-- Designed power distribution systems for critical infrastructure projects
-- Implemented safety protocols that reduced workplace incidents by 25%
-- Developed maintenance scheduling algorithms for electrical equipment
-- **Impact**: Improved system reliability by 15% through predictive maintenance
-
-**Professional Growth**: These experiences taught me to translate complex technical concepts into business value, developing skills in project management, stakeholder communication, and strategic thinking.
+**Professional Growth**: Through my coursework and projects, I'm developing the ability to approach technical challenges with both engineering rigor and business perspective, building skills in problem-solving, analysis, and communication.
 :::
 
 ::: {.journey-card .scroll-animate-right}
 ::: {.card-icon}
 🚀
 :::
-### Technical Projects & Research
+### Technical Projects & Interests
 
-I'm actively developing cutting-edge solutions across multiple engineering domains:
+I'm exploring various engineering domains through coursework and personal projects:
 
-#### Advanced Rocketry - HMC Rocket Team Lead
-**Current Project**: High-altitude sounding rocket with GPS-guided recovery system
-- **Technical Specs**: 10,000 ft altitude target, 0.5m precision landing accuracy
-- **Innovation**: Custom flight computer with real-time telemetry and autonomous recovery
-- **Achievement**: Secured $15K in funding and led 12-person engineering team
-- **Impact**: Competing in NASA Student Launch Initiative 2024
+#### Embedded Systems Development
+**Current Focus**: E155 Microcontrollers & FPGA Design
+- **Learning Areas**: ARM assembly programming, digital circuit design, real-time systems
+- **Technical Skills**: FPGA programming, microcontroller architecture, hardware-software integration
+- **Applications**: Understanding embedded systems for IoT and automation applications
 
-#### Robotics & Automation - Autonomous Systems Research
-**Current Project**: Swarm robotics for environmental monitoring
-- **Technical Focus**: Distributed control algorithms and wireless mesh networking
-- **Hardware**: Custom-designed robots with ARM Cortex-M4 processors
-- **Software**: Real-time operating system with fault-tolerant communication protocols
-- **Applications**: Forest fire detection, wildlife tracking, and environmental data collection
+#### Engineering Problem-Solving
+**Academic Projects**: Applied engineering principles
+- **Technical Focus**: Circuit analysis, signal processing, and system design
+- **Software Development**: C programming, assembly language, and embedded systems
+- **Hardware Design**: Digital circuits, timing analysis, and peripheral integration
 
-#### Signal Processing - Real-time Audio Analysis
-**Research Project**: Machine learning-based audio classification for embedded systems
-- **Technical Implementation**: ARM assembly-optimized FFT with 60% performance improvement
-- **Applications**: Voice recognition, acoustic monitoring, and audio quality assessment
-- **Innovation**: Edge computing approach reducing cloud dependency by 80%
+#### Future Interests
+**Areas of Exploration**: 
+- Advanced embedded systems and IoT applications
+- Machine learning and signal processing
+- Product development and engineering management
+- Sustainable technology and renewable energy systems
 
-**Project Impact**: These initiatives demonstrate my ability to lead complex technical projects while delivering measurable results and innovative solutions.
+**Project Goals**: Building a strong foundation in embedded systems while exploring the intersection of engineering and business applications.
 :::
 
 ::: {.journey-card .scroll-animate-left}
 ::: {.card-icon}
 🏃
 :::
-### Athletic Excellence & Leadership
+### Personal Interests & Balance
 
-Beyond academics and engineering, I'm a **varsity track and field athlete** and **SCIAC champion** in the 400m hurdles. This experience has taught me invaluable lessons that directly apply to engineering:
+Beyond academics and engineering, I maintain a balanced lifestyle that supports my technical development:
 
-#### Athletic Achievements
-- **SCIAC Champion** - 400m hurdles (2023, 2024)
-- **All-Conference Selection** - Track & Field (2022-2024)
-- **Team Captain** - Leading 45-person track team (2024)
-- **Personal Records**: 400m hurdles (52.3s), 200m (22.1s)
+#### Athletic Interests
+**Track & Field**: Active participation in track and field
+- **Focus Areas**: Sprinting and middle-distance events
+- **Personal Development**: Building discipline, teamwork, and goal-setting skills
+- **Time Management**: Learning to balance athletic training with academic responsibilities
 
-#### Leadership & Impact
-- **Team Leadership**: Mentored 8 underclassmen, improving team performance by 15%
-- **Community Service**: Organized youth track clinics serving 200+ local students
-- **Academic Balance**: Maintained 3.8 GPA while training 20+ hours per week
-- **Time Management**: Developed systems for balancing athletics, academics, and research
+#### Personal Growth
+**Life Skills Development**:
+- **Discipline**: Applying systematic approaches to both athletics and academics
+- **Teamwork**: Collaborating effectively in both athletic and academic settings
+- **Resilience**: Developing mental toughness and persistence in challenging situations
+- **Time Management**: Balancing multiple commitments and priorities
 
 #### Engineering Applications
-- **Discipline**: Applied systematic training approach to technical project development
-- **Performance Optimization**: Used data-driven analysis to improve both athletic and engineering performance
-- **Team Collaboration**: Led cross-functional engineering teams using athletic leadership experience
-- **Resilience**: Applied mental toughness from competition to overcome technical challenges
+**Skills Transfer**:
+- **Systematic Approach**: Applying structured training methods to technical problem-solving
+- **Performance Focus**: Using data-driven analysis to improve both athletic and academic performance
+- **Collaboration**: Working effectively in team environments across different contexts
+- **Goal Setting**: Setting and achieving both short-term and long-term objectives
 
-**Key Insight**: The same principles of continuous improvement, data-driven optimization, and team leadership that drive athletic success are essential for engineering excellence.
+**Key Insight**: The principles of discipline, teamwork, and continuous improvement that support athletic success also contribute to engineering excellence and personal development.
 :::
 
 :::
@@ -144,19 +138,19 @@ Beyond academics and engineering, I'm a **varsity track and field athlete** and 
 
 This website documents my comprehensive journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.
 
-**Technical Expertise Developed:**
-- **FPGA Programming**: Intel Cyclone V design with 50 MHz system clock and PLL-based generation
-- **Microcontroller Architecture**: ARM Cortex-M4 @ 84 MHz with DSP extensions and peripheral programming
-- **Assembly Language**: ARM assembly optimization achieving 60% performance improvements over C
-- **Real-time Systems**: Interrupt-driven programming with < 1 μs latency and 99.97% reliability
-- **Hardware Debugging**: Systematic testing methodologies with oscilloscopes and logic analyzers
+**Technical Skills Being Developed:**
+- **FPGA Programming**: Learning Intel Cyclone V design and system clock management
+- **Microcontroller Architecture**: Understanding ARM Cortex-M4 architecture and peripheral programming
+- **Assembly Language**: Exploring ARM assembly programming and optimization techniques
+- **Real-time Systems**: Learning interrupt-driven programming and system timing
+- **Hardware Debugging**: Developing skills with oscilloscopes and logic analyzers
 
-**Quantified Achievements:**
-- **Performance Optimization**: 60% average improvement in critical algorithms
-- **Memory Efficiency**: 35% reduction in stack usage through strategic register allocation
-- **Power Management**: 18% improvement in energy per operation
-- **System Reliability**: 99.97% data integrity in UART communication over 10,000 transfers
-- **Development Speed**: < 30 seconds compilation time for full FPGA synthesis
+**Learning Objectives:**
+- **Technical Skills**: Developing proficiency in embedded systems programming
+- **Problem-Solving**: Building systematic approaches to hardware-software integration
+- **Documentation**: Learning to document technical processes and solutions
+- **Collaboration**: Working effectively in technical team environments
+- **Continuous Learning**: Building foundation for advanced embedded systems development
 
 Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design with measurable technical outcomes.
 :::
