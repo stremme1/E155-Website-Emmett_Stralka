@@ -39,7 +39,6 @@ Expected Graduation: 2026</p>
 :::
 
 ::: {.resume-section .scroll-animate}
-<div style="height: 0; margin: 0; padding: 0;"></div>
 <p><strong>Hardware Engineering</strong></p>
 <ul>
 <li>FPGA Programming (Intel Cyclone V)</li>
@@ -75,8 +74,6 @@ Expected Graduation: 2026</p>
 <li>Business strategy and economic analysis</li>
 <li>Product management and market research</li>
 </ul>
-
-<div style="height: 2rem; margin: 0; padding: 0;"></div>
 :::
 :::
 :::

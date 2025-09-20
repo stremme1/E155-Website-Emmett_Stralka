@@ -339,31 +339,42 @@ html, body, div, section, article, main, header, footer, nav, aside,
   margin-bottom: var(--space-2);
 }
 
-/* About page specific alignment fixes */
+/* About page specific alignment fixes - Clean Flexbox Solution */
 body:has(.about-hero) .two-column-layout {
-  margin-top: 0;
-  padding-top: 0;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start !important;
   gap: 2rem !important;
+  width: 100% !important;
 }
 
-body:has(.about-hero) .two-column-layout .left-column,
-body:has(.about-hero) .two-column-layout .right-column {
+body:has(.about-hero) .two-column-layout .left-column {
+  flex: 1 !important;
   display: flex !important;
   flex-direction: column !important;
-  align-items: flex-start;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+body:has(.about-hero) .two-column-layout .right-column {
+  flex: 2 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
 }
 
 body:has(.about-hero) .two-column-layout .section-title-container {
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: var(--space-4);
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: var(--space-4) !important;
+  min-height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 /* About page specific text sizing - force all text to be same size */
@@ -382,11 +393,12 @@ body:has(.about-hero) .about-section strong {
 /* About page text formatting - left-align and size adjustment */
 body:has(.about-hero) .two-column-layout .left-column p,
 body:has(.about-hero) .two-column-layout .right-column p,
-body:has(.about-hero) .two-column-layout .left-column .subtitle,
-body:has(.about-hero) .two-column-layout .right-column .subtitle {
+body:has(.about-hero) .two-column-layout .left-column ul,
+body:has(.about-hero) .two-column-layout .right-column ul {
   font-size: 1rem !important;
   text-align: left !important;
   margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 /* Resume page specific styling */
@@ -624,57 +636,55 @@ body:has(.labs-grid) .main-content .scroll-animate strong {
   color: var(--apple-gray-dark);
 }
 
-/* Resume page specific alignment fixes */
+/* Resume page specific alignment fixes - Clean Flexbox Solution */
 body:has(.resume-intro) .two-column-layout {
-  margin-top: 0;
-  padding-top: 0;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start !important;
   gap: 2rem !important;
+  width: 100% !important;
 }
 
-body:has(.resume-intro) .two-column-layout .left-column,
-body:has(.resume-intro) .two-column-layout .right-column {
+body:has(.resume-intro) .two-column-layout .left-column {
+  flex: 1 !important;
   display: flex !important;
   flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+body:has(.resume-intro) .two-column-layout .right-column {
+  flex: 2 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
 }
 
 body:has(.resume-intro) .two-column-layout .section-title-container {
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: var(--space-4);
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: var(--space-4) !important;
+  min-height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
 }
 
 /* Resume page text formatting - left-align and size adjustment */
 body:has(.resume-intro) .two-column-layout .left-column p,
 body:has(.resume-intro) .two-column-layout .right-column p,
-body:has(.resume-intro) .two-column-layout .left-column .subtitle,
-body:has(.resume-intro) .two-column-layout .right-column .subtitle {
+body:has(.resume-intro) .two-column-layout .left-column ul,
+body:has(.resume-intro) .two-column-layout .right-column ul {
   font-size: 1rem !important;
   text-align: left !important;
   margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
-/* Force perfect vertical alignment with manual spacers */
-body:has(.about-hero) .two-column-layout .left-column,
-body:has(.about-hero) .two-column-layout .right-column,
-body:has(.resume-intro) .two-column-layout .left-column,
-body:has(.resume-intro) .two-column-layout .right-column {
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-}
-
-/* Ensure manual spacers don't affect layout */
-body:has(.about-hero) .two-column-layout div[style*="height"],
-body:has(.resume-intro) .two-column-layout div[style*="height"] {
-  display: block !important;
-  visibility: hidden !important;
-}
 
 /* Duplicate alignment rules removed - consolidated above */
 
