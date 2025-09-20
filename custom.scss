@@ -182,7 +182,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
   grid-column: 1;
 }
 
-/* Two column layout for Resume and Resources */
+/* Two column layout for Resume and Resources - Clean Grid Solution */
 .two-column-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -196,10 +196,14 @@ html, body, div, section, article, main, header, footer, nav, aside,
 /* Fix vertical alignment of section titles in two-column layout */
 .two-column-layout .section-title-container {
   margin-bottom: var(--space-4);
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 60px !important;
+  min-height: 60px !important;
+  max-height: 60px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .two-column-layout .left-column {
@@ -339,31 +343,11 @@ html, body, div, section, article, main, header, footer, nav, aside,
   margin-bottom: var(--space-2);
 }
 
-/* About page specific alignment fixes - Clean Flexbox Solution */
+/* About page specific alignment fixes - Clean Grid Solution */
 body:has(.about-hero) .two-column-layout {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: flex-start !important;
-  gap: 2rem !important;
-  width: 100% !important;
-}
-
-body:has(.about-hero) .two-column-layout .left-column {
-  flex: 1 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-}
-
-body:has(.about-hero) .two-column-layout .right-column {
-  flex: 2 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
+  align-items: start !important;
 }
 
 body:has(.about-hero) .two-column-layout .section-title-container {
@@ -374,7 +358,6 @@ body:has(.about-hero) .two-column-layout .section-title-container {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 100% !important;
 }
 
 /* About page specific text sizing - force all text to be same size */
@@ -636,31 +619,11 @@ body:has(.labs-grid) .main-content .scroll-animate strong {
   color: var(--apple-gray-dark);
 }
 
-/* Resume page specific alignment fixes - Clean Flexbox Solution */
+/* Resume page specific alignment fixes - Clean Grid Solution */
 body:has(.resume-intro) .two-column-layout {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: flex-start !important;
-  gap: 2rem !important;
-  width: 100% !important;
-}
-
-body:has(.resume-intro) .two-column-layout .left-column {
-  flex: 1 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-}
-
-body:has(.resume-intro) .two-column-layout .right-column {
-  flex: 2 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
+  align-items: start !important;
 }
 
 body:has(.resume-intro) .two-column-layout .section-title-container {
@@ -671,7 +634,6 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 100% !important;
 }
 
 /* Resume page text formatting - left-align and size adjustment */
@@ -709,6 +671,8 @@ body:has(.resume-intro) .two-column-layout .right-column ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  border: none !important;
+  text-decoration: none !important;
 }
 
 /* Override Quarto's section-title-container centering - keep centered */
