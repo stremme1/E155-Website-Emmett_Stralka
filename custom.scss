@@ -343,6 +343,17 @@ html, body, div, section, article, main, header, footer, nav, aside,
 body:has(.about-hero) .two-column-layout {
   margin-top: 0;
   padding-top: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2rem !important;
+}
+
+body:has(.about-hero) .two-column-layout .left-column,
+body:has(.about-hero) .two-column-layout .right-column {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start;
 }
 
 body:has(.about-hero) .two-column-layout .section-title-container {
@@ -353,11 +364,6 @@ body:has(.about-hero) .two-column-layout .section-title-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-body:has(.about-hero) .two-column-layout .left-column,
-body:has(.about-hero) .two-column-layout .right-column {
-  align-items: flex-start;
 }
 
 /* About page specific text sizing - force all text to be same size */
@@ -371,6 +377,16 @@ body:has(.about-hero) .about-section * {
 body:has(.about-hero) .about-section strong {
   font-weight: 600 !important;
   color: var(--apple-black);
+}
+
+/* About page text formatting - left-align and size adjustment */
+body:has(.about-hero) .two-column-layout .left-column p,
+body:has(.about-hero) .two-column-layout .right-column p,
+body:has(.about-hero) .two-column-layout .left-column .subtitle,
+body:has(.about-hero) .two-column-layout .right-column .subtitle {
+  font-size: 1rem !important;
+  text-align: left !important;
+  margin-top: 0.5rem !important;
 }
 
 /* Resume page specific styling */
@@ -612,6 +628,16 @@ body:has(.labs-grid) .main-content .scroll-animate strong {
 body:has(.resume-intro) .two-column-layout {
   margin-top: 0;
   padding-top: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2rem !important;
+}
+
+body:has(.resume-intro) .two-column-layout .left-column,
+body:has(.resume-intro) .two-column-layout .right-column {
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 body:has(.resume-intro) .two-column-layout .section-title-container {
@@ -622,6 +648,16 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Resume page text formatting - left-align and size adjustment */
+body:has(.resume-intro) .two-column-layout .left-column p,
+body:has(.resume-intro) .two-column-layout .right-column p,
+body:has(.resume-intro) .two-column-layout .left-column .subtitle,
+body:has(.resume-intro) .two-column-layout .right-column .subtitle {
+  font-size: 1rem !important;
+  text-align: left !important;
+  margin-top: 0.5rem !important;
 }
 
 /* Duplicate alignment rules removed - consolidated above */
