@@ -3,8 +3,7 @@ title: "E155 Labs"
 subtitle: "Microcontrollers & FPGA Design"
 ---
 
-::: {.labs-intro .apple-full-width}
-::: {.apple-content-wrapper}
+::: {.labs-intro}
 # E155 Labs {.labs-title}
 
 ## Microcontrollers & FPGA Design {.labs-subtitle}
@@ -15,9 +14,7 @@ Documentation of my journey through **E155: Microcontrollers and FPGA Design** a
 **Progress:** 2/7 labs completed (29%) | **Current:** Interrupts and Timers | **Next:** Memory-Mapped I/O
 :::
 :::
-:::
 
-::: {.apple-section}
 ## Lab Portfolio {.section-title}
 
 ::: {.lab-cards-grid}
@@ -162,8 +159,7 @@ Implementation of UART, SPI, and I2C communication protocols for device interfac
 :::
 :::
 
-::: {.skills-section .apple-full-width}
-::: {.apple-content-wrapper}
+::: {.skills-section}
 ## Skills Developed {.section-title}
 
 ::: {.skills-grid}
@@ -219,7 +215,6 @@ Implementation of UART, SPI, and I2C communication protocols for device interfac
 - < 30 seconds compilation time for full FPGA synthesis
 - Real-time variable monitoring and breakpoint support
 - Protocol analysis for UART, SPI, and I2C communication
-:::
 :::
 :::
 

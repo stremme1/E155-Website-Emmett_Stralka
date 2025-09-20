@@ -20,14 +20,15 @@ $content-width: 100%;
   margin-right: 0 !important;
 }
 
-/* Apple-style content containers with proper max-width */
-.quarto-container {
-  max-width: 100% !important;
+/* Force Quarto containers to be centered with proper max-width */
+.quarto-container,
+.quarto-container-centered {
+  max-width: 1200px !important;
   width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
 }
 
 /* Apple-style content wrapper for proper alignment */
@@ -74,14 +75,14 @@ $content-width: 100%;
   margin-right: 0 !important;
 }
 
-/* Override main content area */
+/* Override main content area to be centered */
 main.content {
-  max-width: 100% !important;
+  max-width: 1200px !important;
   width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
 }
 
 /* Override title block */
@@ -156,19 +157,21 @@ main.content {
   margin-right: 0 !important;
 }
 
-/* Override Quarto's page layout system completely */
+/* Override Quarto's page layout system to be centered */
 .page-layout-custom {
-  max-width: 100% !important;
+  max-width: 1200px !important;
   width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
 }
 
 .page-layout-custom .page-layout {
-  max-width: 100% !important;
+  max-width: 1200px !important;
   width: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
 }
 
 /* Force all content to break out of containers */
@@ -250,5 +253,37 @@ main.content {
 @media (max-width: 480px) {
   .apple-section {
     padding: 0 12px;
+  }
+  
+  .quarto-container,
+  .quarto-container-centered,
+  main.content,
+  .page-layout-custom,
+  .page-layout-custom .page-layout {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+/* Responsive container adjustments */
+@media (max-width: 1200px) {
+  .quarto-container,
+  .quarto-container-centered,
+  main.content,
+  .page-layout-custom,
+  .page-layout-custom .page-layout {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarto-container,
+  .quarto-container-centered,
+  main.content,
+  .page-layout-custom,
+  .page-layout-custom .page-layout {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }

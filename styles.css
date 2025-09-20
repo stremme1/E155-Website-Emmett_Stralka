@@ -1281,12 +1281,27 @@ body {
   max-width: 100vw;
 }
 
-/* Ensure all pages have consistent spacing */
-.quarto-container {
-  max-width: 100% !important;
+/* Force Quarto containers to be centered with proper max-width */
+.quarto-container,
+.quarto-container-centered {
+  max-width: 1200px !important;
   width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
   padding-top: 0 !important;
   margin-top: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Override main content area to be centered */
+main.content {
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
 }
 
 /* Fix page-specific spacing issues */
@@ -2522,5 +2537,31 @@ h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
 @media (max-width: 480px) {
   .apple-content-wrapper, .apple-section {
     padding: 0 12px;
+  }
+  
+  .quarto-container,
+  .quarto-container-centered,
+  main.content {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+/* Responsive container adjustments */
+@media (max-width: 1200px) {
+  .quarto-container,
+  .quarto-container-centered,
+  main.content {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarto-container,
+  .quarto-container-centered,
+  main.content {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
   }
 }

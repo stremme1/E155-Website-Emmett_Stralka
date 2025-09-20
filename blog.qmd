@@ -8,8 +8,7 @@ listing:
   categories: false
 ---
 
-::: {.blog-intro .apple-full-width}
-::: {.apple-content-wrapper}
+::: {.blog-intro}
 # Technical Blog {.blog-title}
 
 ## Engineering Insights & Technical Discoveries {.blog-subtitle}
@@ -21,9 +20,7 @@ Comprehensive documentation of my engineering journey through E155: Microcontrol
 [View All Posts](posts/){.btn .btn-secondary}
 :::
 :::
-:::
 
-::: {.apple-section}
 ## Latest Posts {.section-title}
 
 ::: {.blog-preview .scroll-animate}
@@ -40,7 +37,6 @@ This blog serves as a comprehensive documentation of my engineering journey thro
 **E155 Lab 2: Assembly Language Programming** - Performance optimization techniques, ARM assembly programming, and low-level system control for embedded applications, achieving 60% performance improvements over C implementations.
 
 [Read All Posts](posts/){.btn .btn-primary}
-:::
 :::
 
 <script src="scroll-animations.js"></script>
