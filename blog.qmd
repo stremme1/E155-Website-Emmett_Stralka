@@ -1,13 +1,3 @@
----
-title: "E155 Blog"
-subtitle: "Engineering Insights & Technical Discoveries"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: false
----
-
 ::: {.blog-intro}
 Comprehensive documentation of my engineering journey through E155: Microcontrollers and FPGA Design. Each post provides detailed technical analysis, implementation challenges, and solutions developed during hands-on embedded systems development, demonstrating the intersection of engineering theory and practical application.
 

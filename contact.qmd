@@ -1,8 +1,3 @@
----
-title: "Contact"
-subtitle: "Let's Connect"
----
-
 I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in technical collaboration, discussing engineering education, or exploring opportunities in product management and technical leadership.
 
 ## Get In Touch

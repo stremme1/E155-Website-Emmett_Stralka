@@ -1,6 +1,3 @@
----
----
-
 ::: {.full-width-title}
 ::: {.section-title-container}
 ## Projects {.section-title}
