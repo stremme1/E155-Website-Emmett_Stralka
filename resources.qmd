@@ -4,10 +4,6 @@ subtitle: "Learning Materials & Development Tools"
 ---
 
 ::: {.resources-intro}
-# Resources {.resources-title}
-
-## Learning Materials & Development Tools {.resources-subtitle}
-
 Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
 
 ::: {.resources-actions}

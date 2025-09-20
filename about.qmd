@@ -4,10 +4,6 @@ subtitle: "Engineering Student | Technical Innovator | Problem Solver"
 ---
 
 ::: {.about-intro}
-# About Me {.about-title}
-
-## Engineering Student & Technical Innovator {.about-subtitle}
-
 Welcome to my technical portfolio! I'm a dedicated engineering student passionate about 
 bridging the gap between innovative technology and practical solutions.
 
