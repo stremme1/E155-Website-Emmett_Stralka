@@ -576,13 +576,18 @@ p {
 
 .section-title {
   text-align: center;
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-20);
   font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 800;
+  font-weight: 900;
   color: var(--apple-black);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   position: relative;
   z-index: 1;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .section-title::after {
@@ -1407,17 +1412,32 @@ body {
 .blog-intro,
 .resources-intro {
   background: linear-gradient(135deg, var(--apple-white) 0%, var(--apple-gray-light) 100%);
-  padding: var(--space-20) var(--space-8) var(--space-16) var(--space-8);
+  padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
   margin-top: 0 !important;
-  margin-bottom: var(--space-12);
-  border-radius: var(--radius-xl);
+  margin-bottom: var(--space-16);
+  border-radius: var(--radius-2xl);
   text-align: center;
   position: relative;
   overflow: hidden;
-  min-height: 400px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: all var(--transition-normal);
+  transform: translateY(0);
+}
+
+.labs-intro:hover,
+.about-intro:hover,
+.blog-intro:hover,
+.resources-intro:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+  border-color: rgba(0, 122, 255, 0.2);
 }
 
 .labs-intro::before,
@@ -1438,38 +1458,48 @@ body {
 .about-title,
 .blog-title,
 .resources-title {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
   color: var(--apple-black);
-  letter-spacing: -0.02em;
-  margin: 0 0 var(--space-4) 0;
+  letter-spacing: -0.03em;
+  margin: 0 0 var(--space-6) 0;
   position: relative;
   z-index: 1;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .labs-subtitle,
 .about-subtitle,
 .blog-subtitle,
 .resources-subtitle {
-  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: 600;
-  color: var(--apple-gray);
-  margin: 0 0 var(--space-6) 0;
-  letter-spacing: -0.01em;
+  color: var(--apple-gray-dark);
+  margin: 0 0 var(--space-10) 0;
+  letter-spacing: -0.015em;
   position: relative;
   z-index: 1;
+  line-height: 1.4;
 }
 
 .labs-intro p,
 .about-intro p,
 .blog-intro p,
 .resources-intro p {
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: 1.25rem;
+  line-height: 1.7;
   color: var(--apple-gray-dark);
-  margin: 0 0 var(--space-6) 0;
+  margin: 0 0 var(--space-8) 0;
   position: relative;
   z-index: 1;
+  font-weight: 400;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ===============================================
@@ -1528,17 +1558,25 @@ body {
    =============================================== */
 .progress-indicator {
   background: linear-gradient(135deg, var(--apple-blue-light), rgba(0, 122, 255, 0.1));
-  border: 1px solid rgba(0, 122, 255, 0.2);
-  border-radius: var(--radius-xl);
-  padding: var(--space-6);
-  margin-top: var(--space-8);
-  font-size: 1.125rem;
-  font-weight: 500;
+  border: 1px solid rgba(0, 122, 255, 0.3);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8);
+  margin-top: var(--space-10);
+  font-size: 1.25rem;
+  font-weight: 600;
   color: var(--apple-blue);
   text-align: center;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   animation: fadeInUp 1s ease-out 1.2s both;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-normal);
+}
+
+.progress-indicator:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+  border-color: rgba(0, 122, 255, 0.4);
 }
 
 .lab-cards-grid {
