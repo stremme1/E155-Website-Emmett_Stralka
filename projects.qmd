@@ -1,6 +1,11 @@
 ---
 ---
 
+::: {.page-content}
+::: {.sidebar-left}
+:::
+
+::: {.main-content}
 ::: {.section-title-container}
 ## Projects {.section-title}
 :::
@@ -68,6 +73,12 @@ Combining technical engineering skills with business acumen to approach complex 
 **Areas of Exploration** {.card-subtitle}
 
 Advanced embedded systems, IoT applications, machine learning integration, and sustainable technology development.
+:::
+:::
+
+:::
+
+::: {.sidebar-right}
 :::
 :::
 

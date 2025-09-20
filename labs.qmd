@@ -1,6 +1,11 @@
 ---
 ---
 
+::: {.page-content}
+::: {.sidebar-left}
+:::
+
+::: {.main-content}
 ::: {.section-title-container}
 ## Labs {.section-title}
 :::
@@ -82,6 +87,12 @@ Complete embedded system design with real-world applications and testing.
 **Final Project** {.card-subtitle}
 
 Capstone embedded system demonstrating mastery of design and implementation.
+:::
+:::
+
+:::
+
+::: {.sidebar-right}
 :::
 :::
 

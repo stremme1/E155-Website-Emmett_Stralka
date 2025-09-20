@@ -1,6 +1,11 @@
 ---
 ---
 
+::: {.page-content}
+::: {.sidebar-left}
+:::
+
+::: {.main-content}
 ::: {.section-title-container}
 ## Resources {.section-title}
 :::
@@ -100,6 +105,12 @@ For questions about these resources or to suggest additional materials:
 **Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
 **LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
 **GitHub:** [github.com/stremme1](https://github.com/stremme1)
+:::
+
+:::
+
+::: {.sidebar-right}
+:::
 :::
 
 <script src="scroll-animations.js"></script>

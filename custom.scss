@@ -26,6 +26,127 @@ $content-width: 100%;
 }
 
 /* ===============================================
+   PAGE LAYOUT & SPACING
+   =============================================== */
+
+/* Remove extra space from YAML header removal */
+body:not(.homepage) .page-layout {
+  margin-top: 0;
+  padding-top: var(--space-8);
+}
+
+/* Rule of thirds layout for non-homepage pages */
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-8);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+.page-content .main-content {
+  grid-column: 2;
+}
+
+.page-content .sidebar-left,
+.page-content .sidebar-right {
+  grid-column: 1;
+}
+
+/* Responsive design for rule of thirds */
+@media (max-width: 768px) {
+  .page-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    padding: 0 var(--space-4);
+  }
+  
+  .page-content .main-content,
+  .page-content .sidebar-left,
+  .page-content .sidebar-right {
+    grid-column: 1;
+  }
+  
+  .page-content .sidebar-left,
+  .page-content .sidebar-right {
+    display: none;
+  }
+}
+
+/* About page specific styling */
+.about-hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-16) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+}
+
+.about-hero .about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: var(--space-8) auto;
+  display: block;
+  box-shadow: var(--shadow-lg);
+  border: 4px solid var(--apple-white);
+}
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto var(--space-12) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+/* Resume page specific styling */
+.resume-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-16) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+}
+
+.resume-section {
+  max-width: 800px;
+  margin: 0 auto var(--space-12) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+/* Resources page specific styling */
+.resources-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-16) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+}
+
+.resources-section {
+  max-width: 800px;
+  margin: 0 auto var(--space-12) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+/* ===============================================
    APPLE-INSPIRED PROJECT CARDS
    =============================================== */
 .projects-intro {
@@ -37,6 +158,41 @@ $content-width: 100%;
   line-height: 1.7;
   color: var(--apple-gray-dark);
 }
+
+/* Projects grid with varied sizing */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-8);
+  margin: var(--space-16) auto;
+  max-width: 1200px;
+  padding: 0 var(--space-8);
+}
+
+.projects-grid .project-card:nth-child(1) { grid-column: span 1; }
+.projects-grid .project-card:nth-child(2) { grid-column: span 1; }
+.projects-grid .project-card:nth-child(3) { grid-column: span 1; }
+.projects-grid .project-card:nth-child(4) { grid-column: span 1; }
+.projects-grid .project-card:nth-child(5) { grid-column: span 1; }
+.projects-grid .project-card:nth-child(6) { grid-column: span 1; }
+
+/* Labs grid with varied sizing */
+.labs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-6);
+  margin: var(--space-16) auto;
+  max-width: 1200px;
+  padding: 0 var(--space-8);
+}
+
+.labs-grid .lab-card:nth-child(1) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(2) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(3) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(4) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(5) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(6) { grid-column: span 1; }
+.labs-grid .lab-card:nth-child(7) { grid-column: span 1; }
 
 .project-description {
   text-align: center;
@@ -146,7 +302,7 @@ $content-width: 100%;
 .project-card {
   background: var(--apple-white);
   border-radius: var(--radius-2xl);
-  padding: var(--space-8);
+  padding: var(--space-6);
   transition: all var(--transition-normal);
   box-shadow: 
     var(--shadow-sm),
@@ -157,6 +313,61 @@ $content-width: 100%;
   overflow: hidden;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lab-card {
+  background: var(--apple-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  transition: all var(--transition-normal);
+  box-shadow: 
+    var(--shadow-sm),
+    0 0 0 1px rgba(255, 255, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lab-card.completed {
+  border-left: 4px solid #34c759;
+}
+
+.lab-card.in-progress {
+  border-left: 4px solid #ff9500;
+}
+
+.lab-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 122, 255, 0.03);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+  border-radius: var(--radius-2xl);
+}
+
+.lab-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-xl);
+  border-color: transparent;
+}
+
+.lab-card:hover::before {
+  opacity: 1;
 }
 
 .project-card::before {
@@ -182,6 +393,17 @@ $content-width: 100%;
   opacity: 1;
 }
 
+.project-card .project-icon,
+.lab-card .lab-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-4);
+  display: block;
+  opacity: 0.9;
+  transition: all var(--transition-normal);
+  filter: grayscale(0.2);
+  text-align: center;
+}
+
 .project-card .card-icon {
   font-size: 3rem;
   margin-bottom: var(--space-6);
@@ -190,6 +412,12 @@ $content-width: 100%;
   transition: all var(--transition-normal);
   filter: grayscale(0.2);
   text-align: center;
+}
+
+.project-card:hover .project-icon,
+.lab-card:hover .lab-icon {
+  transform: scale(1.1) rotate(5deg);
+  filter: grayscale(0);
 }
 
 .project-card:hover .card-icon {
