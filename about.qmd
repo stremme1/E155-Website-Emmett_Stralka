@@ -12,9 +12,9 @@ Welcome to my technical portfolio! I'm a dedicated engineering student passionat
 Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, bringing both technical rigor and business acumen to every project.
 :::
 
-::: {.two-column-layout}
-::: {.left-column .align-top}
-::: {.section-title-container .align-top}
+::: {.two-column-layout style="align-items: start;"}
+::: {.left-column style="align-self: start;"}
+::: {.section-title-container style="margin-top: 0; padding-top: 0;"}
 ## Education {.section-title}
 :::
 
@@ -42,8 +42,8 @@ Expected Graduation: 2026</p>
 :::
 :::
 
-::: {.right-column .align-top}
-::: {.section-title-container .align-top}
+::: {.right-column style="align-self: start;"}
+::: {.section-title-container style="margin-top: 0; padding-top: 0;"}
 ## My Full Story {.section-title}
 :::
 

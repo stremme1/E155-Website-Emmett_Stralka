@@ -10,9 +10,9 @@ Download my complete resume for detailed information about my academic backgroun
 [Download PDF Resume](#){.btn .btn-primary .btn-large}
 :::
 
-::: {.two-column-layout}
-::: {.left-column .align-top}
-::: {.section-title-container .align-top}
+::: {.two-column-layout style="align-items: start;"}
+::: {.left-column style="align-self: start;"}
+::: {.section-title-container style="margin-top: 0; padding-top: 0;"}
 ## Education {.section-title}
 :::
 
@@ -33,8 +33,8 @@ Expected Graduation: 2026</p>
 :::
 :::
 
-::: {.right-column .align-top}
-::: {.section-title-container .align-top}
+::: {.right-column style="align-self: start;"}
+::: {.section-title-container style="margin-top: 0; padding-top: 0;"}
 ## Technical Skills {.section-title}
 :::
 
