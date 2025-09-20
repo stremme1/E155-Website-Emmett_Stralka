@@ -39,6 +39,8 @@ Expected Graduation: 2026</p>
 <li>Digital circuit design and hardware-software integration</li>
 <li>Performance optimization and system debugging</li>
 </ul>
+
+<div style="height: 2rem; margin: 0; padding: 0;"></div>
 :::
 :::
 
