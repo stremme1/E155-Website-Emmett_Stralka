@@ -1,24 +1,35 @@
 ---
-title: "About Emmett Stralka"
-subtitle: "Engineering Student | Technical Innovator | Problem Solver"
+title: "About"
 ---
 
-Welcome to my technical portfolio! I'm a dedicated engineering student passionate about 
-bridging the gap between innovative technology and practical solutions.
+::: {.featured-grid}
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+👨‍💻
+:::
+### Profile
+**Engineering Student & Technical Innovator** {.card-subtitle}
+
+Welcome to my technical portfolio! I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions.
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
 
-## Academic Foundation
+Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, bringing both technical rigor and business acumen to every project.
 
-::: {.journey-grid}
+[View Resume](resume.qmd){.featured-link}
+:::
+:::
 
-::: {.journey-card .scroll-animate-left}
-::: {.card-icon}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
 🎓
 :::
 ### Academic Foundation
+**Harvey Mudd College** {.card-subtitle}
 
-I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey Mudd College**, one of the nation's premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.
+Dual Major: Engineering & Economics | Expected Graduation: 2026
 
 **Current Coursework:**
 - **E155: Microcontrollers & FPGA Design** - Learning embedded systems and digital design
@@ -26,168 +37,79 @@ I'm currently pursuing a dual major in **Engineering and Economics** at **Harvey
 - **Product Management** - Understanding business strategy and market analysis
 - **Economic Analysis** - Quantitative methods and decision-making frameworks
 
-**Academic Focus:**
-- Pursuing dual majors in Engineering and Economics
-- Developing expertise in embedded systems and FPGA programming
-- Building foundation in both technical and business domains
-- Active in engineering student organizations and technical projects
+[View Labs](labs.qmd){.featured-link}
+:::
 :::
 
-::: {.journey-card .scroll-animate-scale}
-::: {.card-icon}
-💼
-:::
-### Professional Experience
-
-I'm building my professional foundation through academic projects and coursework that bridge engineering and business:
-
-#### Academic Projects
-**Current Focus** - **Learning Areas:**
-- Embedded systems development and FPGA programming
-- Digital circuit design and analysis
-- Business strategy and economic analysis
-- Product management and market research
-
-#### Technical Skills Development
-**Coursework & Projects** - **Key Areas:**
-- Microcontroller programming and assembly language
-- FPGA design and digital systems
-- Data analysis and quantitative methods
-- Project management and team collaboration
-
-**Professional Growth**: Through my coursework and projects, I'm developing the ability to approach technical challenges with both engineering rigor and business perspective, building skills in problem-solving, analysis, and communication.
-:::
-
-::: {.journey-card .scroll-animate-right}
-::: {.card-icon}
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
 🚀
 :::
 ### Technical Projects & Interests
+**Embedded Systems & Innovation** {.card-subtitle}
 
-I'm exploring various engineering domains through coursework and personal projects:
+**Embedded Systems Development:**
+- ARM assembly programming, digital circuit design, real-time systems
+- FPGA programming, microcontroller architecture, hardware-software integration
+- Understanding embedded systems for IoT and automation applications
 
-#### Embedded Systems Development
-**Current Focus**: E155 Microcontrollers & FPGA Design
-- **Learning Areas**: ARM assembly programming, digital circuit design, real-time systems
-- **Technical Skills**: FPGA programming, microcontroller architecture, hardware-software integration
-- **Applications**: Understanding embedded systems for IoT and automation applications
-
-#### Engineering Problem-Solving
-**Academic Projects**: Applied engineering principles
-- **Technical Focus**: Circuit analysis, signal processing, and system design
-- **Software Development**: C programming, assembly language, and embedded systems
-- **Hardware Design**: Digital circuits, timing analysis, and peripheral integration
-
-#### Future Interests
-**Areas of Exploration**: 
+**Future Interests:**
 - Advanced embedded systems and IoT applications
 - Machine learning and signal processing
 - Product development and engineering management
 - Sustainable technology and renewable energy systems
 
-**Project Goals**: Building a strong foundation in embedded systems while exploring the intersection of engineering and business applications.
-:::
-
-::: {.journey-card .scroll-animate-left}
-::: {.card-icon}
-🏃
-:::
-### Personal Interests & Balance
-
-Beyond academics and engineering, I maintain a balanced lifestyle that supports my technical development:
-
-#### Athletic Interests
-**Track & Field**: Active participation in track and field
-- **Focus Areas**: Sprinting and middle-distance events
-- **Personal Development**: Building discipline, teamwork, and goal-setting skills
-- **Time Management**: Learning to balance athletic training with academic responsibilities
-
-#### Personal Growth
-**Life Skills Development**:
-- **Discipline**: Applying systematic approaches to both athletics and academics
-- **Teamwork**: Collaborating effectively in both athletic and academic settings
-- **Resilience**: Developing mental toughness and persistence in challenging situations
-- **Time Management**: Balancing multiple commitments and priorities
-
-#### Engineering Applications
-**Skills Transfer**:
-- **Systematic Approach**: Applying structured training methods to technical problem-solving
-- **Performance Focus**: Using data-driven analysis to improve both athletic and academic performance
-- **Collaboration**: Working effectively in team environments across different contexts
-- **Goal Setting**: Setting and achieving both short-term and long-term objectives
-
-**Key Insight**: The principles of discipline, teamwork, and continuous improvement that support athletic success also contribute to engineering excellence and personal development.
-:::
-
+[View Projects](projects.qmd){.featured-link}
 :::
 :::
 
-::: {.e155-section}
-## E155: Microcontrollers & FPGA Design {.section-title}
-
-::: {.e155-section}
-::: {.e155-card .scroll-animate-scale}
-::: {.card-icon}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
 ⚡
 :::
-### Course Overview & Technical Achievements
+### E155: Microcontrollers & FPGA Design
+**Course Overview & Technical Achievements** {.card-subtitle}
 
 This website documents my comprehensive journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.
 
 **Technical Skills Being Developed:**
-- **FPGA Programming**: Learning Intel Cyclone V design and system clock management
-- **Microcontroller Architecture**: Understanding ARM Cortex-M4 architecture and peripheral programming
-- **Assembly Language**: Exploring ARM assembly programming and optimization techniques
-- **Real-time Systems**: Learning interrupt-driven programming and system timing
-- **Hardware Debugging**: Developing skills with oscilloscopes and logic analyzers
+- **FPGA Programming**: Intel Cyclone V design and system clock management
+- **Microcontroller Architecture**: ARM Cortex-M4 architecture and peripheral programming
+- **Assembly Language**: ARM assembly programming and optimization techniques
+- **Real-time Systems**: Interrupt-driven programming and system timing
 
-**Learning Objectives:**
-- **Technical Skills**: Developing proficiency in embedded systems programming
-- **Problem-Solving**: Building systematic approaches to hardware-software integration
-- **Documentation**: Learning to document technical processes and solutions
-- **Collaboration**: Working effectively in technical team environments
-- **Continuous Learning**: Building foundation for advanced embedded systems development
-
-Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design with measurable technical outcomes.
-:::
+[View Resources](resources.qmd){.featured-link}
 :::
 :::
 
-## My Approach to Engineering {.section-title}
-
-::: {.approach-section}
-::: {.approach-card .scroll-animate-left}
-::: {.card-icon}
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
 🎯
 :::
-### Problem-Solving Philosophy
+### My Approach to Engineering
+**Problem-Solving Philosophy** {.card-subtitle}
 
 I believe in a systematic approach to engineering challenges:
 
-#### 1. Understanding the Problem
-Thoroughly analyzing requirements, constraints, and stakeholder needs before jumping to solutions.
+**1. Understanding the Problem** - Analyzing requirements, constraints, and stakeholder needs
+**2. Research & Analysis** - Investigating existing solutions and emerging technologies
+**3. Iterative Design** - Building prototypes and refining solutions based on feedback
+**4. Documentation & Communication** - Clearly documenting decisions and processes
 
-#### 2. Research & Analysis
-Investigating existing solutions, best practices, and emerging technologies that could inform the design.
-
-#### 3. Iterative Design
-Building prototypes, testing assumptions, and refining solutions based on real-world feedback.
-
-#### 4. Documentation & Communication
-Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.
-:::
+[Connect With Me](#contact){.featured-link}
 :::
 :::
 
-::: {.connect-section}
-## Connect With Me {.section-title}
-
-::: {.connect-section}
-::: {.connect-card .scroll-animate-right}
-::: {.card-icon}
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
 🤝
 :::
-### Let's Collaborate
+### Connect With Me
+**Let's Collaborate** {.card-subtitle}
 
 I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:
 
@@ -196,9 +118,11 @@ I'm always excited to connect with fellow engineers, researchers, and innovators
 - Exploring opportunities in product management or technical leadership
 - Sharing insights about the intersection of engineering and business
 
-::: {.cta-buttons}
-[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.btn .btn-primary target="_blank"}
-[View My GitHub](https://github.com/stremme1){.btn .btn-secondary target="_blank"}
+**Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
+**LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
+**GitHub:** [github.com/stremme1](https://github.com/stremme1)
+
+[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.featured-link}
 :::
 :::
 :::

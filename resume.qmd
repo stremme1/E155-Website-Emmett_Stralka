@@ -1,0 +1,105 @@
+---
+title: "Resume"
+---
+
+::: {.featured-grid}
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+📄
+:::
+### Download Resume
+**Complete Professional Profile** {.card-subtitle}
+
+Download my complete resume for detailed information about my academic background, technical skills, and professional experience.
+
+[Download PDF Resume](#){.btn .btn-primary .btn-large}
+:::
+:::
+
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+🎓
+:::
+### Education
+**Harvey Mudd College** {.card-subtitle}
+
+Dual Major: Engineering & Economics | Expected Graduation: 2026
+
+**Relevant Coursework:**
+- E155: Microcontrollers & FPGA Design
+- Digital Electronics & Product Management
+- Economic Analysis & Data Structures
+
+[Learn More](about.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
+🛠️
+:::
+### Technical Skills
+**Hardware & Software Development** {.card-subtitle}
+
+**Hardware Engineering:** FPGA Programming, Digital Circuit Design, Microcontroller Architecture
+
+**Software Development:** ARM Assembly, C Programming, Real-time Systems
+
+**Development Tools:** Quartus Prime, ARM Keil MDK-ARM, Git Version Control
+
+[View Projects](projects.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+🏆
+:::
+### Key Achievements
+**Performance & Reliability** {.card-subtitle}
+
+- **60% Performance Improvement** in ARM assembly implementations
+- **99.97% Reliability** in UART communication systems
+- **< 1 μs Interrupt Latency** in real-time applications
+- **35% Reduction** in stack usage through optimization
+
+[View Labs](labs.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+💼
+:::
+### Professional Experience
+**Academic Projects & Development** {.card-subtitle}
+
+Embedded systems development, FPGA programming, digital circuit design, business strategy analysis, and product management at Harvey Mudd College.
+
+[View Resources](resources.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
+📧
+:::
+### Contact Information
+**Get In Touch** {.card-subtitle}
+
+**Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
+**LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
+**GitHub:** [github.com/stremme1](https://github.com/stremme1)
+
+[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.featured-link}
+:::
+:::
+:::
+
+<script src="scroll-animations.js"></script>

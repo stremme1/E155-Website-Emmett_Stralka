@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }, observerOptions);
 
   // Observe all scroll animation elements
-  document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-scale, .scroll-animate-fade, .scroll-animate-slide-up').forEach(el => {
+  document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-scale, .scroll-animate-fade, .scroll-animate-slide-up, .scroll-animate-stagger').forEach(el => {
     observer.observe(el);
   });
 

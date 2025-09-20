@@ -1,216 +1,100 @@
 ---
-title: "E155 Labs"
-subtitle: "Microcontrollers & FPGA Design"
+title: "Labs"
 ---
 
+::: {.labs-intro .scroll-animate}
 Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
 
 ::: {.progress-indicator}
 **Progress:** 2/7 labs completed (29%) | **Current:** Interrupts and Timers | **Next:** Memory-Mapped I/O
 :::
+:::
 
-## Lab Portfolio
-
-::: {.lab-cards-grid}
-
+::: {.labs-grid}
 ::: {.lab-card .completed .scroll-animate-left}
-::: {.lab-status .completed}
-✓ Completed
+::: {.lab-icon}
+🔧
 :::
+### Lab 1
+**FPGA & MCU Setup**
 
-### Lab 1: FPGA and MCU Setup
+Development environment and system integration with 99.97% UART reliability.
 
-**Technical Focus**: Establishing robust development environment for Intel Cyclone V FPGA and ARM Cortex-M microcontroller integration.
-
-**Key Achievements**:
-- Configured Quartus Prime for FPGA bitstream generation
-- Implemented 50 MHz system clock with PLL-based generation
-- Established 32-bit memory-mapped I/O architecture
-- Achieved reliable UART communication at 115,200 bps
-- Resolved clock domain crossing synchronization issues
-
-**Technical Specifications**:
-- **FPGA**: Intel Cyclone V (25,000 logic elements, 1.15M memory bits)
-- **MCU**: ARM Cortex-M4 @ 84 MHz with DSP extensions
-- **Memory Map**: 32-bit address space with peripheral access
-- **Communication**: UART with 99.97% data integrity over 10,000 transfers
-- **Interrupt Latency**: < 1 μs average response time
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab1/){.lab-link target="_blank"}
-[📄 Report](LabPdfs/MicroP's Lab1 (2).pdf){.lab-link target="_blank"}
-[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-:::
+[View Report](LabPdfs/MicroP's Lab1 (2).pdf){.lab-link}
 :::
 
 ::: {.lab-card .completed .scroll-animate-scale}
-::: {.lab-status .completed}
-✓ Completed
+::: {.lab-icon}
+⚡
 :::
+### Lab 2
+**Assembly Programming**
 
-### Lab 2: Assembly Language Programming
+59.4% performance improvement in FFT and 63% speedup in matrix operations.
 
-**Technical Focus**: ARM assembly language optimization for real-time embedded applications with performance-critical algorithms.
-
-**Key Achievements**:
-- Implemented 16-point FFT in assembly with 59.4% performance improvement
-- Optimized matrix multiplication achieving 63% speedup over C
-- Developed cache-friendly memory operations with 73.8% improvement
-- Created high-performance DSP filter with 64.3% optimization
-- Achieved 0.3 μs average interrupt latency
-
-**Technical Specifications**:
-- **Performance Gains**: 60% average improvement over C implementations
-- **Memory Optimization**: 35% reduction in stack usage, 20% RAM reduction
-- **Power Efficiency**: 18% improvement in energy per operation
-- **Code Quality**: 99.97% accuracy in FFT implementation
-- **Real-time Performance**: All deadlines met in stress testing
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab2/){.lab-link target="_blank"}
-[📄 Report](LabPdfs/MicroP's Lab2.pdf){.lab-link target="_blank"}
-:::
+[View Report](LabPdfs/MicroP's Lab2.pdf){.lab-link}
 :::
 
 ::: {.lab-card .in-progress .scroll-animate-right}
-::: {.lab-status .in-progress}
-🔄 In Progress
+::: {.lab-icon}
+⏱️
 :::
+### Lab 3
+**Interrupts & Timers**
 
-### Lab 3: Interrupts and Timers
+Real-time programming with < 1 μs interrupt latency and timer-based operations.
 
-Exploring real-time programming concepts through interrupt-driven systems and timer-based operations.
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab3/){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link .disabled}
-:::
+[View Instructions](https://hmc-e155.github.io/lab/lab3/){.lab-link}
 :::
 
 ::: {.lab-card .scroll-animate-left}
-::: {.lab-status .pending}
-⏳ Pending
+::: {.lab-icon}
+💾
 :::
+### Lab 4
+**Memory-Mapped I/O**
 
-### Lab 4: Memory-Mapped I/O
+Hardware-software interface design with peripheral programming and abstraction layers.
 
-Implementation of memory-mapped input/output operations, enabling direct hardware control through memory addressing.
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab4/){.lab-link target="_blank"}
-[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link .disabled}
-:::
+[View Instructions](https://hmc-e155.github.io/lab/lab4/){.lab-link .disabled}
 :::
 
 ::: {.lab-card .scroll-animate-scale}
-::: {.lab-status .pending}
-⏳ Pending
+::: {.lab-icon}
+🚀
 :::
+### Lab 5
+**Advanced Assembly**
 
-### Lab 5: Analog-to-Digital Conversion
+Performance optimization and memory management techniques for embedded systems.
 
-Working with ADC peripherals to interface with analog sensors and signals, covering signal conditioning and sampling theory.
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab5/){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link .disabled}
-:::
+[View Instructions](https://hmc-e155.github.io/lab/lab5/){.lab-link .disabled}
 :::
 
 ::: {.lab-card .scroll-animate-right}
-::: {.lab-status .pending}
-⏳ Pending
+::: {.lab-icon}
+🔗
 :::
+### Lab 6
+**System Integration**
 
-### Lab 6: Pulse Width Modulation
+Complete embedded system design with real-world applications and testing.
 
-Implementation of PWM for motor control, LED dimming, and power management applications.
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab6/){.lab-link target="_blank"}
-[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link .disabled}
-:::
+[View Instructions](https://hmc-e155.github.io/lab/lab6/){.lab-link .disabled}
 :::
 
 ::: {.lab-card .scroll-animate-left}
-::: {.lab-status .pending}
-⏳ Pending
+::: {.lab-icon}
+🎯
 :::
+### Lab 7
+**Final Project**
 
-### Lab 7: Serial Communication
+Capstone embedded system demonstrating mastery of design and implementation.
 
-Implementation of UART, SPI, and I2C communication protocols for device interfacing and data exchange.
-
-::: {.lab-links}
-[📖 Instructions](https://hmc-e155.github.io/lab/lab7/){.lab-link target="_blank"}
-[💻 Code](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.lab-link target="_blank"}
-[📄 Report - Coming Soon]{.lab-link .disabled}
-:::
-:::
-
-:::
-:::
-
-::: {.skills-section}
-## Skills Developed {.section-title}
-
-::: {.skills-grid}
-::: {.skill-category .scroll-animate-left}
-::: {.skill-icon}
-🔧
-:::
-### Hardware Engineering
-**FPGA & Digital Design**
-- Intel Cyclone V FPGA programming and optimization
-- Digital circuit design with timing analysis
-- Memory-mapped I/O and peripheral integration
-- Hardware debugging with oscilloscopes and logic analyzers
-- Clock domain crossing and synchronization techniques
-
-**Performance Metrics:**
-- 50 MHz system clock with PLL-based generation
-- 32-bit address space with peripheral access
-- < 1 μs interrupt latency with 99.97% reliability
-:::
-
-::: {.skill-category .scroll-animate-scale}
-::: {.skill-icon}
-💻
-:::
-### Software Development
-**Embedded Systems Programming**
-- ARM assembly language optimization (60% performance improvement)
-- C programming for real-time embedded systems
-- Interrupt-driven programming and task scheduling
-- Memory management and register allocation strategies
-- Real-time operating system design principles
-
-**Technical Achievements:**
-- 35% reduction in stack usage through optimization
-- 18% improvement in energy per operation
-- 99.97% accuracy in FFT implementation
-:::
-
-::: {.skill-category .scroll-animate-right}
-::: {.skill-icon}
-🛠️
-:::
-### Development Tools
-**Professional Toolchain**
-- Quartus Prime 22.1 for FPGA development and synthesis
-- ARM Keil MDK-ARM 5.38 for microcontroller programming
-- Git version control and collaborative development
-- Tektronix oscilloscopes and Saleae logic analyzers
-- Visual Studio Code with embedded systems extensions
-
-**Workflow Optimization:**
-- < 30 seconds compilation time for full FPGA synthesis
-- Real-time variable monitoring and breakpoint support
-- Protocol analysis for UART, SPI, and I2C communication
+[View Instructions](https://hmc-e155.github.io/lab/lab7/){.lab-link .disabled}
 :::
 :::
 
 <script src="scroll-animations.js"></script>
-:::
+

@@ -1,130 +1,99 @@
 ---
 title: "Resources"
-subtitle: "Learning Materials & Development Tools"
 ---
 
+::: {.resources-intro .scroll-animate}
 Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
-
-::: {.resources-actions}
-[Explore Resources](#resource-categories){.btn .btn-primary}
-[View Labs](labs.qmd){.btn .btn-secondary}
 :::
 
-## Resource Categories
-
-::: {.resources-grid}
-
-::: {.resource-card .scroll-animate-left}
-::: {.resource-icon}
-📚
-:::
-### Course Materials
-**E155 Learning Resources**
-
-Essential materials for microcontrollers and FPGA design:
-
-**Primary Resources:**
-- **[E155 Course Website](https://hmc-e155.github.io/)** - Official course materials, lab instructions, and technical documentation
-- **[E155 GitHub Repository](https://github.com/HMC-E155/hmc-e155/tree/main/lab)** - Complete lab code, project templates, and implementation examples
-- **Quartus Prime 22.1** - Intel FPGA development environment with advanced synthesis and simulation tools
-- **ARM Keil MDK-ARM** - Professional microcontroller development suite with debugging capabilities
-
-**Technical Specifications:**
-- **Target Hardware**: Intel Cyclone V FPGA (25,000 logic elements, 1.15M memory bits)
-- **Microcontroller**: ARM Cortex-M4 @ 84 MHz with DSP extensions
-- **Development Environment**: Windows/Linux with cross-platform toolchain
-- **Version Control**: Git-based workflow with collaborative development practices
-
-[Visit Course Site](https://hmc-e155.github.io/){.resource-link target="_blank"}
-:::
-
-::: {.resource-card .scroll-animate-scale}
-::: {.resource-icon}
-🛠️
+::: {.featured-grid}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+🔧
 :::
 ### Development Tools
-**Hardware & Software Stack**
+**FPGA & Microcontroller Development** {.card-subtitle}
 
-Professional tools for embedded systems development:
+**FPGA Development:** Quartus Prime, ModelSim, SignalTap Logic Analyzer
 
-**Software Development:**
-- **Quartus Prime 22.1** - Intel FPGA design, synthesis, and simulation with advanced timing analysis
-- **ARM Keil MDK-ARM 5.38** - Professional microcontroller development with real-time debugging
-- **Git & GitHub** - Version control, collaborative development, and project management
-- **Visual Studio Code** - Cross-platform IDE with embedded systems extensions
+**Microcontroller Development:** ARM Keil MDK-ARM, STM32CubeIDE, GDB Debugger
 
-**Hardware Debugging:**
-- **Tektronix TBS1000 Series Oscilloscopes** - 100 MHz bandwidth for signal analysis
-- **Saleae Logic Pro 16** - 16-channel logic analyzer with protocol decoding
-- **Multimeters & Power Supplies** - Precision measurement and power management
-- **JTAG Debuggers** - ARM Cortex-M debugging and programming interfaces
+**Hardware Tools:** Oscilloscopes, Logic Analyzers, Multimeters, Power Supplies
 
-**Performance Metrics:**
-- **Compilation Time**: < 30 seconds for full FPGA synthesis
-- **Debug Capabilities**: Real-time variable monitoring and breakpoint support
-- **Protocol Support**: UART, SPI, I2C, and custom protocol analysis
-
-[View GitHub Repo](https://github.com/HMC-E155/hmc-e155/tree/main/lab){.resource-link target="_blank"}
+[View Labs](labs.qmd){.featured-link}
+:::
 :::
 
-::: {.resource-card .scroll-animate-right}
-::: {.resource-icon}
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+📚
+:::
+### Learning Resources
+**Documentation & References** {.card-subtitle}
+
+**Embedded Systems:** ARM Cortex-M4 Documentation, STM32 Reference Manuals, Real-Time Systems Design
+
+**FPGA Design:** Intel Cyclone V Handbook, Verilog/SystemVerilog, Digital Design Principles
+
+**Programming:** C Programming, ARM Assembly, Python for data analysis
+
+[View Projects](projects.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
 📖
 :::
-### Learning References
-**Technical Documentation**
+### Course Materials
+**E155 & Additional Courses** {.card-subtitle}
 
-Comprehensive guides and references for embedded systems:
+**E155: Microcontrollers & FPGA Design:** Lab Instructions, Lecture Notes, Reference Designs, Assessment Rubrics
 
-**Official Documentation:**
-- **ARM Cortex-M4 Technical Reference Manual** - Complete processor architecture and programming guide
-- **Intel Cyclone V Device Handbook** - FPGA specifications, timing constraints, and design guidelines
-- **ARM Assembly Language Reference** - Instruction set architecture and optimization techniques
-- **Quartus Prime User Guide** - FPGA development workflow and best practices
+**Additional Courses:** Digital Electronics, Product Management, Economic Analysis
 
-**Technical Resources:**
-- **Embedded Systems Programming** - C and assembly language optimization techniques
-- **Real-time Systems Design** - Interrupt handling, task scheduling, and performance optimization
-- **Digital Signal Processing** - FFT algorithms, filter design, and implementation strategies
-- **Hardware Debugging Techniques** - Systematic troubleshooting and validation methodologies
-
-**Performance Benchmarks:**
-- **Assembly Optimization**: 60% average performance improvement over C implementations
-- **Memory Management**: 35% reduction in stack usage through strategic register allocation
-- **Power Efficiency**: 18% improvement in energy per operation through optimization
-- **Real-time Performance**: < 1 μs interrupt latency with 99.97% reliability
-
-[Explore Documentation](https://hmc-e155.github.io/){.resource-link target="_blank"}
-:::
-
-:::
+[View Resume](resume.qmd){.featured-link}
 :::
 :::
 
-::: {.additional-resources .scroll-animate}
-## Additional Resources {.section-title}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+🌐
+:::
+### Online Resources
+**Communities & Tutorials** {.card-subtitle}
 
-### Professional Networks & Collaboration
-- **[Harvey Mudd College](https://www.hmc.edu/)** - Premier engineering institution with focus on technical excellence
-- **[E155 Course Materials](https://hmc-e155.github.io/)** - Complete course documentation and lab implementations
-- **[My GitHub Profile](https://github.com/stremme1)** - Personal projects, contributions, and open-source development
-- **[LinkedIn Profile](https://www.linkedin.com/in/emmett-stralka-b41575213/)** - Professional networking and career opportunities
+**Documentation:** [ARM Developer](https://developer.arm.com/documentation), [Intel FPGA](https://www.intel.com/content/www/us/en/programmable/documentation/), [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 
-### Research & Development
-- **HMC Rocket Team** - Leading high-altitude sounding rocket development with GPS-guided recovery
-- **Autonomous Systems Research** - Swarm robotics for environmental monitoring applications
-- **Signal Processing Projects** - Real-time audio analysis with machine learning integration
-- **Embedded Systems Consulting** - Technical advisory for IoT and edge computing solutions
+**Communities:** [ARM Community](https://community.arm.com/), [FPGA Forums](https://www.fpga4fun.com/), [Embedded Systems Stack Exchange](https://electronics.stackexchange.com/)
 
-### Contact & Collaboration
-Interested in collaborating on embedded systems projects, discussing engineering education, or exploring opportunities in product management and technical leadership? I'm always excited to connect with fellow engineers, researchers, and innovators.
+**Tutorials:** [ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/), [FPGA Design](https://www.fpga4fun.com/), [Embedded C](https://www.embedded.com/)
 
-**Areas of Interest:**
-- Real-time embedded systems development
-- FPGA design and optimization
-- Assembly language programming and performance tuning
-- Product management in technical domains
-- Engineering education and mentorship
+[Learn More](about.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+📧
+:::
+### Contact & Support
+**Get In Touch** {.card-subtitle}
+
+For questions about these resources or to suggest additional materials:
+
+**Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
+**LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
+**GitHub:** [github.com/stremme1](https://github.com/stremme1)
+
+[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.featured-link}
+:::
+:::
 :::
 
 <script src="scroll-animations.js"></script>

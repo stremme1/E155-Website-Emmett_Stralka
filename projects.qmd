@@ -1,0 +1,95 @@
+---
+title: "Projects"
+---
+
+::: {.projects-intro .scroll-animate}
+A showcase of my technical projects and engineering work, demonstrating expertise in embedded systems, FPGA design, and the intersection of technology and business.
+:::
+
+::: {.featured-grid}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+⚡
+:::
+### E155: Microcontrollers & FPGA Design
+**Embedded Systems Development** {.card-subtitle}
+
+Comprehensive journey through embedded systems, digital design, and hardware-software integration. This course represents a deep dive into modern embedded systems development with hands-on projects.
+
+[View Labs](labs.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+🔧
+:::
+### Lab 1: FPGA and MCU Setup
+**Development Environment & System Integration** {.card-subtitle}
+
+Established robust development environment for Intel Cyclone V FPGA and ARM Cortex-M microcontroller integration with 99.97% UART communication reliability.
+
+[View Report](LabPdfs/MicroP's Lab1 (2).pdf){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
+⚡
+:::
+### Lab 2: Assembly Language Programming
+**Performance Optimization & Real-time Systems** {.card-subtitle}
+
+ARM assembly language optimization achieving 59.4% performance improvement in 16-point FFT and 63% speedup in matrix multiplication over C.
+
+[View Report](LabPdfs/MicroP's Lab2.pdf){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
+⏱️
+:::
+### Lab 3: Interrupts and Timers
+**Real-time Programming & System Timing** {.card-subtitle}
+
+Exploring real-time programming concepts through interrupt-driven systems and timer-based operations with < 1 μs interrupt latency.
+
+[View Instructions](https://hmc-e155.github.io/lab/lab3/){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
+🎓
+:::
+### Engineering & Economics Integration
+**Dual Major Program** {.card-subtitle}
+
+Combining technical engineering skills with business acumen to approach complex problems from multiple perspectives at Harvey Mudd College.
+
+[Learn More](about.qmd){.featured-link}
+:::
+:::
+
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
+🚀
+:::
+### Future Projects
+**Areas of Exploration** {.card-subtitle}
+
+Advanced embedded systems, IoT applications, machine learning integration, and sustainable technology development.
+
+[View Resume](resume.qmd){.featured-link}
+:::
+:::
+:::
+
+<script src="scroll-animations.js"></script>
