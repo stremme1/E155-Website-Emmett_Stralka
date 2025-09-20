@@ -30,6 +30,11 @@ $content-width: 100%;
    =============================================== */
 
 /* Remove extra space from YAML header removal */
+html, body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 body:not(.homepage) {
   margin-top: 0;
   padding-top: 0;
@@ -40,9 +45,78 @@ body:not(.homepage) {
 main.content,
 .quarto-container,
 .quarto-container-centered,
-.page-layout-custom {
+.page-layout-custom,
+.page-navbar {
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+
+/* Specifically target the Quarto content wrapper */
+#quarto-content.quarto-container.page-layout-custom.page-navbar {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Target any div that contains full-width-title */
+div:has(.full-width-title) {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Target the first child of quarto-content */
+#quarto-content > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Target any element that comes before full-width-title */
+.full-width-title:first-child,
+.full-width-title:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Nuclear option - target all possible spacing elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Force remove all top spacing from everything */
+html, body, div, section, article, main, header, footer, nav, aside, 
+.quarto-container, .quarto-container-centered, .page-layout-custom, 
+.page-navbar, #quarto-content, main.content, .full-width-title,
+.section-title-container, .section-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Remove spacing from all possible Quarto elements */
+.quarto-title-block,
+.quarto-title,
+.quarto-title-block-title,
+.quarto-title-block-subtitle,
+.quarto-title-block-contents,
+.quarto-title-block-author,
+.quarto-title-block-date,
+.quarto-title-block-abstract,
+.quarto-title-block-keywords,
+.quarto-title-block-categories,
+.quarto-title-block-banner,
+.quarto-title-block-banner-image,
+.quarto-title-block-banner-text,
+.quarto-title-block-banner-overlay,
+.quarto-title-block-banner-gradient,
+.quarto-title-block-banner-solid,
+.quarto-title-block-banner-transparent,
+.quarto-title-block-banner-opaque,
+.quarto-title-block-banner-semi-transparent,
+.quarto-title-block-banner-semi-opaque,
+.quarto-title-block-banner-semi-translucent,
+.quarto-title-block-banner-semi-transparent,
+.quarto-title-block-banner-semi-opaque,
+.quarto-title-block-banner-semi-translucent {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Full width titles for all pages */
