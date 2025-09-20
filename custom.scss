@@ -28,10 +28,28 @@ $content-width: 100%;
   padding: 0 !important;
 }
 
-/* For non-homepage pages, center the content with proper constraints */
-body:not(.homepage) main.content,
-body:not(.homepage) .quarto-container,
-body:not(.homepage) .quarto-container-centered {
+/* Target pages with title blocks (non-homepage pages) for centered content */
+#quarto-content:has(.quarto-title-block) {
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
+}
+
+/* Fallback for browsers that don't support :has() */
+.quarto-title-block {
+  max-width: 1200px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure all content after title block is also centered */
+.quarto-title-block + * {
   max-width: 1200px !important;
   width: 100% !important;
   margin: 0 auto !important;
