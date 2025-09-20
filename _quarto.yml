@@ -35,3 +35,12 @@ format:
     theme: 
       - custom.scss
     page-layout: custom
+    grid:
+      sidebar-width: 250px
+      margin-width: 0px
+      body-width: 1200px
+    layout:
+      columns:
+        - width: 33%
+        - width: 67%
+      align: start
