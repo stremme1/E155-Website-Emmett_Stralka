@@ -1,4 +1,7 @@
 ---
+format:
+  html:
+    body-class: homepage
 ---
 
 ::: {.hero-section}

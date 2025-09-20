@@ -20,9 +20,18 @@ $content-width: 100%;
   margin-right: 0 !important;
 }
 
-/* Force Quarto containers to be centered with proper max-width */
-.quarto-container,
-.quarto-container-centered {
+/* Apple-style container system - Homepage gets full width, other pages get centered content */
+#quarto-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* For non-homepage pages, center the content with proper constraints */
+body:not(.homepage) main.content,
+body:not(.homepage) .quarto-container,
+body:not(.homepage) .quarto-container-centered {
   max-width: 1200px !important;
   width: 100% !important;
   margin: 0 auto !important;
