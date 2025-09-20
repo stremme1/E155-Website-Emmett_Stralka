@@ -1,5 +1,4 @@
 ---
-title: "Labs"
 ---
 
 ::: {.section-title-container}
@@ -14,103 +13,75 @@ Documentation of my journey through **E155: Microcontrollers and FPGA Design** a
 :::
 :::
 
-::: {.featured-grid}
-::: {.featured-card .completed .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.labs-grid}
+::: {.lab-card .completed .scroll-animate-left}
+::: {.lab-icon}
 🔧
 :::
 ### Lab 1
 **FPGA & MCU Setup** {.card-subtitle}
 
 Development environment and system integration with 99.97% UART reliability.
-
-[View Report](LabPdfs/MicroP's Lab1 (2).pdf){.featured-link}
-:::
 :::
 
-::: {.featured-card .completed .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .completed .scroll-animate-scale}
+::: {.lab-icon}
 ⚡
 :::
 ### Lab 2
 **Assembly Programming** {.card-subtitle}
 
 59.4% performance improvement in FFT and 63% speedup in matrix operations.
-
-[View Report](LabPdfs/MicroP's Lab2.pdf){.featured-link}
-:::
 :::
 
-::: {.featured-card .in-progress .scroll-animate-right}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .in-progress .scroll-animate-right}
+::: {.lab-icon}
 ⏱️
 :::
 ### Lab 3
 **Interrupts & Timers** {.card-subtitle}
 
 Real-time programming with < 1 μs interrupt latency and timer-based operations.
-
-[View Instructions](https://hmc-e155.github.io/lab/lab3/){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .scroll-animate-left}
+::: {.lab-icon}
 💾
 :::
 ### Lab 4
 **Memory-Mapped I/O** {.card-subtitle}
 
 Hardware-software interface design with peripheral programming and abstraction layers.
-
-[View Instructions](https://hmc-e155.github.io/lab/lab4/){.featured-link .disabled}
-:::
 :::
 
-::: {.featured-card .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .scroll-animate-scale}
+::: {.lab-icon}
 🚀
 :::
 ### Lab 5
 **Advanced Assembly** {.card-subtitle}
 
 Performance optimization and memory management techniques for embedded systems.
-
-[View Instructions](https://hmc-e155.github.io/lab/lab5/){.featured-link .disabled}
-:::
 :::
 
-::: {.featured-card .scroll-animate-right}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .scroll-animate-right}
+::: {.lab-icon}
 🔗
 :::
 ### Lab 6
 **System Integration** {.card-subtitle}
 
 Complete embedded system design with real-world applications and testing.
-
-[View Instructions](https://hmc-e155.github.io/lab/lab6/){.featured-link .disabled}
-:::
 :::
 
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
+::: {.lab-card .scroll-animate-left}
+::: {.lab-icon}
 🎯
 :::
 ### Lab 7
 **Final Project** {.card-subtitle}
 
 Capstone embedded system demonstrating mastery of design and implementation.
-
-[View Instructions](https://hmc-e155.github.io/lab/lab7/){.featured-link .disabled}
-:::
 :::
 :::
 

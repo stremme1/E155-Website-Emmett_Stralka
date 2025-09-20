@@ -1,5 +1,4 @@
 ---
-title: "Resources"
 ---
 
 ::: {.section-title-container}
@@ -10,94 +9,97 @@ title: "Resources"
 Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
 :::
 
-::: {.featured-grid}
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
-🔧
-:::
-### Development Tools
-**FPGA & Microcontroller Development** {.card-subtitle}
-
-**FPGA Development:** Quartus Prime, ModelSim, SignalTap Logic Analyzer
-
-**Microcontroller Development:** ARM Keil MDK-ARM, STM32CubeIDE, GDB Debugger
-
-**Hardware Tools:** Oscilloscopes, Logic Analyzers, Multimeters, Power Supplies
-
-[View Labs](labs.qmd){.featured-link}
-:::
+::: {.section-title-container}
+## Development Tools {.section-title}
 :::
 
-::: {.featured-card .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
-📚
-:::
-### Learning Resources
-**Documentation & References** {.card-subtitle}
+::: {.resources-section .scroll-animate}
+**FPGA Development**
+- Quartus Prime - Intel's FPGA design software
+- ModelSim - Simulation and verification tool
+- SignalTap Logic Analyzer - Real-time debugging
 
-**Embedded Systems:** ARM Cortex-M4 Documentation, STM32 Reference Manuals, Real-Time Systems Design
+**Microcontroller Development**
+- ARM Keil MDK-ARM - Integrated development environment
+- STM32CubeIDE - STM32 development platform
+- GDB Debugger - GNU debugger for embedded systems
 
-**FPGA Design:** Intel Cyclone V Handbook, Verilog/SystemVerilog, Digital Design Principles
-
-**Programming:** C Programming, ARM Assembly, Python for data analysis
-
-[View Projects](projects.qmd){.featured-link}
-:::
-:::
-
-::: {.featured-card .scroll-animate-right}
-::: {.featured-card-content}
-::: {.featured-icon}
-📖
-:::
-### Course Materials
-**E155 & Additional Courses** {.card-subtitle}
-
-**E155: Microcontrollers & FPGA Design:** Lab Instructions, Lecture Notes, Reference Designs, Assessment Rubrics
-
-**Additional Courses:** Digital Electronics, Product Management, Economic Analysis
-
-[View Resume](resume.qmd){.featured-link}
-:::
+**Hardware Tools**
+- Oscilloscopes - Signal analysis and debugging
+- Logic Analyzers - Digital signal analysis
+- Multimeters - Electrical measurements
+- Power Supplies - Variable voltage/current sources
 :::
 
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
-🌐
-:::
-### Online Resources
-**Communities & Tutorials** {.card-subtitle}
-
-**Documentation:** [ARM Developer](https://developer.arm.com/documentation), [Intel FPGA](https://www.intel.com/content/www/us/en/programmable/documentation/), [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
-
-**Communities:** [ARM Community](https://community.arm.com/), [FPGA Forums](https://www.fpga4fun.com/), [Embedded Systems Stack Exchange](https://electronics.stackexchange.com/)
-
-**Tutorials:** [ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/), [FPGA Design](https://www.fpga4fun.com/), [Embedded C](https://www.embedded.com/)
-
-[Learn More](about.qmd){.featured-link}
-:::
+::: {.section-title-container}
+## Learning Resources {.section-title}
 :::
 
-::: {.featured-card .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
-📧
-:::
-### Contact & Support
-**Get In Touch** {.card-subtitle}
+::: {.resources-section .scroll-animate}
+**Embedded Systems**
+- ARM Cortex-M4 Documentation - Official ARM reference manuals
+- STM32 Reference Manuals - STMicroelectronics documentation
+- Real-Time Systems Design - Academic papers and textbooks
 
+**FPGA Design**
+- Intel Cyclone V Handbook - FPGA architecture and design
+- Verilog/SystemVerilog - Hardware description languages
+- Digital Design Principles - Circuit design fundamentals
+
+**Programming Languages**
+- C Programming - Embedded systems programming
+- ARM Assembly - Low-level programming and optimization
+- Python - Data analysis and automation
+:::
+
+::: {.section-title-container}
+## Course Materials {.section-title}
+:::
+
+::: {.resources-section .scroll-animate}
+**E155: Microcontrollers & FPGA Design**
+- Lab Instructions - Step-by-step lab procedures
+- Lecture Notes - Course content and concepts
+- Reference Designs - Example implementations
+- Assessment Rubrics - Evaluation criteria
+
+**Additional Courses**
+- Digital Electronics - Circuit analysis and design
+- Product Management - Business strategy and development
+- Economic Analysis - Quantitative methods and modeling
+:::
+
+::: {.section-title-container}
+## Online Resources {.section-title}
+:::
+
+::: {.resources-section .scroll-animate}
+**Documentation & References**
+- [ARM Developer Documentation](https://developer.arm.com/documentation)
+- [Intel FPGA Documentation](https://www.intel.com/content/www/us/en/programmable/documentation/)
+- [STM32 Documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
+
+**Communities & Forums**
+- [ARM Community](https://community.arm.com/)
+- [FPGA Forums](https://www.fpga4fun.com/)
+- [Embedded Systems Stack Exchange](https://electronics.stackexchange.com/)
+
+**Tutorials & Guides**
+- [ARM Assembly Tutorials](https://azeria-labs.com/writing-arm-assembly-part-1/)
+- [FPGA Design Tutorials](https://www.fpga4fun.com/)
+- [Embedded C Programming](https://www.embedded.com/)
+:::
+
+::: {.section-title-container}
+## Contact & Support {.section-title}
+:::
+
+::: {.resources-section .scroll-animate}
 For questions about these resources or to suggest additional materials:
 
 **Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
 **LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
 **GitHub:** [github.com/stremme1](https://github.com/stremme1)
-
-[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.featured-link}
-:::
-:::
 :::
 
 <script src="scroll-animations.js"></script>

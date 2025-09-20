@@ -1,12 +1,11 @@
 ---
-title: "About"
 ---
 
 ::: {.section-title-container}
 ## About {.section-title}
 :::
 
-::: {.about-intro .scroll-animate}
+::: {.about-hero .scroll-animate}
 Welcome to my technical portfolio! I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions.
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
