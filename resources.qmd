@@ -2,6 +2,10 @@
 title: "Resources"
 ---
 
+::: {.section-title-container}
+## Resources {.section-title}
+:::
+
 ::: {.resources-intro .scroll-animate}
 Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
 :::

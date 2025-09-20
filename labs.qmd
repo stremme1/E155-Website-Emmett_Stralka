@@ -2,6 +2,10 @@
 title: "Labs"
 ---
 
+::: {.section-title-container}
+## Labs {.section-title}
+:::
+
 ::: {.labs-intro .scroll-animate}
 Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
 
@@ -10,89 +14,103 @@ Documentation of my journey through **E155: Microcontrollers and FPGA Design** a
 :::
 :::
 
-::: {.labs-grid}
-::: {.lab-card .completed .scroll-animate-left}
-::: {.lab-icon}
+::: {.featured-grid}
+::: {.featured-card .completed .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
 🔧
 :::
 ### Lab 1
-**FPGA & MCU Setup**
+**FPGA & MCU Setup** {.card-subtitle}
 
 Development environment and system integration with 99.97% UART reliability.
 
-[View Report](LabPdfs/MicroP's Lab1 (2).pdf){.lab-link}
+[View Report](LabPdfs/MicroP's Lab1 (2).pdf){.featured-link}
+:::
 :::
 
-::: {.lab-card .completed .scroll-animate-scale}
-::: {.lab-icon}
+::: {.featured-card .completed .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
 ⚡
 :::
 ### Lab 2
-**Assembly Programming**
+**Assembly Programming** {.card-subtitle}
 
 59.4% performance improvement in FFT and 63% speedup in matrix operations.
 
-[View Report](LabPdfs/MicroP's Lab2.pdf){.lab-link}
+[View Report](LabPdfs/MicroP's Lab2.pdf){.featured-link}
+:::
 :::
 
-::: {.lab-card .in-progress .scroll-animate-right}
-::: {.lab-icon}
+::: {.featured-card .in-progress .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
 ⏱️
 :::
 ### Lab 3
-**Interrupts & Timers**
+**Interrupts & Timers** {.card-subtitle}
 
 Real-time programming with < 1 μs interrupt latency and timer-based operations.
 
-[View Instructions](https://hmc-e155.github.io/lab/lab3/){.lab-link}
+[View Instructions](https://hmc-e155.github.io/lab/lab3/){.featured-link}
+:::
 :::
 
-::: {.lab-card .scroll-animate-left}
-::: {.lab-icon}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
 💾
 :::
 ### Lab 4
-**Memory-Mapped I/O**
+**Memory-Mapped I/O** {.card-subtitle}
 
 Hardware-software interface design with peripheral programming and abstraction layers.
 
-[View Instructions](https://hmc-e155.github.io/lab/lab4/){.lab-link .disabled}
+[View Instructions](https://hmc-e155.github.io/lab/lab4/){.featured-link .disabled}
+:::
 :::
 
-::: {.lab-card .scroll-animate-scale}
-::: {.lab-icon}
+::: {.featured-card .scroll-animate-scale}
+::: {.featured-card-content}
+::: {.featured-icon}
 🚀
 :::
 ### Lab 5
-**Advanced Assembly**
+**Advanced Assembly** {.card-subtitle}
 
 Performance optimization and memory management techniques for embedded systems.
 
-[View Instructions](https://hmc-e155.github.io/lab/lab5/){.lab-link .disabled}
+[View Instructions](https://hmc-e155.github.io/lab/lab5/){.featured-link .disabled}
+:::
 :::
 
-::: {.lab-card .scroll-animate-right}
-::: {.lab-icon}
+::: {.featured-card .scroll-animate-right}
+::: {.featured-card-content}
+::: {.featured-icon}
 🔗
 :::
 ### Lab 6
-**System Integration**
+**System Integration** {.card-subtitle}
 
 Complete embedded system design with real-world applications and testing.
 
-[View Instructions](https://hmc-e155.github.io/lab/lab6/){.lab-link .disabled}
+[View Instructions](https://hmc-e155.github.io/lab/lab6/){.featured-link .disabled}
+:::
 :::
 
-::: {.lab-card .scroll-animate-left}
-::: {.lab-icon}
+::: {.featured-card .scroll-animate-left}
+::: {.featured-card-content}
+::: {.featured-icon}
 🎯
 :::
 ### Lab 7
-**Final Project**
+**Final Project** {.card-subtitle}
 
 Capstone embedded system demonstrating mastery of design and implementation.
 
-[View Instructions](https://hmc-e155.github.io/lab/lab7/){.lab-link .disabled}
+[View Instructions](https://hmc-e155.github.io/lab/lab7/){.featured-link .disabled}
+:::
 :::
 :::
 

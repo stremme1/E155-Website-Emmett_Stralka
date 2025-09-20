@@ -2,6 +2,10 @@
 title: "Resume"
 ---
 
+::: {.section-title-container}
+## Resume {.section-title}
+:::
+
 ::: {.featured-grid}
 ::: {.featured-card .scroll-animate-scale}
 ::: {.featured-card-content}

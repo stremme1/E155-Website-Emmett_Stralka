@@ -2,53 +2,37 @@
 title: "About"
 ---
 
-::: {.featured-grid}
-::: {.featured-card .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
-👨‍💻
+::: {.section-title-container}
+## About {.section-title}
 :::
-### Profile
-**Engineering Student & Technical Innovator** {.card-subtitle}
 
+::: {.about-intro .scroll-animate}
 Welcome to my technical portfolio! I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions.
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
 
 Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, bringing both technical rigor and business acumen to every project.
-
-[View Resume](resume.qmd){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
-🎓
+::: {.section-title-container}
+## Academic Foundation {.section-title}
 :::
-### Academic Foundation
-**Harvey Mudd College** {.card-subtitle}
 
-Dual Major: Engineering & Economics | Expected Graduation: 2026
+::: {.about-section .scroll-animate}
+**Harvey Mudd College** | Dual Major: Engineering & Economics | Expected Graduation: 2026
 
 **Current Coursework:**
 - **E155: Microcontrollers & FPGA Design** - Learning embedded systems and digital design
 - **Digital Electronics** - Circuit design and analysis fundamentals
 - **Product Management** - Understanding business strategy and market analysis
 - **Economic Analysis** - Quantitative methods and decision-making frameworks
-
-[View Labs](labs.qmd){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-right}
-::: {.featured-card-content}
-::: {.featured-icon}
-🚀
+::: {.section-title-container}
+## Technical Projects & Interests {.section-title}
 :::
-### Technical Projects & Interests
-**Embedded Systems & Innovation** {.card-subtitle}
 
+::: {.about-section .scroll-animate}
 **Embedded Systems Development:**
 - ARM assembly programming, digital circuit design, real-time systems
 - FPGA programming, microcontroller architecture, hardware-software integration
@@ -59,19 +43,13 @@ Dual Major: Engineering & Economics | Expected Graduation: 2026
 - Machine learning and signal processing
 - Product development and engineering management
 - Sustainable technology and renewable energy systems
-
-[View Projects](projects.qmd){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-left}
-::: {.featured-card-content}
-::: {.featured-icon}
-⚡
+::: {.section-title-container}
+## E155: Microcontrollers & FPGA Design {.section-title}
 :::
-### E155: Microcontrollers & FPGA Design
-**Course Overview & Technical Achievements** {.card-subtitle}
 
+::: {.about-section .scroll-animate}
 This website documents my comprehensive journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.
 
 **Technical Skills Being Developed:**
@@ -79,38 +57,26 @@ This website documents my comprehensive journey through **E155: Microcontrollers
 - **Microcontroller Architecture**: ARM Cortex-M4 architecture and peripheral programming
 - **Assembly Language**: ARM assembly programming and optimization techniques
 - **Real-time Systems**: Interrupt-driven programming and system timing
-
-[View Resources](resources.qmd){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-scale}
-::: {.featured-card-content}
-::: {.featured-icon}
-🎯
+::: {.section-title-container}
+## My Approach to Engineering {.section-title}
 :::
-### My Approach to Engineering
-**Problem-Solving Philosophy** {.card-subtitle}
 
+::: {.about-section .scroll-animate}
 I believe in a systematic approach to engineering challenges:
 
 **1. Understanding the Problem** - Analyzing requirements, constraints, and stakeholder needs
 **2. Research & Analysis** - Investigating existing solutions and emerging technologies
 **3. Iterative Design** - Building prototypes and refining solutions based on feedback
 **4. Documentation & Communication** - Clearly documenting decisions and processes
-
-[Connect With Me](#contact){.featured-link}
-:::
 :::
 
-::: {.featured-card .scroll-animate-right}
-::: {.featured-card-content}
-::: {.featured-icon}
-🤝
+::: {.section-title-container}
+## Connect With Me {.section-title}
 :::
-### Connect With Me
-**Let's Collaborate** {.card-subtitle}
 
+::: {.about-section .scroll-animate}
 I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:
 
 - Technical collaboration on embedded systems projects
@@ -121,10 +87,6 @@ I'm always excited to connect with fellow engineers, researchers, and innovators
 **Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)  
 **LinkedIn:** [linkedin.com/in/emmett-stralka-b41575213](https://www.linkedin.com/in/emmett-stralka-b41575213/)  
 **GitHub:** [github.com/stremme1](https://github.com/stremme1)
-
-[Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.featured-link}
-:::
-:::
 :::
 
 <script src="scroll-animations.js"></script>
