@@ -195,7 +195,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
 
 /* Fix vertical alignment of section titles in two-column layout */
 .two-column-layout .section-title-container {
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
   min-height: 60px;
   display: flex;
   align-items: center;
@@ -642,7 +642,7 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
 /* Specifically target section titles within two-column layout - keep centered */
 .two-column-layout .section-title {
   text-align: center !important;
-  margin-bottom: var(--space-6) !important;
+  margin-bottom: var(--space-4) !important;
   background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
