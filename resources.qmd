@@ -3,7 +3,8 @@ title: "Resources"
 subtitle: "Learning Materials & Development Tools"
 ---
 
-::: {.resources-intro}
+::: {.resources-intro .apple-full-width}
+::: {.apple-content-wrapper}
 # Resources {.resources-title}
 
 ## Learning Materials & Development Tools {.resources-subtitle}
@@ -15,7 +16,9 @@ Comprehensive collection of resources, tools, and references that have been inst
 [View Labs](labs.qmd){.btn .btn-secondary}
 :::
 :::
+:::
 
+::: {.apple-section}
 ## Resource Categories {.section-title}
 
 ::: {.resources-grid}
@@ -105,8 +108,10 @@ Comprehensive guides and references for embedded systems:
 
 :::
 :::
+:::
 
-::: {.additional-resources .scroll-animate}
+::: {.additional-resources .apple-full-width .scroll-animate}
+::: {.apple-content-wrapper}
 ## Additional Resources {.section-title}
 
 ### Professional Networks & Collaboration
@@ -130,6 +135,7 @@ Interested in collaborating on embedded systems projects, discussing engineering
 - Assembly language programming and performance tuning
 - Product management in technical domains
 - Engineering education and mentorship
+:::
 :::
 
 <script src="scroll-animations.js"></script>

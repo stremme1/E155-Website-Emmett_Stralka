@@ -3,7 +3,8 @@ title: "About Emmett Stralka"
 subtitle: "Engineering Student | Technical Innovator | Problem Solver"
 ---
 
-::: {.about-intro}
+::: {.about-intro .apple-full-width}
+::: {.apple-content-wrapper}
 # About Me {.about-title}
 
 ## Engineering Student & Technical Innovator {.about-subtitle}
@@ -13,7 +14,9 @@ bridging the gap between innovative technology and practical solutions.
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
 :::
+:::
 
+::: {.apple-section}
 ## My Journey {.section-title}
 
 ::: {.journey-grid}
@@ -126,7 +129,10 @@ Beyond academics and engineering, I maintain a balanced lifestyle that supports 
 :::
 
 :::
+:::
 
+::: {.e155-section .apple-full-width}
+::: {.apple-content-wrapper}
 ## E155: Microcontrollers & FPGA Design {.section-title}
 
 ::: {.e155-section}
@@ -155,7 +161,9 @@ This website documents my comprehensive journey through **E155: Microcontrollers
 Each lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design with measurable technical outcomes.
 :::
 :::
+:::
 
+::: {.apple-section}
 ## My Approach to Engineering {.section-title}
 
 ::: {.approach-section}
@@ -180,7 +188,10 @@ Building prototypes, testing assumptions, and refining solutions based on real-w
 Clearly documenting decisions, processes, and outcomes to enable knowledge sharing and future improvements.
 :::
 :::
+:::
 
+::: {.connect-section .apple-full-width}
+::: {.apple-content-wrapper}
 ## Connect With Me {.section-title}
 
 ::: {.connect-section}
@@ -200,6 +211,7 @@ I'm always excited to connect with fellow engineers, researchers, and innovators
 ::: {.cta-buttons}
 [Connect on LinkedIn](https://www.linkedin.com/in/emmett-stralka-b41575213/){.btn .btn-primary target="_blank"}
 [View My GitHub](https://github.com/stremme1){.btn .btn-secondary target="_blank"}
+:::
 :::
 :::
 :::

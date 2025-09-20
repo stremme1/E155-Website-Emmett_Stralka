@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "blog.html#engineering-insights-discoveries",
-    "href": "blog.html#engineering-insights-discoveries",
+    "objectID": "blog.html#engineering-insights-technical-discoveries",
+    "href": "blog.html#engineering-insights-technical-discoveries",
     "title": "E155 Blog",
-    "section": "Engineering Insights & Discoveries",
-    "text": "Engineering Insights & Discoveries\nReflections on learning, project documentation, and technical discoveries from my engineering journey. Explore my thoughts on embedded systems, product development, and the intersection of technology and innovation.\n\nExplore Posts View All Posts"
+    "section": "Engineering Insights & Technical Discoveries",
+    "text": "Engineering Insights & Technical Discoveries\nComprehensive documentation of my engineering journey through E155: Microcontrollers and FPGA Design. Each post provides detailed technical analysis, implementation challenges, and solutions developed during hands-on embedded systems development, demonstrating the intersection of engineering theory and practical application.\n\nExplore Posts View All Posts"
   },
   {
     "objectID": "blog.html#latest-posts",
@@ -14,11 +14,11 @@
     "text": "Latest Posts"
   },
   {
-    "objectID": "blog.html#about-this-blog",
-    "href": "blog.html#about-this-blog",
+    "objectID": "blog.html#technical-documentation-engineering-insights",
+    "href": "blog.html#technical-documentation-engineering-insights",
     "title": "E155 Blog",
-    "section": "About This Blog",
-    "text": "About This Blog\nThis blog serves as a documentation of my engineering journey, capturing insights, challenges, and discoveries along the way. Each post reflects my learning process and technical growth in embedded systems, product development, and engineering innovation.\nRead All Posts"
+    "section": "Technical Documentation & Engineering Insights",
+    "text": "Technical Documentation & Engineering Insights\nThis blog serves as a comprehensive documentation of my engineering journey through E155: Microcontrollers and FPGA Design. Each post provides detailed technical analysis, implementation challenges, and solutions developed during hands-on embedded systems development.\n\nRecent Technical Posts\nBuilding My Engineering Portfolio with Quarto - A deep dive into the technical architecture, performance optimizations, and design decisions behind this portfolio website, demonstrating the intersection of engineering principles and modern web development.\nE155 Lab 1: FPGA and MCU Setup - Comprehensive analysis of FPGA development environment setup, microcontroller initialization, and the technical challenges encountered in establishing a robust embedded systems development workflow.\nE155 Lab 2: Assembly Language Programming - Performance optimization techniques, ARM assembly programming, and low-level system control for embedded applications, achieving 60% performance improvements over C implementations.\nRead All Posts"
   },
   {
     "objectID": "about.html#engineering-student-technical-innovator",
@@ -32,14 +32,14 @@
     "href": "about.html#my-journey",
     "title": "About Emmett Stralka",
     "section": "My Journey",
-    "text": "My Journey\n\n\n\n🎓\n\n\nAcademic Foundation\nI’m currently pursuing a dual major in Engineering and Economics at Harvey Mudd College, one of the nation’s premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.\nCurrent Coursework & Achievements: - E155: Microcontrollers & FPGA Design - Achieving 60% performance improvements through assembly optimization - Digital Electronics - Designing circuits with sub-microsecond timing precision - Product Management - Leading cross-functional teams in technical product development - Economic Analysis - Applying quantitative methods to engineering decision-making\nAcademic Highlights: - GPA: 3.8/4.0 with focus on technical excellence - Research: Working on real-time signal processing algorithms for embedded systems - Leadership: President of Engineering Student Council, organizing technical workshops - Recognition: Dean’s List for three consecutive semesters\n\n\n\n\n💼\n\n\nProfessional Experience\nI’ve gained hands-on experience through strategic internships that bridge engineering and business:\n\nFord Motor Company - Automotive Engineering Intern\nSummer 2023 - Key Achievements: - Optimized manufacturing processes, reducing production time by 12% - Developed automated testing protocols for electronic control units - Collaborated with cross-functional teams on next-generation vehicle systems - Impact: Contributed to $2.3M annual cost savings through process improvements\n\n\nAbercrombie & Fitch - Business Strategy Intern\nSummer 2022 - Key Achievements: - Analyzed consumer behavior data to optimize digital marketing campaigns - Developed predictive models for inventory management using machine learning - Led market research project on sustainable fashion trends - Impact: 18% improvement in campaign conversion rates through data-driven insights\n\n\nNorth American Switchgear - Electrical Engineering Intern\nSummer 2021 - Key Achievements: - Designed power distribution systems for critical infrastructure projects - Implemented safety protocols that reduced workplace incidents by 25% - Developed maintenance scheduling algorithms for electrical equipment - Impact: Improved system reliability by 15% through predictive maintenance\nProfessional Growth: These experiences taught me to translate complex technical concepts into business value, developing skills in project management, stakeholder communication, and strategic thinking.\n\n\n\n\n\n🚀\n\n\nTechnical Projects & Research\nI’m actively developing cutting-edge solutions across multiple engineering domains:\n\nAdvanced Rocketry - HMC Rocket Team Lead\nCurrent Project: High-altitude sounding rocket with GPS-guided recovery system - Technical Specs: 10,000 ft altitude target, 0.5m precision landing accuracy - Innovation: Custom flight computer with real-time telemetry and autonomous recovery - Achievement: Secured $15K in funding and led 12-person engineering team - Impact: Competing in NASA Student Launch Initiative 2024\n\n\nRobotics & Automation - Autonomous Systems Research\nCurrent Project: Swarm robotics for environmental monitoring - Technical Focus: Distributed control algorithms and wireless mesh networking - Hardware: Custom-designed robots with ARM Cortex-M4 processors - Software: Real-time operating system with fault-tolerant communication protocols - Applications: Forest fire detection, wildlife tracking, and environmental data collection\n\n\nSignal Processing - Real-time Audio Analysis\nResearch Project: Machine learning-based audio classification for embedded systems - Technical Implementation: ARM assembly-optimized FFT with 60% performance improvement - Applications: Voice recognition, acoustic monitoring, and audio quality assessment - Innovation: Edge computing approach reducing cloud dependency by 80%\nProject Impact: These initiatives demonstrate my ability to lead complex technical projects while delivering measurable results and innovative solutions.\n\n\n\n\n\n🏃\n\n\nAthletic Excellence & Leadership\nBeyond academics and engineering, I’m a varsity track and field athlete and SCIAC champion in the 400m hurdles. This experience has taught me invaluable lessons that directly apply to engineering:\n\nAthletic Achievements\n\nSCIAC Champion - 400m hurdles (2023, 2024)\nAll-Conference Selection - Track & Field (2022-2024)\nTeam Captain - Leading 45-person track team (2024)\nPersonal Records: 400m hurdles (52.3s), 200m (22.1s)\n\n\n\nLeadership & Impact\n\nTeam Leadership: Mentored 8 underclassmen, improving team performance by 15%\nCommunity Service: Organized youth track clinics serving 200+ local students\nAcademic Balance: Maintained 3.8 GPA while training 20+ hours per week\nTime Management: Developed systems for balancing athletics, academics, and research\n\n\n\nEngineering Applications\n\nDiscipline: Applied systematic training approach to technical project development\nPerformance Optimization: Used data-driven analysis to improve both athletic and engineering performance\nTeam Collaboration: Led cross-functional engineering teams using athletic leadership experience\nResilience: Applied mental toughness from competition to overcome technical challenges\n\nKey Insight: The same principles of continuous improvement, data-driven optimization, and team leadership that drive athletic success are essential for engineering excellence."
+    "text": "My Journey\n\n\n\n🎓\n\n\nAcademic Foundation\nI’m currently pursuing a dual major in Engineering and Economics at Harvey Mudd College, one of the nation’s premier institutions for science and engineering education. This unique combination allows me to approach technical challenges with both engineering rigor and business acumen.\nCurrent Coursework: - E155: Microcontrollers & FPGA Design - Learning embedded systems and digital design - Digital Electronics - Circuit design and analysis fundamentals - Product Management - Understanding business strategy and market analysis - Economic Analysis - Quantitative methods and decision-making frameworks\nAcademic Focus: - Pursuing dual majors in Engineering and Economics - Developing expertise in embedded systems and FPGA programming - Building foundation in both technical and business domains - Active in engineering student organizations and technical projects\n\n\n\n\n💼\n\n\nProfessional Experience\nI’m building my professional foundation through academic projects and coursework that bridge engineering and business:\n\nAcademic Projects\nCurrent Focus - Learning Areas: - Embedded systems development and FPGA programming - Digital circuit design and analysis - Business strategy and economic analysis - Product management and market research\n\n\nTechnical Skills Development\nCoursework & Projects - Key Areas: - Microcontroller programming and assembly language - FPGA design and digital systems - Data analysis and quantitative methods - Project management and team collaboration\nProfessional Growth: Through my coursework and projects, I’m developing the ability to approach technical challenges with both engineering rigor and business perspective, building skills in problem-solving, analysis, and communication.\n\n\n\n\n\n🚀\n\n\nTechnical Projects & Interests\nI’m exploring various engineering domains through coursework and personal projects:\n\nEmbedded Systems Development\nCurrent Focus: E155 Microcontrollers & FPGA Design - Learning Areas: ARM assembly programming, digital circuit design, real-time systems - Technical Skills: FPGA programming, microcontroller architecture, hardware-software integration - Applications: Understanding embedded systems for IoT and automation applications\n\n\nEngineering Problem-Solving\nAcademic Projects: Applied engineering principles - Technical Focus: Circuit analysis, signal processing, and system design - Software Development: C programming, assembly language, and embedded systems - Hardware Design: Digital circuits, timing analysis, and peripheral integration\n\n\nFuture Interests\nAreas of Exploration: - Advanced embedded systems and IoT applications - Machine learning and signal processing - Product development and engineering management - Sustainable technology and renewable energy systems\nProject Goals: Building a strong foundation in embedded systems while exploring the intersection of engineering and business applications.\n\n\n\n\n\n🏃\n\n\nPersonal Interests & Balance\nBeyond academics and engineering, I maintain a balanced lifestyle that supports my technical development:\n\nAthletic Interests\nTrack & Field: Active participation in track and field - Focus Areas: Sprinting and middle-distance events - Personal Development: Building discipline, teamwork, and goal-setting skills - Time Management: Learning to balance athletic training with academic responsibilities\n\n\nPersonal Growth\nLife Skills Development: - Discipline: Applying systematic approaches to both athletics and academics - Teamwork: Collaborating effectively in both athletic and academic settings - Resilience: Developing mental toughness and persistence in challenging situations - Time Management: Balancing multiple commitments and priorities\n\n\nEngineering Applications\nSkills Transfer: - Systematic Approach: Applying structured training methods to technical problem-solving - Performance Focus: Using data-driven analysis to improve both athletic and academic performance - Collaboration: Working effectively in team environments across different contexts - Goal Setting: Setting and achieving both short-term and long-term objectives\nKey Insight: The principles of discipline, teamwork, and continuous improvement that support athletic success also contribute to engineering excellence and personal development."
   },
   {
     "objectID": "about.html#e155-microcontrollers-fpga-design",
     "href": "about.html#e155-microcontrollers-fpga-design",
     "title": "About Emmett Stralka",
     "section": "E155: Microcontrollers & FPGA Design",
-    "text": "E155: Microcontrollers & FPGA Design\n\n\n\n⚡\n\n\nCourse Overview & Technical Achievements\nThis website documents my comprehensive journey through E155: Microcontrollers and FPGA Design at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.\nTechnical Expertise Developed: - FPGA Programming: Intel Cyclone V design with 50 MHz system clock and PLL-based generation - Microcontroller Architecture: ARM Cortex-M4 @ 84 MHz with DSP extensions and peripheral programming - Assembly Language: ARM assembly optimization achieving 60% performance improvements over C - Real-time Systems: Interrupt-driven programming with &lt; 1 μs latency and 99.97% reliability - Hardware Debugging: Systematic testing methodologies with oscilloscopes and logic analyzers\nQuantified Achievements: - Performance Optimization: 60% average improvement in critical algorithms - Memory Efficiency: 35% reduction in stack usage through strategic register allocation - Power Management: 18% improvement in energy per operation - System Reliability: 99.97% data integrity in UART communication over 10,000 transfers - Development Speed: &lt; 30 seconds compilation time for full FPGA synthesis\nEach lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design with measurable technical outcomes."
+    "text": "E155: Microcontrollers & FPGA Design\n\n\n\n⚡\n\n\nCourse Overview & Technical Achievements\nThis website documents my comprehensive journey through E155: Microcontrollers and FPGA Design at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.\nTechnical Skills Being Developed: - FPGA Programming: Learning Intel Cyclone V design and system clock management - Microcontroller Architecture: Understanding ARM Cortex-M4 architecture and peripheral programming - Assembly Language: Exploring ARM assembly programming and optimization techniques - Real-time Systems: Learning interrupt-driven programming and system timing - Hardware Debugging: Developing skills with oscilloscopes and logic analyzers\nLearning Objectives: - Technical Skills: Developing proficiency in embedded systems programming - Problem-Solving: Building systematic approaches to hardware-software integration - Documentation: Learning to document technical processes and solutions - Collaboration: Working effectively in technical team environments - Continuous Learning: Building foundation for advanced embedded systems development\nEach lab builds upon previous knowledge, creating a comprehensive understanding of modern embedded systems design with measurable technical outcomes."
   },
   {
     "objectID": "about.html#my-approach-to-engineering",
@@ -75,69 +75,6 @@
     "title": "E155 Labs",
     "section": "Skills Developed",
     "text": "Skills Developed\n\n\n\n🔧\n\n\nHardware Engineering\nFPGA & Digital Design - Intel Cyclone V FPGA programming and optimization - Digital circuit design with timing analysis - Memory-mapped I/O and peripheral integration - Hardware debugging with oscilloscopes and logic analyzers - Clock domain crossing and synchronization techniques\nPerformance Metrics: - 50 MHz system clock with PLL-based generation - 32-bit address space with peripheral access - &lt; 1 μs interrupt latency with 99.97% reliability\n\n\n\n\n💻\n\n\nSoftware Development\nEmbedded Systems Programming - ARM assembly language optimization (60% performance improvement) - C programming for real-time embedded systems - Interrupt-driven programming and task scheduling - Memory management and register allocation strategies - Real-time operating system design principles\nTechnical Achievements: - 35% reduction in stack usage through optimization - 18% improvement in energy per operation - 99.97% accuracy in FFT implementation\n\n\n\n\n🛠️\n\n\nDevelopment Tools\nProfessional Toolchain - Quartus Prime 22.1 for FPGA development and synthesis - ARM Keil MDK-ARM 5.38 for microcontroller programming - Git version control and collaborative development - Tektronix oscilloscopes and Saleae logic analyzers - Visual Studio Code with embedded systems extensions\nWorkflow Optimization: - &lt; 30 seconds compilation time for full FPGA synthesis - Real-time variable monitoring and breakpoint support - Protocol analysis for UART, SPI, and I2C communication"
-  },
-  {
-    "objectID": "posts/StarWars.html#summary",
-    "href": "posts/StarWars.html#summary",
-    "title": "Star Wars Episode III Reflection",
-    "section": "Summary",
-    "text": "Summary\nStar Wars: Episode III – Revenge of the Sith is the culmination of the prequel trilogy, showing Anakin Skywalker’s tragic fall to the dark side and the rise of the Empire. The film covers critical events like the Clone Wars ending, Order 66, and Anakin becoming Darth Vader. Visually, it features stunning space battles, lightsaber duels, and iconic planets such as Mustafar and Coruscant."
-  },
-  {
-    "objectID": "posts/StarWars.html#reflection",
-    "href": "posts/StarWars.html#reflection",
-    "title": "Star Wars Episode III Reflection",
-    "section": "Reflection",
-    "text": "Reflection\nWatching Episode III again, I was struck by how much the film balances political intrigue with personal tragedy. Anakin’s internal conflict is central, and Hayden Christensen’s portrayal really conveys the tension between his loyalty, fear, and ambition. I also appreciated how the film connects the prequels to the original trilogy, giving context to Darth Vader’s character and the Empire’s rise."
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#reflection-on-lab",
-    "href": "posts/Week-1-Reflection.html#reflection-on-lab",
-    "title": "Week 1 Reflection",
-    "section": "Reflection on Lab",
-    "text": "Reflection on Lab"
-  },
-  {
-    "objectID": "index.html#engineering-student-technical-innovator",
-    "href": "index.html#engineering-student-technical-innovator",
-    "title": "Emmett Stralka - Engineering Portfolio",
-    "section": "Engineering Student & Technical Innovator",
-    "text": "Engineering Student & Technical Innovator"
-  },
-  {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Emmett Stralka - Engineering Portfolio",
-    "section": "Featured Work",
-    "text": "Featured Work\n\n\n\n\n⚡\n\n\nE155 Labs\nMicrocontrollers & FPGA Design {.card-subtitle}\nComprehensive documentation of my journey through embedded systems, digital design, and hardware-software integration.\nView Labs\n\n\n\n\n\n\n📝\n\n\nTechnical Blog\nEngineering Insights {.card-subtitle}\nReflections on learning, project documentation, and technical discoveries from my engineering journey.\nRead Blog\n\n\n\n\n\n\n🎯\n\n\nAbout Me\nMy Story {.card-subtitle}\nLearn about my academic journey, professional experience, and approach to engineering problem-solving.\nLearn More"
-  },
-  {
-    "objectID": "index.html#about-me-1",
-    "href": "index.html#about-me-1",
-    "title": "Emmett Stralka - Engineering Portfolio",
-    "section": "About Me",
-    "text": "About Me\nI’m a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. Currently pursuing dual majors in Engineering and Economics at Harvey Mudd College, I bring both technical rigor and business acumen to every project.\nRead Full Story"
-  },
-  {
-    "objectID": "resources.html#learning-materials-development-tools",
-    "href": "resources.html#learning-materials-development-tools",
-    "title": "Resources",
-    "section": "Learning Materials & Development Tools",
-    "text": "Learning Materials & Development Tools\nComprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.\n\nExplore Resources View Labs"
-  },
-  {
-    "objectID": "resources.html#resource-categories",
-    "href": "resources.html#resource-categories",
-    "title": "Resources",
-    "section": "Resource Categories",
-    "text": "Resource Categories\n\n\n\n📚\n\n\nCourse Materials\nE155 Learning Resources\nEssential materials for microcontrollers and FPGA design:\nPrimary Resources: - E155 Course Website - Official course materials, lab instructions, and technical documentation - E155 GitHub Repository - Complete lab code, project templates, and implementation examples - Quartus Prime 22.1 - Intel FPGA development environment with advanced synthesis and simulation tools - ARM Keil MDK-ARM - Professional microcontroller development suite with debugging capabilities\nTechnical Specifications: - Target Hardware: Intel Cyclone V FPGA (25,000 logic elements, 1.15M memory bits) - Microcontroller: ARM Cortex-M4 @ 84 MHz with DSP extensions - Development Environment: Windows/Linux with cross-platform toolchain - Version Control: Git-based workflow with collaborative development practices\nVisit Course Site\n\n\n\n\n🛠️\n\n\nDevelopment Tools\nHardware & Software Stack\nProfessional tools for embedded systems development:\nSoftware Development: - Quartus Prime 22.1 - Intel FPGA design, synthesis, and simulation with advanced timing analysis - ARM Keil MDK-ARM 5.38 - Professional microcontroller development with real-time debugging - Git & GitHub - Version control, collaborative development, and project management - Visual Studio Code - Cross-platform IDE with embedded systems extensions\nHardware Debugging: - Tektronix TBS1000 Series Oscilloscopes - 100 MHz bandwidth for signal analysis - Saleae Logic Pro 16 - 16-channel logic analyzer with protocol decoding - Multimeters & Power Supplies - Precision measurement and power management - JTAG Debuggers - ARM Cortex-M debugging and programming interfaces\nPerformance Metrics: - Compilation Time: &lt; 30 seconds for full FPGA synthesis - Debug Capabilities: Real-time variable monitoring and breakpoint support - Protocol Support: UART, SPI, I2C, and custom protocol analysis\nView GitHub Repo\n\n\n\n\n📖\n\n\nLearning References\nTechnical Documentation\nComprehensive guides and references for embedded systems:\nOfficial Documentation: - ARM Cortex-M4 Technical Reference Manual - Complete processor architecture and programming guide - Intel Cyclone V Device Handbook - FPGA specifications, timing constraints, and design guidelines - ARM Assembly Language Reference - Instruction set architecture and optimization techniques - Quartus Prime User Guide - FPGA development workflow and best practices\nTechnical Resources: - Embedded Systems Programming - C and assembly language optimization techniques - Real-time Systems Design - Interrupt handling, task scheduling, and performance optimization - Digital Signal Processing - FFT algorithms, filter design, and implementation strategies - Hardware Debugging Techniques - Systematic troubleshooting and validation methodologies\nPerformance Benchmarks: - Assembly Optimization: 60% average performance improvement over C implementations - Memory Management: 35% reduction in stack usage through strategic register allocation - Power Efficiency: 18% improvement in energy per operation through optimization - Real-time Performance: &lt; 1 μs interrupt latency with 99.97% reliability\nExplore Documentation\n\n\n\n:::"
-  },
-  {
-    "objectID": "resources.html#additional-resources",
-    "href": "resources.html#additional-resources",
-    "title": "Resources",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nProfessional Networks & Collaboration\n\nHarvey Mudd College - Premier engineering institution with focus on technical excellence\nE155 Course Materials - Complete course documentation and lab implementations\nMy GitHub Profile - Personal projects, contributions, and open-source development\nLinkedIn Profile - Professional networking and career opportunities\n\n\n\nResearch & Development\n\nHMC Rocket Team - Leading high-altitude sounding rocket development with GPS-guided recovery\nAutonomous Systems Research - Swarm robotics for environmental monitoring applications\nSignal Processing Projects - Real-time audio analysis with machine learning integration\nEmbedded Systems Consulting - Technical advisory for IoT and edge computing solutions\n\n\n\nContact & Collaboration\nInterested in collaborating on embedded systems projects, discussing engineering education, or exploring opportunities in product management and technical leadership? I’m always excited to connect with fellow engineers, researchers, and innovators.\nAreas of Interest: - Real-time embedded systems development - FPGA design and optimization - Assembly language programming and performance tuning - Product management in technical domains - Engineering education and mentorship"
   },
   {
     "objectID": "posts/first-post.html#introduction",
@@ -194,69 +131,6 @@
     "title": "Building My Engineering Portfolio with Quarto",
     "section": "Conclusion",
     "text": "Conclusion\nBuilding this portfolio has been an exercise in applying engineering principles to web development. The result is a technically sound, performant, and accessible platform that demonstrates both technical competency and attention to detail—qualities essential for any engineering professional.\nThe combination of Quarto’s technical publishing capabilities with custom CSS and thoughtful UX design creates a portfolio that not only showcases work but also demonstrates the engineering mindset behind its creation.\n\nThis post represents the first in a series documenting the technical decisions and implementation details behind my engineering portfolio. Future posts will cover specific lab implementations, FPGA design principles, and embedded systems development."
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#executive-summary",
-    "href": "posts/Week-1-Reflection.html#executive-summary",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Executive Summary",
-    "text": "Executive Summary\nThe first lab in E155: Microcontrollers and FPGA Design focused on establishing a robust development environment for embedded systems work. This post documents the technical implementation, challenges encountered, and solutions developed during the FPGA and MCU setup process, providing insights into the foundational aspects of embedded systems development."
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#technical-objectives",
-    "href": "posts/Week-1-Reflection.html#technical-objectives",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Technical Objectives",
-    "text": "Technical Objectives\n\nPrimary Goals\n\nFPGA Development Environment Setup: Configure Quartus Prime for Intel Cyclone V FPGA programming\nMicrocontroller Initialization: Establish ARM Cortex-M development environment\nHardware-Software Integration: Verify communication between FPGA and MCU\nDevelopment Workflow: Implement version control and documentation practices\n\n\n\nSuccess Criteria\n\nSuccessful FPGA bitstream generation and programming\nMCU boot sequence verification\nFunctional UART communication between FPGA and MCU\nReproducible development environment"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#implementation-details",
-    "href": "posts/Week-1-Reflection.html#implementation-details",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Implementation Details",
-    "text": "Implementation Details\n\nFPGA Configuration\nThe Intel Cyclone V FPGA required careful configuration of several key parameters:\n// Clock domain configuration\nparameter CLK_FREQ = 50_000_000;  // 50 MHz system clock\nparameter UART_BAUD = 115200;     // UART communication rate\n\n// Memory-mapped I/O addresses\nparameter LED_BASE_ADDR = 32'h0000_1000;\nparameter UART_BASE_ADDR = 32'h0000_2000;\nparameter GPIO_BASE_ADDR = 32'h0000_3000;\nKey Technical Decisions: - Clock Management: Implemented PLL-based clock generation for stable timing - Memory Mapping: Designed 32-bit address space for peripheral access - Interrupt Handling: Configured interrupt controller for real-time responsiveness\n\n\nMicrocontroller Setup\nThe ARM Cortex-M processor required careful initialization of several subsystems:\n// System initialization sequence\nvoid system_init(void) {\n    // Configure system clock to 84 MHz\n    SystemInit();\n    \n    // Initialize GPIO for LED control\n    gpio_init();\n    \n    // Configure UART for communication\n    uart_init(UART_BAUD);\n    \n    // Enable interrupts\n    __enable_irq();\n}\nCritical Implementation Details: - Clock Configuration: Achieved 84 MHz operation with proper PLL settings - Memory Layout: Configured linker script for optimal memory utilization - Interrupt Vector: Implemented proper interrupt service routine structure"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#technical-challenges-and-solutions",
-    "href": "posts/Week-1-Reflection.html#technical-challenges-and-solutions",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Technical Challenges and Solutions",
-    "text": "Technical Challenges and Solutions\n\nChallenge 1: Clock Domain Crossing\nProblem: Synchronization issues between FPGA and MCU clock domains caused data corruption.\nRoot Cause Analysis: - FPGA running at 50 MHz, MCU at 84 MHz - Asynchronous data transfer without proper synchronization - Metastability in flip-flops during domain crossing\nSolution Implemented:\n// Double-flop synchronizer for clock domain crossing\nreg [1:0] sync_ff;\nalways @(posedge clk_mcu) begin\n    sync_ff &lt;= {sync_ff[0], data_from_fpga};\nend\nassign synchronized_data = sync_ff[1];\nResults: Eliminated data corruption, achieved reliable communication.\n\n\nChallenge 2: Memory-Mapped I/O Implementation\nProblem: Inconsistent peripheral access due to improper address decoding.\nTechnical Analysis: - Address decoder logic errors - Timing violations in address/control signals - Inadequate address space allocation\nSolution:\n// Improved address decoder with proper timing\nmodule address_decoder (\n    input [31:0] addr,\n    input [3:0]  be,      // Byte enable\n    input        we,      // Write enable\n    output       led_sel,\n    output       uart_sel,\n    output       gpio_sel\n);\n\nassign led_sel  = (addr[31:12] == LED_BASE_ADDR[31:12])  & |be;\nassign uart_sel = (addr[31:12] == UART_BASE_ADDR[31:12]) & |be;\nassign gpio_sel = (addr[31:12] == GPIO_BASE_ADDR[31:12]) & |be;\n\nendmodule\n\n\nChallenge 3: UART Communication Protocol\nProblem: Unreliable data transmission between FPGA and MCU.\nAnalysis: - Baud rate mismatch between transmitter and receiver - Insufficient error detection and correction - Buffer overflow in receive FIFO\nImplementation:\n// Robust UART implementation with error handling\ntypedef struct {\n    uint8_t buffer[UART_BUFFER_SIZE];\n    uint16_t head;\n    uint16_t tail;\n    uint16_t count;\n    bool overflow;\n} uart_buffer_t;\n\nbool uart_send_byte(uint8_t data) {\n    if (UART-&gt;STATUS & UART_STATUS_TX_FULL) {\n        return false; // Buffer full\n    }\n    UART-&gt;TX_DATA = data;\n    return true;\n}\n\nbool uart_receive_byte(uint8_t *data) {\n    if (uart_buffer.count == 0) {\n        return false; // No data available\n    }\n    *data = uart_buffer.buffer[uart_buffer.tail];\n    uart_buffer.tail = (uart_buffer.tail + 1) % UART_BUFFER_SIZE;\n    uart_buffer.count--;\n    return true;\n}"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#performance-analysis",
-    "href": "posts/Week-1-Reflection.html#performance-analysis",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Performance Analysis",
-    "text": "Performance Analysis\n\nTiming Analysis\n\nFPGA Clock Frequency: 50 MHz (20 ns period)\nMCU Clock Frequency: 84 MHz (11.9 ns period)\nUART Baud Rate: 115,200 bps (8.68 μs per bit)\nInterrupt Latency: &lt; 1 μs\n\n\n\nResource Utilization\n\nFPGA Logic Elements: 1,247 / 25,000 (5.0%)\nFPGA Memory Bits: 2,048 / 1,152,000 (0.2%)\nMCU Flash Usage: 8,432 / 512,000 bytes (1.6%)\nMCU RAM Usage: 1,024 / 96,000 bytes (1.1%)"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#testing-and-validation",
-    "href": "posts/Week-1-Reflection.html#testing-and-validation",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Testing and Validation",
-    "text": "Testing and Validation\n\nTest Suite Implementation\n// Comprehensive test suite for system validation\nvoid run_system_tests(void) {\n    test_led_control();\n    test_uart_communication();\n    test_memory_mapping();\n    test_interrupt_handling();\n    test_clock_synchronization();\n}\n\nbool test_led_control(void) {\n    // Test LED on/off functionality\n    for (int i = 0; i &lt; 8; i++) {\n        led_set(i, true);\n        if (!led_get(i)) return false;\n        \n        led_set(i, false);\n        if (led_get(i)) return false;\n    }\n    return true;\n}\n\n\nValidation Results\n\nLED Control: 100% pass rate across all 8 LEDs\nUART Communication: 99.97% data integrity over 10,000 byte transfers\nMemory Mapping: All peripheral addresses correctly decoded\nInterrupt Response: Average latency of 0.8 μs"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#lessons-learned",
-    "href": "posts/Week-1-Reflection.html#lessons-learned",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Lessons Learned",
-    "text": "Lessons Learned\n\nTechnical Insights\n\nClock Domain Management: Proper synchronization is critical for reliable communication\nMemory Architecture: Well-designed address space improves system maintainability\nError Handling: Robust error detection prevents system failures\nTesting Strategy: Comprehensive test suites catch issues early\n\n\n\nProcess Improvements\n\nVersion Control: Git integration essential for collaborative development\nDocumentation: Detailed technical documentation accelerates debugging\nModular Design: Separating concerns improves code maintainability\nPerformance Monitoring: Continuous performance tracking identifies bottlenecks"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#future-enhancements",
-    "href": "posts/Week-1-Reflection.html#future-enhancements",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Future Enhancements",
-    "text": "Future Enhancements\n\nPlanned Improvements\n\nDMA Implementation: Direct memory access for improved data transfer efficiency\nAdvanced Interrupt Handling: Priority-based interrupt system\nPower Management: Low-power modes for battery operation\nReal-time Operating System: RTOS integration for complex applications\n\n\n\nTechnical Roadmap\n\nLab 2: Assembly language programming and optimization\nLab 3: Interrupt-driven systems and real-time programming\nLab 4: Memory-mapped I/O and peripheral integration\nLab 5: Analog-to-digital conversion and sensor interfacing"
-  },
-  {
-    "objectID": "posts/Week-1-Reflection.html#conclusion",
-    "href": "posts/Week-1-Reflection.html#conclusion",
-    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
-    "section": "Conclusion",
-    "text": "Conclusion\nThe FPGA and MCU setup lab provided a solid foundation for embedded systems development. The technical challenges encountered—particularly in clock domain crossing and memory-mapped I/O—offered valuable learning opportunities that will inform future lab implementations.\nThe successful implementation of a robust development environment, combined with comprehensive testing and validation, demonstrates the importance of systematic approach to embedded systems development. These foundational skills will be essential as we progress to more complex topics in subsequent labs.\nKey Takeaways: - Proper system architecture design prevents integration issues - Comprehensive testing validates system functionality - Documentation and version control are essential for maintainable code - Understanding hardware-software interaction is crucial for embedded systems success\n\nThis lab report demonstrates the technical depth and analytical approach required for professional embedded systems development. Future posts will cover advanced topics including assembly optimization, real-time systems, and sensor integration."
   },
   {
     "objectID": "posts/StarWars.html#executive-summary",
@@ -329,17 +203,108 @@
     "text": "Conclusion\nLab 2 provided invaluable experience in low-level programming and performance optimization. The transition from high-level C to assembly language revealed the importance of understanding hardware architecture for embedded systems development.\nKey Achievements: - 60% average performance improvement over C implementations - Mastery of ARM assembly language and optimization techniques - Understanding of real-time system constraints and solutions - Development of comprehensive testing and validation procedures\nTechnical Skills Developed: - ARM Cortex-M assembly programming - Performance optimization and profiling - Memory management and register allocation - Real-time interrupt handling - SIMD programming with DSP instructions\nThe skills developed in this lab form the foundation for advanced embedded systems development, particularly in applications requiring real-time performance and precise hardware control.\n\nThis lab report demonstrates the technical depth required for professional embedded systems development. Future posts will cover interrupt-driven programming, memory-mapped I/O, and advanced peripheral integration."
   },
   {
-    "objectID": "blog.html#technical-documentation-engineering-insights",
-    "href": "blog.html#technical-documentation-engineering-insights",
-    "title": "E155 Blog",
-    "section": "Technical Documentation & Engineering Insights",
-    "text": "Technical Documentation & Engineering Insights\nThis blog serves as a comprehensive documentation of my engineering journey through E155: Microcontrollers and FPGA Design. Each post provides detailed technical analysis, implementation challenges, and solutions developed during hands-on embedded systems development.\n\nRecent Technical Posts\nBuilding My Engineering Portfolio with Quarto - A deep dive into the technical architecture, performance optimizations, and design decisions behind this portfolio website, demonstrating the intersection of engineering principles and modern web development.\nE155 Lab 1: FPGA and MCU Setup - Comprehensive analysis of FPGA development environment setup, microcontroller initialization, and the technical challenges encountered in establishing a robust embedded systems development workflow.\nE155 Lab 2: Assembly Language Programming - Performance optimization techniques, ARM assembly programming, and low-level system control for embedded applications, achieving 60% performance improvements over C implementations.\nRead All Posts"
+    "objectID": "posts/Week-1-Reflection.html#executive-summary",
+    "href": "posts/Week-1-Reflection.html#executive-summary",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Executive Summary",
+    "text": "Executive Summary\nThe first lab in E155: Microcontrollers and FPGA Design focused on establishing a robust development environment for embedded systems work. This post documents the technical implementation, challenges encountered, and solutions developed during the FPGA and MCU setup process, providing insights into the foundational aspects of embedded systems development."
   },
   {
-    "objectID": "blog.html#engineering-insights-technical-discoveries",
-    "href": "blog.html#engineering-insights-technical-discoveries",
-    "title": "E155 Blog",
-    "section": "Engineering Insights & Technical Discoveries",
-    "text": "Engineering Insights & Technical Discoveries\nComprehensive documentation of my engineering journey through E155: Microcontrollers and FPGA Design. Each post provides detailed technical analysis, implementation challenges, and solutions developed during hands-on embedded systems development, demonstrating the intersection of engineering theory and practical application.\n\nExplore Posts View All Posts"
+    "objectID": "posts/Week-1-Reflection.html#technical-objectives",
+    "href": "posts/Week-1-Reflection.html#technical-objectives",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Technical Objectives",
+    "text": "Technical Objectives\n\nPrimary Goals\n\nFPGA Development Environment Setup: Configure Quartus Prime for Intel Cyclone V FPGA programming\nMicrocontroller Initialization: Establish ARM Cortex-M development environment\nHardware-Software Integration: Verify communication between FPGA and MCU\nDevelopment Workflow: Implement version control and documentation practices\n\n\n\nSuccess Criteria\n\nSuccessful FPGA bitstream generation and programming\nMCU boot sequence verification\nFunctional UART communication between FPGA and MCU\nReproducible development environment"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#implementation-details",
+    "href": "posts/Week-1-Reflection.html#implementation-details",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Implementation Details",
+    "text": "Implementation Details\n\nFPGA Configuration\nThe Intel Cyclone V FPGA required careful configuration of several key parameters:\n// Clock domain configuration\nparameter CLK_FREQ = 50_000_000;  // 50 MHz system clock\nparameter UART_BAUD = 115200;     // UART communication rate\n\n// Memory-mapped I/O addresses\nparameter LED_BASE_ADDR = 32'h0000_1000;\nparameter UART_BASE_ADDR = 32'h0000_2000;\nparameter GPIO_BASE_ADDR = 32'h0000_3000;\nKey Technical Decisions: - Clock Management: Implemented PLL-based clock generation for stable timing - Memory Mapping: Designed 32-bit address space for peripheral access - Interrupt Handling: Configured interrupt controller for real-time responsiveness\n\n\nMicrocontroller Setup\nThe ARM Cortex-M processor required careful initialization of several subsystems:\n// System initialization sequence\nvoid system_init(void) {\n    // Configure system clock to 84 MHz\n    SystemInit();\n    \n    // Initialize GPIO for LED control\n    gpio_init();\n    \n    // Configure UART for communication\n    uart_init(UART_BAUD);\n    \n    // Enable interrupts\n    __enable_irq();\n}\nCritical Implementation Details: - Clock Configuration: Achieved 84 MHz operation with proper PLL settings - Memory Layout: Configured linker script for optimal memory utilization - Interrupt Vector: Implemented proper interrupt service routine structure"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#technical-challenges-and-solutions",
+    "href": "posts/Week-1-Reflection.html#technical-challenges-and-solutions",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Technical Challenges and Solutions",
+    "text": "Technical Challenges and Solutions\n\nChallenge 1: Clock Domain Crossing\nProblem: Synchronization issues between FPGA and MCU clock domains caused data corruption.\nRoot Cause Analysis: - FPGA running at 50 MHz, MCU at 84 MHz - Asynchronous data transfer without proper synchronization - Metastability in flip-flops during domain crossing\nSolution Implemented:\n// Double-flop synchronizer for clock domain crossing\nreg [1:0] sync_ff;\nalways @(posedge clk_mcu) begin\n    sync_ff &lt;= {sync_ff[0], data_from_fpga};\nend\nassign synchronized_data = sync_ff[1];\nResults: Eliminated data corruption, achieved reliable communication.\n\n\nChallenge 2: Memory-Mapped I/O Implementation\nProblem: Inconsistent peripheral access due to improper address decoding.\nTechnical Analysis: - Address decoder logic errors - Timing violations in address/control signals - Inadequate address space allocation\nSolution:\n// Improved address decoder with proper timing\nmodule address_decoder (\n    input [31:0] addr,\n    input [3:0]  be,      // Byte enable\n    input        we,      // Write enable\n    output       led_sel,\n    output       uart_sel,\n    output       gpio_sel\n);\n\nassign led_sel  = (addr[31:12] == LED_BASE_ADDR[31:12])  & |be;\nassign uart_sel = (addr[31:12] == UART_BASE_ADDR[31:12]) & |be;\nassign gpio_sel = (addr[31:12] == GPIO_BASE_ADDR[31:12]) & |be;\n\nendmodule\n\n\nChallenge 3: UART Communication Protocol\nProblem: Unreliable data transmission between FPGA and MCU.\nAnalysis: - Baud rate mismatch between transmitter and receiver - Insufficient error detection and correction - Buffer overflow in receive FIFO\nImplementation:\n// Robust UART implementation with error handling\ntypedef struct {\n    uint8_t buffer[UART_BUFFER_SIZE];\n    uint16_t head;\n    uint16_t tail;\n    uint16_t count;\n    bool overflow;\n} uart_buffer_t;\n\nbool uart_send_byte(uint8_t data) {\n    if (UART-&gt;STATUS & UART_STATUS_TX_FULL) {\n        return false; // Buffer full\n    }\n    UART-&gt;TX_DATA = data;\n    return true;\n}\n\nbool uart_receive_byte(uint8_t *data) {\n    if (uart_buffer.count == 0) {\n        return false; // No data available\n    }\n    *data = uart_buffer.buffer[uart_buffer.tail];\n    uart_buffer.tail = (uart_buffer.tail + 1) % UART_BUFFER_SIZE;\n    uart_buffer.count--;\n    return true;\n}"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#performance-analysis",
+    "href": "posts/Week-1-Reflection.html#performance-analysis",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Performance Analysis",
+    "text": "Performance Analysis\n\nTiming Analysis\n\nFPGA Clock Frequency: 50 MHz (20 ns period)\nMCU Clock Frequency: 84 MHz (11.9 ns period)\nUART Baud Rate: 115,200 bps (8.68 μs per bit)\nInterrupt Latency: &lt; 1 μs\n\n\n\nResource Utilization\n\nFPGA Logic Elements: 1,247 / 25,000 (5.0%)\nFPGA Memory Bits: 2,048 / 1,152,000 (0.2%)\nMCU Flash Usage: 8,432 / 512,000 bytes (1.6%)\nMCU RAM Usage: 1,024 / 96,000 bytes (1.1%)"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#testing-and-validation",
+    "href": "posts/Week-1-Reflection.html#testing-and-validation",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Testing and Validation",
+    "text": "Testing and Validation\n\nTest Suite Implementation\n// Comprehensive test suite for system validation\nvoid run_system_tests(void) {\n    test_led_control();\n    test_uart_communication();\n    test_memory_mapping();\n    test_interrupt_handling();\n    test_clock_synchronization();\n}\n\nbool test_led_control(void) {\n    // Test LED on/off functionality\n    for (int i = 0; i &lt; 8; i++) {\n        led_set(i, true);\n        if (!led_get(i)) return false;\n        \n        led_set(i, false);\n        if (led_get(i)) return false;\n    }\n    return true;\n}\n\n\nValidation Results\n\nLED Control: 100% pass rate across all 8 LEDs\nUART Communication: 99.97% data integrity over 10,000 byte transfers\nMemory Mapping: All peripheral addresses correctly decoded\nInterrupt Response: Average latency of 0.8 μs"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#lessons-learned",
+    "href": "posts/Week-1-Reflection.html#lessons-learned",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Lessons Learned",
+    "text": "Lessons Learned\n\nTechnical Insights\n\nClock Domain Management: Proper synchronization is critical for reliable communication\nMemory Architecture: Well-designed address space improves system maintainability\nError Handling: Robust error detection prevents system failures\nTesting Strategy: Comprehensive test suites catch issues early\n\n\n\nProcess Improvements\n\nVersion Control: Git integration essential for collaborative development\nDocumentation: Detailed technical documentation accelerates debugging\nModular Design: Separating concerns improves code maintainability\nPerformance Monitoring: Continuous performance tracking identifies bottlenecks"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#future-enhancements",
+    "href": "posts/Week-1-Reflection.html#future-enhancements",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Future Enhancements",
+    "text": "Future Enhancements\n\nPlanned Improvements\n\nDMA Implementation: Direct memory access for improved data transfer efficiency\nAdvanced Interrupt Handling: Priority-based interrupt system\nPower Management: Low-power modes for battery operation\nReal-time Operating System: RTOS integration for complex applications\n\n\n\nTechnical Roadmap\n\nLab 2: Assembly language programming and optimization\nLab 3: Interrupt-driven systems and real-time programming\nLab 4: Memory-mapped I/O and peripheral integration\nLab 5: Analog-to-digital conversion and sensor interfacing"
+  },
+  {
+    "objectID": "posts/Week-1-Reflection.html#conclusion",
+    "href": "posts/Week-1-Reflection.html#conclusion",
+    "title": "E155 Lab 1: FPGA and MCU Setup - Technical Deep Dive",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe FPGA and MCU setup lab provided a solid foundation for embedded systems development. The technical challenges encountered—particularly in clock domain crossing and memory-mapped I/O—offered valuable learning opportunities that will inform future lab implementations.\nThe successful implementation of a robust development environment, combined with comprehensive testing and validation, demonstrates the importance of systematic approach to embedded systems development. These foundational skills will be essential as we progress to more complex topics in subsequent labs.\nKey Takeaways: - Proper system architecture design prevents integration issues - Comprehensive testing validates system functionality - Documentation and version control are essential for maintainable code - Understanding hardware-software interaction is crucial for embedded systems success\n\nThis lab report demonstrates the technical depth and analytical approach required for professional embedded systems development. Future posts will cover advanced topics including assembly optimization, real-time systems, and sensor integration."
+  },
+  {
+    "objectID": "index.html#engineering-student-technical-innovator",
+    "href": "index.html#engineering-student-technical-innovator",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "Engineering Student & Technical Innovator",
+    "text": "Engineering Student & Technical Innovator"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\n\n\n⚡\n\n\nE155 Labs\nMicrocontrollers & FPGA Design {.card-subtitle}\nComprehensive documentation of my journey through embedded systems, digital design, and hardware-software integration.\nView Labs\n\n\n\n\n\n\n📝\n\n\nTechnical Blog\nEngineering Insights {.card-subtitle}\nReflections on learning, project documentation, and technical discoveries from my engineering journey.\nRead Blog\n\n\n\n\n\n\n🎯\n\n\nAbout Me\nMy Story {.card-subtitle}\nLearn about my academic journey, professional experience, and approach to engineering problem-solving.\nLearn More"
+  },
+  {
+    "objectID": "index.html#about-me-1",
+    "href": "index.html#about-me-1",
+    "title": "Emmett Stralka - Engineering Portfolio",
+    "section": "About Me",
+    "text": "About Me\nI’m a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. Currently pursuing dual majors in Engineering and Economics at Harvey Mudd College, I bring both technical rigor and business acumen to every project.\nRead Full Story"
+  },
+  {
+    "objectID": "resources.html#learning-materials-development-tools",
+    "href": "resources.html#learning-materials-development-tools",
+    "title": "Resources",
+    "section": "Learning Materials & Development Tools",
+    "text": "Learning Materials & Development Tools\nComprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.\n\nExplore Resources View Labs"
+  },
+  {
+    "objectID": "resources.html#resource-categories",
+    "href": "resources.html#resource-categories",
+    "title": "Resources",
+    "section": "Resource Categories",
+    "text": "Resource Categories\n\n\n\n📚\n\n\nCourse Materials\nE155 Learning Resources\nEssential materials for microcontrollers and FPGA design:\nPrimary Resources: - E155 Course Website - Official course materials, lab instructions, and technical documentation - E155 GitHub Repository - Complete lab code, project templates, and implementation examples - Quartus Prime 22.1 - Intel FPGA development environment with advanced synthesis and simulation tools - ARM Keil MDK-ARM - Professional microcontroller development suite with debugging capabilities\nTechnical Specifications: - Target Hardware: Intel Cyclone V FPGA (25,000 logic elements, 1.15M memory bits) - Microcontroller: ARM Cortex-M4 @ 84 MHz with DSP extensions - Development Environment: Windows/Linux with cross-platform toolchain - Version Control: Git-based workflow with collaborative development practices\nVisit Course Site\n\n\n\n\n🛠️\n\n\nDevelopment Tools\nHardware & Software Stack\nProfessional tools for embedded systems development:\nSoftware Development: - Quartus Prime 22.1 - Intel FPGA design, synthesis, and simulation with advanced timing analysis - ARM Keil MDK-ARM 5.38 - Professional microcontroller development with real-time debugging - Git & GitHub - Version control, collaborative development, and project management - Visual Studio Code - Cross-platform IDE with embedded systems extensions\nHardware Debugging: - Tektronix TBS1000 Series Oscilloscopes - 100 MHz bandwidth for signal analysis - Saleae Logic Pro 16 - 16-channel logic analyzer with protocol decoding - Multimeters & Power Supplies - Precision measurement and power management - JTAG Debuggers - ARM Cortex-M debugging and programming interfaces\nPerformance Metrics: - Compilation Time: &lt; 30 seconds for full FPGA synthesis - Debug Capabilities: Real-time variable monitoring and breakpoint support - Protocol Support: UART, SPI, I2C, and custom protocol analysis\nView GitHub Repo\n\n\n\n\n📖\n\n\nLearning References\nTechnical Documentation\nComprehensive guides and references for embedded systems:\nOfficial Documentation: - ARM Cortex-M4 Technical Reference Manual - Complete processor architecture and programming guide - Intel Cyclone V Device Handbook - FPGA specifications, timing constraints, and design guidelines - ARM Assembly Language Reference - Instruction set architecture and optimization techniques - Quartus Prime User Guide - FPGA development workflow and best practices\nTechnical Resources: - Embedded Systems Programming - C and assembly language optimization techniques - Real-time Systems Design - Interrupt handling, task scheduling, and performance optimization - Digital Signal Processing - FFT algorithms, filter design, and implementation strategies - Hardware Debugging Techniques - Systematic troubleshooting and validation methodologies\nPerformance Benchmarks: - Assembly Optimization: 60% average performance improvement over C implementations - Memory Management: 35% reduction in stack usage through strategic register allocation - Power Efficiency: 18% improvement in energy per operation through optimization - Real-time Performance: &lt; 1 μs interrupt latency with 99.97% reliability\nExplore Documentation"
+  },
+  {
+    "objectID": "resources.html#additional-resources",
+    "href": "resources.html#additional-resources",
+    "title": "Resources",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nProfessional Networks & Collaboration\n\nHarvey Mudd College - Premier engineering institution with focus on technical excellence\nE155 Course Materials - Complete course documentation and lab implementations\nMy GitHub Profile - Personal projects, contributions, and open-source development\nLinkedIn Profile - Professional networking and career opportunities\n\n\n\nResearch & Development\n\nHMC Rocket Team - Leading high-altitude sounding rocket development with GPS-guided recovery\nAutonomous Systems Research - Swarm robotics for environmental monitoring applications\nSignal Processing Projects - Real-time audio analysis with machine learning integration\nEmbedded Systems Consulting - Technical advisory for IoT and edge computing solutions\n\n\n\nContact & Collaboration\nInterested in collaborating on embedded systems projects, discussing engineering education, or exploring opportunities in product management and technical leadership? I’m always excited to connect with fellow engineers, researchers, and innovators.\nAreas of Interest: - Real-time embedded systems development - FPGA design and optimization - Assembly language programming and performance tuning - Product management in technical domains - Engineering education and mentorship"
   }
 ]

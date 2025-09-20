@@ -1256,6 +1256,31 @@ body {
   padding-top: 80px !important;
 }
 
+/* Apple-style container system */
+.apple-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.apple-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* Full-width sections that break out of containers */
+.apple-full-width {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+}
+
 /* Ensure all pages have consistent spacing */
 .quarto-container {
   max-width: 100% !important;
@@ -2476,3 +2501,26 @@ h2 { font-size: clamp(2rem, 4vw, 3.5rem); }
 h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
 h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
+
+/* ===============================================
+   APPLE-STYLE CONTAINER RESPONSIVE DESIGN
+   =============================================== */
+
+@media (max-width: 1200px) {
+  .apple-content-wrapper, .apple-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .apple-content-wrapper, .apple-section {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .apple-content-wrapper, .apple-section {
+    padding: 0 12px;
+  }
+}
