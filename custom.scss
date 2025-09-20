@@ -30,9 +30,16 @@ $content-width: 100%;
    =============================================== */
 
 /* Remove extra space from YAML header removal */
-body:not(.homepage) .page-layout {
+body:not(.homepage) {
   margin-top: 0;
-  padding-top: var(--space-8);
+  padding-top: 0;
+}
+
+/* Full width titles for all pages */
+.full-width-title {
+  width: 100%;
+  margin: 0;
+  padding: var(--space-8) 0;
 }
 
 /* Rule of thirds layout for non-homepage pages */
@@ -55,6 +62,24 @@ body:not(.homepage) .page-layout {
   grid-column: 1;
 }
 
+/* Two column layout for Resume and Resources */
+.two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--space-12);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-8);
+}
+
+.two-column-layout .left-column {
+  grid-column: 1;
+}
+
+.two-column-layout .right-column {
+  grid-column: 2;
+}
+
 /* Responsive design for rule of thirds */
 @media (max-width: 768px) {
   .page-content {
@@ -73,6 +98,17 @@ body:not(.homepage) .page-layout {
   .page-content .sidebar-right {
     display: none;
   }
+  
+  .two-column-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    padding: 0 var(--space-4);
+  }
+  
+  .two-column-layout .left-column,
+  .two-column-layout .right-column {
+    grid-column: 1;
+  }
 }
 
 /* About page specific styling */
@@ -87,14 +123,48 @@ body:not(.homepage) .page-layout {
 }
 
 .about-hero .about-image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   margin: var(--space-8) auto;
   display: block;
   box-shadow: var(--shadow-lg);
   border: 4px solid var(--apple-white);
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  margin-top: var(--space-6);
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--apple-white);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  text-decoration: none;
+  color: var(--apple-gray-dark);
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background: var(--apple-blue);
+  color: var(--apple-white);
+}
+
+.social-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .about-section {
@@ -166,6 +236,14 @@ body:not(.homepage) .page-layout {
   gap: var(--space-8);
   margin: var(--space-16) auto;
   max-width: 1200px;
+  padding: 0 var(--space-8);
+}
+
+/* Full width content area */
+.full-width-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: var(--space-16) auto;
   padding: 0 var(--space-8);
 }
 
@@ -425,22 +503,34 @@ body:not(.homepage) .page-layout {
   filter: grayscale(0);
 }
 
-.project-card h4 {
-  font-size: 1.5rem;
+.project-card h4,
+.lab-card h4 {
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--apple-black);
-  margin: 0 0 var(--space-4) 0;
+  margin: 0 0 var(--space-3) 0;
   letter-spacing: -0.01em;
   line-height: 1.2;
   text-align: center;
 }
 
-.project-card p {
-  font-size: 1rem;
-  line-height: 1.6;
+.project-card p,
+.lab-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
   color: var(--apple-gray-dark);
-  margin: 0 0 var(--space-6) 0;
+  margin: 0 0 var(--space-4) 0;
   text-align: left;
+}
+
+.project-card .card-subtitle,
+.lab-card .card-subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--apple-blue);
+  margin: 0 0 var(--space-3) 0;
+  text-align: center;
+  opacity: 0.8;
 }
 
 .project-card ul {

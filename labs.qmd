@@ -1,15 +1,17 @@
 ---
 ---
 
+::: {.full-width-title}
+::: {.section-title-container}
+## Labs {.section-title}
+:::
+:::
+
 ::: {.page-content}
 ::: {.sidebar-left}
 :::
 
 ::: {.main-content}
-::: {.section-title-container}
-## Labs {.section-title}
-:::
-
 ::: {.labs-intro .scroll-animate}
 Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
 
@@ -93,6 +95,28 @@ Capstone embedded system demonstrating mastery of design and implementation.
 :::
 
 ::: {.sidebar-right}
+:::
+:::
+
+::: {.full-width-content}
+::: {.section-title-container}
+## Lab Documentation & Resources {.section-title}
+:::
+
+::: {.scroll-animate}
+This section provides additional resources, documentation, and insights from my E155 journey. Here you'll find detailed analysis, technical discoveries, and reflections on the learning process.
+
+**Key Learning Outcomes:**
+- Mastery of ARM assembly programming and optimization techniques
+- Understanding of real-time systems and interrupt-driven programming
+- Proficiency in FPGA design and digital circuit implementation
+- Experience with hardware-software integration and debugging
+
+**Technical Skills Developed:**
+- Low-level programming and performance optimization
+- Hardware debugging and signal analysis
+- System integration and testing methodologies
+- Documentation and technical communication
 :::
 :::
 

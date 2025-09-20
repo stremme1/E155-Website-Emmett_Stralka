@@ -1,15 +1,17 @@
 ---
 ---
 
+::: {.full-width-title}
+::: {.section-title-container}
+## Projects {.section-title}
+:::
+:::
+
 ::: {.page-content}
 ::: {.sidebar-left}
 :::
 
 ::: {.main-content}
-::: {.section-title-container}
-## Projects {.section-title}
-:::
-
 ::: {.projects-intro .scroll-animate}
 A showcase of my technical projects and engineering work, demonstrating expertise in embedded systems, FPGA design, and the intersection of technology and business.
 :::
