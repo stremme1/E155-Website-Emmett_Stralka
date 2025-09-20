@@ -39,7 +39,7 @@ body:not(.homepage) {
 .full-width-title {
   width: 100%;
   margin: 0;
-  padding: var(--space-8) 0;
+  padding: 0;
 }
 
 /* Rule of thirds layout for non-homepage pages */
@@ -123,9 +123,11 @@ body:not(.homepage) {
 }
 
 .about-hero .about-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  aspect-ratio: 4/3;
+  border-radius: var(--radius-lg);
   object-fit: cover;
   margin: var(--space-8) auto;
   display: block;
@@ -233,7 +235,7 @@ body:not(.homepage) {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-8);
+  gap: var(--space-6);
   margin: var(--space-16) auto;
   max-width: 1200px;
   padding: 0 var(--space-8);
@@ -247,6 +249,17 @@ body:not(.homepage) {
   padding: 0 var(--space-8);
 }
 
+/* Labs intro styling */
+.labs-intro {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto var(--space-16) auto;
+  padding: var(--space-8) var(--space-6);
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+}
+
 .projects-grid .project-card:nth-child(1) { grid-column: span 1; }
 .projects-grid .project-card:nth-child(2) { grid-column: span 1; }
 .projects-grid .project-card:nth-child(3) { grid-column: span 1; }
@@ -258,7 +271,7 @@ body:not(.homepage) {
 .labs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-6);
+  gap: var(--space-5);
   margin: var(--space-16) auto;
   max-width: 1200px;
   padding: 0 var(--space-8);
@@ -505,7 +518,7 @@ body:not(.homepage) {
 
 .project-card h4,
 .lab-card h4 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--apple-black);
   margin: 0 0 var(--space-3) 0;
@@ -516,7 +529,7 @@ body:not(.homepage) {
 
 .project-card p,
 .lab-card p {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: var(--apple-gray-dark);
   margin: 0 0 var(--space-4) 0;
@@ -525,7 +538,7 @@ body:not(.homepage) {
 
 .project-card .card-subtitle,
 .lab-card .card-subtitle {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--apple-blue);
   margin: 0 0 var(--space-3) 0;

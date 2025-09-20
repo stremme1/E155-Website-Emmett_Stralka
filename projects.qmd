@@ -24,7 +24,7 @@ A showcase of my technical projects and engineering work, demonstrating expertis
 ### E155: Microcontrollers & FPGA Design
 **Embedded Systems Development** {.card-subtitle}
 
-Comprehensive journey through embedded systems, digital design, and hardware-software integration with hands-on projects.
+Comprehensive journey through embedded systems, digital design, and hardware-software integration.
 :::
 
 ::: {.project-card .scroll-animate-scale}
@@ -32,19 +32,19 @@ Comprehensive journey through embedded systems, digital design, and hardware-sof
 🔧
 :::
 ### Lab 1: FPGA and MCU Setup
-**Development Environment & System Integration** {.card-subtitle}
+**Development Environment** {.card-subtitle}
 
-Established robust development environment for Intel Cyclone V FPGA and ARM Cortex-M microcontroller integration with 99.97% UART reliability.
+Established robust development environment with 99.97% UART reliability.
 :::
 
 ::: {.project-card .scroll-animate-right}
 ::: {.project-icon}
 ⚡
 :::
-### Lab 2: Assembly Language Programming
-**Performance Optimization & Real-time Systems** {.card-subtitle}
+### Lab 2: Assembly Programming
+**Performance Optimization** {.card-subtitle}
 
-ARM assembly language optimization achieving 59.4% performance improvement in 16-point FFT and 63% speedup in matrix multiplication.
+ARM assembly optimization achieving 59.4% performance improvement in FFT operations.
 :::
 
 ::: {.project-card .scroll-animate-left}
@@ -52,19 +52,19 @@ ARM assembly language optimization achieving 59.4% performance improvement in 16
 ⏱️
 :::
 ### Lab 3: Interrupts and Timers
-**Real-time Programming & System Timing** {.card-subtitle}
+**Real-time Programming** {.card-subtitle}
 
-Exploring real-time programming concepts through interrupt-driven systems and timer-based operations with < 1 μs latency.
+Exploring real-time programming with < 1 μs interrupt latency.
 :::
 
 ::: {.project-card .scroll-animate-scale}
 ::: {.project-icon}
 🎓
 :::
-### Engineering & Economics Integration
+### Engineering & Economics
 **Dual Major Program** {.card-subtitle}
 
-Combining technical engineering skills with business acumen to approach complex problems from multiple perspectives.
+Combining technical engineering skills with business acumen.
 :::
 
 ::: {.project-card .scroll-animate-right}
@@ -74,7 +74,7 @@ Combining technical engineering skills with business acumen to approach complex 
 ### Future Projects
 **Areas of Exploration** {.card-subtitle}
 
-Advanced embedded systems, IoT applications, machine learning integration, and sustainable technology development.
+Advanced embedded systems, IoT applications, and sustainable technology.
 :::
 :::
 

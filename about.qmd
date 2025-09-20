@@ -15,17 +15,15 @@ Welcome to my technical portfolio! I'm a dedicated engineering student passionat
 Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, bringing both technical rigor and business acumen to every project.
 :::
 
-::: {.page-content}
-::: {.sidebar-left}
-:::
-
-::: {.main-content}
+::: {.two-column-layout}
+::: {.left-column}
 ::: {.section-title-container}
-## Academic Foundation {.section-title}
+## Education {.section-title}
 :::
 
 ::: {.about-section .scroll-animate}
-**Harvey Mudd College** | Dual Major: Engineering & Economics | Expected Graduation: 2026
+**Harvey Mudd College** | Claremont, CA  
+*Dual Major: Engineering & Economics* | Expected Graduation: 2026
 
 **Current Coursework:**
 - **E155: Microcontrollers & FPGA Design** - Learning embedded systems and digital design
@@ -33,62 +31,30 @@ Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd
 - **Product Management** - Understanding business strategy and market analysis
 - **Economic Analysis** - Quantitative methods and decision-making frameworks
 :::
+:::
 
+::: {.right-column}
 ::: {.section-title-container}
-## Technical Projects & Interests {.section-title}
+## My Full Story {.section-title}
 :::
 
 ::: {.about-section .scroll-animate}
-**Embedded Systems Development:**
-- ARM assembly programming, digital circuit design, real-time systems
-- FPGA programming, microcontroller architecture, hardware-software integration
-- Understanding embedded systems for IoT and automation applications
+I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. My journey at Harvey Mudd College has been defined by a unique combination of technical rigor and business acumen.
 
-**Future Interests:**
-- Advanced embedded systems and IoT applications
-- Machine learning and signal processing
-- Product development and engineering management
-- Sustainable technology and renewable energy systems
-:::
+**Technical Focus:**
+- Embedded systems development and FPGA programming
+- ARM assembly language optimization and real-time systems
+- Digital circuit design and hardware-software integration
+- Performance optimization and system debugging
 
-::: {.section-title-container}
-## E155: Microcontrollers & FPGA Design {.section-title}
-:::
+**Business Integration:**
+- Product management and market analysis
+- Economic modeling and decision-making frameworks
+- Understanding the intersection of technology and business
+- Strategic thinking for engineering solutions
 
-::: {.about-section .scroll-animate}
-This website documents my comprehensive journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College. This course represents a deep dive into embedded systems, digital design, and hardware-software integration.
-
-**Technical Skills Being Developed:**
-- **FPGA Programming**: Intel Cyclone V design and system clock management
-- **Microcontroller Architecture**: ARM Cortex-M4 architecture and peripheral programming
-- **Assembly Language**: ARM assembly programming and optimization techniques
-- **Real-time Systems**: Interrupt-driven programming and system timing
-:::
-
-::: {.section-title-container}
-## My Approach to Engineering {.section-title}
-:::
-
-::: {.about-section .scroll-animate}
-I believe in a systematic approach to engineering challenges:
-
-**1. Understanding the Problem** - Analyzing requirements, constraints, and stakeholder needs
-**2. Research & Analysis** - Investigating existing solutions and emerging technologies
-**3. Iterative Design** - Building prototypes and refining solutions based on feedback
-**4. Documentation & Communication** - Clearly documenting decisions and processes
-:::
-
-::: {.section-title-container}
-## Connect With Me {.section-title}
-:::
-
-::: {.about-section .scroll-animate}
-I'm always excited to connect with fellow engineers, researchers, and innovators. Whether you're interested in:
-
-- Technical collaboration on embedded systems projects
-- Discussing engineering education and career development
-- Exploring opportunities in product management or technical leadership
-- Sharing insights about the intersection of engineering and business
+**Future Vision:**
+I'm excited to explore advanced embedded systems, IoT applications, and sustainable technology development. My goal is to create solutions that not only solve technical challenges but also address real-world business needs.
 
 **Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)
 
@@ -105,10 +71,6 @@ I'm always excited to connect with fellow engineers, researchers, and innovators
 </a>
 :::
 :::
-
-:::
-
-::: {.sidebar-right}
 :::
 :::
 

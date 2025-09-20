@@ -28,7 +28,7 @@ Documentation of my journey through **E155: Microcontrollers and FPGA Design** a
 ### Lab 1
 **FPGA & MCU Setup** {.card-subtitle}
 
-Development environment and system integration with 99.97% UART reliability.
+Development environment with 99.97% UART reliability.
 :::
 
 ::: {.lab-card .completed .scroll-animate-scale}
@@ -38,7 +38,7 @@ Development environment and system integration with 99.97% UART reliability.
 ### Lab 2
 **Assembly Programming** {.card-subtitle}
 
-59.4% performance improvement in FFT and 63% speedup in matrix operations.
+59.4% performance improvement in FFT operations.
 :::
 
 ::: {.lab-card .in-progress .scroll-animate-right}
@@ -48,7 +48,7 @@ Development environment and system integration with 99.97% UART reliability.
 ### Lab 3
 **Interrupts & Timers** {.card-subtitle}
 
-Real-time programming with < 1 μs interrupt latency and timer-based operations.
+Real-time programming with < 1 μs interrupt latency.
 :::
 
 ::: {.lab-card .scroll-animate-left}
@@ -58,7 +58,7 @@ Real-time programming with < 1 μs interrupt latency and timer-based operations.
 ### Lab 4
 **Memory-Mapped I/O** {.card-subtitle}
 
-Hardware-software interface design with peripheral programming and abstraction layers.
+Hardware-software interface design and peripheral programming.
 :::
 
 ::: {.lab-card .scroll-animate-scale}
@@ -68,7 +68,7 @@ Hardware-software interface design with peripheral programming and abstraction l
 ### Lab 5
 **Advanced Assembly** {.card-subtitle}
 
-Performance optimization and memory management techniques for embedded systems.
+Performance optimization and memory management techniques.
 :::
 
 ::: {.lab-card .scroll-animate-right}
@@ -78,7 +78,7 @@ Performance optimization and memory management techniques for embedded systems.
 ### Lab 6
 **System Integration** {.card-subtitle}
 
-Complete embedded system design with real-world applications and testing.
+Complete embedded system design with real-world applications.
 :::
 
 ::: {.lab-card .scroll-animate-left}
@@ -88,7 +88,7 @@ Complete embedded system design with real-world applications and testing.
 ### Lab 7
 **Final Project** {.card-subtitle}
 
-Capstone embedded system demonstrating mastery of design and implementation.
+Capstone embedded system demonstrating mastery of design.
 :::
 :::
 
@@ -117,6 +117,8 @@ This section provides additional resources, documentation, and insights from my 
 - Hardware debugging and signal analysis
 - System integration and testing methodologies
 - Documentation and technical communication
+
+[View Complete Resources →](resources.qmd){.btn .btn-secondary}
 :::
 :::
 
