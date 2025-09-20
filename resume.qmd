@@ -30,13 +30,19 @@ Download my complete resume for detailed information about my academic backgroun
 :::
 
 ::: {.resume-section .scroll-animate}
-**Harvey Mudd College** | Claremont, CA  
-*Dual Major: Engineering & Economics* | Expected Graduation: 2026
+<p><strong>Harvey Mudd College</strong><br>
+Claremont, CA<br>
+<em>Dual Major: Engineering & Economics</em><br>
+Expected Graduation: 2026</p>
 
-**Relevant Coursework:**
-- E155: Microcontrollers & FPGA Design
-- Digital Electronics & Product Management
-- Economic Analysis & Data Structures
+<p><strong>Relevant Coursework:</strong></p>
+<ul>
+<li>E155: Microcontrollers & FPGA Design</li>
+<li>Digital Electronics & Product Management</li>
+<li>Economic Analysis & Data Structures</li>
+<li>Advanced Mathematics & Physics</li>
+<li>Business Strategy & Market Analysis</li>
+</ul>
 :::
 :::
 
@@ -46,34 +52,32 @@ Download my complete resume for detailed information about my academic backgroun
 :::
 
 ::: {.resume-section .scroll-animate}
-**Hardware Engineering**
-- FPGA Programming (Intel Cyclone V)
-- Digital Circuit Design
-- Microcontroller Architecture (ARM Cortex-M4)
-- Hardware Debugging & Testing
+<p><strong>Hardware Engineering</strong></p>
+<ul>
+<li>FPGA Programming (Intel Cyclone V)</li>
+<li>Digital Circuit Design & Analysis</li>
+<li>Microcontroller Architecture (ARM Cortex-M4)</li>
+<li>Hardware Debugging & Testing</li>
+<li>Signal Processing & Analysis</li>
+</ul>
 
-**Software Development**
-- ARM Assembly Language
-- C Programming
-- Real-time Systems
-- Performance Optimization
+<p><strong>Software Development</strong></p>
+<ul>
+<li>ARM Assembly Language</li>
+<li>C Programming & Optimization</li>
+<li>Real-time Systems Design</li>
+<li>Performance Optimization</li>
+<li>Embedded Systems Programming</li>
+</ul>
 
-**Development Tools**
-- Quartus Prime
-- ARM Keil MDK-ARM
-- Git Version Control
-- Oscilloscopes & Logic Analyzers
-:::
-
-::: {.section-title-container}
-## Key Achievements {.section-title}
-:::
-
-::: {.resume-section .scroll-animate}
-- **60% Performance Improvement** in ARM assembly implementations
-- **99.97% Reliability** in UART communication systems
-- **< 1 μs Interrupt Latency** in real-time applications
-- **35% Reduction** in stack usage through optimization
+<p><strong>Development Tools & Environments</strong></p>
+<ul>
+<li>Quartus Prime (FPGA Design)</li>
+<li>ARM Keil MDK-ARM (IDE)</li>
+<li>Git Version Control</li>
+<li>Oscilloscopes & Logic Analyzers</li>
+<li>MATLAB & Simulink</li>
+</ul>
 :::
 
 ::: {.section-title-container}
@@ -81,11 +85,13 @@ Download my complete resume for detailed information about my academic backgroun
 :::
 
 ::: {.resume-section .scroll-animate}
-**Academic Projects** | Harvey Mudd College
-- Embedded systems development and FPGA programming
-- Digital circuit design and analysis
-- Business strategy and economic analysis
-- Product management and market research
+<p><strong>Academic Projects</strong> | Harvey Mudd College</p>
+<ul>
+<li>Embedded systems development and FPGA programming</li>
+<li>Digital circuit design and analysis</li>
+<li>Business strategy and economic analysis</li>
+<li>Product management and market research</li>
+</ul>
 :::
 
 :::

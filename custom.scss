@@ -90,6 +90,36 @@ html, body, div, section, article, main, header, footer, nav, aside,
   padding-top: 0 !important;
 }
 
+/* Push titles to the very top of the page */
+.full-width-title {
+  margin-top: -30px !important;
+  padding-top: 0 !important;
+  position: relative;
+  top: -15px !important;
+}
+
+.section-title-container {
+  margin-top: -30px !important;
+  padding-top: 0 !important;
+}
+
+.section-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Ensure the main content starts at the very top */
+#quarto-content {
+  margin-top: -20px !important;
+  padding-top: 0 !important;
+}
+
+/* Push the first element to the top */
+#quarto-content > *:first-child {
+  margin-top: -20px !important;
+  padding-top: 0 !important;
+}
+
 /* Remove spacing from all possible Quarto elements */
 .quarto-title-block,
 .quarto-title,
@@ -164,10 +194,12 @@ html, body, div, section, article, main, header, footer, nav, aside,
 
 .two-column-layout .left-column {
   grid-column: 1;
+  text-align: left;
 }
 
 .two-column-layout .right-column {
   grid-column: 2;
+  text-align: left;
 }
 
 /* Responsive design for rule of thirds */
@@ -279,14 +311,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
   color: var(--apple-gray-dark);
 }
 
-.resume-section {
-  max-width: 800px;
-  margin: 0 auto var(--space-12) auto;
-  padding: var(--space-8) var(--space-6);
-  font-size: 1.125rem;
-  line-height: 1.6;
-  color: var(--apple-gray-dark);
-}
+/* Resume section base styling - removed conflicting rules */
 
 /* Resources page specific styling */
 .resources-intro {
@@ -339,16 +364,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
   padding: 0 var(--space-8);
 }
 
-/* Labs intro styling */
-.labs-intro {
-  text-align: center;
-  max-width: 1000px;
-  margin: 0 auto var(--space-16) auto;
-  padding: var(--space-8) var(--space-6);
-  font-size: 1.25rem;
-  line-height: 1.7;
-  color: var(--apple-gray-dark);
-}
+
 
 .projects-grid .project-card:nth-child(1) { grid-column: span 1; }
 .projects-grid .project-card:nth-child(2) { grid-column: span 1; }
@@ -356,6 +372,164 @@ html, body, div, section, article, main, header, footer, nav, aside,
 .projects-grid .project-card:nth-child(4) { grid-column: span 1; }
 .projects-grid .project-card:nth-child(5) { grid-column: span 1; }
 .projects-grid .project-card:nth-child(6) { grid-column: span 1; }
+
+/* Labs intro text styling - Apple professional */
+.main-content .scroll-animate {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  padding: 0 var(--space-4);
+  font-size: 1.8rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  font-weight: 400;
+}
+
+.main-content .scroll-animate p {
+  font-size: 1.8rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  margin: 0;
+}
+
+/* Resources intro text styling - larger and more spaced */
+.resources-intro .scroll-animate,
+.scroll-animate {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+  padding: 0 var(--space-6);
+  font-size: 1.8rem !important;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+  font-weight: 400;
+}
+
+/* Target the specific subtitle text in resources page */
+.scroll-animate p {
+  font-size: 1.8rem !important;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+  margin: 0;
+}
+
+/* Decrease font size for Online Resources content */
+.resources-section {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+}
+
+.resources-section p {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+}
+
+/* Resume section formatting - consolidated and clean */
+.resume-section {
+  font-size: 1rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  text-align: left;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-section p {
+  font-size: 1rem !important;
+  line-height: 1.6;
+  margin: 0 0 var(--space-3) 0;
+  text-align: left;
+}
+
+.resume-section strong {
+  font-size: 1.05rem !important;
+  font-weight: 600;
+  color: var(--apple-black);
+  display: block;
+  text-align: left;
+  margin: var(--space-3) 0 var(--space-2) 0;
+}
+
+.resume-section ul {
+  font-size: 1rem !important;
+  line-height: 1.6;
+  margin: var(--space-2) 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: left;
+  display: block;
+}
+
+.resume-section li {
+  font-size: 1rem !important;
+  line-height: 1.6;
+  margin-bottom: var(--space-2);
+  padding-left: var(--space-3);
+  position: relative;
+  text-align: left;
+}
+
+.resume-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--apple-blue);
+  font-weight: bold;
+}
+
+/* Fix resume intro text to be smaller and match other pages */
+.resume-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-12) auto;
+  padding: var(--space-6) var(--space-4);
+  font-size: 1.1rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+/* Duplicate alignment rules removed - consolidated above */
+
+/* Override Quarto's default section title alignment and increase font size */
+.section-title {
+  font-size: 3.5rem !important;
+  font-weight: 600;
+  text-align: left !important; /* Override Quarto's center alignment */
+}
+
+/* Specifically target section titles within two-column layout */
+.two-column-layout .section-title {
+  text-align: left !important;
+  margin-bottom: var(--space-6) !important; /* Reduce bottom margin */
+}
+
+/* Override Quarto's section-title-container centering */
+.section-title-container {
+  text-align: left !important;
+}
+
+.two-column-layout .section-title-container {
+  text-align: left !important;
+}
+
+/* Resources intro text styling - plain text, no card */
+.resources-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-12) auto;
+  padding: 0 var(--space-4);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  font-weight: 400;
+}
+
+/* Adjust Quick Reference title to fit on one line */
+.left-column .section-title {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
 
 /* Labs grid with varied sizing */
 .labs-grid {

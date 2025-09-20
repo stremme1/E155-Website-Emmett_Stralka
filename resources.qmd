@@ -4,27 +4,12 @@
 :::
 :::
 
-::: {.resources-intro .scroll-animate}
+::: {.scroll-animate}
 Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
 :::
 
 ::: {.two-column-layout}
 ::: {.left-column}
-::: {.section-title-container}
-## Quick Reference {.section-title}
-:::
-
-::: {.resources-section .scroll-animate}
-**Essential Tools**
-- Quartus Prime - Intel's FPGA design software
-- ARM Keil MDK-ARM - Integrated development environment
-- GDB Debugger - GNU debugger for embedded systems
-
-**Key Documentation**
-- ARM Cortex-M4 Documentation
-- Intel Cyclone V Handbook
-- STM32 Reference Manuals
-:::
 :::
 
 ::: {.right-column}
@@ -48,6 +33,7 @@ Comprehensive collection of resources, tools, and references that have been inst
 - [FPGA Design Tutorials](https://www.fpga4fun.com/)
 - [Embedded C Programming](https://www.embedded.com/)
 :::
+
 :::
 :::
 
