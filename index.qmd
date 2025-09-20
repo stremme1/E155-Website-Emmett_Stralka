@@ -1,4 +1,6 @@
 ---
+title: "Emmett Stralka"
+subtitle: "Engineering Student & Technical Innovator"
 format:
   html:
     body-class: homepage
@@ -7,14 +9,6 @@ format:
 ::: {.hero-section}
 ::: {.hero-content}
 ::: {.hero-text}
-::: {.hero-name-container}
-# Emmett Stralka {.hero-title}
-:::
-
-::: {.hero-subtitle-container}
-## Engineering Student & Technical Innovator {.hero-subtitle}
-:::
-
 ::: {.hero-description}
 Harvey Mudd College student majoring in Engineering and Economics with expertise in microcontrollers, FPGA design, product management, and UX/UI design.
 :::

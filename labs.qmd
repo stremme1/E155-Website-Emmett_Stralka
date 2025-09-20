@@ -3,15 +3,13 @@ title: "E155 Labs"
 subtitle: "Microcontrollers & FPGA Design"
 ---
 
-::: {.labs-intro}
 Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
 
 ::: {.progress-indicator}
 **Progress:** 2/7 labs completed (29%) | **Current:** Interrupts and Timers | **Next:** Memory-Mapped I/O
 :::
-:::
 
-## Lab Portfolio {.section-title}
+## Lab Portfolio
 
 ::: {.lab-cards-grid}
 

@@ -2,20 +2,20 @@ project:
   type: website
 
 website:
-  title: "Emmett Stralka - Engineering Portfolio"
-  description: "Harvey Mudd College Engineering Student | Microcontrollers & FPGA Design | Product Management & UX/UI"
+  title: "Emmett Stralka"
+  description: "Engineering Student | Microcontrollers & FPGA Design"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: labs.qmd
         text: Labs
       - href: blog.qmd
         text: Blog
       - href: resources.qmd
         text: Resources
-      - href: about.qmd
-        text: About
     right:
       - icon: github
         href: https://github.com/stremme1

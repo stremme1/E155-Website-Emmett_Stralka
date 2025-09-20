@@ -3,14 +3,12 @@ title: "About Emmett Stralka"
 subtitle: "Engineering Student | Technical Innovator | Problem Solver"
 ---
 
-::: {.about-intro}
 Welcome to my technical portfolio! I'm a dedicated engineering student passionate about 
 bridging the gap between innovative technology and practical solutions.
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
-:::
 
-## My Journey {.section-title}
+## Academic Foundation
 
 ::: {.journey-grid}
 
