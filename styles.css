@@ -1489,11 +1489,9 @@ body {
   border-radius: var(--radius-2xl);
   text-align: center;
   position: relative;
-  overflow: hidden;
-  min-height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  overflow: visible;
+  min-height: auto;
+  display: block;
   box-shadow: var(--shadow-xl);
   border: 1px solid rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(20px);
@@ -1523,6 +1521,16 @@ body {
   bottom: 0;
   background: radial-gradient(circle at 50% 50%, rgba(0, 122, 255, 0.05) 0%, transparent 70%);
   pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure all content is visible and above the background */
+.labs-intro > *,
+.about-intro > *,
+.blog-intro > *,
+.resources-intro > * {
+  position: relative;
+  z-index: 1;
 }
 
 .labs-title,
@@ -1571,6 +1579,9 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 /* ===============================================
@@ -1642,6 +1653,11 @@ body {
   animation: fadeInUp 1s ease-out 1.2s both;
   box-shadow: var(--shadow-lg);
   transition: all var(--transition-normal);
+  position: relative;
+  z-index: 1;
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 .progress-indicator:hover {
