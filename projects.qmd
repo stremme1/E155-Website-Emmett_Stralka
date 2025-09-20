@@ -18,8 +18,7 @@ A showcase of my technical projects and engineering work, demonstrating expertis
 ::: {.project-icon}
 ⚡
 :::
-### E155: Microcontrollers & FPGA Design
-**Embedded Systems Development** {.card-subtitle}
+### E155: Microcontrollers & FPGA
 
 Comprehensive journey through embedded systems, digital design, and hardware-software integration.
 :::
@@ -28,8 +27,7 @@ Comprehensive journey through embedded systems, digital design, and hardware-sof
 ::: {.project-icon}
 🔧
 :::
-### Lab 1: FPGA and MCU Setup
-**Development Environment** {.card-subtitle}
+### Lab 1: FPGA & MCU Setup
 
 Established robust development environment with 99.97% UART reliability.
 :::
@@ -39,7 +37,6 @@ Established robust development environment with 99.97% UART reliability.
 ⚡
 :::
 ### Lab 2: Assembly Programming
-**Performance Optimization** {.card-subtitle}
 
 ARM assembly optimization achieving 59.4% performance improvement in FFT operations.
 :::
@@ -48,8 +45,7 @@ ARM assembly optimization achieving 59.4% performance improvement in FFT operati
 ::: {.project-icon}
 ⏱️
 :::
-### Lab 3: Interrupts and Timers
-**Real-time Programming** {.card-subtitle}
+### Lab 3: Interrupts & Timers
 
 Exploring real-time programming with < 1 μs interrupt latency.
 :::
@@ -59,7 +55,6 @@ Exploring real-time programming with < 1 μs interrupt latency.
 🎓
 :::
 ### Engineering & Economics
-**Dual Major Program** {.card-subtitle}
 
 Combining technical engineering skills with business acumen.
 :::
@@ -69,7 +64,6 @@ Combining technical engineering skills with business acumen.
 🚀
 :::
 ### Future Projects
-**Areas of Exploration** {.card-subtitle}
 
 Advanced embedded systems, IoT applications, and sustainable technology.
 :::

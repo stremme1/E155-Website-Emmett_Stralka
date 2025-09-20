@@ -5,7 +5,7 @@
 :::
 
 ::: {.scroll-animate}
-Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey. From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
+**Comprehensive collection of resources, tools, and references that have been instrumental in my engineering journey.** From course materials to development environments, these resources support continuous learning and technical growth in embedded systems, FPGA design, and engineering innovation.
 :::
 
 ::: {.two-column-layout}
@@ -19,19 +19,19 @@ Comprehensive collection of resources, tools, and references that have been inst
 
 ::: {.resources-section .scroll-animate}
 **Documentation & References**
-- [ARM Developer Documentation](https://developer.arm.com/documentation)
-- [Intel FPGA Documentation](https://www.intel.com/content/www/us/en/programmable/documentation/)
-- [STM32 Documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
+- [ARM Developer Documentation](https://developer.arm.com/documentation){target="_blank"}
+- [Intel FPGA Documentation](https://www.intel.com/content/www/us/en/programmable/documentation/){target="_blank"}
+- [STM32 Documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html){target="_blank"}
 
 **Communities & Forums**
-- [ARM Community](https://community.arm.com/)
-- [FPGA Forums](https://www.fpga4fun.com/)
-- [Embedded Systems Stack Exchange](https://electronics.stackexchange.com/)
+- [ARM Community](https://community.arm.com/){target="_blank"}
+- [FPGA Forums](https://www.fpga4fun.com/){target="_blank"}
+- [Embedded Systems Stack Exchange](https://electronics.stackexchange.com/){target="_blank"}
 
 **Tutorials & Guides**
-- [ARM Assembly Tutorials](https://azeria-labs.com/writing-arm-assembly-part-1/)
-- [FPGA Design Tutorials](https://www.fpga4fun.com/)
-- [Embedded C Programming](https://www.embedded.com/)
+- [ARM Assembly Tutorials](https://azeria-labs.com/writing-arm-assembly-part-1/){target="_blank"}
+- [FPGA Design Tutorials](https://www.fpga4fun.com/){target="_blank"}
+- [Embedded C Programming](https://www.embedded.com/){target="_blank"}
 :::
 
 :::

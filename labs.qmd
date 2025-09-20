@@ -10,7 +10,7 @@
 
 ::: {.main-content}
 ::: {.scroll-animate}
-Documentation of my journey through **E155: Microcontrollers and FPGA Design** at Harvey Mudd College, mastering embedded systems, digital design, and hardware-software integration.
+**E155: Microcontrollers and FPGA Design** at Harvey Mudd College - mastering embedded systems, digital design, and hardware-software integration.
 :::
 
 ::: {.full-width-title}
@@ -25,7 +25,6 @@ Documentation of my journey through **E155: Microcontrollers and FPGA Design** a
 🔧
 :::
 ### Lab 1
-**FPGA & MCU Setup** {.card-subtitle}
 
 Development environment with 99.97% UART reliability.
 :::
@@ -35,7 +34,6 @@ Development environment with 99.97% UART reliability.
 ⚡
 :::
 ### Lab 2
-**Assembly Programming** {.card-subtitle}
 
 59.4% performance improvement in FFT operations.
 :::
@@ -45,7 +43,6 @@ Development environment with 99.97% UART reliability.
 ⏱️
 :::
 ### Lab 3
-**Interrupts & Timers** {.card-subtitle}
 
 Real-time programming with < 1 μs interrupt latency.
 :::
@@ -55,7 +52,6 @@ Real-time programming with < 1 μs interrupt latency.
 💾
 :::
 ### Lab 4
-**Memory-Mapped I/O** {.card-subtitle}
 
 Hardware-software interface design and peripheral programming.
 :::
@@ -65,7 +61,6 @@ Hardware-software interface design and peripheral programming.
 🚀
 :::
 ### Lab 5
-**Advanced Assembly** {.card-subtitle}
 
 Performance optimization and memory management techniques.
 :::
@@ -75,7 +70,6 @@ Performance optimization and memory management techniques.
 🔗
 :::
 ### Lab 6
-**System Integration** {.card-subtitle}
 
 Complete embedded system design with real-world applications.
 :::
@@ -85,7 +79,6 @@ Complete embedded system design with real-world applications.
 🎯
 :::
 ### Lab 7
-**Final Project** {.card-subtitle}
 
 Capstone embedded system demonstrating mastery of design.
 :::

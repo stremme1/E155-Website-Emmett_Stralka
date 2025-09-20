@@ -190,6 +190,16 @@ html, body, div, section, article, main, header, footer, nav, aside,
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-8);
+  align-items: start;
+}
+
+/* Fix vertical alignment of section titles in two-column layout */
+.two-column-layout .section-title-container {
+  margin-bottom: var(--space-6);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .two-column-layout .left-column {
@@ -237,7 +247,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
 .about-hero {
   text-align: center;
   max-width: 800px;
-  margin: 0 auto var(--space-16) auto;
+  margin: 0 auto var(--space-12) auto;
   padding: var(--space-8) var(--space-6);
   font-size: 1.25rem;
   line-height: 1.7;
@@ -251,7 +261,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
   aspect-ratio: 4/3;
   border-radius: var(--radius-lg);
   object-fit: cover;
-  margin: var(--space-8) auto;
+  margin: var(--space-4) auto var(--space-6) auto;
   display: block;
   box-shadow: var(--shadow-lg);
   border: 4px solid var(--apple-white);
@@ -295,9 +305,72 @@ html, body, div, section, article, main, header, footer, nav, aside,
   max-width: 800px;
   margin: 0 auto var(--space-12) auto;
   padding: var(--space-8) var(--space-6);
-  font-size: 1.125rem;
+  font-size: 0.95rem;
   line-height: 1.6;
   color: var(--apple-gray-dark);
+  text-align: left;
+}
+
+.about-section p {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  margin: 0 0 var(--space-3) 0;
+  text-align: left;
+}
+
+.about-section strong {
+  font-size: 0.95rem !important;
+  font-weight: 600;
+  color: var(--apple-black);
+}
+
+.about-section ul {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  text-align: left;
+}
+
+.about-section li {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  margin-bottom: var(--space-2);
+}
+
+/* About page specific alignment fixes */
+body:has(.about-hero) .two-column-layout {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body:has(.about-hero) .two-column-layout .section-title-container {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: var(--space-4);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body:has(.about-hero) .two-column-layout .left-column,
+body:has(.about-hero) .two-column-layout .right-column {
+  align-items: flex-start;
+}
+
+/* About page specific text sizing - force all text to be same size */
+body:has(.about-hero) .about-section,
+body:has(.about-hero) .about-section * {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+body:has(.about-hero) .about-section strong {
+  font-weight: 600 !important;
+  color: var(--apple-black);
 }
 
 /* Resume page specific styling */
@@ -379,14 +452,60 @@ html, body, div, section, article, main, header, footer, nav, aside,
   max-width: 800px;
   margin: 0 auto 60px auto;
   padding: 0 var(--space-4);
-  font-size: 1.8rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.6;
   color: var(--apple-gray-dark);
   font-weight: 400;
 }
 
+/* Lab Documentation section text styling */
+.full-width-content .scroll-animate {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  text-align: left !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.full-width-content .scroll-animate strong {
+  font-size: 0.95rem !important;
+  font-weight: 600;
+}
+
+.full-width-content .scroll-animate p {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.full-width-content .scroll-animate ul {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+}
+
+.full-width-content .scroll-animate li {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: var(--apple-gray-dark);
+  margin-bottom: var(--space-2);
+}
+
+/* Labs page specific subtitle styling */
+body:has(.labs-grid) .main-content .scroll-animate {
+  font-size: 1.15rem !important;
+  line-height: 1.6;
+}
+
+body:has(.labs-grid) .main-content .scroll-animate strong {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+
 .main-content .scroll-animate p {
-  font-size: 1.8rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.6;
   color: var(--apple-gray-dark);
   margin: 0;
@@ -489,28 +608,54 @@ html, body, div, section, article, main, header, footer, nav, aside,
   color: var(--apple-gray-dark);
 }
 
+/* Resume page specific alignment fixes */
+body:has(.resume-intro) .two-column-layout {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body:has(.resume-intro) .two-column-layout .section-title-container {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: var(--space-4);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Duplicate alignment rules removed - consolidated above */
 
-/* Override Quarto's default section title alignment and increase font size */
+/* Global page titles - blue gradient, centered like homepage */
 .section-title {
   font-size: 3.5rem !important;
   font-weight: 600;
-  text-align: left !important; /* Override Quarto's center alignment */
+  text-align: center !important;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 auto var(--space-8) auto !important;
+  display: block !important;
 }
 
-/* Specifically target section titles within two-column layout */
+/* Specifically target section titles within two-column layout - keep centered */
 .two-column-layout .section-title {
-  text-align: left !important;
-  margin-bottom: var(--space-6) !important; /* Reduce bottom margin */
+  text-align: center !important;
+  margin-bottom: var(--space-6) !important;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* Override Quarto's section-title-container centering */
+/* Override Quarto's section-title-container centering - keep centered */
 .section-title-container {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 .two-column-layout .section-title-container {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 /* Resources intro text styling - plain text, no card */
@@ -782,32 +927,51 @@ html, body, div, section, article, main, header, footer, nav, aside,
 
 .project-card h4,
 .lab-card h4 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--apple-black);
   margin: 0 0 var(--space-3) 0;
   letter-spacing: -0.01em;
   line-height: 1.2;
   text-align: center;
+  min-height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Projects page specific card title consistency */
+body:has(.projects-grid) .project-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--apple-black);
+  margin: 0 0 var(--space-3) 0;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  text-align: center;
+  min-height: 2.4em;
+  max-height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .project-card p,
 .lab-card p {
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.4;
   color: var(--apple-gray-dark);
   margin: 0 0 var(--space-4) 0;
   text-align: left;
 }
 
+/* Remove card subtitles globally */
 .project-card .card-subtitle,
 .lab-card .card-subtitle {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--apple-blue);
-  margin: 0 0 var(--space-3) 0;
-  text-align: center;
-  opacity: 0.8;
+  display: none !important;
 }
 
 .project-card ul {

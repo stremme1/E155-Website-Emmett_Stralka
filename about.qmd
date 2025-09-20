@@ -19,14 +19,26 @@ Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd
 :::
 
 ::: {.about-section .scroll-animate}
-**Harvey Mudd College** | Claremont, CA  
-*Dual Major: Engineering & Economics* | Expected Graduation: 2026
+<p><strong>Harvey Mudd College</strong><br>
+Claremont, CA<br>
+<em>Dual Major: Engineering & Economics</em><br>
+Expected Graduation: 2026</p>
 
-**Current Coursework:**
-- **E155: Microcontrollers & FPGA Design** - Learning embedded systems and digital design
-- **Digital Electronics** - Circuit design and analysis fundamentals
-- **Product Management** - Understanding business strategy and market analysis
-- **Economic Analysis** - Quantitative methods and decision-making frameworks
+<p><strong>Current Coursework:</strong></p>
+<ul>
+<li><strong>E155: Microcontrollers & FPGA Design</strong> - Learning embedded systems and digital design</li>
+<li><strong>Digital Electronics</strong> - Circuit design and analysis fundamentals</li>
+<li><strong>Product Management</strong> - Understanding business strategy and market analysis</li>
+<li><strong>Economic Analysis</strong> - Quantitative methods and decision-making frameworks</li>
+</ul>
+
+<p><strong>Technical Focus:</strong></p>
+<ul>
+<li>Embedded systems development and FPGA programming</li>
+<li>ARM assembly language optimization and real-time systems</li>
+<li>Digital circuit design and hardware-software integration</li>
+<li>Performance optimization and system debugging</li>
+</ul>
 :::
 :::
 
@@ -36,24 +48,20 @@ Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd
 :::
 
 ::: {.about-section .scroll-animate}
-I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. My journey at Harvey Mudd College has been defined by a unique combination of technical rigor and business acumen.
+<p>I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. My journey at Harvey Mudd College has been defined by a unique combination of technical rigor and business acumen.</p>
 
-**Technical Focus:**
-- Embedded systems development and FPGA programming
-- ARM assembly language optimization and real-time systems
-- Digital circuit design and hardware-software integration
-- Performance optimization and system debugging
+<p><strong>Business Integration:</strong></p>
+<ul>
+<li>Product management and market analysis</li>
+<li>Economic modeling and decision-making frameworks</li>
+<li>Understanding the intersection of technology and business</li>
+<li>Strategic thinking for engineering solutions</li>
+</ul>
 
-**Business Integration:**
-- Product management and market analysis
-- Economic modeling and decision-making frameworks
-- Understanding the intersection of technology and business
-- Strategic thinking for engineering solutions
+<p><strong>Future Vision:</strong><br>
+I'm excited to explore advanced embedded systems, IoT applications, and sustainable technology development. My goal is to create solutions that not only solve technical challenges but also address real-world business needs.</p>
 
-**Future Vision:**
-I'm excited to explore advanced embedded systems, IoT applications, and sustainable technology development. My goal is to create solutions that not only solve technical challenges but also address real-world business needs.
-
-**Email:** [emmett.stralka@hmc.edu](mailto:emmett.stralka@hmc.edu)
+<p><strong>Email:</strong> <a href="mailto:estralka@hmc.edu">estralka@hmc.edu</a></p>
 
 ::: {.social-icons}
 <a href="https://github.com/stremme1" class="social-icon" target="_blank">
