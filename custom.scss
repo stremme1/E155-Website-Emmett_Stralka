@@ -13,6 +13,17 @@ $content-width: 100%;
 /* ===============================================
    CENTERED HEADINGS & SECTION TITLES
    =============================================== */
+.section-title-container {
+  text-align: center;
+  margin-bottom: var(--space-16);
+  width: 100%;
+}
+
+.section-title {
+  text-align: center !important;
+  margin: 0 auto var(--space-8) auto !important;
+  display: block !important;
+}
 
 /* ===============================================
    PAGE LAYOUT & SPACING
@@ -73,7 +84,8 @@ div:has(.full-width-title) {
 /* Force remove all top spacing from everything */
 html, body, div, section, article, main, header, footer, nav, aside, 
 .quarto-container, .quarto-container-centered, .page-layout-custom, 
-.page-navbar, #quarto-content, main.content, .full-width-title {
+.page-navbar, #quarto-content, main.content, .full-width-title,
+.section-title-container, .section-title {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
@@ -86,6 +98,15 @@ html, body, div, section, article, main, header, footer, nav, aside,
   top: -15px !important;
 }
 
+.section-title-container {
+  margin-top: -30px !important;
+  padding-top: 0 !important;
+}
+
+.section-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 /* Ensure the main content starts at the very top */
 #quarto-content {
@@ -135,6 +156,11 @@ html, body, div, section, article, main, header, footer, nav, aside,
   padding: 0;
 }
 
+/* Ensure section title containers have no top spacing */
+.full-width-title .section-title-container {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 /* Rule of thirds layout for non-homepage pages */
 .page-content {
@@ -156,7 +182,7 @@ html, body, div, section, article, main, header, footer, nav, aside,
   grid-column: 1;
 }
 
-/* Two column layout for Resume and Resources - Clean Grid Solution */
+/* Two column layout for Resume and Resources */
 .two-column-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -167,15 +193,49 @@ html, body, div, section, article, main, header, footer, nav, aside,
   align-items: start;
 }
 
+/* Force vertical alignment to top for section titles */
+.align-top {
+  align-self: start !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.two-column-layout .align-top {
+  align-self: start !important;
+}
+
+.two-column-layout .section-title-container.align-top {
+  align-self: start !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+}
+
+/* Fix vertical alignment of section titles in two-column layout */
+.two-column-layout .section-title-container {
+  margin-bottom: var(--space-6);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .two-column-layout .left-column {
   grid-column: 1;
   text-align: left;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .two-column-layout .right-column {
   grid-column: 2;
   text-align: left;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Responsive design for rule of thirds */
@@ -305,13 +365,26 @@ html, body, div, section, article, main, header, footer, nav, aside,
   margin-bottom: var(--space-2);
 }
 
-/* About page specific alignment fixes - Clean Grid Solution */
+/* About page specific alignment fixes */
 body:has(.about-hero) .two-column-layout {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  align-items: start !important;
+  margin-top: 0;
+  padding-top: 0;
 }
 
+body:has(.about-hero) .two-column-layout .section-title-container {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: var(--space-4);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body:has(.about-hero) .two-column-layout .left-column,
+body:has(.about-hero) .two-column-layout .right-column {
+  align-items: flex-start;
+}
 
 /* About page specific text sizing - force all text to be same size */
 body:has(.about-hero) .about-section,
@@ -324,17 +397,6 @@ body:has(.about-hero) .about-section * {
 body:has(.about-hero) .about-section strong {
   font-weight: 600 !important;
   color: var(--apple-black);
-}
-
-/* About page text formatting - left-align and size adjustment */
-body:has(.about-hero) .two-column-layout .left-column p,
-body:has(.about-hero) .two-column-layout .right-column p,
-body:has(.about-hero) .two-column-layout .left-column ul,
-body:has(.about-hero) .two-column-layout .right-column ul {
-  font-size: 1rem !important;
-  text-align: left !important;
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
 }
 
 /* Resume page specific styling */
@@ -572,29 +634,25 @@ body:has(.labs-grid) .main-content .scroll-animate strong {
   color: var(--apple-gray-dark);
 }
 
-/* Resume page specific alignment fixes - Clean Grid Solution */
+/* Resume page specific alignment fixes */
 body:has(.resume-intro) .two-column-layout {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  align-items: start !important;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-
-/* Resume page text formatting - left-align and size adjustment */
-body:has(.resume-intro) .two-column-layout .left-column p,
-body:has(.resume-intro) .two-column-layout .right-column p,
-body:has(.resume-intro) .two-column-layout .left-column ul,
-body:has(.resume-intro) .two-column-layout .right-column ul {
-  font-size: 1rem !important;
-  text-align: left !important;
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+body:has(.resume-intro) .two-column-layout .section-title-container {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: var(--space-4);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* Duplicate alignment rules removed - consolidated above */
 
-/* Clean section title styling - no double lines */
+/* Global page titles - blue gradient, centered like homepage */
 .section-title {
   font-size: 3.5rem !important;
   font-weight: 600;
@@ -603,24 +661,27 @@ body:has(.resume-intro) .two-column-layout .right-column ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 0 auto var(--space-4) auto !important;
+  margin: 0 auto var(--space-8) auto !important;
   display: block !important;
-  border: none !important;
-  text-decoration: none !important;
-  outline: none !important;
 }
 
+/* Specifically target section titles within two-column layout - keep centered */
+.two-column-layout .section-title {
+  text-align: center !important;
+  margin-bottom: var(--space-6) !important;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Override Quarto's section-title-container centering - keep centered */
 .section-title-container {
   text-align: center !important;
-  margin-bottom: var(--space-4) !important;
-  height: 60px !important;
-  min-height: 60px !important;
-  max-height: 60px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+}
+
+.two-column-layout .section-title-container {
+  text-align: center !important;
 }
 
 /* Resources intro text styling - plain text, no card */
