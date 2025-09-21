@@ -193,26 +193,6 @@ html, body, div, section, article, main, header, footer, nav, aside,
   align-items: start;
 }
 
-/* Force vertical alignment to top for section titles */
-.align-top {
-  align-self: start !important;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-.two-column-layout .align-top {
-  align-self: start !important;
-}
-
-.two-column-layout .section-title-container.align-top {
-  align-self: start !important;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  display: flex !important;
-  align-items: flex-start !important;
-  justify-content: center !important;
-}
-
 /* Fix vertical alignment of section titles in two-column layout */
 .two-column-layout .section-title-container {
   margin-bottom: var(--space-6);
@@ -225,17 +205,11 @@ html, body, div, section, article, main, header, footer, nav, aside,
 .two-column-layout .left-column {
   grid-column: 1;
   text-align: left;
-  align-self: start;
-  display: flex;
-  flex-direction: column;
 }
 
 .two-column-layout .right-column {
   grid-column: 2;
   text-align: left;
-  align-self: start;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Responsive design for rule of thirds */
@@ -445,14 +419,15 @@ body:has(.about-hero) .about-section strong {
   color: var(--apple-gray-dark);
 }
 
-/* Projects grid with varied sizing */
+/* Projects grid with consistent sizing */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--space-6);
   margin: var(--space-16) auto;
   max-width: 1200px;
   padding: 0 var(--space-8);
+  align-items: start;
 }
 
 /* Full width content area */
@@ -702,14 +677,15 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   line-height: 1.2;
 }
 
-/* Labs grid with varied sizing */
+/* Labs grid with consistent sizing */
 .labs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-6);
   margin: var(--space-16) auto;
   max-width: 1200px;
   padding: 0 var(--space-8);
+  align-items: start;
 }
 
 .labs-grid .lab-card:nth-child(1) { grid-column: span 1; }
@@ -839,16 +815,19 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   overflow: hidden;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  min-height: 320px;
   aspect-ratio: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .lab-card {
   background: var(--apple-white);
   border-radius: var(--radius-2xl);
-  padding: var(--space-6);
+  padding: var(--space-8);
   transition: all var(--transition-normal);
   box-shadow: 
     var(--shadow-sm),
@@ -859,10 +838,13 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   overflow: hidden;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  min-height: 320px;
   aspect-ratio: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .lab-card.completed {
@@ -896,6 +878,135 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   opacity: 1;
 }
 
+/* Make lab cards fully clickable */
+.lab-card {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.lab-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lab-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lab page specific overrides - remove Quarto titles */
+.lab-page .quarto-title-block,
+.lab-page .quarto-title,
+.lab-page .quarto-title-author,
+.lab-page .quarto-title-affiliation,
+.lab-page .quarto-title-meta,
+.lab-page .quarto-title-meta-contents,
+.lab-page .quarto-title-meta-author,
+.lab-page .quarto-title-meta-date,
+.lab-page .quarto-title-meta-categories,
+.lab-page .quarto-title-meta-description {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Remove any top spacing from lab pages */
+.lab-page {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.lab-page #quarto-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Lab page title styling */
+.lab-page-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--apple-black);
+  text-align: center;
+  margin: 0 0 var(--space-4) 0;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.lab-page-subtitle {
+  font-size: 1.25rem;
+  color: var(--apple-gray-dark);
+  text-align: center;
+  margin: 0 0 var(--space-8) 0;
+  line-height: 1.5;
+}
+
+.lab-page-divider {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--apple-blue), var(--apple-purple));
+  margin: 0 auto var(--space-16) auto;
+  border-radius: 2px;
+}
+
+/* Lab content sections - full width, no cards */
+.lab-content-section {
+  margin-bottom: var(--space-12);
+  padding: var(--space-8);
+  background: var(--apple-white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+}
+
+.lab-content-section h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--apple-black);
+  margin: 0 0 var(--space-6) 0;
+  letter-spacing: -0.01em;
+}
+
+.lab-content-section h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--apple-black);
+  margin: var(--space-8) 0 var(--space-4) 0;
+  letter-spacing: -0.01em;
+}
+
+.lab-content-section p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+  margin: 0 0 var(--space-6) 0;
+  text-align: left;
+}
+
+.lab-content-section ul, .lab-content-section ol {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--apple-gray-dark);
+  margin: 0 0 var(--space-6) 0;
+  text-align: left;
+  padding-left: var(--space-6);
+}
+
+.lab-content-section li {
+  margin-bottom: var(--space-2);
+}
+
+/* Full width layout for lab pages */
+.lab-page-layout {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
 .project-card::before {
   content: '';
   position: absolute;
@@ -919,16 +1030,7 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   opacity: 1;
 }
 
-.project-card .project-icon,
-.lab-card .lab-icon {
-  font-size: 2.5rem;
-  margin-bottom: var(--space-4);
-  display: block;
-  opacity: 0.9;
-  transition: all var(--transition-normal);
-  filter: grayscale(0.2);
-  text-align: center;
-}
+/* Removed icon styling since emojis were removed */
 
 .project-card .card-icon {
   font-size: 3rem;
@@ -940,58 +1042,72 @@ body:has(.resume-intro) .two-column-layout .section-title-container {
   text-align: center;
 }
 
-.project-card:hover .project-icon,
-.lab-card:hover .lab-icon {
-  transform: scale(1.1) rotate(5deg);
-  filter: grayscale(0);
-}
+/* Removed icon hover effects since emojis were removed */
 
 .project-card:hover .card-icon {
   transform: scale(1.1) rotate(5deg);
   filter: grayscale(0);
 }
 
-.project-card h4,
-.lab-card h4 {
-  font-size: 1rem;
+.project-card h3 {
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--apple-black);
-  margin: 0 0 var(--space-3) 0;
+  margin: 0 0 var(--space-4) 0;
   letter-spacing: -0.01em;
-  line-height: 1.2;
+  line-height: 1.3;
   text-align: center;
-  min-height: 2.4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Projects page specific card title consistency */
-body:has(.projects-grid) .project-card h4 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--apple-black);
-  margin: 0 0 var(--space-3) 0;
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-  text-align: center;
-  min-height: 2.4em;
-  max-height: 2.4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   overflow: hidden;
   word-wrap: break-word;
   hyphens: auto;
 }
 
-.project-card p,
-.lab-card p {
-  font-size: 0.8rem;
-  line-height: 1.4;
-  color: var(--apple-gray-dark);
+.lab-card h3 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--apple-black);
   margin: 0 0 var(--space-4) 0;
-  text-align: left;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Projects page specific card title consistency */
+body:has(.projects-grid) .project-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--apple-black);
+  margin: 0 0 var(--space-4) 0;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--apple-gray-dark);
+  margin: 0;
+  text-align: center;
+  max-width: 90%;
+}
+
+.lab-card p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--apple-gray-dark);
+  margin: 0;
+  text-align: center;
+  max-width: 90%;
 }
 
 /* Remove card subtitles globally */
@@ -1554,7 +1670,9 @@ main.content {
   /* Project cards responsive - tablet */
   .achievements-grid,
   .project-grid,
-  .integration-grid {
+  .integration-grid,
+  .projects-grid,
+  .labs-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 0 var(--space-6);
     gap: var(--space-6);
@@ -1562,7 +1680,8 @@ main.content {
   
   .achievement-card,
   .project-card,
-  .integration-card {
+  .integration-card,
+  .lab-card {
     padding: var(--space-6);
   }
   
@@ -1589,7 +1708,9 @@ main.content {
   /* Project cards responsive - mobile */
   .achievements-grid,
   .project-grid,
-  .integration-grid {
+  .integration-grid,
+  .projects-grid,
+  .labs-grid {
     grid-template-columns: 1fr;
     padding: 0 var(--space-4);
     gap: var(--space-4);
@@ -1597,7 +1718,8 @@ main.content {
   
   .achievement-card,
   .project-card,
-  .integration-card {
+  .integration-card,
+  .lab-card {
     padding: var(--space-5);
   }
   

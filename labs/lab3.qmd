@@ -1,0 +1,111 @@
+---
+title: "Lab 3: Keypad Scanner"
+description: "Development of a keypad scanning system with debouncing and state management for user input processing"
+author: "Emmett Stralka"
+date: "2024-08-29"
+categories:
+  - embedded-systems
+  - input-systems
+  - keypad-scanning
+  - lab-report
+draft: false
+---
+
+# Lab 3: Keypad Scanner
+
+**Development of a keypad scanning system with debouncing and state management for user input processing**
+
+---
+
+## Overview
+
+Lab 3 focuses on developing a keypad scanning system with proper debouncing and state management for reliable user input processing. This lab teaches students about input handling, switch debouncing techniques, and state machine design for user interfaces.
+
+### Learning Objectives
+- Understand keypad matrix scanning techniques
+- Implement hardware and software debouncing
+- Design state machines for input processing
+- Handle multiple simultaneous key presses
+- Create robust user input validation systems
+
+## Step-by-Step Procedure
+
+### 1. Hardware Setup
+- Connect keypad matrix to microcontroller GPIO pins
+- Configure row pins as outputs and column pins as inputs
+- Add pull-up resistors for proper input detection
+- Test basic connectivity and key detection
+
+### 2. Matrix Scanning Algorithm
+- Implement row-by-row scanning technique
+- Detect key presses by monitoring column states
+- Create key mapping table for character identification
+- Handle multiple key press scenarios
+
+### 3. Debouncing Implementation
+- Implement software debouncing with timing delays
+- Add hardware debouncing with capacitors if needed
+- Create state machine for key press detection
+- Ensure reliable single key press detection
+
+### 4. State Management
+- Design input processing state machine
+- Handle key press, hold, and release events
+- Implement input validation and error handling
+- Create user feedback mechanisms
+
+## Technical Implementation
+
+The keypad scanning system uses matrix scanning to efficiently detect key presses across multiple keys with minimal GPIO pins. Key technical aspects include:
+
+- **Matrix Scanning**: Row-by-row activation with column monitoring
+- **Debouncing**: Software timing-based debouncing for reliable input
+- **State Management**: Proper handling of key press, hold, and release events
+- **Input Validation**: Robust error handling and input verification
+
+## Performance Optimization
+
+Critical optimization techniques for the keypad scanner:
+- **Efficient Scanning**: Minimize scan time while maintaining responsiveness
+- **Smart Debouncing**: Balance between responsiveness and false trigger prevention
+- **State Machine Design**: Efficient state transitions for complex input handling
+- **Memory Management**: Optimize storage for key mapping and state variables
+
+## Testing and Validation
+
+### Functional Tests
+- **Individual Key Test**: Verify each key is detected correctly
+- **Multiple Key Test**: Handle simultaneous key presses appropriately
+- **Debouncing Test**: Confirm no false triggers from switch bounce
+- **Response Time Test**: Measure input detection latency
+
+### Performance Tests
+- **Scan Rate Measurement**: Verify consistent scanning frequency
+- **Power Consumption**: Monitor current usage during operation
+- **Reliability Test**: Extended operation without false inputs
+
+## Troubleshooting Guide
+
+- **Keys not detected**:
+    - Check GPIO pin configuration and connections
+    - Verify pull-up resistor values and connections
+    - Test individual row and column functionality
+- **False key presses**:
+    - Adjust debouncing timing parameters
+    - Check for electrical noise and interference
+    - Verify proper grounding and shielding
+- **Multiple key detection issues**:
+    - Review matrix scanning algorithm
+    - Check for short circuits between keys
+    - Verify proper keypad matrix wiring
+
+## Resources and Documentation
+
+- [E155 Labs Overview](https://hmc-e155.github.io/lab/)
+- [Lab Specs](https://hmc-e155.github.io/lab/lab-specs.html) (Placeholder for actual lab specs)
+- Keypad Matrix Datasheet
+- Microcontroller GPIO Reference Manual
+
+## Expected Outcomes
+
+Upon successful completion of Lab 3, students will have implemented a robust keypad scanning system with reliable debouncing, proper state management, and efficient input processing. This foundation is essential for user interface development and interactive embedded systems.

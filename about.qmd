@@ -9,7 +9,7 @@ Welcome to my technical portfolio! I'm a dedicated engineering student passionat
 
 ![Emmett Stralka - Engineering Student at Harvey Mudd College](images/headshot.jpg){.about-image}
 
-Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, bringing both technical rigor and business acumen to every project.
+Currently pursuing dual majors in **Engineering and Economics** at **Harvey Mudd College**, with hands-on experience in **ML/AI product management** at **Apple** and **Ford Motor Company**. I bring both technical rigor and business acumen to every project.
 :::
 
 ::: {.two-column-layout style="align-items: start;"}
@@ -44,22 +44,48 @@ Expected Graduation: 2026</p>
 
 ::: {.right-column style="align-self: start;"}
 ::: {.section-title-container style="margin-top: 0; padding-top: 0;"}
+## Professional Experience {.section-title}
+:::
+
+::: {.about-section .scroll-animate}
+<p><strong>Apple</strong> - Manufacturing ML Embedded Systems<br>
+<em>August 2025 - Present | Cupertino, CA</em></p>
+
+<p><strong>Ford Motor Company</strong> - Technical Product Manager AI-ML<br>
+<em>May 2025 – August 2025 | Palo Alto, CA</em></p>
+<ul>
+<li>Drove requirements for cross-functional collaboration with 40+ ML engineers and UX teams</li>
+<li>Delivered executive demo prototype evaluating embedded and cloud AI LLM/SLM models</li>
+<li>Influenced $200M+ third-party contract through strategic product development</li>
+<li>Led development of custom language model with cloud fallback for real-time interactions</li>
+</ul>
+
+<p><strong>Ford Motor Company</strong> - Data Science Intern<br>
+<em>May 2024 – August 2024 | Palo Alto, CA</em></p>
+<ul>
+<li>Integrated Vehicle Energy Model into Android Auto across 20,000+ E-Transit vans</li>
+<li>Automated hyperparameter tuning workflows, boosting SOC prediction accuracy by 18%</li>
+<li>Collaborated with Apple CarPlay UX and SYNC teams for 200,000+ vehicles</li>
+</ul>
+:::
+
+::: {.section-title-container}
 ## My Full Story {.section-title}
 :::
 
 ::: {.about-section .scroll-animate}
-<p>I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. My journey at Harvey Mudd College has been defined by a unique combination of technical rigor and business acumen.</p>
+<p>I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. My journey combines hands-on experience in ML/AI product management with deep technical expertise in embedded systems.</p>
 
-<p><strong>Business Integration:</strong></p>
+<p><strong>Technical Expertise:</strong></p>
 <ul>
-<li>Product management and market analysis</li>
-<li>Economic modeling and decision-making frameworks</li>
-<li>Understanding the intersection of technology and business</li>
-<li>Strategic thinking for engineering solutions</li>
+<li>Python, SQL, BigQuery, TensorFlow, Retrieval-Augmented Generation (RAG)</li>
+<li>Embedded systems development and FPGA programming</li>
+<li>Product management, A/B testing, and data-driven decision making</li>
+<li>Cross-functional collaboration and stakeholder management</li>
 </ul>
 
 <p><strong>Future Vision:</strong><br>
-I'm excited to explore advanced embedded systems, IoT applications, and sustainable technology development. My goal is to create solutions that not only solve technical challenges but also address real-world business needs.</p>
+I'm excited to continue exploring the intersection of AI/ML and embedded systems, creating solutions that not only solve technical challenges but also drive real business value.</p>
 
 <p><strong>Email:</strong> <a href="mailto:estralka@hmc.edu">estralka@hmc.edu</a></p>
 

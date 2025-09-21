@@ -1,0 +1,115 @@
+---
+title: "Lab 5: Interrupts"
+description: "Advanced interrupt handling and real-time programming techniques for responsive embedded systems"
+author: "Emmett Stralka"
+date: "2024-08-29"
+categories:
+  - embedded-systems
+  - interrupts
+  - real-time-systems
+  - lab-report
+draft: false
+---
+
+# Lab 5: Interrupts
+
+**Advanced interrupt handling and real-time programming techniques for responsive embedded systems**
+
+---
+
+## Overview
+
+Lab 5 focuses on advanced interrupt handling and real-time programming techniques essential for responsive embedded systems. This lab teaches students about interrupt service routines, priority management, and real-time system design principles.
+
+### Learning Objectives
+- Understand interrupt mechanisms and vector tables
+- Implement interrupt service routines (ISRs)
+- Design priority-based interrupt handling systems
+- Master real-time programming techniques
+- Handle multiple concurrent interrupt sources
+
+## Step-by-Step Procedure
+
+### 1. Interrupt System Setup
+- Configure interrupt vector table and priority levels
+- Set up interrupt enable registers and control bits
+- Initialize interrupt sources (timers, GPIO, UART, etc.)
+- Test basic interrupt functionality
+
+### 2. Interrupt Service Routine Design
+- Implement efficient ISR functions
+- Handle interrupt context saving and restoration
+- Design minimal processing in interrupt context
+- Implement proper interrupt acknowledgment
+
+### 3. Priority Management
+- Configure interrupt priority levels
+- Handle nested interrupt scenarios
+- Implement priority-based task scheduling
+- Test interrupt preemption and nesting
+
+### 4. Real-Time System Integration
+- Integrate interrupts with main program flow
+- Implement real-time task scheduling
+- Handle timing-critical operations
+- Optimize system responsiveness
+
+## Technical Implementation
+
+The interrupt system implements priority-based interrupt handling with efficient service routines and real-time task processing. Key technical aspects include:
+
+- **Vector Table Management**: Proper interrupt vector configuration and handling
+- **Priority Control**: Hierarchical interrupt priority management
+- **Context Management**: Efficient register saving and restoration
+- **Real-Time Processing**: Time-critical operation handling
+
+## Performance Optimization
+
+Critical optimization techniques for interrupt handling:
+- **Minimal ISR Processing**: Keep interrupt service routines as short as possible
+- **Efficient Context Switching**: Optimize register save/restore operations
+- **Priority Optimization**: Balance interrupt priorities for system performance
+- **Memory Management**: Efficient use of stack and global variables
+
+## Testing and Validation
+
+### Functional Tests
+- **Interrupt Triggering**: Verify all interrupt sources trigger correctly
+- **Priority Testing**: Confirm interrupt priority and preemption behavior
+- **Nesting Test**: Test nested interrupt handling
+- **Timing Test**: Measure interrupt response times
+
+### Performance Tests
+- **Latency Measurement**: Measure interrupt response latency
+- **Throughput Test**: Test interrupt processing throughput
+- **Stability Test**: Extended operation under interrupt load
+- **Resource Usage**: Monitor stack and memory usage
+
+## Troubleshooting Guide
+
+- **Interrupts not triggering**:
+    - Check interrupt enable registers and configuration
+    - Verify interrupt source configuration
+    - Test interrupt vector table setup
+    - Check global interrupt enable status
+- **Priority issues**:
+    - Verify interrupt priority configuration
+    - Check for priority conflicts
+    - Test interrupt preemption behavior
+    - Review priority assignment strategy
+- **System instability**:
+    - Check stack overflow conditions
+    - Verify proper context saving/restoration
+    - Test interrupt nesting limits
+    - Review ISR processing time
+
+## Resources and Documentation
+
+- [E155 Labs Overview](https://hmc-e155.github.io/lab/)
+- [Lab Specs](https://hmc-e155.github.io/lab/lab-specs.html) (Placeholder for actual lab specs)
+- Microcontroller Interrupt Reference Manual
+- Real-Time Systems Design Guide
+
+## Expected Outcomes
+
+Upon successful completion of Lab 5, students will have mastered advanced interrupt handling techniques, implemented priority-based interrupt systems, and designed real-time responsive embedded systems. This foundation is essential for complex embedded applications requiring precise timing and event handling.

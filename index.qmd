@@ -16,7 +16,7 @@ format:
 :::
 
 ::: {.hero-description}
-Harvey Mudd College student majoring in Engineering and Economics with expertise in microcontrollers, FPGA design, product management, and UX/UI design.
+Harvey Mudd College student majoring in Engineering and Economics with hands-on experience in ML/AI product management at Apple and Ford Motor Company. Expertise in embedded systems, data science, and cross-functional product development.
 :::
 
 ::: {.hero-actions}
@@ -38,11 +38,8 @@ Harvey Mudd College student majoring in Engineering and Economics with expertise
 ::: {.featured-grid}
 ::: {.featured-card .scroll-animate-left}
 ::: {.featured-card-content}
-::: {.featured-icon}
-⚡
-:::
 ### E155 Labs
-**Microcontrollers & FPGA Design** {.card-subtitle}
+**Microcontrollers & FPGA Design**
 
 Comprehensive documentation of my journey through embedded systems, digital design, and hardware-software integration.
 
@@ -52,11 +49,8 @@ Comprehensive documentation of my journey through embedded systems, digital desi
 
 ::: {.featured-card .scroll-animate-scale}
 ::: {.featured-card-content}
-::: {.featured-icon}
-📝
-:::
 ### Technical Blog
-**Engineering Insights** {.card-subtitle}
+**Engineering Insights**
 
 Reflections on learning, project documentation, and technical discoveries from my engineering journey.
 
@@ -66,11 +60,8 @@ Reflections on learning, project documentation, and technical discoveries from m
 
 ::: {.featured-card .scroll-animate-right}
 ::: {.featured-card-content}
-::: {.featured-icon}
-🎯
-:::
 ### About Me
-**My Story** {.card-subtitle}
+**My Story**
 
 Learn about my academic journey, professional experience, and approach to engineering problem-solving.
 
@@ -85,7 +76,7 @@ Learn about my academic journey, professional experience, and approach to engine
 ## About Me {.section-title}
 :::
 
-I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. Currently pursuing dual majors in Engineering and Economics at Harvey Mudd College, I bring both technical rigor and business acumen to every project.
+I'm a dedicated engineering student passionate about bridging the gap between innovative technology and practical solutions. Currently pursuing dual majors in Engineering and Economics at Harvey Mudd College, with hands-on experience in ML/AI product management at Apple and Ford Motor Company.
 
 [Read Full Story](about.qmd){.btn .btn-secondary}
 :::
