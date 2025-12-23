@@ -1362,9 +1362,9 @@ p a:not(.btn):hover,
     justify-content: center;
   }
   
-  .about-card-grid {
+  .about-content-wrapper {
     grid-template-columns: 1fr;
-    gap: var(--space-6);
+    gap: var(--space-12);
   }
   
   .experience-header {
@@ -1729,8 +1729,9 @@ section.hero-section#top {
     text-align: center;
   }
   
-  .about-card-grid {
+  .about-content-wrapper {
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-12);
   }
 }
 
@@ -1787,12 +1788,12 @@ section.hero-section#top {
     max-width: 280px;
   }
   
-  .about-card {
-    padding: var(--space-12);
+  .about-content-block {
+    padding: 0;
   }
   
   .experience-item {
-    padding: var(--space-12);
+    padding: var(--space-10) 0;
   }
   
   .progress-indicator {
@@ -2067,49 +2068,21 @@ section.hero-section#top {
   font-weight: 400;
 }
 
-/* About Card Grid */
-.about-card-grid {
+/* About Content Wrapper - Clean text layout without cards */
+.about-content-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-8);
+  gap: var(--space-16);
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-8);
 }
 
-.about-card {
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: var(--radius-3xl);
-  padding: var(--space-16);
-  text-align: center;
-  transition: all var(--transition-normal);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  position: relative;
-  overflow: hidden;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+.about-content-block {
+  text-align: left;
 }
 
-.about-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  border-color: rgba(0, 122, 255, 0.15);
-}
-
-.about-card-icon {
-  font-size: 3rem;
-  margin-bottom: var(--space-6);
-  display: block;
-  filter: grayscale(0.1);
-  transition: transform var(--transition-normal);
-}
-
-.about-card:hover .about-card-icon {
-  transform: scale(1.1);
-}
-
-.about-card h3 {
+.about-content-block h3 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--apple-black);
@@ -2117,64 +2090,59 @@ section.hero-section#top {
   letter-spacing: -0.01em;
 }
 
-.about-card-text {
-  font-size: 1.125rem;
-  line-height: 1.6;
-  color: var(--apple-gray-dark);
-  margin: 0;
-}
-
-.about-card-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-
-.about-card-list li {
+.about-content-text {
   font-size: 1.125rem;
   line-height: 1.7;
   color: var(--apple-gray-dark);
-  margin-bottom: var(--space-4);
-  padding-left: var(--space-6);
+  margin: 0;
+}
+
+.about-content-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-content-list li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--apple-gray-dark);
+  margin-bottom: var(--space-5);
+  padding-left: var(--space-8);
   position: relative;
 }
 
-.about-card-list li::before {
-  content: '•';
+.about-content-list li::before {
+  content: '→';
   position: absolute;
   left: 0;
   color: var(--apple-blue);
   font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 1.25rem;
 }
 
-/* Experience Timeline */
-.experience-timeline {
+/* Experience Content - Clean layout without cards */
+.experience-content {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 var(--space-8);
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-16);
 }
 
 .experience-item {
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: var(--radius-3xl);
-  padding: var(--space-16);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  padding: var(--space-12) 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   transition: all var(--transition-normal);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+}
+
+.experience-item:last-child {
+  border-bottom: none;
 }
 
 .experience-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  border-color: rgba(0, 122, 255, 0.15);
+  padding-left: var(--space-4);
 }
 
 .experience-header {
