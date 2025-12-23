@@ -1420,7 +1420,9 @@ main#main-content {
 
 main#main-content > section:first-child,
 main#main-content > section#top,
-section#top.hero-section {
+section#top.hero-section,
+#top.hero-section,
+section.hero-section#top {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
