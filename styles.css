@@ -2063,9 +2063,9 @@ section.hero-section#top {
 
 .about-hero-content {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: var(--space-32);
-  align-items: center;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: var(--space-24);
+  align-items: start;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
@@ -2107,13 +2107,15 @@ section.hero-section#top {
 .about-hero-image {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
+  padding-top: var(--space-4);
 }
 
 .about-hero-img {
   width: 100%;
-  max-width: 500px;
+  max-width: 380px;
+  max-height: 500px;
   height: auto;
   border-radius: 28% 72% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 
