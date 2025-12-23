@@ -202,7 +202,7 @@ p {
   backdrop-filter: saturate(200%) blur(40px);
   -webkit-backdrop-filter: saturate(200%) blur(40px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-  padding: 0.5rem 2rem 0.5rem 0 !important;
+  padding: 0.375rem 2rem 0.375rem 0 !important;
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -215,9 +215,10 @@ p {
   transition: all var(--transition-normal) !important;
   transform: none !important;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
-  height: 56px !important;
-  min-height: 56px !important;
-  max-height: 56px !important;
+  height: 48px !important;
+  min-height: 48px !important;
+  max-height: 48px !important;
+  line-height: 1 !important;
 }
 
 header {
@@ -1070,14 +1071,14 @@ header {
 
 @media (max-width: 1024px) {
   .navbar {
-    padding: 0.5rem 2rem !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    max-height: 56px !important;
+    padding: 0.375rem 2rem !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
   }
   
   body {
-    padding-top: 56px !important;
+    padding-top: 48px !important;
   }
   
   .hero-section {
@@ -1172,14 +1173,14 @@ header {
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 0.4rem 1.5rem !important;
-    height: 52px !important;
-    min-height: 52px !important;
-    max-height: 52px !important;
+    padding: 0.3rem 1.5rem !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    max-height: 44px !important;
   }
   
   body {
-    padding-top: 52px !important;
+    padding-top: 44px !important;
   }
   
   .hero-section {
@@ -1285,13 +1286,13 @@ header {
 @media (max-width: 480px) {
   .navbar {
     padding: 0.25rem 1rem !important;
-    height: 48px !important;
-    min-height: 48px !important;
-    max-height: 48px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
   }
   
   body {
-    padding-top: 48px !important;
+    padding-top: 40px !important;
   }
   
   .hero-section {
@@ -1398,7 +1399,7 @@ header {
 
 /* Fix navbar covering content */
 body {
-  padding-top: 56px !important;
+  padding-top: 48px !important;
 }
 
 /* Apple-style container system - Homepage gets full width, other pages get centered content */
