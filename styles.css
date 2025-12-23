@@ -198,10 +198,10 @@ p {
    PREMIUM NAVIGATION
    =============================================== */
 .navbar {
-  background: rgba(255, 255, 255, 0.8) !important;
-  backdrop-filter: saturate(200%) blur(40px);
-  -webkit-backdrop-filter: saturate(200%) blur(40px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
   padding: 0 !important;
   position: fixed !important;
   top: 0 !important;
@@ -214,7 +214,7 @@ p {
   margin-top: 0 !important;
   transition: all var(--transition-normal) !important;
   transform: none !important;
-  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
   height: 64px !important;
   min-height: 64px !important;
   max-height: 64px !important;
@@ -391,7 +391,7 @@ header {
    IMMERSIVE HERO SECTION
    =============================================== */
 .hero-section {
-  padding: var(--space-12) 0 var(--space-16);
+  padding: var(--space-8) 0 var(--space-16) 0;
   background: 
     radial-gradient(circle at 20% 80%, rgba(0, 122, 255, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 122, 255, 0.02) 0%, transparent 50%),
@@ -642,10 +642,10 @@ header {
 }
 
 .btn-primary:hover {
-  transform: translateY(-4px) scale(1.05);
+  transform: translateY(-2px);
   box-shadow: 
-    0 12px 24px rgba(0, 122, 255, 0.3),
-    0 6px 12px rgba(0, 122, 255, 0.2);
+    0 8px 16px rgba(0, 122, 255, 0.25),
+    0 4px 8px rgba(0, 122, 255, 0.15);
   color: var(--apple-white);
   text-decoration: none;
 }
@@ -660,10 +660,10 @@ header {
 .btn-secondary:hover {
   background: var(--apple-blue);
   color: var(--apple-white);
-  transform: translateY(-4px) scale(1.05);
+  transform: translateY(-2px);
   box-shadow: 
-    0 12px 24px rgba(0, 122, 255, 0.3),
-    0 6px 12px rgba(0, 122, 255, 0.2);
+    0 8px 16px rgba(0, 122, 255, 0.25),
+    0 4px 8px rgba(0, 122, 255, 0.15);
   text-decoration: none;
 }
 
@@ -730,16 +730,13 @@ header {
 }
 
 .featured-card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   border-radius: var(--radius-3xl);
   padding: var(--space-16);
   text-align: center;
-  transition: all var(--transition-slow);
-  box-shadow: 
-    0 4px 20px rgba(0, 0, 0, 0.08),
-    0 1px 3px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all var(--transition-normal);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
   position: relative;
   overflow: hidden;
   min-height: 420px;
@@ -779,12 +776,9 @@ header {
 }
 
 .featured-card:hover {
-  transform: translateY(-16px) scale(1.03);
-  box-shadow: 
-    0 20px 40px rgba(0, 0, 0, 0.12),
-    0 8px 16px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.4);
-  border-color: rgba(0, 122, 255, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 122, 255, 0.15);
 }
 
 .featured-card:hover::before {
@@ -1195,7 +1189,7 @@ header {
   }
   
   .hero-section {
-    padding: var(--space-10) 0 var(--space-16);
+    padding: var(--space-8) 0 var(--space-16);
     min-height: calc(100vh - 60px);
     margin-top: 0 !important;
   }
@@ -2657,17 +2651,45 @@ main, .main-content, .content, .page-layout {
 }
 
 /* ===============================================
+   PREMIUM FOOTER DESIGN
+   =============================================== */
+footer {
+  padding: var(--space-16) 0 var(--space-12) 0 !important;
+  text-align: center !important;
+  background: var(--apple-gray-light) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.06) !important;
+  margin-top: var(--space-24) !important;
+}
+
+footer small {
+  font-size: 0.875rem;
+  color: var(--apple-gray) !important;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+/* ===============================================
    ACCESSIBILITY IMPROVEMENTS
    =============================================== */
 /* Enhanced focus states for better accessibility */
 .btn:focus,
 .navbar-nav .nav-link:focus,
 .featured-link:focus,
-.lab-link:focus {
-  outline: 3px solid var(--apple-blue);
-  outline-offset: 3px;
-  box-shadow: 0 0 0 6px rgba(0, 122, 255, 0.3);
+.lab-link:focus,
+.btn:focus-visible,
+.navbar-nav .nav-link:focus-visible,
+.featured-link:focus-visible {
+  outline: 2px solid var(--apple-blue);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2);
   border-radius: var(--radius-lg);
+}
+
+.btn:focus:not(:focus-visible),
+.navbar-nav .nav-link:focus:not(:focus-visible),
+.featured-link:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
 }
 
 /* Skip to main content link */
