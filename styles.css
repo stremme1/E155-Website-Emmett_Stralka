@@ -893,7 +893,7 @@ p {
    MODERN ABOUT PREVIEW SECTION
    =============================================== */
 .about-preview {
-  padding: var(--space-8) 0 var(--space-12);
+  padding: var(--space-4) 0 var(--space-12);
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
