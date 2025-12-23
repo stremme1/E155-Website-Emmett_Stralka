@@ -1418,7 +1418,9 @@ main#main-content {
   padding-top: 0 !important;
 }
 
-main#main-content > section:first-child {
+main#main-content > section:first-child,
+main#main-content > section#top,
+section#top.hero-section {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
