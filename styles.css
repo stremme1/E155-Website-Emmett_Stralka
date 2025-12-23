@@ -2684,7 +2684,7 @@ section.hero-section#top {
   /* Ensure same padding, font-size, and border-radius as home page buttons */
   padding: var(--space-5) var(--space-10) !important;
   font-size: 1.125rem !important;
-  border-radius: 16px !important;
+  border-radius: 24px !important;
   corner-shape: squircle !important;
 }
 
