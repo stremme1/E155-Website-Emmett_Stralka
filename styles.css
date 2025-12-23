@@ -1889,8 +1889,8 @@ section.hero-section#top {
   }
   
   .about-cta-actions {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-3);
+    flex-wrap: wrap;
+    gap: var(--space-4);
   }
   
   .about-image {
