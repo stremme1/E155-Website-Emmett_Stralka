@@ -48,13 +48,13 @@
   --space-56: 14rem;
   --space-64: 16rem;
   
-  /* Modern Border Radius */
-  --radius-xs: 4px;
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 20px;
-  --radius-2xl: 24px;
+  /* Modern Border Radius - G3 Spline Scale */
+  --radius-xs: 8px;      /* Very small elements (badges, icons) */
+  --radius-sm: 12px;     /* Small elements (buttons, nav links) */
+  --radius-md: 16px;     /* Medium elements (cards, containers) */
+  --radius-lg: 20px;     /* Large elements (images, hero sections) */
+  --radius-xl: 24px;     /* Extra large elements */
+  --radius-2xl: 28px;
   --radius-3xl: 32px;
   --radius-full: 50%;
   
@@ -271,7 +271,7 @@ header {
   overflow: hidden;
   padding: var(--space-2) var(--space-4);
   padding-left: 0 !important;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   display: inline-block;
   margin-left: 0 !important;
@@ -287,7 +287,7 @@ header {
   background: linear-gradient(135deg, var(--apple-blue), var(--apple-blue-dark));
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   z-index: 0;
   transform: scale(0.95);
@@ -309,7 +309,7 @@ header {
   font-weight: 500;
   color: var(--apple-gray-dark) !important;
   padding: var(--space-3) var(--space-3) !important;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
@@ -355,7 +355,7 @@ header {
   background: linear-gradient(135deg, var(--apple-blue), var(--apple-blue-dark));
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   z-index: 0;
   transform: scale(0.95);
@@ -392,7 +392,7 @@ header {
 .navbar-nav .nav-link[href*="github"],
 .navbar-nav .nav-link[href*="linkedin"] {
   padding: var(--space-2) !important;
-  border-radius: 10px;
+  border-radius: var(--radius-xs);
   corner-shape: squircle;
   transition: all var(--transition-normal);
 }
@@ -581,7 +581,7 @@ header {
 .hero-image {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  border-radius: 24px;
+  border-radius: var(--radius-lg);
   corner-shape: squircle;
   object-fit: cover;
   box-shadow: 
@@ -638,7 +638,7 @@ header {
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-5) var(--space-10);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   font-weight: 600;
   font-size: 1.125rem;
@@ -809,7 +809,7 @@ header {
 
 .featured-card {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-16);
   text-align: center;
@@ -866,7 +866,7 @@ header {
   background: rgba(0, 122, 255, 0.05);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -878,7 +878,7 @@ header {
   right: -2px;
   bottom: -2px;
   background: var(--apple-blue);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   z-index: -1;
   opacity: 0;
@@ -993,7 +993,7 @@ header {
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
   padding: var(--space-3) var(--space-6);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   background: rgba(0, 122, 255, 0.1);
   border: 1px solid rgba(0, 122, 255, 0.2);
@@ -1798,7 +1798,7 @@ section.hero-section#top {
   .resources-intro {
     padding: var(--space-16) var(--space-8) var(--space-12) var(--space-8);
     min-height: 400px;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
   corner-shape: squircle;
   }
   
@@ -1889,7 +1889,7 @@ section.hero-section#top {
   .resources-intro {
     padding: var(--space-12) var(--space-6) var(--space-10) var(--space-6);
     min-height: 350px;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
   corner-shape: squircle;
   }
   
@@ -2005,7 +2005,7 @@ section.hero-section#top {
   padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
   margin-top: var(--space-16) !important;
   margin-bottom: var(--space-24);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   text-align: left;
   position: relative;
@@ -2196,7 +2196,7 @@ section.hero-section#top {
 .about-hero-img {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  border-radius: 24px;
+  border-radius: var(--radius-lg);
   corner-shape: squircle;
   object-fit: cover;
   box-shadow: 
@@ -2279,7 +2279,7 @@ section.hero-section#top {
   width: 100%;
   max-width: 400px;
   height: auto;
-  border-radius: 24px;
+  border-radius: var(--radius-lg);
   corner-shape: squircle;
   box-shadow: 
     0 20px 60px rgba(0, 0, 0, 0.15),
@@ -2700,7 +2700,7 @@ section.hero-section#top {
 .progress-indicator {
   background: linear-gradient(135deg, var(--apple-blue-light), rgba(0, 122, 255, 0.1));
   border: 1px solid rgba(0, 122, 255, 0.3);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-8);
   margin-top: var(--space-10);
@@ -2740,7 +2740,7 @@ section.hero-section#top {
 
 .lab-card {
   background: var(--apple-white);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-8);
   transition: all var(--transition-normal);
@@ -2765,7 +2765,7 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -2797,7 +2797,7 @@ section.hero-section#top {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-4);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   font-size: 0.875rem;
   font-weight: 600;
@@ -2851,7 +2851,7 @@ section.hero-section#top {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-4);
-  border-radius: 10px;
+  border-radius: var(--radius-xs);
   corner-shape: squircle;
   font-size: 0.875rem;
   font-weight: 500;
@@ -2922,7 +2922,7 @@ section.hero-section#top {
 
 .skill-category {
   background: var(--apple-white);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-8);
   text-align: center;
@@ -2948,7 +2948,7 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -3105,7 +3105,7 @@ section.hero-section#top {
 
 .resource-card {
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-16);
   text-align: center;
@@ -3135,7 +3135,7 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.05);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -3215,7 +3215,7 @@ section.hero-section#top {
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
   padding: var(--space-3) var(--space-6);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
   background: rgba(0, 122, 255, 0.1);
   border: 1px solid rgba(0, 122, 255, 0.2);
@@ -3364,7 +3364,7 @@ section.hero-section#top {
 
 .journey-card {
   background: var(--apple-white);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-8);
   transition: all var(--transition-normal);
@@ -3389,7 +3389,7 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -3485,7 +3485,7 @@ section.hero-section#top {
   max-width: 800px;
   width: 100%;
   background: var(--apple-white);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
   padding: var(--space-12);
   margin: 0 auto;
@@ -3514,7 +3514,7 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  border-radius: 20px;
+  border-radius: var(--radius-md);
   corner-shape: squircle;
 }
 
@@ -3661,7 +3661,7 @@ footer small {
   outline: 2px solid var(--apple-blue);
   outline-offset: 2px;
   box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   corner-shape: squircle;
 }
 
@@ -3681,7 +3681,7 @@ footer small {
   color: var(--apple-white);
   padding: 12px 16px;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: var(--radius-xs);
   corner-shape: squircle;
   z-index: 1000;
   font-weight: 600;
