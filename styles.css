@@ -352,6 +352,11 @@ p {
   text-align: left;
 }
 
+/* Ensure no bullet list appears under hero intro */
+.hero-text ul {
+  display: none !important;
+}
+
 .hero-name-container {
   display: block !important;
   position: relative;
