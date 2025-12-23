@@ -1868,6 +1868,11 @@ section.hero-section#top {
     padding: var(--space-6) 0 var(--space-8) 0;
   }
   
+  .about-cta-actions {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+  
   .about-image {
     max-width: 320px;
   }
