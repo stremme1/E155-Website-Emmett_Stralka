@@ -754,9 +754,9 @@ header {
   content: '';
   position: absolute;
   bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
+  left: 0;
+  right: 0;
+  width: 100%;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
@@ -766,9 +766,11 @@ header {
 @keyframes expandLine {
   from {
     width: 0;
+    opacity: 0;
   }
   to {
     width: 100%;
+    opacity: 1;
   }
 }
 
@@ -1085,9 +1087,9 @@ header {
   content: '';
   position: absolute;
   bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
+  left: 0;
+  right: 0;
+  width: 100%;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
@@ -2274,7 +2276,7 @@ section.hero-section#top {
 /* Education Section - Professional Apple Design Matching Homepage */
 .education-section {
   padding: var(--space-8) 0 var(--space-16) 0;
-  background: var(--apple-white);
+  background: var(--apple-gray-light);
   width: 100%;
   max-width: 100%;
   position: relative;
