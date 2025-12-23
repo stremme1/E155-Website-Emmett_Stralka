@@ -244,6 +244,15 @@ p {
   text-decoration: none !important;
 }
 
+/* Ensure no underline on any navbar links in any state */
+.navbar a,
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active,
+.navbar a:visited {
+  text-decoration: none !important;
+}
+
 .navbar-nav .nav-link::before {
   content: '';
   position: absolute;
