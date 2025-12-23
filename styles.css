@@ -48,16 +48,16 @@
   --space-56: 14rem;
   --space-64: 16rem;
   
-  /* Modern Border Radius - G3 Spline Scale (Mathematically Calculated) */
-  /* Calculated for consistent visual curve ratio: ~5-6% of element's smaller dimension */
+  /* Modern Border Radius - G3 Spline Scale (More Curvy) */
+  /* Increased values for more pronounced, curvier G3 spline curves */
   /* Based on actual rendered sizes: buttons(~73px), cards(~400px), images(~605px) */
-  --radius-xs: 8px;       /* Very small elements (badges, icons ~100px) - 8% ratio */
-  --radius-sm: 10px;      /* Small elements (buttons ~73px height) - ~14% ratio for visibility */
-  --radius-md: 20px;      /* Medium elements (cards ~400px) - 5% ratio */
-  --radius-lg: 30px;      /* Large elements (images ~605px) - 5% ratio */
-  --radius-xl: 36px;      /* Extra large elements (~720px) - 5% ratio */
-  --radius-2xl: 42px;
-  --radius-3xl: 48px;
+  --radius-xs: 12px;      /* Very small elements (badges, icons ~100px) - 12% ratio */
+  --radius-sm: 16px;      /* Small elements (buttons ~73px height) - ~22% ratio for more curve */
+  --radius-md: 28px;      /* Medium elements (cards ~400px) - 7% ratio */
+  --radius-lg: 40px;      /* Large elements (images ~605px) - 6.6% ratio */
+  --radius-xl: 48px;      /* Extra large elements (~720px) - 6.7% ratio */
+  --radius-2xl: 56px;
+  --radius-3xl: 64px;
   --radius-full: 50%;
   
   /* Enhanced Shadows */
@@ -273,8 +273,8 @@ header {
   overflow: hidden;
   padding: var(--space-2) var(--space-4);
   padding-left: 0 !important;
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   display: inline-block;
   margin-left: 0 !important;
@@ -290,8 +290,8 @@ header {
   background: linear-gradient(135deg, var(--apple-blue), var(--apple-blue-dark));
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   z-index: 0;
   transform: scale(0.95);
@@ -313,8 +313,8 @@ header {
   font-weight: 500;
   color: var(--apple-gray-dark) !important;
   padding: var(--space-3) var(--space-3) !important;
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
@@ -360,8 +360,8 @@ header {
   background: linear-gradient(135deg, var(--apple-blue), var(--apple-blue-dark));
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   z-index: 0;
   transform: scale(0.95);
@@ -398,8 +398,8 @@ header {
 .navbar-nav .nav-link[href*="github"],
 .navbar-nav .nav-link[href*="linkedin"] {
   padding: var(--space-2) !important;
-  /* G3 Spline: Calculated for small elements (~100px) = 8px for ~8% ratio */
-  border-radius: 8px;
+  /* G3 Spline: More curvy - small elements (~100px) = 12px for ~12% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   transition: all var(--transition-normal);
 }
@@ -588,8 +588,8 @@ header {
 .hero-image {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
-  border-radius: 30px !important;
+  /* G3 Spline: More curvy - image size (~529x605px) = 40px for ~6.6% ratio */
+  border-radius: 40px !important;
   corner-shape: squircle !important;
   object-fit: cover;
   box-shadow: 
@@ -646,8 +646,8 @@ header {
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-5) var(--space-10);
-  /* G3 Spline: Calculated for button size (~154x73px) = 10px for ~6.8% ratio */
-  border-radius: 10px !important;
+  /* G3 Spline: More curvy - button size (~154x73px) = 16px for ~22% ratio */
+  border-radius: 16px !important;
   corner-shape: squircle !important;
   font-weight: 600;
   font-size: 1.125rem;
@@ -876,8 +876,8 @@ header {
   background: rgba(0, 122, 255, 0.05);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -889,8 +889,8 @@ header {
   right: -2px;
   bottom: -2px;
   background: var(--apple-blue);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   z-index: -1;
   opacity: 0;
@@ -1005,8 +1005,8 @@ header {
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
   padding: var(--space-3) var(--space-6);
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   background: rgba(0, 122, 255, 0.1);
   border: 1px solid rgba(0, 122, 255, 0.2);
@@ -1812,8 +1812,8 @@ section.hero-section#top {
   .resources-intro {
     padding: var(--space-16) var(--space-8) var(--space-12) var(--space-8);
     min-height: 400px;
-    /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+    /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   }
   
@@ -1904,8 +1904,8 @@ section.hero-section#top {
   .resources-intro {
     padding: var(--space-12) var(--space-6) var(--space-10) var(--space-6);
     min-height: 350px;
-    /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+    /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   }
   
@@ -2021,8 +2021,8 @@ section.hero-section#top {
   padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
   margin-top: var(--space-16) !important;
   margin-bottom: var(--space-24);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   text-align: left;
   position: relative;
@@ -2213,8 +2213,8 @@ section.hero-section#top {
 .about-hero-img {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
-  border-radius: 30px !important;
+  /* G3 Spline: More curvy - image size (~529x605px) = 40px for ~6.6% ratio */
+  border-radius: 40px !important;
   corner-shape: squircle !important;
   object-fit: cover;
   box-shadow: 
@@ -2718,8 +2718,8 @@ section.hero-section#top {
 .progress-indicator {
   background: linear-gradient(135deg, var(--apple-blue-light), rgba(0, 122, 255, 0.1));
   border: 1px solid rgba(0, 122, 255, 0.3);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-8);
   margin-top: var(--space-10);
@@ -2759,8 +2759,8 @@ section.hero-section#top {
 
 .lab-card {
   background: var(--apple-white);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-8);
   transition: all var(--transition-normal);
@@ -2785,8 +2785,8 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -2818,8 +2818,8 @@ section.hero-section#top {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-4);
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   font-size: 0.875rem;
   font-weight: 600;
@@ -2873,8 +2873,8 @@ section.hero-section#top {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-4);
-  /* G3 Spline: Calculated for small elements (~100px) = 8px for ~8% ratio */
-  border-radius: 8px;
+  /* G3 Spline: More curvy - small elements (~100px) = 12px for ~12% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   font-size: 0.875rem;
   font-weight: 500;
@@ -2945,8 +2945,8 @@ section.hero-section#top {
 
 .skill-category {
   background: var(--apple-white);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-8);
   text-align: center;
@@ -2972,8 +2972,8 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -3130,8 +3130,8 @@ section.hero-section#top {
 
 .resource-card {
   background: rgba(255, 255, 255, 0.9);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-16);
   text-align: center;
@@ -3161,8 +3161,8 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.05);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -3242,8 +3242,8 @@ section.hero-section#top {
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
   padding: var(--space-3) var(--space-6);
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   background: rgba(0, 122, 255, 0.1);
   border: 1px solid rgba(0, 122, 255, 0.2);
@@ -3392,8 +3392,8 @@ section.hero-section#top {
 
 .journey-card {
   background: var(--apple-white);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-8);
   transition: all var(--transition-normal);
@@ -3418,8 +3418,8 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -3515,8 +3515,8 @@ section.hero-section#top {
   max-width: 800px;
   width: 100%;
   background: var(--apple-white);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
   padding: var(--space-12);
   margin: 0 auto;
@@ -3545,8 +3545,8 @@ section.hero-section#top {
   background: rgba(0, 122, 255, 0.03);
   opacity: 0;
   transition: opacity var(--transition-normal);
-  /* G3 Spline: Calculated for card elements (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: More curvy - card elements (~350x420px) = 28px for ~8% ratio */
+  border-radius: 28px;
   corner-shape: squircle;
 }
 
@@ -3693,8 +3693,8 @@ footer small {
   outline: 2px solid var(--apple-blue);
   outline-offset: 2px;
   box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2);
-  /* G3 Spline: Calculated for navbar elements (~88x45px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
+  /* G3 Spline: More curvy - navbar elements (~88x45px) = 12px for ~27% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
 }
 
@@ -3714,8 +3714,8 @@ footer small {
   color: var(--apple-white);
   padding: 12px 16px;
   text-decoration: none;
-  /* G3 Spline: Calculated for small elements (~100px) = 8px for ~8% ratio */
-  border-radius: 8px;
+  /* G3 Spline: More curvy - small elements (~100px) = 12px for ~12% ratio */
+  border-radius: 12px;
   corner-shape: squircle;
   z-index: 1000;
   font-weight: 600;
