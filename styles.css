@@ -298,14 +298,13 @@ header {
 }
 
 .navbar-brand:hover {
-  color: var(--apple-white) !important;
+  color: var(--apple-blue) !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
 }
 
 .navbar-brand:hover::before {
-  opacity: 1;
-  transform: scale(1);
+  opacity: 0;
+  transform: scale(0.95);
 }
 
 .navbar-nav .nav-link {
