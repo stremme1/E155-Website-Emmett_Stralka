@@ -696,6 +696,8 @@ p {
   gap: var(--space-6);
   position: relative;
   z-index: 1;
+  flex: 1;
+  align-self: stretch;
 }
 
 .featured-icon {
