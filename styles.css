@@ -752,6 +752,7 @@ p {
   border: 1px solid rgba(0, 122, 255, 0.2);
   position: relative;
   overflow: hidden;
+  margin-top: auto;
 }
 
 .featured-link::before {
