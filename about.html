@@ -17,7 +17,7 @@
         <ul class="navbar-nav" style="display:flex;gap:1.5rem;list-style:none;">
           <li><a class="nav-link" href="index.html#featured-work"><span>Work</span></a></li>
           <li><a class="nav-link" href="labs.html"><span>E155 Labs</span></a></li>
-          <li><a class="nav-link" href="index.html#contact"><span>Contact</span></a></li>
+          <li><a class="nav-link" href="index.html#about"><span>Contact</span></a></li>
           <li><a class="nav-link active" href="about.html"><span>About</span></a></li>
         </ul>
       </div>
@@ -25,74 +25,155 @@
   </header>
 
   <main id="main-content">
-    <section id="about" class="about-preview scroll-animate">
-      <h2>About Me</h2>
-      <p>
-        I'm a dedicated engineering student passionate about bridging the gap between innovative technology
-        and practical solutions. I’m currently pursuing a dual major in <strong>Engineering and Economics</strong>
-        at <strong>Harvey Mudd College</strong>, with hands-on experience in <strong>ML/AI product management</strong>
-        at <strong>Apple</strong> and <strong>Ford Motor Company</strong>.
-      </p>
-      <p>
-        My work lives at the intersection of embedded systems, digital design, and data‑driven product strategy—
-        building systems that are technically rigorous and deliver real user and business impact.
-      </p>
-      <a href="index.html#contact" class="btn btn-secondary">Connect With Me</a>
-    </section>
-
-    <section id="about-experience" class="e155-section scroll-animate">
-      <div class="e155-card">
-        <h3>Education – Harvey Mudd College</h3>
-        <p>
-          <strong>Dual Major:</strong> Engineering &amp; Economics &middot; <strong>Expected Graduation:</strong> 2026<br />
-          Claremont, CA
-        </p>
-        <h4>Current Coursework</h4>
-        <ul>
-          <li><strong>E155: Microcontrollers &amp; FPGA Design</strong> – Embedded systems and digital design</li>
-          <li><strong>Digital Electronics</strong> – Circuit design and analysis fundamentals</li>
-          <li><strong>Product Management</strong> – Business strategy, experimentation, and market analysis</li>
-          <li><strong>Economic Analysis</strong> – Quantitative decision‑making frameworks</li>
-        </ul>
-        <h4>Technical Focus</h4>
-        <ul>
-          <li>Embedded systems development and FPGA programming</li>
-          <li>ARM assembly language and real‑time systems</li>
-          <li>Digital circuit design and hardware‑software integration</li>
-          <li>Performance optimization and system‑level debugging</li>
-        </ul>
+    <!-- HERO INTRO SECTION -->
+    <section class="about-intro scroll-animate-slide-up">
+      <div class="about-intro-content">
+        <div class="about-intro-text">
+          <h1 class="about-title">About Me</h1>
+          <p class="about-intro-lead">
+            I'm a dedicated engineering student passionate about bridging the gap between innovative technology
+            and practical solutions. I'm currently pursuing a dual major in <strong>Engineering and Economics</strong>
+            at <strong>Harvey Mudd College</strong>, with hands-on experience in <strong>ML/AI product management</strong>
+            at <strong>Apple</strong> and <strong>Ford Motor Company</strong>.
+          </p>
+          <p class="about-intro-description">
+            My work lives at the intersection of embedded systems, digital design, and data‑driven product strategy—
+            building systems that are technically rigorous and deliver real user and business impact.
+          </p>
+          <div class="about-intro-actions">
+            <a href="mailto:estralka@g.hmc.edu" class="btn btn-primary">Get In Touch</a>
+            <a href="resume.pdf" target="_blank" class="btn btn-secondary">View Resume</a>
+          </div>
+        </div>
+        <div class="about-intro-image">
+          <img
+            src="Images/headshot.jpg"
+            alt="Emmett Stralka"
+            class="about-image"
+            loading="eager"
+          />
+        </div>
       </div>
     </section>
 
-    <section class="e155-section scroll-animate">
-      <div class="e155-card">
-        <h3>Professional Experience</h3>
-        <p>
-          I’ve worked on ML/AI products and data‑driven systems in both big‑tech and automotive contexts,
-          collaborating with engineers, designers, and leadership.
-        </p>
-        <h4>Apple – Manufacturing ML Embedded Systems</h4>
-        <p><em>August 2025 – Present &middot; Cupertino, CA</em></p>
-        <ul>
-          <li>Contributed to embedded and cloud‑based ML systems for manufacturing and hardware workflows.</li>
-          <li>Worked across ML, embedded, and UX teams to prototype and validate new ideas quickly.</li>
-        </ul>
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="about-section scroll-animate">
+      <div class="section-header">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Harvey Mudd College</p>
+      </div>
+      
+      <div class="about-card-grid">
+        <div class="about-card scroll-animate-left">
+          <div class="about-card-icon">🎓</div>
+          <h3>Dual Major</h3>
+          <p class="about-card-text">
+            <strong>Engineering & Economics</strong><br />
+            Expected Graduation: 2026<br />
+            Claremont, CA
+          </p>
+        </div>
 
-        <h4>Ford Motor Company – Technical Product Manager, AI/ML</h4>
-        <p><em>May 2025 – August 2025 &middot; Palo Alto, CA</em></p>
-        <ul>
-          <li>Drove requirements across 40+ ML engineers and UX teams for in‑vehicle intelligence features.</li>
-          <li>Delivered an executive demo prototype evaluating embedded and cloud LLM/SLM models.</li>
-          <li>Influenced a &gt;$200M third‑party contract through strategic product exploration and validation.</li>
-        </ul>
+        <div class="about-card scroll-animate-scale">
+          <div class="about-card-icon">📚</div>
+          <h3>Current Coursework</h3>
+          <ul class="about-card-list">
+            <li><strong>E155:</strong> Microcontrollers & FPGA Design</li>
+            <li><strong>Digital Electronics:</strong> Circuit design fundamentals</li>
+            <li><strong>Product Management:</strong> Business strategy & experimentation</li>
+            <li><strong>Economic Analysis:</strong> Quantitative decision-making</li>
+          </ul>
+        </div>
 
-        <h4>Ford Motor Company – Data Science Intern</h4>
-        <p><em>May 2024 – August 2024 &middot; Palo Alto, CA</em></p>
-        <ul>
-          <li>Integrated a Vehicle Energy Model into Android Auto across 20,000+ E‑Transit vans.</li>
-          <li>Automated hyperparameter tuning workflows, improving SOC prediction accuracy by 18%.</li>
-          <li>Collaborated with Apple CarPlay UX and SYNC teams for 200,000+ vehicles.</li>
-        </ul>
+        <div class="about-card scroll-animate-right">
+          <div class="about-card-icon">⚡</div>
+          <h3>Technical Focus</h3>
+          <ul class="about-card-list">
+            <li>Embedded systems & FPGA programming</li>
+            <li>ARM assembly & real-time systems</li>
+            <li>Digital circuit design & hardware-software integration</li>
+            <li>Performance optimization & system-level debugging</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section id="experience" class="about-section scroll-animate">
+      <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">Building ML/AI products and data-driven systems in big-tech and automotive contexts</p>
+      </div>
+
+      <div class="experience-timeline">
+        <!-- Apple Experience -->
+        <div class="experience-item scroll-animate-left">
+          <div class="experience-header">
+            <div class="experience-company">
+              <h3>Apple</h3>
+              <p class="experience-role">Manufacturing ML Embedded Systems</p>
+            </div>
+            <div class="experience-date">
+              <span class="experience-date-text">Aug 2025 – Present</span>
+              <span class="experience-location">Cupertino, CA</span>
+            </div>
+          </div>
+          <ul class="experience-list">
+            <li>Contributed to embedded and cloud‑based ML systems for manufacturing and hardware workflows</li>
+            <li>Worked across ML, embedded, and UX teams to prototype and validate new ideas quickly</li>
+          </ul>
+        </div>
+
+        <!-- Ford TPM Experience -->
+        <div class="experience-item scroll-animate-scale">
+          <div class="experience-header">
+            <div class="experience-company">
+              <h3>Ford Motor Company</h3>
+              <p class="experience-role">Technical Product Manager, AI/ML</p>
+            </div>
+            <div class="experience-date">
+              <span class="experience-date-text">May 2025 – Aug 2025</span>
+              <span class="experience-location">Palo Alto, CA</span>
+            </div>
+          </div>
+          <ul class="experience-list">
+            <li>Drove requirements across 40+ ML engineers and UX teams for in‑vehicle intelligence features</li>
+            <li>Delivered an executive demo prototype evaluating embedded and cloud LLM/SLM models</li>
+            <li>Influenced a &gt;$200M third‑party contract through strategic product exploration and validation</li>
+          </ul>
+        </div>
+
+        <!-- Ford Intern Experience -->
+        <div class="experience-item scroll-animate-right">
+          <div class="experience-header">
+            <div class="experience-company">
+              <h3>Ford Motor Company</h3>
+              <p class="experience-role">Data Science Intern</p>
+            </div>
+            <div class="experience-date">
+              <span class="experience-date-text">May 2024 – Aug 2024</span>
+              <span class="experience-location">Palo Alto, CA</span>
+            </div>
+          </div>
+          <ul class="experience-list">
+            <li>Integrated a Vehicle Energy Model into Android Auto across 20,000+ E‑Transit vans</li>
+            <li>Automated hyperparameter tuning workflows, improving SOC prediction accuracy by 18%</li>
+            <li>Collaborated with Apple CarPlay UX and SYNC teams for 200,000+ vehicles</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA SECTION -->
+    <section class="about-cta scroll-animate-slide-up">
+      <div class="about-cta-content">
+        <h2>Let's Connect</h2>
+        <p>Interested in collaborating or learning more about my work? I'd love to hear from you.</p>
+        <div class="about-cta-actions">
+          <a href="mailto:estralka@g.hmc.edu" class="btn btn-primary">Email Me</a>
+          <a href="https://www.linkedin.com/in/emmett-stralka-b41575213/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+          <a href="https://github.com/stremme1" target="_blank" class="btn btn-secondary">GitHub</a>
+        </div>
       </div>
     </section>
 
@@ -114,5 +195,3 @@
   <script src="scroll-animations.js"></script>
 </body>
 </html>
-
-
