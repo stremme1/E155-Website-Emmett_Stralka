@@ -728,6 +728,19 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+  will-change: opacity, transform;
+}
+
+.scroll-animate .section-title,
+.scroll-animate.animate .section-title,
+.featured-section.scroll-animate.animate .section-title {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
 }
 
 .section-title::after {
@@ -784,6 +797,33 @@ header {
   height: 100%;
   transform-style: preserve-3d;
   will-change: transform;
+  opacity: 0;
+  transform: translateY(40px) scale(0.98);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.featured-card.animate {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  will-change: transform;
+}
+
+.featured-card.animate:nth-child(1) { transition-delay: 0.1s; }
+.featured-card.animate:nth-child(2) { transition-delay: 0.2s; }
+.featured-card.animate:nth-child(3) { transition-delay: 0.3s; }
+
+/* Ensure cards can still hover after animation */
+.featured-card.animate:hover {
+  transform: translateY(-8px) rotateX(2deg) scale(1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 122, 255, 0.15);
+}
+
+.featured-card.animate:active {
+  transform: translateY(-4px) rotateX(1deg) scale(0.99);
 }
 
 .featured-card::before {
@@ -821,13 +861,13 @@ header {
   will-change: transform;
 }
 
-.featured-card:hover {
+.featured-card.animate:hover {
   transform: translateY(-8px) rotateX(2deg);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   border-color: rgba(0, 122, 255, 0.15);
 }
 
-.featured-card:active {
+.featured-card.animate:active {
   transform: translateY(-4px) rotateX(1deg);
 }
 
@@ -1019,6 +1059,19 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
+  will-change: opacity, transform;
+}
+
+.scroll-animate-slide-up .about-preview h2,
+.scroll-animate-slide-up.animate .about-preview h2,
+.about-preview.scroll-animate-slide-up.animate h2 {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
 }
 
 .about-preview h2::after {
@@ -1087,11 +1140,12 @@ p a:not(.btn):hover,
 /* ===============================================
    PREMIUM SCROLL ANIMATIONS
    =============================================== */
+/* Apple-like scroll animations with refined easing and timing */
 .scroll-animate {
   opacity: 0;
-  transform: translateY(60px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(40px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
   will-change: opacity, transform;
 }
 
@@ -1103,47 +1157,81 @@ p a:not(.btn):hover,
 
 .scroll-animate-left {
   opacity: 0;
-  transform: translateX(-100px);
-  transition: all 1.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(-50px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+  will-change: opacity, transform;
 }
 
 .scroll-animate-left.animate {
   opacity: 1;
   transform: translateX(0);
+  will-change: auto;
 }
 
 .scroll-animate-right {
   opacity: 0;
-  transform: translateX(100px);
-  transition: all 1.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(50px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+  will-change: opacity, transform;
 }
 
 .scroll-animate-right.animate {
   opacity: 1;
   transform: translateX(0);
+  will-change: auto;
 }
 
 .scroll-animate-scale {
   opacity: 0;
-  transform: scale(0.8) translateY(50px);
-  transition: all 1.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: scale(0.95) translateY(30px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+  will-change: opacity, transform;
 }
 
 .scroll-animate-scale.animate {
   opacity: 1;
   transform: scale(1) translateY(0);
+  will-change: auto;
 }
 
 .scroll-animate-slide-up {
   opacity: 0;
-  transform: translateY(100px);
-  transition: all 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translateY(50px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s,
+              transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+  will-change: opacity, transform;
 }
 
 .scroll-animate-slide-up.animate {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto;
 }
+
+/* Staggered animation for child elements */
+.scroll-animate-stagger > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-animate-stagger.animate > * {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
+}
+
+.scroll-animate-stagger.animate > *:nth-child(1) { transition-delay: 0.1s; }
+.scroll-animate-stagger.animate > *:nth-child(2) { transition-delay: 0.2s; }
+.scroll-animate-stagger.animate > *:nth-child(3) { transition-delay: 0.3s; }
+.scroll-animate-stagger.animate > *:nth-child(4) { transition-delay: 0.4s; }
+.scroll-animate-stagger.animate > *:nth-child(5) { transition-delay: 0.5s; }
+.scroll-animate-stagger.animate > *:nth-child(6) { transition-delay: 0.6s; }
 
 /* ===============================================
    MODERN RESPONSIVE DESIGN
