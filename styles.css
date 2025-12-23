@@ -1858,7 +1858,30 @@ section.hero-section#top {
    QUARTO-FRIENDLY PAGE INTROS
    =============================================== */
 .labs-intro,
-.about-intro,
+/* About page intro - clean, no card styling */
+.about-intro {
+  padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
+  margin-top: var(--space-16) !important;
+  margin-bottom: var(--space-24);
+  text-align: left;
+  position: relative;
+  overflow: visible;
+  min-height: auto;
+  display: block;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  transition: none;
+  transform: none;
+}
+
+/* Blog and resources intros keep card styling */
 .blog-intro,
 .resources-intro {
   background: linear-gradient(135deg, var(--apple-white) 0%, var(--apple-gray-light) 100%);
@@ -1883,7 +1906,6 @@ section.hero-section#top {
 }
 
 .labs-intro:hover,
-.about-intro:hover,
 .blog-intro:hover,
 .resources-intro:hover {
   transform: translateY(-8px);
@@ -1892,7 +1914,6 @@ section.hero-section#top {
 }
 
 .labs-intro::before,
-.about-intro::before,
 .blog-intro::before,
 .resources-intro::before {
   content: '';
@@ -1908,7 +1929,6 @@ section.hero-section#top {
 
 /* Ensure all content is visible and above the background */
 .labs-intro > *,
-.about-intro > *,
 .blog-intro > *,
 .resources-intro > * {
   position: relative;
@@ -1971,11 +1991,12 @@ section.hero-section#top {
    =============================================== */
 .about-intro-content {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: var(--space-20);
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-24);
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .about-intro-text {
@@ -1985,15 +2006,13 @@ section.hero-section#top {
 }
 
 .about-title {
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(3.5rem, 7vw, 6rem);
   font-weight: 900;
   line-height: 1.05;
-  letter-spacing: -0.04em;
-  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin: 0 0 var(--space-4) 0;
+  letter-spacing: -0.05em;
+  color: var(--apple-black);
+  margin: 0 0 var(--space-8) 0;
+  text-align: center;
 }
 
 .about-intro-lead {
