@@ -718,7 +718,8 @@ header {
   text-align: center;
   margin-bottom: var(--space-16);
   width: 100%;
-  padding: 0 var(--space-16);
+  padding: 0;
+  position: relative;
 }
 
 .section-title {
@@ -740,6 +741,7 @@ header {
   transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s,
               transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s;
   will-change: opacity, transform;
+  padding: 0 var(--space-16);
 }
 
 .scroll-animate .section-title,
@@ -756,11 +758,12 @@ header {
   bottom: -12px;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 100vw;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
   animation: expandLine 1.5s ease-out 0.5s both;
+  margin-left: calc(-50vw + 50%);
 }
 
 @keyframes expandLine {
@@ -1089,11 +1092,12 @@ header {
   bottom: -12px;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 100vw;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
   animation: expandLine 1.5s ease-out 0.5s both;
+  margin-left: calc(-50vw + 50%);
 }
 
 .about-preview p {
