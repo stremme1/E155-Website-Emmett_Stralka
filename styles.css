@@ -1182,7 +1182,7 @@ p a:not(.btn):hover,
   }
   
   .hero-section {
-    padding: var(--space-12) 0 var(--space-20);
+    padding: var(--space-20) 0 var(--space-20);
     min-height: calc(100vh - 64px);
     margin-top: 0 !important;
   }
@@ -1400,7 +1400,7 @@ p a:not(.btn):hover,
   }
   
   .hero-section {
-    padding: var(--space-8) 0 var(--space-12);
+    padding: var(--space-12) 0 var(--space-12);
     min-height: calc(100vh - 56px);
     margin-top: 0 !important;
   }
@@ -1519,7 +1519,6 @@ section#top.hero-section,
 #top.hero-section,
 section.hero-section#top {
   margin-top: 0 !important;
-  padding-top: 0 !important;
 }
 
 /* Apple-style container system - Homepage gets full width, other pages get centered content */
