@@ -566,7 +566,7 @@ p {
    MODERN FEATURED WORK SECTION
    =============================================== */
 .featured-section {
-  padding: var(--space-32) 0;
+  padding: var(--space-24) 0 var(--space-20);
   background: var(--apple-white);
   width: 100%;
   max-width: 100%;
@@ -636,7 +636,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
   overflow: hidden;
-  min-height: 420px;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -793,7 +793,7 @@ p {
    MODERN ABOUT PREVIEW SECTION
    =============================================== */
 .about-preview {
-  padding: var(--space-32) 0;
+  padding: var(--space-24) 0 var(--space-20);
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
