@@ -2664,18 +2664,17 @@ section.hero-section#top {
 }
 
 .about-cta-actions {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-4);
+  display: flex !important;
+  gap: var(--space-6);
+  justify-content: center;
+  flex-wrap: wrap;
   position: relative;
   z-index: 1;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+  margin-top: var(--space-8);
 }
 
 .about-cta-actions .btn {
-  width: 100%;
+  width: auto;
   justify-content: center;
   text-align: center;
 }
