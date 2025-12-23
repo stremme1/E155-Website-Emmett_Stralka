@@ -2675,7 +2675,9 @@ section.hero-section#top {
 }
 
 /* Match home page cta-buttons styling exactly */
-.about-cta-actions .btn {
+.about-cta-actions .btn,
+.about-cta-actions .btn-primary,
+.about-cta-actions .btn-secondary {
   width: auto;
   justify-content: center;
   text-align: center;
