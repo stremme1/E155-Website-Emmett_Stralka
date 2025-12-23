@@ -2148,7 +2148,7 @@ section.hero-section#top {
 .about-hero-img {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  border-radius: 28% 72% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 35% 65% 65% 35% / 35% 35% 65% 65%;
   object-fit: cover;
   box-shadow: 
     var(--shadow-2xl),
