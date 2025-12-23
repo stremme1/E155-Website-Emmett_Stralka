@@ -2035,7 +2035,8 @@ section.hero-section#top {
   letter-spacing: -0.05em;
   color: var(--apple-black);
   margin: 0 0 var(--space-8) 0;
-  text-align: center;
+  text-align: left;
+  padding-left: var(--space-8);
 }
 
 .about-intro-lead {
