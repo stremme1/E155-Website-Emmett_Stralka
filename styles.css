@@ -222,13 +222,39 @@ p {
   font-weight: 600;
   color: var(--apple-black) !important;
   letter-spacing: -0.003em;
-  transition: all var(--transition-fast);
+  transition: all var(--transition-normal);
   text-decoration: none !important;
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-lg);
+  display: inline-block;
+}
+
+.navbar-brand::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--apple-blue), var(--apple-blue-dark));
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-radius: var(--radius-lg);
+  z-index: 0;
+  transform: scale(0.95);
 }
 
 .navbar-brand:hover {
-  color: var(--apple-blue) !important;
-  transform: translateY(-1px);
+  color: var(--apple-white) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+}
+
+.navbar-brand:hover::before {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .navbar-nav .nav-link {
