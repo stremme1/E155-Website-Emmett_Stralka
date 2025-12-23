@@ -2795,6 +2795,9 @@ section.hero-section#top {
   overflow: hidden;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .lab-card::before {
@@ -2881,13 +2884,15 @@ section.hero-section#top {
   line-height: 1.6;
   color: var(--apple-gray-dark);
   margin: 0 0 var(--space-6) 0;
+  flex-grow: 1;
 }
 
 .lab-links {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);
-  margin-top: var(--space-6);
+  margin-top: auto;
+  padding-top: var(--space-6);
 }
 
 .lab-link {
