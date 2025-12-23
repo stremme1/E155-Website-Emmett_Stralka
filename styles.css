@@ -2668,10 +2668,13 @@ section.hero-section#top {
   display: flex !important;
   gap: var(--space-6);
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap !important;
   position: relative;
   z-index: 1;
   margin-top: var(--space-8);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 /* Match home page cta-buttons styling exactly */
