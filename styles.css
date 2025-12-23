@@ -48,15 +48,16 @@
   --space-56: 14rem;
   --space-64: 16rem;
   
-  /* Modern Border Radius - G3 Spline Scale (Proportional) */
-  /* Using consistent ratio: ~6-8% of element size for visual consistency */
-  --radius-xs: 10px;      /* Very small elements (badges, icons) - ~8% of ~125px */
-  --radius-sm: 14px;      /* Small elements (buttons, nav links) - ~7% of ~200px */
-  --radius-md: 18px;      /* Medium elements (cards, containers) - ~6% of ~300px */
-  --radius-lg: 22px;      /* Large elements (images, hero sections) - ~4% of ~550px */
-  --radius-xl: 26px;      /* Extra large elements - ~3% of ~850px */
-  --radius-2xl: 30px;
-  --radius-3xl: 34px;
+  /* Modern Border Radius - G3 Spline Scale (Mathematically Calculated) */
+  /* Calculated for consistent visual curve ratio: ~5-6% of element's smaller dimension */
+  /* Based on actual rendered sizes: buttons(~73px), cards(~400px), images(~605px) */
+  --radius-xs: 8px;       /* Very small elements (badges, icons ~100px) - 8% ratio */
+  --radius-sm: 10px;      /* Small elements (buttons ~73px height) - ~14% ratio for visibility */
+  --radius-md: 20px;      /* Medium elements (cards ~400px) - 5% ratio */
+  --radius-lg: 30px;      /* Large elements (images ~605px) - 5% ratio */
+  --radius-xl: 36px;      /* Extra large elements (~720px) - 5% ratio */
+  --radius-2xl: 42px;
+  --radius-3xl: 48px;
   --radius-full: 50%;
   
   /* Enhanced Shadows */
