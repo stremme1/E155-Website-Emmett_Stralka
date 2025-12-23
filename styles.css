@@ -309,7 +309,7 @@ p {
    IMMERSIVE HERO SECTION
    =============================================== */
 .hero-section {
-  padding: var(--space-16) 0 var(--space-16);
+  padding: var(--space-4) 0 var(--space-16);
   background: 
     radial-gradient(circle at 20% 80%, rgba(0, 122, 255, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 122, 255, 0.02) 0%, transparent 50%),
@@ -346,7 +346,7 @@ p {
   grid-template-columns: 2fr 1fr;
   gap: 2.5rem;
   align-items: center;
-  padding: 0.5rem 2.5rem 0 2.5rem !important;
+  padding: 0 2.5rem 0 2.5rem !important;
   margin: 0 !important;
   position: relative;
   z-index: 1;
