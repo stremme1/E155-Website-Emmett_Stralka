@@ -567,7 +567,7 @@ p {
    MODERN FEATURED WORK SECTION
    =============================================== */
 .featured-section {
-  padding: var(--space-20) 0 var(--space-16);
+  padding: var(--space-16) 0 var(--space-12);
   background: var(--apple-white);
   width: 100%;
   max-width: 100%;
@@ -794,7 +794,7 @@ p {
    MODERN ABOUT PREVIEW SECTION
    =============================================== */
 .about-preview {
-  padding: var(--space-20) 0 var(--space-16);
+  padding: var(--space-16) 0 var(--space-12);
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
