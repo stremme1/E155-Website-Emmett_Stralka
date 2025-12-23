@@ -402,7 +402,7 @@ header {
    IMMERSIVE HERO SECTION
    =============================================== */
 .hero-section {
-  padding: var(--space-8) 0 var(--space-16) 0;
+  padding: var(--space-16) 0 var(--space-16) 0;
   background: 
     radial-gradient(circle at 20% 80%, rgba(0, 122, 255, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 122, 255, 0.02) 0%, transparent 50%),
