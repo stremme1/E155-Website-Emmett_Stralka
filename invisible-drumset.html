@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invisible Drumset – Emmett Stralka</title>
+  <meta name="description" content="E155 Final Project: Dual-hand invisible drumset using BNO085 IMU sensors, Arduino ESP32, FPGA, and STM32 MCU for real-time gesture recognition and audio synthesis." />
+  <link rel="stylesheet" href="styles.css?v=2.0" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav class="navbar">
+      <div class="apple-content-wrapper" style="display:flex;align-items:center;justify-content:space-between;">
+        <a href="index.html#top" class="navbar-brand">Emmett Stralka | Portfolio Website</a>
+        <ul class="navbar-nav" style="display:flex;gap:1.5rem;list-style:none;">
+          <li><a class="nav-link" href="projects.html"><span>Projects</span></a></li>
+          <li><a class="nav-link" href="labs.html"><span>E155 Labs</span></a></li>
+          <li><a class="nav-link" href="experience.html"><span>Professional Experience</span></a></li>
+          <li><a class="nav-link" href="about.html"><span>About</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="labs-intro scroll-animate">
+      <h1 class="labs-title">Invisible Drumset</h1>
+      <p>
+        A dual-hand embedded system that enables playing virtual drums through air gestures detected by BNO085 IMU sensors.
+        Built for E155 Final Project using Arduino ESP32, FPGA, and STM32 MCU for real-time gesture recognition and low-latency audio synthesis.
+      </p>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">Abstract</h2>
+      </div>
+      <div class="section-content" style="max-width: 800px; margin: 0 auto; text-align: center; padding: 0 var(--space-8);">
+        <p>
+          This project adapts the existing Invisible Drum Set—originally implemented with an Arduino Nano and BNO055 IMU sensor—onto the E155 hardware platform, 
+          consisting of an STM32 MCU and UPduino FPGA. It enables playing virtual drums through air gestures detected by the IMU, with real-time audio synthesis and low latency.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">System Overview</h2>
+      </div>
+      <div class="section-content">
+        <p>
+          Each drumstick is designed as a fully independent embedded system, containing its own BNO085 sensor, Arduino Nano ESP32, FPGA, and STM32 microcontroller. 
+          This distributed architecture ensures that the left and right sticks remain electrically and logically isolated — improving robustness, reducing latency, 
+          and making the system scalable to additional sticks in the future.
+        </p>
+        <p>
+          The data pipeline in each stick relies on multiple communication protocols between its hardware components. The BNO085 sensor communicates with the Arduino 
+          Nano ESP32 using the I²C protocol, with the high-level SHTP protocol layered on top to enable structured transfer of fused motion data. Once the sensor 
+          data is received by the ESP32, it is forwarded to the FPGA over an SPI interface, where the FPGA operates as the SPI slave and the ESP32 serves as the SPI master. 
+          On the FPGA, the data is packaged into a custom packet format and relayed to the MCU for trigger processing.
+        </p>
+        <p>
+          From there, the FPGA sends the packaged data to the STM32 microcontroller through a second SPI link, again with the FPGA acting as the slave and the STM32 as the master. 
+          The microcontroller performs gesture recognition to detect drumming motions, and the resulting sound IDs (0–7) are output through a digital-to-analog converter (DAC) 
+          to drive a speaker that plays the correct drum sound.
+        </p>
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">Packet Format</h3>
+        <p>Each package is passed as:</p>
+        <ul style="list-style: none; padding: 0; margin: var(--space-4) 0; color: var(--apple-gray-dark);">
+          <li style="margin-bottom: var(--space-2);">• <strong>Byte 0:</strong> Header (0xAA)</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 1-2:</strong> Roll (int16_t, MSB first) - Euler angle scaled by 100</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 3-4:</strong> Pitch (int16_t, MSB first) - Euler angle scaled by 100</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 5-6:</strong> Yaw (int16_t, MSB first) - Euler angle scaled by 100</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 7-8:</strong> Gyro X (int16_t, MSB first) - scaled by 2000</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 9-10:</strong> Gyro Y (int16_t, MSB first) - scaled by 2000</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 11-12:</strong> Gyro Z (int16_t, MSB first) - scaled by 2000</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Byte 13:</strong> Flags (bit 0 = Euler valid, bit 1 = Gyro valid)</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>Bytes 14-15:</strong> Reserved (0x00)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">Architecture</h2>
+      </div>
+      <div class="section-content">
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">FPGA Design</h3>
+        <p>
+          The FPGA receives pre-processed sensor data from the Arduino via SPI and packages it into a custom transmission format optimized for the MCU interface. 
+          The FPGA's role shifted from sensor management to efficient data packaging and routing.
+        </p>
+        <p>
+          <strong>Key Modules:</strong>
+        </p>
+        <ul style="list-style: none; padding: 0; margin: var(--space-4) 0; color: var(--apple-gray-dark);">
+          <li style="margin-bottom: var(--space-3);">• <code style="background: var(--apple-gray-light); padding: 2px 6px; border-radius: 4px;">arduino_spi_slave.sv</code> — Receives 16-byte packets from Arduino via SPI, buffers and converts quaternion to Euler angles</li>
+          <li style="margin-bottom: var(--space-3);">• <code style="background: var(--apple-gray-light); padding: 2px 6px; border-radius: 4px;">spi_slave_mcu.sv</code> — Sends packet buffer to MCU via SPI as read-only slave</li>
+          <li style="margin-bottom: var(--space-3);">• <code style="background: var(--apple-gray-light); padding: 2px 6px; border-radius: 4px;">drum_trigger_top.sv</code> — Top-level module connecting both SPI slaves</li>
+        </ul>
+
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">MCU Design</h3>
+        <p>
+          The STM32 microcontroller decodes the packaged data packets from the FPGA, identifies drum triggers based on gesture patterns using yaw zones, 
+          pitch thresholds, and gyroscope readings, and outputs audio samples through the DAC to drive the speaker.
+        </p>
+        <p>
+          <strong>Detection Logic:</strong> The system uses predefined zones based on Euler angles (yaw, pitch) and gyroscope readings to detect 8 different drum sounds:
+        </p>
+        <ul style="list-style: none; padding: 0; margin: var(--space-4) 0; color: var(--apple-gray-dark);">
+          <li style="margin-bottom: var(--space-2);">• <strong>0x00:</strong> Snare</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x01:</strong> Hi-Hat</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x02:</strong> Kick (button)</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x03:</strong> High Tom</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x04:</strong> Mid Tom</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x05:</strong> Crash</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x06:</strong> Ride</li>
+          <li style="margin-bottom: var(--space-2);">• <strong>0x07:</strong> Floor Tom</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">Hardware</h2>
+      </div>
+      <div class="section-content">
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">BNO085 IMU Sensor</h3>
+        <p>
+          The BNO085 is a 9-axis intelligent IMU that integrates an accelerometer, gyroscope, and magnetometer with an onboard sensor-fusion processor. 
+          It communicates through the Sensor Hub Transport Protocol (SHTP) over I²C, providing fused orientation data like quaternions and Euler angles.
+        </p>
+
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">Arduino Nano ESP32</h3>
+        <p>
+          The Arduino Nano ESP32 handles sensor configuration and data acquisition using the Adafruit_BNO08x library, which provides robust SHTP protocol handling 
+          and reliable sensor communication over I²C. The ESP32 forwards processed motion data to the FPGA via SPI.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">Code Repository</h2>
+      </div>
+      <div class="section-content" style="text-align: center;">
+        <p style="margin-bottom: var(--space-6);">
+          The complete source code, including FPGA SystemVerilog modules, MCU C code, Arduino/ESP32 code, testbenches, and documentation, is available on GitHub.
+        </p>
+        <a href="https://github.com/stremme1/E155_Final_SPI_Test" target="_blank" class="btn btn-primary" style="display: inline-block; margin: var(--space-4);">View on GitHub</a>
+        <a href="https://github.com/stremme1/E155_Final_SPI_Test/tree/main/fpga" target="_blank" class="btn btn-secondary" style="display: inline-block; margin: var(--space-4);">FPGA Source Code</a>
+        <a href="https://github.com/stremme1/E155_Final_SPI_Test/tree/main/mcu" target="_blank" class="btn btn-secondary" style="display: inline-block; margin: var(--space-4);">MCU Source Code</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="padding:1.5rem 0;text-align:center;color:#86868b;">
+    <div class="apple-content-wrapper">
+      <small>&copy; <span id="year"></span> Emmett Stralka. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var yearSpan = document.getElementById('year');
+      if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+    });
+  </script>
+
+  <script src="scroll-animations.js"></script>
+</body>
+</html>
+
