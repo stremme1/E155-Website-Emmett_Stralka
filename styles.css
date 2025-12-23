@@ -583,7 +583,8 @@ header {
 .hero-image {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  border-radius: var(--radius-lg);
+  /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
+  border-radius: 30px;
   corner-shape: superellipse(2);
   object-fit: cover;
   box-shadow: 
@@ -640,7 +641,8 @@ header {
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-5) var(--space-10);
-  border-radius: var(--radius-sm);
+  /* G3 Spline: Calculated for button size (~154x73px) = 10px for ~6.8% ratio */
+  border-radius: 10px;
   corner-shape: superellipse(2);
   font-weight: 600;
   font-size: 1.125rem;
@@ -811,7 +813,8 @@ header {
 
 .featured-card {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: var(--radius-md);
+  /* G3 Spline: Calculated for card size (~350x420px) = 20px for ~5.7% ratio */
+  border-radius: 20px;
   corner-shape: superellipse(2);
   padding: var(--space-16);
   text-align: center;
@@ -2198,7 +2201,8 @@ section.hero-section#top {
 .about-hero-img {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
-  border-radius: var(--radius-lg);
+  /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
+  border-radius: 30px;
   corner-shape: superellipse(2);
   object-fit: cover;
   box-shadow: 
