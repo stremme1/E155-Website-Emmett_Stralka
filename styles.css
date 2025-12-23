@@ -647,8 +647,8 @@ header {
   gap: var(--space-3);
   padding: var(--space-5) var(--space-10);
   /* G3 Spline: Calculated for button size (~154x73px) = 10px for ~6.8% ratio */
-  border-radius: 10px;
-  corner-shape: squircle;
+  border-radius: 10px !important;
+  corner-shape: squircle !important;
   font-weight: 600;
   font-size: 1.125rem;
   text-decoration: none;
