@@ -657,7 +657,7 @@ header {
    MODERN FEATURED WORK SECTION
    =============================================== */
 .featured-section {
-  padding: var(--space-4) 0 var(--space-12) 0;
+  padding: var(--space-8) 0 var(--space-12) 0;
   background: var(--apple-white);
   width: 100%;
   max-width: 100%;
@@ -948,10 +948,14 @@ header {
   margin-bottom: var(--space-16);
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
-  color: var(--apple-black);
   letter-spacing: -0.02em;
   position: relative;
   z-index: 1;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--apple-black) 0%, var(--apple-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .about-preview h2::after {
@@ -1094,7 +1098,7 @@ header {
   }
   
   .featured-section {
-    padding: var(--space-6) 0 var(--space-16) 0;
+    padding: var(--space-10) 0 var(--space-16) 0;
   }
   
   .featured-grid {
@@ -1194,7 +1198,7 @@ header {
   }
   
   .featured-section {
-    padding: var(--space-4) 0 var(--space-12) 0;
+    padding: var(--space-8) 0 var(--space-12) 0;
   }
   
   .featured-grid {
@@ -1299,7 +1303,7 @@ header {
   }
   
   .featured-section {
-    padding: var(--space-4) 0 var(--space-8) 0;
+    padding: var(--space-6) 0 var(--space-8) 0;
   }
   
   .featured-grid {
