@@ -263,10 +263,10 @@ header {
 
 .navbar-brand {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 600;
-  color: var(--apple-black) !important;
-  letter-spacing: -0.003em;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--apple-gray-dark) !important;
+  letter-spacing: -0.022em;
   transition: all var(--transition-normal);
   text-decoration: none !important;
   position: relative;
