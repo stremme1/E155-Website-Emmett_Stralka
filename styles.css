@@ -212,14 +212,18 @@ p {
   transition: all var(--transition-normal) !important;
   transform: none !important;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
-  height: 80px !important;
-  min-height: 80px !important;
+  height: 100px !important;
+  min-height: 100px !important;
 }
 
 .navbar .apple-content-wrapper {
-  padding-left: 0.5rem !important;
-  padding-right: 24px !important;
-  margin-left: 0 !important;
+  position: relative;
+  left: 0;
+  top: 0;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 40px !important;
+  margin: 0 auto !important;
 }
 
 .navbar-nav {
@@ -642,7 +646,7 @@ p {
    MODERN FEATURED WORK SECTION
    =============================================== */
 .featured-section {
-  padding: var(--space-16) 0 var(--space-12);
+  padding: var(--space-16) 0 var(--space-16);
   background: var(--apple-white);
   width: 100%;
   max-width: 100%;
@@ -905,7 +909,7 @@ p {
    MODERN ABOUT PREVIEW SECTION
    =============================================== */
 .about-preview {
-  padding: var(--space-4) 0 var(--space-12);
+  padding: var(--space-16) 0 var(--space-16);
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
@@ -1048,12 +1052,12 @@ p {
 @media (max-width: 1024px) {
   .navbar {
     padding: 0.5rem 2rem !important;
-    height: 70px !important;
-    min-height: 70px !important;
+    height: 90px !important;
+    min-height: 90px !important;
   }
   
   body {
-    padding-top: 70px !important;
+    padding-top: 90px !important;
   }
   
   .hero-section {
@@ -1149,12 +1153,12 @@ p {
 @media (max-width: 768px) {
   .navbar {
     padding: 0.5rem 1.5rem !important;
-    height: 60px !important;
-    min-height: 60px !important;
+    height: 80px !important;
+    min-height: 80px !important;
   }
   
   body {
-    padding-top: 60px !important;
+    padding-top: 80px !important;
   }
   
   .hero-section {
@@ -1260,12 +1264,12 @@ p {
 @media (max-width: 480px) {
   .navbar {
     padding: 0.25rem 1rem !important;
-    height: 55px !important;
-    min-height: 55px !important;
+    height: 75px !important;
+    min-height: 75px !important;
   }
   
   body {
-    padding-top: 55px !important;
+    padding-top: 75px !important;
   }
   
   .hero-section {
@@ -1372,7 +1376,7 @@ p {
 
 /* Fix navbar covering content */
 body {
-  padding-top: 80px !important;
+  padding-top: 100px !important;
 }
 
 /* Apple-style container system - Homepage gets full width, other pages get centered content */
@@ -1412,7 +1416,7 @@ body {
 
 /* Apple-style container system */
 .apple-content-wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 24px;
   width: 100%;
