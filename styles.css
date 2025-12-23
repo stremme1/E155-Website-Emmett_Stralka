@@ -96,6 +96,8 @@ html {
   scroll-behavior: smooth;
   width: 100% !important;
   max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
@@ -209,11 +211,20 @@ p {
   max-width: 100% !important;
   width: 100% !important;
   margin: 0 !important;
+  margin-top: 0 !important;
   transition: all var(--transition-normal) !important;
   transform: none !important;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
   height: 100px !important;
   min-height: 100px !important;
+}
+
+header {
+  margin: 0 !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+  padding-top: 0 !important;
+  position: relative;
 }
 
 .navbar .apple-content-wrapper {
@@ -223,7 +234,7 @@ p {
   max-width: 100% !important;
   width: 100% !important;
   padding: 0 40px !important;
-  margin: 0 auto !important;
+  margin: 0 !important;
 }
 
 .navbar-nav {
@@ -646,7 +657,7 @@ p {
    MODERN FEATURED WORK SECTION
    =============================================== */
 .featured-section {
-  padding: var(--space-16) 0 var(--space-16);
+  padding: var(--space-12) 0;
   background: var(--apple-white);
   width: 100%;
   max-width: 100%;
@@ -909,7 +920,7 @@ p {
    MODERN ABOUT PREVIEW SECTION
    =============================================== */
 .about-preview {
-  padding: var(--space-16) 0 var(--space-16);
+  padding: var(--space-12) 0;
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
@@ -1083,7 +1094,7 @@ p {
   }
   
   .featured-section {
-    padding: var(--space-32) 0;
+    padding: var(--space-16) 0;
   }
   
   .featured-grid {
@@ -1098,7 +1109,7 @@ p {
   }
   
   .about-preview {
-    padding: var(--space-32) 0;
+    padding: var(--space-16) 0;
   }
   
   .about-preview p {
@@ -1183,7 +1194,7 @@ p {
   }
   
   .featured-section {
-    padding: var(--space-24) 0;
+    padding: var(--space-12) 0;
   }
   
   .featured-grid {
@@ -1202,7 +1213,7 @@ p {
   }
   
   .about-preview {
-    padding: var(--space-24) 0;
+    padding: var(--space-12) 0;
   }
   
   .about-preview p {
@@ -1288,7 +1299,7 @@ p {
   }
   
   .featured-section {
-    padding: var(--space-16) 0;
+    padding: var(--space-8) 0;
   }
   
   .featured-grid {
@@ -1306,7 +1317,7 @@ p {
   }
   
   .about-preview {
-    padding: var(--space-16) 0;
+    padding: var(--space-8) 0;
   }
   
   .about-preview p {
