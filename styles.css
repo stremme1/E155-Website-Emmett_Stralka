@@ -743,8 +743,12 @@ p {
   margin: 0 0 var(--space-2) 0;
   letter-spacing: -0.01em;
   line-height: 1.2;
-  min-height: 2.25rem;
+  height: 4.5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .featured-card .card-subtitle {
@@ -753,10 +757,13 @@ p {
   color: var(--apple-blue);
   margin: 0 0 var(--space-4) 0;
   letter-spacing: -0.01em;
-  height: 1.5rem;
+  height: 4.5rem;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.5;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .featured-card-content > p:not(.card-subtitle) {
@@ -766,14 +773,16 @@ p {
   margin: 0;
   max-width: 280px;
   flex: 1;
-  min-height: 180px;
+  height: 180px;
   display: flex;
   align-items: flex-start;
+  flex-shrink: 0;
 }
 
 .featured-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--space-3);
   color: var(--apple-blue);
   font-weight: 600;
@@ -788,6 +797,11 @@ p {
   position: relative;
   overflow: hidden;
   margin-top: auto;
+  height: 3.5rem;
+  min-height: 3.5rem;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 280px;
 }
 
 .featured-link::before {
