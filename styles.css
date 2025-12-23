@@ -1658,6 +1658,11 @@ p a:not(.btn):hover,
     align-items: center;
     gap: var(--space-4);
   }
+  
+  .about-cta-actions {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
 }
 
 /* ===============================================
