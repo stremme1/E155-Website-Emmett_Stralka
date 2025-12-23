@@ -710,11 +710,13 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-6);
+  gap: var(--space-4);
   position: relative;
   z-index: 1;
   flex: 1;
   align-self: stretch;
+  height: 100%;
+  justify-content: flex-start;
 }
 
 .featured-icon {
@@ -735,17 +737,21 @@ p {
   font-size: 1.875rem;
   font-weight: 700;
   color: var(--apple-black);
-  margin: 0;
+  margin: 0 0 var(--space-2) 0;
   letter-spacing: -0.01em;
   line-height: 1.2;
+  min-height: 2.25rem;
+  text-align: center;
 }
 
 .featured-card .card-subtitle {
   font-size: 1.125rem;
   font-weight: 600;
   color: var(--apple-blue);
-  margin: 0;
+  margin: 0 0 var(--space-4) 0;
   letter-spacing: -0.01em;
+  min-height: 1.5rem;
+  text-align: center;
 }
 
 .featured-card p {
@@ -754,6 +760,10 @@ p {
   color: var(--apple-gray-dark);
   margin: 0;
   max-width: 280px;
+  flex: 1;
+  min-height: 180px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .featured-link {
