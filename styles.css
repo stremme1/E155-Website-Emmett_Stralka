@@ -307,7 +307,7 @@ header {
   font-weight: 500;
   color: var(--apple-gray-dark) !important;
   padding: var(--space-3) var(--space-3) !important;
-  border-radius: var(--radius-lg);
+  border-radius: 20% 80% 80% 20% / 20% 20% 80% 80%;
   transition: all var(--transition-normal);
   letter-spacing: -0.022em;
   position: relative;
