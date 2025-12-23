@@ -223,6 +223,7 @@ p {
   color: var(--apple-black) !important;
   letter-spacing: -0.003em;
   transition: all var(--transition-fast);
+  text-decoration: none !important;
 }
 
 .navbar-brand:hover {
