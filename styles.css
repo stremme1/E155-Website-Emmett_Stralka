@@ -750,11 +750,13 @@ p {
   color: var(--apple-blue);
   margin: 0 0 var(--space-4) 0;
   letter-spacing: -0.01em;
-  min-height: 1.5rem;
+  height: 1.5rem;
   text-align: center;
+  line-height: 1.5rem;
+  flex-shrink: 0;
 }
 
-.featured-card p {
+.featured-card-content > p:not(.card-subtitle) {
   font-size: 1.125rem;
   line-height: 1.6;
   color: var(--apple-gray-dark);
