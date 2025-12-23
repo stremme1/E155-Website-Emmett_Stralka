@@ -202,7 +202,7 @@ p {
   backdrop-filter: saturate(200%) blur(40px);
   -webkit-backdrop-filter: saturate(200%) blur(40px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-  padding: 0.75rem 2rem 0.75rem 0 !important;
+  padding: 0.75rem 2rem 0 0 !important;
   position: fixed !important;
   top: 12px !important;
   left: 0 !important;
