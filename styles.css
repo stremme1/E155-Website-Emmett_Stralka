@@ -589,8 +589,8 @@ header {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
   /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
-  border-radius: 30px;
-  corner-shape: squircle;
+  border-radius: 30px !important;
+  corner-shape: squircle !important;
   object-fit: cover;
   box-shadow: 
     var(--shadow-2xl),
@@ -2214,8 +2214,8 @@ section.hero-section#top {
   width: clamp(400px, 35vw, 600px);
   height: clamp(450px, 40vw, 700px);
   /* G3 Spline: Calculated for image size (~529x605px) = 30px for ~5% ratio */
-  border-radius: 30px;
-  corner-shape: squircle;
+  border-radius: 30px !important;
+  corner-shape: squircle !important;
   object-fit: cover;
   box-shadow: 
     var(--shadow-2xl),
