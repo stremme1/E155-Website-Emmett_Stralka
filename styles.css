@@ -2559,7 +2559,7 @@ section.hero-section#top {
 
 /* About CTA Section - Matching Homepage Style */
 .about-cta {
-  padding: var(--space-8) 0 var(--space-16) 0;
+  padding: var(--space-6) 0 var(--space-10) 0;
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
   text-align: center;
   position: relative;
@@ -2594,7 +2594,7 @@ section.hero-section#top {
   font-size: clamp(1.125rem, 1.5vw, 1.375rem);
   line-height: 1.7;
   color: var(--apple-gray-dark);
-  margin: 0 auto var(--space-12);
+  margin: 0 auto var(--space-8);
   padding: 0 var(--space-8);
   position: relative;
   z-index: 1;
