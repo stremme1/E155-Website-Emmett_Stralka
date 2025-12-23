@@ -66,6 +66,18 @@
           The microcontroller performs gesture recognition to detect drumming motions, and the resulting sound IDs (0–7) are output through a digital-to-analog converter (DAC) 
           to drive a speaker that plays the correct drum sound.
         </p>
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image23.png" 
+               alt="System Schematic" 
+               style="max-width: 80%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">System Schematic</p>
+        </div>
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image13.png" 
+               alt="Final Dual-Stick Embedded System Prototype" 
+               style="max-width: 80%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">Final Dual-Stick Embedded System Prototype</p>
+        </div>
         <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--apple-black); margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -0.01em;">Packet Format</h3>
         <p>Each package is passed as:</p>
         <ul style="list-style: none; padding: 0; margin: var(--space-4) 0; color: var(--apple-gray-dark);">
@@ -92,6 +104,12 @@
           The FPGA receives pre-processed sensor data from the Arduino via SPI and packages it into a custom transmission format optimized for the MCU interface. 
           The FPGA's role shifted from sensor management to efficient data packaging and routing.
         </p>
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image12.png" 
+               alt="FPGA Top Module" 
+               style="max-width: 80%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">FPGA Top Module</p>
+        </div>
         <p>
           <strong>Key Modules:</strong>
         </p>
@@ -106,6 +124,12 @@
           The STM32 microcontroller decodes the packaged data packets from the FPGA, identifies drum triggers based on gesture patterns using yaw zones, 
           pitch thresholds, and gyroscope readings, and outputs audio samples through the DAC to drive the speaker.
         </p>
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image19.png" 
+               alt="MCU Flow Diagram" 
+               style="max-width: 80%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">MCU Main Control Loop Flowchart</p>
+        </div>
         <p>
           <strong>Detection Logic:</strong> The system uses predefined zones based on Euler angles (yaw, pitch) and gyroscope readings to detect 8 different drum sounds:
         </p>
@@ -138,6 +162,26 @@
           The Arduino Nano ESP32 handles sensor configuration and data acquisition using the Adafruit_BNO08x library, which provides robust SHTP protocol handling 
           and reliable sensor communication over I²C. The ESP32 forwards processed motion data to the FPGA via SPI.
         </p>
+      </div>
+    </section>
+
+    <section class="skills-section scroll-animate">
+      <div class="section-title-container">
+        <h2 class="section-title">Results</h2>
+      </div>
+      <div class="section-content">
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image22.jpg" 
+               alt="User Testing of the Dual-Stick Invisible Drum Set Prototype" 
+               style="max-width: 60%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">User Testing of the Dual-Stick Invisible Drum Set Prototype</p>
+        </div>
+        <div style="text-align: center; margin: var(--space-8) 0;">
+          <img src="https://raw.githubusercontent.com/stremme1/E155_Final_SPI_Test/website-only/E155-Final-Project-Website/Images/image16.png" 
+               alt="Final Prototype Assembly with Integrated Speaker Output" 
+               style="max-width: 60%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
+          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">Final Prototype Assembly with Integrated Speaker Output</p>
+        </div>
       </div>
     </section>
 
