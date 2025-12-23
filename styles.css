@@ -714,6 +714,13 @@ header {
   position: relative;
 }
 
+.section-title-container {
+  text-align: center;
+  margin-bottom: var(--space-16);
+  width: 100%;
+  padding: 0 var(--space-16);
+}
+
 .section-title {
   text-align: center;
   margin-bottom: var(--space-20);
