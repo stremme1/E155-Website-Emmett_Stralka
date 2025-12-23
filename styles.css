@@ -1982,13 +1982,46 @@ section.hero-section#top {
 .section-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--space-8);
+  padding: 0 var(--space-12);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.skills-section .section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-12);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ===============================================
    QUARTO-FRIENDLY PAGE INTROS
    =============================================== */
-.labs-intro,
+.labs-intro {
+  padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
+  margin-top: var(--space-16) !important;
+  margin-bottom: var(--space-24);
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  min-height: auto;
+  display: block;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  max-width: 100vw !important;
+  box-sizing: border-box;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  transition: none;
+  transform: none;
+}
+
 /* About page intro - clean, no card styling (legacy support) */
 .about-intro {
   padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
