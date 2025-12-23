@@ -816,8 +816,8 @@ header {
 
 .featured-card {
   background: rgba(255, 255, 255, 0.95);
-  /* G3 Spline: Calculated for card size (~350x420px) = 20px for ~5.7% ratio */
-  border-radius: 20px;
+  /* G3 Spline: Consistent curve - all elements use 30px */
+  border-radius: 30px;
   corner-shape: squircle;
   padding: var(--space-16);
   text-align: center;
