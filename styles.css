@@ -275,8 +275,26 @@ p {
 .navbar a:hover,
 .navbar a:focus,
 .navbar a:active,
-.navbar a:visited {
+.navbar a:visited,
+.navbar a span,
+.navbar a:hover span,
+.navbar a:focus span,
+.navbar a:active span,
+.navbar a:visited span,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:visited,
+.navbar-nav .nav-link span,
+.navbar-nav .nav-link:hover span,
+.navbar-nav .nav-link:focus span,
+.navbar-nav .nav-link:active span,
+.navbar-nav .nav-link:visited span {
   text-decoration: none !important;
+  text-underline-offset: 0 !important;
+  text-decoration-line: none !important;
+  text-decoration-style: none !important;
 }
 
 .navbar-nav .nav-link::before {
@@ -308,6 +326,7 @@ p {
 .navbar-nav .nav-link span {
   position: relative;
   z-index: 1;
+  text-decoration: none !important;
 }
 
 .navbar-nav .nav-link.active {
