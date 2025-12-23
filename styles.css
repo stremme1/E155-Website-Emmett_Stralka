@@ -404,7 +404,7 @@ header {
   overflow: hidden;
   opacity: 0;
   animation: heroSectionLoad 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s forwards;
-  margin-top: 64px;
+  margin-top: 0;
 }
 
 @keyframes heroSectionLoad {
@@ -1094,6 +1094,7 @@ header {
   .hero-section {
     padding: var(--space-12) 0 var(--space-20);
     min-height: calc(100vh - 64px);
+    margin-top: 0;
   }
   
   .hero-content {
@@ -1202,6 +1203,7 @@ header {
   .hero-section {
     padding: var(--space-10) 0 var(--space-16);
     min-height: calc(100vh - 60px);
+    margin-top: 0;
   }
   
   .hero-content {
@@ -1320,6 +1322,7 @@ header {
   .hero-section {
     padding: var(--space-8) 0 var(--space-12);
     min-height: calc(100vh - 56px);
+    margin-top: 0;
   }
   
   .hero-content {
@@ -1423,6 +1426,16 @@ header {
 /* Fix navbar covering content */
 body {
   padding-top: 64px !important;
+}
+
+main#main-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+main#main-content > section:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Apple-style container system - Homepage gets full width, other pages get centered content */
