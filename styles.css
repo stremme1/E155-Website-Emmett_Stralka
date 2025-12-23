@@ -404,7 +404,7 @@ header {
   overflow: hidden;
   opacity: 0;
   animation: heroSectionLoad 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s forwards;
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 @keyframes heroSectionLoad {
@@ -1191,14 +1191,9 @@ header {
   }
   
   .hero-section {
-    margin-top: 60px;
-    min-height: calc(100vh - 60px);
-  }
-  
-  .hero-section {
     padding: var(--space-10) 0 var(--space-16);
     min-height: calc(100vh - 60px);
-    margin-top: 0;
+    margin-top: 0 !important;
   }
   
   .hero-content {
@@ -1310,14 +1305,9 @@ header {
   }
   
   .hero-section {
-    margin-top: 56px;
-    min-height: calc(100vh - 56px);
-  }
-  
-  .hero-section {
     padding: var(--space-8) 0 var(--space-12);
     min-height: calc(100vh - 56px);
-    margin-top: 0;
+    margin-top: 0 !important;
   }
   
   .hero-content {
