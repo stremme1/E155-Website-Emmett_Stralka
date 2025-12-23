@@ -1733,6 +1733,16 @@ section.hero-section#top {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-12);
   }
+  
+  .education-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-16);
+  }
+  
+  .education-header {
+    margin-bottom: var(--space-20);
+    padding-bottom: var(--space-12);
+  }
 }
 
 @media (max-width: 768px) {
