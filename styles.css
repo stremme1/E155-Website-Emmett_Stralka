@@ -391,7 +391,7 @@ header {
    IMMERSIVE HERO SECTION
    =============================================== */
 .hero-section {
-  padding: var(--space-24) 0 var(--space-32);
+  padding: var(--space-12) 0 var(--space-16);
   background: 
     radial-gradient(circle at 20% 80%, rgba(0, 122, 255, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(0, 122, 255, 0.02) 0%, transparent 50%),
@@ -427,9 +427,9 @@ header {
   width: 100% !important;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 4rem;
+  gap: 3rem;
   align-items: center;
-  padding: 0 5rem !important;
+  padding: 0 3rem !important;
   margin: 0 auto !important;
   position: relative;
   z-index: 1;
@@ -1092,15 +1092,15 @@ header {
   }
   
   .hero-section {
-    padding: var(--space-20) 0 var(--space-32);
+    padding: var(--space-12) 0 var(--space-20);
     min-height: calc(100vh - 64px);
   }
   
   .hero-content {
     grid-template-columns: 1fr;
-    gap: var(--space-20);
+    gap: var(--space-16);
     text-align: center;
-    padding: 0 4rem !important;
+    padding: 0 3rem !important;
     max-width: 1200px !important;
   }
   
@@ -1200,13 +1200,13 @@ header {
   }
   
   .hero-section {
-    padding: var(--space-16) 0 var(--space-24);
+    padding: var(--space-10) 0 var(--space-16);
     min-height: calc(100vh - 60px);
   }
   
   .hero-content {
-    padding: 0 2.5rem !important;
-    gap: var(--space-16);
+    padding: 0 2rem !important;
+    gap: var(--space-12);
     max-width: 100% !important;
   }
   
@@ -1318,13 +1318,13 @@ header {
   }
   
   .hero-section {
-    padding: var(--space-12) 0 var(--space-20);
+    padding: var(--space-8) 0 var(--space-12);
     min-height: calc(100vh - 56px);
   }
   
   .hero-content {
-    padding: 0 1.5rem !important;
-    gap: var(--space-12);
+    padding: 0 1.25rem !important;
+    gap: var(--space-10);
     max-width: 100% !important;
   }
   
