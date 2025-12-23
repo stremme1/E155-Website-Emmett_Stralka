@@ -1485,12 +1485,12 @@ p a:not(.btn):hover,
     gap: var(--space-10);
   }
   
-  .about-card-grid {
+  .about-content-wrapper {
     grid-template-columns: 1fr;
     padding: 0 var(--space-4);
   }
   
-  .experience-timeline {
+  .experience-content {
     padding: 0 var(--space-4);
   }
   
@@ -1753,12 +1753,12 @@ section.hero-section#top {
     gap: var(--space-10);
   }
   
-  .about-card-grid {
+  .about-content-wrapper {
     grid-template-columns: 1fr;
     padding: 0 var(--space-4);
   }
   
-  .experience-timeline {
+  .experience-content {
     padding: 0 var(--space-4);
   }
   
