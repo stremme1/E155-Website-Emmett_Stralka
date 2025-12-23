@@ -54,6 +54,7 @@
             src="Images/headshot.jpg"
             alt="Emmett Stralka – Engineering student at Harvey Mudd College"
             class="hero-image"
+            loading="lazy"
           />
         </div>
       </div>
@@ -144,6 +145,26 @@
     document.addEventListener('DOMContentLoaded', function () {
       var yearSpan = document.getElementById('year');
       if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+      
+      // Mark hero section as loaded after animation
+      setTimeout(function() {
+        var heroSection = document.querySelector('.hero-section');
+        if (heroSection) {
+          heroSection.classList.add('hero-loaded');
+        }
+      }, 2100);
+      
+      // Mark hero image as loaded
+      var heroImage = document.querySelector('.hero-image');
+      if (heroImage) {
+        if (heroImage.complete) {
+          heroImage.classList.add('loaded');
+        } else {
+          heroImage.addEventListener('load', function() {
+            this.classList.add('loaded');
+          });
+        }
+      }
     });
   </script>
 
