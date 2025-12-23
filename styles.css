@@ -204,7 +204,7 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
   padding: 0.75rem 2rem 0.75rem 0 !important;
   position: fixed !important;
-  top: 0 !important;
+  top: 12px !important;
   left: 0 !important;
   right: 0 !important;
   z-index: var(--z-fixed);
