@@ -2296,7 +2296,8 @@ section.hero-section#top {
   width: 100%;
   max-width: 400px;
   height: auto;
-  border-radius: var(--radius-lg);
+  /* G3 Spline: Calculated for large image elements (~529x605px) = 30px for ~5% ratio */
+  border-radius: 30px;
   corner-shape: superellipse(2);
   box-shadow: 
     0 20px 60px rgba(0, 0, 0, 0.15),
