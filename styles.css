@@ -758,12 +758,22 @@ header {
   bottom: -12px;
   left: 0;
   right: 0;
-  width: 100vw;
+  width: 0;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
-  animation: expandLine 1.5s ease-out 0.5s both;
+  opacity: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s,
+              opacity 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
   margin-left: calc(-50vw + 50%);
+}
+
+.scroll-animate.animate .section-title::after,
+.featured-section.scroll-animate.animate .section-title::after,
+.education-section.scroll-animate.animate .section-title::after,
+.about-cta.scroll-animate-slide-up.animate .section-title::after {
+  width: 100vw;
+  opacity: 1;
 }
 
 @keyframes expandLine {
@@ -1092,12 +1102,20 @@ header {
   bottom: -12px;
   left: 0;
   right: 0;
-  width: 100vw;
+  width: 0;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
-  animation: expandLine 1.5s ease-out 0.5s both;
+  opacity: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s,
+              opacity 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
   margin-left: calc(-50vw + 50%);
+}
+
+.scroll-animate-slide-up.animate .about-preview h2::after,
+.about-preview.scroll-animate-slide-up.animate h2::after {
+  width: 100vw;
+  opacity: 1;
 }
 
 .about-preview p {
@@ -2995,11 +3013,19 @@ section.hero-section#top {
   bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
+  width: 0;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
-  animation: expandLine 1.5s ease-out 0.5s both;
+  opacity: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s,
+              opacity 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
+}
+
+.scroll-animate.animate .blog-preview h2::after,
+.blog-preview.scroll-animate.animate h2::after {
+  width: 80px;
+  opacity: 1;
 }
 
 .blog-preview p {
@@ -3226,11 +3252,19 @@ section.hero-section#top {
   bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
+  width: 0;
   height: 4px;
   background: linear-gradient(90deg, var(--apple-blue), var(--apple-accent));
   border-radius: 2px;
-  animation: expandLine 1.5s ease-out 0.5s both;
+  opacity: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s,
+              opacity 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;
+}
+
+.scroll-animate.animate .additional-resources h2::after,
+.additional-resources.scroll-animate.animate h2::after {
+  width: 80px;
+  opacity: 1;
 }
 
 .additional-resources h3 {
