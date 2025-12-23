@@ -241,6 +241,7 @@ p {
   letter-spacing: -0.022em;
   position: relative;
   overflow: hidden;
+  text-decoration: none !important;
 }
 
 .navbar-nav .nav-link::before {
