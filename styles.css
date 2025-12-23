@@ -2674,10 +2674,16 @@ section.hero-section#top {
   margin-top: var(--space-8);
 }
 
+/* Match home page cta-buttons styling exactly */
 .about-cta-actions .btn {
   width: auto;
   justify-content: center;
   text-align: center;
+  /* Ensure same padding, font-size, and border-radius as home page buttons */
+  padding: var(--space-5) var(--space-10) !important;
+  font-size: 1.125rem !important;
+  border-radius: 16px !important;
+  corner-shape: squircle !important;
 }
 
 /* ===============================================
