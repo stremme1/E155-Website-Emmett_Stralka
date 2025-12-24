@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stremme1.github.io/E155-Website-Emmett_Stralka/sitemap.xml
+
