@@ -258,24 +258,6 @@ header {
 
 .navbar-nav {
   margin-left: auto !important;
-  position: relative !important;
-  display: flex !important;
-  flex-direction: row !important;
-  gap: 1.5rem !important;
-  list-style: none !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  transform: none !important;
-  background: transparent !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  box-shadow: none !important;
-  border-bottom: none !important;
-  padding: 0 !important;
-  top: auto !important;
-  left: auto !important;
-  right: auto !important;
-  z-index: auto !important;
 }
 
 .navbar-brand {
@@ -1453,41 +1435,6 @@ p a:not(.btn):hover,
   }
 }
 
-/* Mobile Menu Toggle Button - Hidden on desktop */
-.mobile-menu-toggle {
-  display: none !important;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 28px;
-  height: 28px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 1001;
-  position: relative;
-}
-
-.mobile-menu-toggle span {
-  width: 100%;
-  height: 2px;
-  background-color: var(--apple-gray-dark);
-  border-radius: 2px;
-  transition: all 0.3s ease;
-  transform-origin: center;
-}
-
-.mobile-menu-toggle[aria-expanded="true"] span:nth-child(1) {
-  transform: rotate(45deg) translate(8px, 8px);
-}
-
-.mobile-menu-toggle[aria-expanded="true"] span:nth-child(2) {
-  opacity: 0;
-}
-
-.mobile-menu-toggle[aria-expanded="true"] span:nth-child(3) {
-  transform: rotate(-45deg) translate(8px, -8px);
-}
 
 @media (max-width: 768px) {
   .navbar {
@@ -1501,64 +1448,6 @@ p a:not(.btn):hover,
     padding-top: 60px !important;
   }
   
-  /* Show hamburger menu on mobile */
-  .mobile-menu-toggle {
-    display: flex;
-  }
-  
-  /* Hide desktop nav, show mobile nav */
-  .navbar-nav {
-    position: fixed !important;
-    top: 60px !important;
-    left: 0 !important;
-    right: 0 !important;
-    background: rgba(255, 255, 255, 0.98) !important;
-    backdrop-filter: saturate(180%) blur(20px) !important;
-    -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
-    flex-direction: column !important;
-    padding: var(--space-6) var(--space-4) !important;
-    gap: var(--space-2) !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
-    transform: translateY(-100%) !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
-    z-index: 1000 !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-  }
-  
-  .navbar-nav.active {
-    transform: translateY(0) !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-  
-  .navbar-nav li {
-    width: 100% !important;
-  }
-  
-  .navbar-nav .nav-link {
-    display: block !important;
-    width: 100% !important;
-    padding: var(--space-4) var(--space-6) !important;
-    text-align: left !important;
-    border-radius: 12px !important;
-    transition: all var(--transition-normal) !important;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    background: var(--apple-gray-light) !important;
-  }
-  
-  .navbar .apple-content-wrapper {
-    padding: 0 var(--space-4) !important;
-  }
-  
-  .navbar-brand {
-    font-size: 16px !important;
-  }
 }
   
   .hero-section {
