@@ -1435,7 +1435,6 @@ p a:not(.btn):hover,
   }
 }
 
-
 @media (max-width: 768px) {
   .navbar {
     padding: 0 !important;
@@ -1447,8 +1446,6 @@ p a:not(.btn):hover,
   body {
     padding-top: 60px !important;
   }
-  
-}
   
   .hero-section {
     padding: var(--space-8) 0 var(--space-16);
