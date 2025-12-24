@@ -5,9 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Emmett Stralka – Engineering Portfolio</title>
   <meta name="description" content="Harvey Mudd College Engineering & Economics student focused on embedded systems, ML/AI product management, and technical leadership." />
-
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://stremme1.github.io/E155-Website-Emmett_Stralka/" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://stremme1.github.io/E155-Website-Emmett_Stralka/" />
+  <meta property="og:title" content="Emmett Stralka – Engineering Portfolio" />
+  <meta property="og:description" content="Harvey Mudd College Engineering & Economics student focused on embedded systems, ML/AI product management, and technical leadership." />
+  <meta property="og:image" content="https://stremme1.github.io/E155-Website-Emmett_Stralka/Images/headshot.jpg" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://stremme1.github.io/E155-Website-Emmett_Stralka/" />
+  <meta name="twitter:title" content="Emmett Stralka – Engineering Portfolio" />
+  <meta name="twitter:description" content="Harvey Mudd College Engineering & Economics student focused on embedded systems, ML/AI product management, and technical leadership." />
+  <meta name="twitter:image" content="https://stremme1.github.io/E155-Website-Emmett_Stralka/Images/headshot.jpg" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ES</text></svg>" />
+  <link rel="apple-touch-icon" href="Images/headshot.jpg" />
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="preload" href="Images/headshot.jpg" as="image" />
+  
   <!-- Core styles (Apple-inspired design is already in here) -->
-  <link rel="stylesheet" href="styles.css?v=2.2" />
+  <link rel="stylesheet" href="styles.css?v=3.0" />
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emmett Stralka",
+    "url": "https://stremme1.github.io/E155-Website-Emmett_Stralka/",
+    "image": "https://stremme1.github.io/E155-Website-Emmett_Stralka/Images/headshot.jpg",
+    "jobTitle": "Engineering Student",
+    "worksFor": {
+      "@type": "EducationalOrganization",
+      "name": "Harvey Mudd College"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Harvey Mudd College"
+    },
+    "email": "estralka@g.hmc.edu",
+    "sameAs": [
+      "https://www.linkedin.com/in/emmett-stralka-b41575213/",
+      "https://github.com/stremme1"
+    ]
+  }
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -17,6 +67,11 @@
     <nav class="navbar">
       <div class="apple-content-wrapper" style="display:flex;align-items:center;justify-content:space-between;">
         <a href="#top" class="navbar-brand">Emmett Stralka | Portfolio Website</a>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <ul class="navbar-nav" style="display:flex;gap:1.5rem;list-style:none;">
           <li><a class="nav-link" href="projects.html"><span>Projects</span></a></li>
           <li><a class="nav-link" href="labs.html"><span>E155 Labs</span></a></li>
@@ -168,6 +223,9 @@
 
   <!-- Scroll reveal animations -->
   <script src="scroll-animations.js"></script>
+  
+  <!-- Privacy-friendly analytics (Plausible) -->
+  <script defer data-domain="stremme1.github.io" src="https://plausible.io/js/script.js"></script>
 </body>
 </html>
 
