@@ -1,15 +1,8 @@
-/* ===============================================
-   EMMETT STRALKA - PREMIUM APPLE-INSPIRED DESIGN
-   =============================================== */
-
-/* Import Apple's system fonts and premium typography */
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=SF+Pro+Display:wght@200;300;400;500;600;700;800;900&display=swap');
 
-/* ===============================================
-   PREMIUM COLOR SYSTEM
-   =============================================== */
 :root {
-  /* Apple's Refined Color Palette */
+  /* colors */
   --apple-black: #1d1d1f;
   --apple-gray: #86868b;
   --apple-blue: #007aff;
@@ -24,12 +17,12 @@
   --apple-success: #34c759;
   --apple-warning: #ff9500;
   
-  /* Premium Typography System */
+  /* fonts */
   --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
   
-  /* Apple-Inspired Spacing Scale */
+  /* spacing */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -48,18 +41,17 @@
   --space-56: 14rem;
   --space-64: 16rem;
   
-  /* Modern Border Radius - G3 Spline Scale (Consistent) */
-  /* Single consistent value for all elements - uniform curvy G3 spline curves */
-  --radius-xs: 30px;      /* Consistent across all elements */
-  --radius-sm: 30px;      /* Consistent across all elements */
-  --radius-md: 30px;      /* Consistent across all elements */
-  --radius-lg: 30px;      /* Consistent across all elements */
-  --radius-xl: 30px;      /* Consistent across all elements */
+  /* border radius */
+  --radius-xs: 30px;
+  --radius-sm: 30px;
+  --radius-md: 30px;
+  --radius-lg: 30px;
+  --radius-xl: 30px;
   --radius-2xl: 30px;
   --radius-3xl: 30px;
   --radius-full: 50%;
   
-  /* Enhanced Shadows */
+  /* shadows */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -68,13 +60,13 @@
   --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.15);
   --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.06);
   
-  /* Smooth Transitions */
+  /* transitions */
   --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   
-  /* Z-Index Scale */
+  /* z-index */
   --z-dropdown: 1000;
   --z-sticky: 1020;
   --z-fixed: 1030;
@@ -84,9 +76,7 @@
   --z-tooltip: 1070;
 }
 
-/* ===============================================
-   GLOBAL RESET & BASE STYLES
-   =============================================== */
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -142,9 +132,7 @@ body {
   }
 }
 
-/* ===============================================
-   PROFESSIONAL TYPOGRAPHY SYSTEM
-   =============================================== */
+/* typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -206,9 +194,7 @@ p {
   text-rendering: optimizeLegibility;
 }
 
-/* ===============================================
-   PREMIUM NAVIGATION
-   =============================================== */
+/* navigation */
 .navbar {
   background: rgba(255, 255, 255, 0.72) !important;
   backdrop-filter: saturate(180%) blur(20px);
@@ -408,9 +394,7 @@ header {
   transform: scale(1.1);
 }
 
-/* ===============================================
-   IMMERSIVE HERO SECTION
-   =============================================== */
+/* hero */
 .hero-section {
   padding: var(--space-16) 0 var(--space-16) 0;
   background: 
@@ -620,9 +604,7 @@ header {
 
 /* Removed complex hover effect for hero image */
 
-/* ===============================================
-   PREMIUM ANIMATIONS
-   =============================================== */
+/* animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -636,9 +618,7 @@ header {
 
 /* Removed unused animation keyframes for performance optimization */
 
-/* ===============================================
-   MODERN BUTTONS
-   =============================================== */
+/* buttons */
 .btn {
   display: inline-flex !important;
   align-items: center;
@@ -717,9 +697,7 @@ header {
     0 2px 4px rgba(0, 122, 255, 0.2);
 }
 
-/* ===============================================
-   MODERN FEATURED WORK SECTION
-   =============================================== */
+/* featured work */
 .featured-section {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: var(--apple-white);
@@ -1063,9 +1041,7 @@ header {
   transform: translateX(4px);
 }
 
-/* ===============================================
-   MODERN ABOUT PREVIEW SECTION
-   =============================================== */
+/* about preview */
 .about-preview {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
@@ -1190,10 +1166,7 @@ p a:not(.btn):hover,
   color: var(--apple-blue-dark);
 }
 
-/* ===============================================
-   PREMIUM SCROLL ANIMATIONS
-   =============================================== */
-/* Apple-like scroll animations with refined easing and timing */
+/* scroll animations */
 .scroll-animate {
   opacity: 0;
   transform: translateY(40px);
@@ -1298,9 +1271,7 @@ p a:not(.btn):hover,
 .scroll-animate-stagger.animate > *:nth-child(5) { transition-delay: 0.5s; }
 .scroll-animate-stagger.animate > *:nth-child(6) { transition-delay: 0.6s; }
 
-/* ===============================================
-   MODERN RESPONSIVE DESIGN
-   =============================================== */
+/* responsive */
 @media (max-width: 1200px) {
   .navbar {
     padding: 0.25rem 3rem !important;
@@ -1689,9 +1660,7 @@ p a:not(.btn):hover,
   }
 }
 
-/* ===============================================
-   APPLE-LEVEL CONTAINER SYSTEM & NAVBAR FIXES
-   =============================================== */
+/* containers */
 
 /* Fix navbar covering content */
 body {
@@ -1711,7 +1680,7 @@ section.hero-section#top {
   margin-top: 0 !important;
 }
 
-/* Apple-style container system - Homepage gets full width, other pages get centered content */
+/* container system */
 #quarto-content {
   max-width: 100% !important;
   width: 100% !important;
@@ -1746,7 +1715,7 @@ section.hero-section#top {
   box-sizing: border-box !important;
 }
 
-/* Apple-style container system */
+/* container wrapper */
 .apple-content-wrapper {
   max-width: 1400px;
   margin: 0 auto;
@@ -1771,7 +1740,7 @@ section.hero-section#top {
   max-width: 100vw;
 }
 
-/* Apple-level responsive design system - full width for all pages */
+/* responsive containers */
 @media (max-width: 1400px) {
   .labs-intro,
   .about-intro,
@@ -1980,10 +1949,7 @@ section.hero-section#top {
   transform: none !important;
 }
 
-/* ===============================================
-   CONTAINER CONTENT MANAGEMENT
-   =============================================== */
-/* Content within containers should respect Quarto's system */
+/* content containers */
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -2048,9 +2014,7 @@ body:has(main#main-content) .skills-section *,
   opacity: 1 !important;
 }
 
-/* ===============================================
-   QUARTO-FRIENDLY PAGE INTROS
-   =============================================== */
+/* page intros */
 .labs-intro {
   padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
   margin-top: var(--space-16) !important;
@@ -2222,10 +2186,7 @@ body:has(main#main-content) .skills-section *,
   opacity: 1;
 }
 
-/* ===============================================
-   ABOUT PAGE UNIQUE STYLES
-   =============================================== */
-/* About Hero Section - Apple Design - Matching Homepage */
+/* about page */
 .about-hero {
   padding: var(--space-16) 0 var(--space-16) 0;
   margin-top: var(--space-16) !important;
@@ -2441,7 +2402,7 @@ body:has(main#main-content) .skills-section *,
   font-weight: 400;
 }
 
-/* Education Section - Professional Apple Design Matching Homepage */
+/* education section */
 .education-section {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: var(--apple-gray-light);
@@ -2821,9 +2782,7 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* ===============================================
-   LABS PAGE SPECIFIC STYLES
-   =============================================== */
+/* labs page */
 .progress-indicator {
   background: linear-gradient(135deg, var(--apple-blue-light), rgba(0, 122, 255, 0.1));
   border: 1px solid rgba(0, 122, 255, 0.3);
@@ -3125,9 +3084,7 @@ body:has(main#main-content) .skills-section *,
   margin: 0;
 }
 
-/* ===============================================
-   BLOG PAGE SPECIFIC STYLES
-   =============================================== */
+/* blog page */
 .blog-section {
   padding: var(--space-32) 0;
   background: var(--apple-white);
@@ -3213,9 +3170,7 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* ===============================================
-   RESOURCES PAGE SPECIFIC STYLES
-   =============================================== */
+/* resources page */
 .resources-section {
   padding: var(--space-32) 0;
   background: var(--apple-white);
@@ -3483,9 +3438,7 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* ===============================================
-   ABOUT PAGE SPECIFIC STYLES
-   =============================================== */
+/* about page styles */
 .journey-grid {
   max-width: 1200px;
   width: 100%;
@@ -3745,9 +3698,7 @@ body:has(main#main-content) .skills-section *,
   margin-top: var(--space-8);
 }
 
-/* ===============================================
-   GLOBAL OVERRIDES
-   =============================================== */
+/* overrides */
 body, p, div, span, section, article, main, header, footer {
   color: var(--apple-gray-dark) !important;
 }
@@ -3769,9 +3720,7 @@ main, .main-content, .content, .page-layout {
   background-color: var(--apple-white) !important;
 }
 
-/* ===============================================
-   PREMIUM FOOTER DESIGN
-   =============================================== */
+/* footer */
 footer {
   padding: var(--space-16) 0 var(--space-12) 0 !important;
   text-align: center !important;
@@ -3787,10 +3736,7 @@ footer small {
   font-weight: 400;
 }
 
-/* ===============================================
-   ACCESSIBILITY IMPROVEMENTS
-   =============================================== */
-/* Enhanced focus states for better accessibility */
+/* accessibility */
 .btn:focus,
 .navbar-nav .nav-link:focus,
 .featured-link:focus,
@@ -3946,9 +3892,7 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
 h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
 
-/* ===============================================
-   APPLE-STYLE CONTAINER RESPONSIVE DESIGN
-   =============================================== */
+/* responsive containers */
 
 @media (max-width: 1200px) {
   .apple-content-wrapper, .apple-section {
