@@ -307,7 +307,7 @@ header {
   text-decoration: none !important;
 }
 
-/* Ensure no underline on any navbar links in any state */
+/* navbar links */
 .navbar a,
 .navbar a:hover,
 .navbar a:focus,
@@ -450,7 +450,7 @@ header {
   text-align: left;
 }
 
-/* Ensure no bullet list appears under hero intro */
+/* hero intro */
 .hero-text ul {
   display: none !important;
 }
@@ -831,7 +831,7 @@ header {
 .featured-card.animate:nth-child(2) { transition-delay: 0.2s; }
 .featured-card.animate:nth-child(3) { transition-delay: 0.3s; }
 
-/* Ensure cards can still hover after animation */
+/* card hover */
 .featured-card.animate:hover {
   transform: translateY(-8px) rotateX(2deg) scale(1);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -1662,7 +1662,7 @@ p a:not(.btn):hover,
 
 /* containers */
 
-/* Fix navbar covering content */
+/* navbar spacing */
 body {
   padding-top: 64px !important;
 }
@@ -1706,7 +1706,7 @@ section.hero-section#top {
   box-sizing: border-box !important;
 }
 
-/* Ensure all content after title block is also full width */
+/* title block content */
 .quarto-title-block + * {
   max-width: 100% !important;
   width: 100% !important;
@@ -1914,7 +1914,7 @@ section.hero-section#top {
   }
 }
 
-/* Fix page-specific spacing issues */
+/* page spacing */
 .labs-intro,
 .about-intro,
 .blog-intro,
@@ -1923,13 +1923,13 @@ section.hero-section#top {
   padding-top: var(--space-16) !important;
 }
 
-/* Ensure consistent page layout */
+/* page layout */
 .page-layout-custom {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
-/* Fix content sections to not be covered by navbar */
+/* section spacing */
 .section-title,
 .featured-section,
 .skills-section,
@@ -1938,7 +1938,7 @@ section.hero-section#top {
   padding-top: var(--space-8) !important;
 }
 
-/* Ensure skills-section content is always visible */
+/* skills-section visibility */
 .skills-section.scroll-animate {
   opacity: 1 !important;
   transform: none !important;
@@ -1986,13 +1986,13 @@ section.hero-section#top {
   z-index: 1;
 }
 
-/* Ensure section content is visible */
+/* section content */
 .skills-section .section-content * {
   opacity: 1 !important;
   visibility: visible !important;
 }
 
-/* Fix for invisible-drumset page - ensure all content is visible */
+/* invisible-drumset page */
 body:has(main#main-content) .skills-section,
 .invisible-drumset-page .skills-section {
   opacity: 1 !important;
@@ -2007,7 +2007,7 @@ body:has(main#main-content) .skills-section *,
   visibility: visible !important;
 }
 
-/* Ensure section-content within skills-section is properly displayed */
+/* section-content display */
 .skills-section .section-content {
   display: block !important;
   visibility: visible !important;
@@ -2110,7 +2110,7 @@ body:has(main#main-content) .skills-section *,
   z-index: 0;
 }
 
-/* Ensure all content is visible and above the background */
+/* content z-index */
 .labs-intro > *,
 .blog-intro > *,
 .resources-intro > * {
@@ -2743,7 +2743,7 @@ body:has(main#main-content) .skills-section *,
   width: auto;
   justify-content: center;
   text-align: center;
-  /* Ensure same padding, font-size, and border-radius as home page buttons */
+  /* button styling */
   padding: var(--space-5) var(--space-10) !important;
   font-size: 1.125rem !important;
   border-radius: 30px !important;
@@ -3862,7 +3862,7 @@ footer small {
   top: 6px;
 }
 
-/* Ensure proper color contrast */
+/* color contrast */
 .featured-link,
 .lab-link,
 .btn {
@@ -3879,13 +3879,13 @@ footer small {
   border-color: var(--apple-blue);
 }
 
-/* Ensure text is readable */
+/* text readability */
 p, li, span, div {
   color: var(--apple-gray-dark);
   line-height: 1.6;
 }
 
-/* Ensure headings have proper hierarchy */
+/* heading hierarchy */
 h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); }
 h2 { font-size: clamp(2rem, 4vw, 3.5rem); }
 h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
