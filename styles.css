@@ -1208,6 +1208,18 @@ p a:not(.btn):hover,
   will-change: auto;
 }
 
+/* Ensure skills-section with scroll-animate is visible */
+.skills-section.scroll-animate {
+  opacity: 1 !important;
+  transform: none !important;
+  min-height: auto;
+}
+
+.skills-section.scroll-animate.animate {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 .scroll-animate-left {
   opacity: 0;
   transform: translateX(-50px);
@@ -1957,6 +1969,17 @@ section.hero-section#top {
   padding-top: var(--space-8) !important;
 }
 
+/* Ensure skills-section content is always visible */
+.skills-section.scroll-animate {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.skills-section.scroll-animate.animate {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 /* ===============================================
    CONTAINER CONTENT MANAGEMENT
    =============================================== */
@@ -1993,6 +2016,36 @@ section.hero-section#top {
   padding: 0 var(--space-12);
   width: 100%;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure section content is visible */
+.skills-section .section-content * {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Fix for invisible-drumset page - ensure all content is visible */
+body:has(main#main-content) .skills-section,
+.invisible-drumset-page .skills-section {
+  opacity: 1 !important;
+  transform: none !important;
+  overflow: visible !important;
+  background: var(--apple-white) !important;
+}
+
+body:has(main#main-content) .skills-section *,
+.invisible-drumset-page .skills-section * {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure section-content within skills-section is properly displayed */
+.skills-section .section-content {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* ===============================================
@@ -2971,27 +3024,19 @@ section.hero-section#top {
 }
 
 .skills-section {
-  padding: var(--space-48) 0;
-  background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
-  text-align: center;
+  padding: var(--space-16) 0;
+  background: var(--apple-white);
+  text-align: left;
   position: relative;
-  overflow: hidden;
-  width: 100vw !important;
-  margin-left: calc(-50vw + 50%) !important;
-  margin-right: calc(-50vw + 50%) !important;
-  max-width: 100vw !important;
+  overflow: visible;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
 .skills-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(0, 122, 255, 0.05) 0%, transparent 70%);
-  pointer-events: none;
+  display: none;
 }
 
 .skills-grid {
