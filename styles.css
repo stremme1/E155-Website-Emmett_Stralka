@@ -3949,3 +3949,26 @@ h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
     padding-right: 16px !important;
   }
 }
+
+/* ===============================================
+   VIDEO ELEMENT STYLING
+   =============================================== */
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-content video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section-content video {
+    max-width: 95%;
+    min-width: 300px;
+  }
+}
