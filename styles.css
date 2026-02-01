@@ -478,8 +478,8 @@ main#main-content > section.hero-section {
   box-sizing: border-box !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: var(--space-8) !important;
-  margin-top: calc(-2 * var(--space-8)) !important;
+  padding-top: var(--space-4) !important;
+  margin-top: calc(-1 * var(--space-8)) !important;
   position: relative !important;
 }
 
@@ -490,8 +490,8 @@ main#main-content {
 }
 
 main#main-content > section.hero-section:first-child {
-  margin-top: calc(-2 * var(--space-8)) !important;
-  padding-top: var(--space-8) !important;
+  margin-top: calc(-1 * var(--space-8)) !important;
+  padding-top: var(--space-4) !important;
 }
 
 /* Move hero-text up on invisible-drumset page - moderate positioning */
