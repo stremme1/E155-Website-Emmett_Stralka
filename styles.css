@@ -479,16 +479,35 @@ main#main-content > section.hero-section {
   padding-left: 0 !important;
   padding-right: 0 !important;
   padding-top: 0 !important;
-  margin-top: calc(-2 * var(--space-12)) !important;
+  margin-top: calc(-3 * var(--space-12)) !important;
+  position: relative !important;
+}
+
+/* Remove any padding from main-content that affects hero-section */
+main#main-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+main#main-content > section.hero-section:first-child {
+  margin-top: calc(-3 * var(--space-12)) !important;
+  padding-top: 0 !important;
 }
 
 /* Move hero-text up on invisible-drumset page - more aggressive */
 main#main-content > section.hero-section .hero-text {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 main#main-content > section.hero-section .hero-text h1.labs-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: var(--space-4) !important;
+}
+
+main#main-content > section.hero-section .hero-text p {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
