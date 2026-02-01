@@ -53,12 +53,35 @@
   </header>
 
   <main id="main-content">
-    <section class="labs-intro scroll-animate">
-      <h1 class="labs-title">Invisible Drumset</h1>
-      <p>
-        A dual-hand embedded system that enables playing virtual drums through air gestures detected by BNO085 IMU sensors.
-        Built for E155 Final Project using Arduino ESP32, FPGA, and STM32 MCU for real-time gesture recognition and low-latency audio synthesis.
-      </p>
+    <section class="hero-section" style="padding: 0 0 var(--space-16) 0; margin-top: calc(-5 * var(--space-12)); position: relative;">
+      <div class="hero-content" style="align-items: flex-start; padding-top: 0;">
+        <div class="hero-text" style="margin-top: 0; padding-top: 0; text-align: left; align-self: flex-start; transform: translateY(calc(-1 * var(--space-12)));">
+          <h1 class="labs-title" style="margin-bottom: var(--space-4); margin-top: 0; padding-top: 0; text-align: left; padding-left: 0;">Invisible Drumset</h1>
+          <p style="font-size: clamp(1.125rem, 2vw, 1.375rem); line-height: 1.7; color: var(--apple-gray-dark); margin: 0; padding-left: 0; text-align: left;">
+            A dual-hand embedded system that enables playing virtual drums through air gestures detected by BNO085 IMU sensors.
+            Built for E155 Final Project using Arduino ESP32, FPGA, and STM32 MCU for real-time gesture recognition and low-latency audio synthesis.
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <div class="youtube-video-container" style="width: 100%; max-width: 100%;">
+            <div class="youtube-embed-wrapper" style="position: relative; width: 100%; max-width: 450px; margin: 0 auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md); overflow: hidden; background: #000; padding-bottom: 177.78%; aspect-ratio: 9 / 16;">
+              <iframe 
+                width="450" 
+                height="800" 
+                src="https://www.youtube.com/embed/2Wba6CUQpDM?rel=0" 
+                title="Invisible Drumset Demonstration Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen
+                loading="lazy"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block;">
+              </iframe>
+            </div>
+            <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic; text-align: center;">Invisible Drumset Demonstration Video</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="skills-section scroll-animate">
@@ -300,22 +323,6 @@
                style="max-width: 60%; width: 100%; height: auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md);" />
           <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">Final Prototype Assembly with Integrated Speaker Output</p>
         </div>
-        <div class="youtube-video-container" style="text-align: center; margin: var(--space-8) 0; width: 100%;">
-          <div class="youtube-embed-wrapper" style="position: relative; max-width: 720px; width: 100%; margin: 0 auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md); overflow: hidden; background: #000; padding-bottom: 177.78%; aspect-ratio: 9 / 16; min-height: 400px;">
-            <iframe 
-              width="720" 
-              height="1280" 
-              src="https://www.youtube.com/embed/2Wba6CUQpDM?rel=0" 
-              title="Invisible Drumset Demonstration Video" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen
-              loading="lazy"
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block;">
-            </iframe>
-          </div>
-          <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic;">Invisible Drumset Demonstration Video</p>
-        </div>
       </div>
     </section>
 
@@ -356,3 +363,4 @@
 </html>
 
 <!-- Force GitHub Pages rebuild Sun Feb  1 13:17:11 PST 2026 -->
+<!-- GitHub Pages rebuild trigger -->

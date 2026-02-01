@@ -447,13 +447,100 @@ header {
   max-width: 1400px !important;
   width: 100% !important;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 3rem;
   align-items: center;
   padding: 0 3rem !important;
   margin: 0 auto !important;
   position: relative;
   z-index: 1;
+  box-sizing: border-box !important;
+}
+
+/* Ensure hero-content breaks out of any container constraints on all pages */
+main#main-content .hero-section .hero-content,
+#main-content .hero-section .hero-content,
+.hero-section .hero-content {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+/* Override container constraints for hero-section on invisible-drumset page - break out like labs-intro */
+main#main-content > section.hero-section {
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  margin-top: calc(-5 * var(--space-12)) !important;
+  position: relative !important;
+}
+
+/* Remove any padding from main-content that affects hero-section */
+main#main-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+main#main-content > section.hero-section:first-child {
+  margin-top: calc(-5 * var(--space-12)) !important;
+  padding-top: 0 !important;
+}
+
+/* Move hero-text up on invisible-drumset page - more aggressive and ensure left alignment */
+main#main-content > section.hero-section .hero-content {
+  align-items: flex-start !important;
+  padding-top: 0 !important;
+}
+
+main#main-content > section.hero-section .hero-text {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+  align-self: flex-start !important;
+  width: 100% !important;
+  transform: translateY(calc(-1 * var(--space-12))) !important;
+  padding-left: 0 !important;
+}
+
+main#main-content > section.hero-section .hero-text h1.labs-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: var(--space-4) !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+main#main-content > section.hero-section .hero-text p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Make video wider on invisible-drumset page */
+main#main-content > section.hero-section .youtube-embed-wrapper {
+  max-width: 450px !important;
+}
+
+main#main-content > section.hero-section .hero-content {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  box-sizing: border-box !important;
 }
 
 .hero-text {
