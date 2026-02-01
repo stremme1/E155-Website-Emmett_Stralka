@@ -33,7 +33,32 @@
   <!-- Preload critical resources -->
   <link rel="preload" href="styles.css" as="style" />
   
-  <link rel="stylesheet" href="styles.css?v=2.7" />
+  <link rel="stylesheet" href="styles.css?v=2.8" />
+  
+  <!-- Prevent scroll jump on video click -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const videoContainer = document.querySelector('.youtube-embed-wrapper');
+      if (videoContainer) {
+        const iframe = videoContainer.querySelector('iframe');
+        if (iframe) {
+          // Prevent scroll on focus
+          iframe.addEventListener('focus', function(e) {
+            e.preventDefault();
+            window.scrollTo(window.scrollX, window.scrollY);
+          });
+          
+          // Prevent scroll on click
+          videoContainer.addEventListener('click', function(e) {
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            setTimeout(function() {
+              window.scrollTo(window.scrollX, currentScroll);
+            }, 0);
+          });
+        }
+      }
+    });
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -63,19 +88,20 @@
           </p>
         </div>
 
-        <div class="hero-media" style="padding-top: 60px;">
+        <div class="hero-media" style="padding-top: 40px;">
           <div class="youtube-video-container" style="width: 100%; max-width: 100%;">
-            <div class="youtube-embed-wrapper" style="position: relative; width: 100%; max-width: 360px; margin: 0 auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md); overflow: hidden; background: #000; padding-bottom: 177.78%; aspect-ratio: 9 / 16;">
+            <div class="youtube-embed-wrapper" style="position: relative; width: 100%; max-width: 320px; margin: 0 auto; border-radius: 30px; corner-shape: squircle; box-shadow: var(--shadow-md); overflow: hidden; background: #000; padding-bottom: 177.78%; aspect-ratio: 9 / 16;">
               <iframe 
-                width="360" 
-                height="640" 
+                width="320" 
+                height="569" 
                 src="https://www.youtube.com/embed/2Wba6CUQpDM?rel=0" 
                 title="Invisible Drumset Demonstration Video" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowfullscreen
                 loading="lazy"
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block;">
+                scrolling="no"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; display: block; pointer-events: auto;">
               </iframe>
             </div>
             <p style="margin-top: var(--space-4); color: var(--apple-gray); font-size: 0.9rem; font-style: italic; text-align: center;">Invisible Drumset Demonstration Video</p>
