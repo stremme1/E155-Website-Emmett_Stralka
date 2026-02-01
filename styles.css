@@ -550,15 +550,34 @@ main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 360px !important;
+  max-width: 320px !important;
   width: 100% !important;
 }
 
-/* Add padding to top of video container - align with text */
+/* Add padding to top of video container - move up more */
 main#main-content > section.hero-section .hero-media,
 #main-content > section.hero-section .hero-media {
-  padding-top: 60px !important;
+  padding-top: 40px !important;
   margin-top: 0 !important;
+}
+
+/* Prevent scroll jumping when clicking video */
+main#main-content > section.hero-section .youtube-embed-wrapper iframe,
+#main-content > section.hero-section .youtube-embed-wrapper iframe {
+  scroll-margin: 0 !important;
+  scroll-padding: 0 !important;
+}
+
+/* Prevent page scroll when video is focused */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent scroll jump on video click */
+main#main-content > section.hero-section .youtube-video-container,
+#main-content > section.hero-section .youtube-video-container {
+  scroll-margin: 0 !important;
+  scroll-padding: 0 !important;
 }
 
 main#main-content > section.hero-section .hero-content {
