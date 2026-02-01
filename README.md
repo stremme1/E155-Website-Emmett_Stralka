@@ -1,23 +1,20 @@
-# E155 Website
+# E155 Website - Emmett Stralka
 
-Static site for E155 portfolio.
+Personal portfolio website showcasing my projects, E155 labs, and professional experience.
 
-## Files
+## Structure
 
-- `index.html` - Main page
-- `styles.css` - Styles
-- `scroll-animations.js` - Scroll animations
-- `Images/headshot.jpg` - Profile image
-- `labs/*.pdf` - Lab reports
+- `index.html` - Homepage
+- `projects.html` - Project portfolio
+- `labs.html` - E155 lab assignments
+- `experience.html` - Professional experience
+- `about.html` - About page
+- `invisible-drumset.html` - E155 Final Project: Invisible Drumset
 
-## Local preview
+## Technologies
 
-```bash
-python -m http.server 8000
-```
+Built with vanilla HTML, CSS, and JavaScript. Hosted on GitHub Pages.
 
-Then open `http://localhost:8000/index.html`
+## Deployment
 
-## Deploy
-
-Push to GitHub. Site is hosted on GitHub Pages.
+The site is automatically deployed via GitHub Pages from the main branch.
