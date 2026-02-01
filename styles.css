@@ -3949,3 +3949,53 @@ h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
     padding-right: 16px !important;
   }
 }
+
+/* ===============================================
+   VIDEO ELEMENT STYLING
+   =============================================== */
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-content video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Ensure YouTube video containers and iframes are always visible, even in scroll-animate sections */
+.youtube-video-container,
+.youtube-embed-wrapper,
+.scroll-animate .youtube-video-container,
+.scroll-animate .youtube-embed-wrapper,
+.scroll-animate iframe[src*="youtube.com"],
+.scroll-animate iframe[src*="youtu.be"],
+.skills-section.scroll-animate .youtube-video-container,
+.skills-section.scroll-animate .youtube-embed-wrapper {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  transform: none !important;
+}
+
+.youtube-embed-wrapper iframe {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Force Results section content to be visible */
+.skills-section.scroll-animate .section-content {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+@media (max-width: 768px) {
+  .section-content video {
+    max-width: 95%;
+    min-width: 300px;
+  }
+}
