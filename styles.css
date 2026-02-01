@@ -454,6 +454,38 @@ header {
   margin: 0 auto !important;
   position: relative;
   z-index: 1;
+  box-sizing: border-box !important;
+}
+
+/* Ensure hero-content breaks out of any container constraints on all pages */
+main#main-content .hero-section .hero-content,
+#main-content .hero-section .hero-content,
+.hero-section .hero-content {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+/* Override container constraints for hero-section on invisible-drumset page */
+main#main-content > section.hero-section {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+main#main-content > section.hero-section .hero-content {
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 .hero-text {
