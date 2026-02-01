@@ -1,8 +1,15 @@
-/* fonts */
+/* ===============================================
+   EMMETT STRALKA - PREMIUM APPLE-INSPIRED DESIGN
+   =============================================== */
+
+/* Import Apple's system fonts and premium typography */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=SF+Pro+Display:wght@200;300;400;500;600;700;800;900&display=swap');
 
+/* ===============================================
+   PREMIUM COLOR SYSTEM
+   =============================================== */
 :root {
-  /* colors */
+  /* Apple's Refined Color Palette */
   --apple-black: #1d1d1f;
   --apple-gray: #86868b;
   --apple-blue: #007aff;
@@ -17,12 +24,12 @@
   --apple-success: #34c759;
   --apple-warning: #ff9500;
   
-  /* fonts */
+  /* Premium Typography System */
   --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
   
-  /* spacing */
+  /* Apple-Inspired Spacing Scale */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -41,17 +48,18 @@
   --space-56: 14rem;
   --space-64: 16rem;
   
-  /* border radius */
-  --radius-xs: 30px;
-  --radius-sm: 30px;
-  --radius-md: 30px;
-  --radius-lg: 30px;
-  --radius-xl: 30px;
+  /* Modern Border Radius - G3 Spline Scale (Consistent) */
+  /* Single consistent value for all elements - uniform curvy G3 spline curves */
+  --radius-xs: 30px;      /* Consistent across all elements */
+  --radius-sm: 30px;      /* Consistent across all elements */
+  --radius-md: 30px;      /* Consistent across all elements */
+  --radius-lg: 30px;      /* Consistent across all elements */
+  --radius-xl: 30px;      /* Consistent across all elements */
   --radius-2xl: 30px;
   --radius-3xl: 30px;
   --radius-full: 50%;
   
-  /* shadows */
+  /* Enhanced Shadows */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -60,13 +68,13 @@
   --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.15);
   --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.06);
   
-  /* transitions */
+  /* Smooth Transitions */
   --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   
-  /* z-index */
+  /* Z-Index Scale */
   --z-dropdown: 1000;
   --z-sticky: 1020;
   --z-fixed: 1030;
@@ -76,7 +84,9 @@
   --z-tooltip: 1070;
 }
 
-/* reset */
+/* ===============================================
+   GLOBAL RESET & BASE STYLES
+   =============================================== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -132,7 +142,9 @@ body {
   }
 }
 
-/* typography */
+/* ===============================================
+   PROFESSIONAL TYPOGRAPHY SYSTEM
+   =============================================== */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -194,7 +206,9 @@ p {
   text-rendering: optimizeLegibility;
 }
 
-/* navigation */
+/* ===============================================
+   PREMIUM NAVIGATION
+   =============================================== */
 .navbar {
   background: rgba(255, 255, 255, 0.72) !important;
   backdrop-filter: saturate(180%) blur(20px);
@@ -307,7 +321,7 @@ header {
   text-decoration: none !important;
 }
 
-/* navbar links */
+/* Ensure no underline on any navbar links in any state */
 .navbar a,
 .navbar a:hover,
 .navbar a:focus,
@@ -394,7 +408,9 @@ header {
   transform: scale(1.1);
 }
 
-/* hero */
+/* ===============================================
+   IMMERSIVE HERO SECTION
+   =============================================== */
 .hero-section {
   padding: var(--space-16) 0 var(--space-16) 0;
   background: 
@@ -450,7 +466,7 @@ header {
   text-align: left;
 }
 
-/* hero intro */
+/* Ensure no bullet list appears under hero intro */
 .hero-text ul {
   display: none !important;
 }
@@ -604,7 +620,9 @@ header {
 
 /* Removed complex hover effect for hero image */
 
-/* animations */
+/* ===============================================
+   PREMIUM ANIMATIONS
+   =============================================== */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -618,7 +636,9 @@ header {
 
 /* Removed unused animation keyframes for performance optimization */
 
-/* buttons */
+/* ===============================================
+   MODERN BUTTONS
+   =============================================== */
 .btn {
   display: inline-flex !important;
   align-items: center;
@@ -697,7 +717,9 @@ header {
     0 2px 4px rgba(0, 122, 255, 0.2);
 }
 
-/* featured work */
+/* ===============================================
+   MODERN FEATURED WORK SECTION
+   =============================================== */
 .featured-section {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: var(--apple-white);
@@ -831,7 +853,7 @@ header {
 .featured-card.animate:nth-child(2) { transition-delay: 0.2s; }
 .featured-card.animate:nth-child(3) { transition-delay: 0.3s; }
 
-/* card hover */
+/* Ensure cards can still hover after animation */
 .featured-card.animate:hover {
   transform: translateY(-8px) rotateX(2deg) scale(1);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
@@ -1041,7 +1063,9 @@ header {
   transform: translateX(4px);
 }
 
-/* about preview */
+/* ===============================================
+   MODERN ABOUT PREVIEW SECTION
+   =============================================== */
 .about-preview {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
@@ -1166,7 +1190,10 @@ p a:not(.btn):hover,
   color: var(--apple-blue-dark);
 }
 
-/* scroll animations */
+/* ===============================================
+   PREMIUM SCROLL ANIMATIONS
+   =============================================== */
+/* Apple-like scroll animations with refined easing and timing */
 .scroll-animate {
   opacity: 0;
   transform: translateY(40px);
@@ -1179,18 +1206,6 @@ p a:not(.btn):hover,
   opacity: 1;
   transform: translateY(0);
   will-change: auto;
-}
-
-/* Ensure skills-section with scroll-animate is visible */
-.skills-section.scroll-animate {
-  opacity: 1 !important;
-  transform: none !important;
-  min-height: auto;
-}
-
-.skills-section.scroll-animate.animate {
-  opacity: 1 !important;
-  transform: none !important;
 }
 
 .scroll-animate-left {
@@ -1271,7 +1286,9 @@ p a:not(.btn):hover,
 .scroll-animate-stagger.animate > *:nth-child(5) { transition-delay: 0.5s; }
 .scroll-animate-stagger.animate > *:nth-child(6) { transition-delay: 0.6s; }
 
-/* responsive */
+/* ===============================================
+   MODERN RESPONSIVE DESIGN
+   =============================================== */
 @media (max-width: 1200px) {
   .navbar {
     padding: 0.25rem 3rem !important;
@@ -1660,9 +1677,11 @@ p a:not(.btn):hover,
   }
 }
 
-/* containers */
+/* ===============================================
+   APPLE-LEVEL CONTAINER SYSTEM & NAVBAR FIXES
+   =============================================== */
 
-/* navbar spacing */
+/* Fix navbar covering content */
 body {
   padding-top: 64px !important;
 }
@@ -1680,7 +1699,7 @@ section.hero-section#top {
   margin-top: 0 !important;
 }
 
-/* container system */
+/* Apple-style container system - Homepage gets full width, other pages get centered content */
 #quarto-content {
   max-width: 100% !important;
   width: 100% !important;
@@ -1706,7 +1725,7 @@ section.hero-section#top {
   box-sizing: border-box !important;
 }
 
-/* title block content */
+/* Ensure all content after title block is also full width */
 .quarto-title-block + * {
   max-width: 100% !important;
   width: 100% !important;
@@ -1715,7 +1734,7 @@ section.hero-section#top {
   box-sizing: border-box !important;
 }
 
-/* container wrapper */
+/* Apple-style container system */
 .apple-content-wrapper {
   max-width: 1400px;
   margin: 0 auto;
@@ -1740,7 +1759,7 @@ section.hero-section#top {
   max-width: 100vw;
 }
 
-/* responsive containers */
+/* Apple-level responsive design system - full width for all pages */
 @media (max-width: 1400px) {
   .labs-intro,
   .about-intro,
@@ -1914,7 +1933,7 @@ section.hero-section#top {
   }
 }
 
-/* page spacing */
+/* Fix page-specific spacing issues */
 .labs-intro,
 .about-intro,
 .blog-intro,
@@ -1923,13 +1942,13 @@ section.hero-section#top {
   padding-top: var(--space-16) !important;
 }
 
-/* page layout */
+/* Ensure consistent page layout */
 .page-layout-custom {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
-/* section spacing */
+/* Fix content sections to not be covered by navbar */
 .section-title,
 .featured-section,
 .skills-section,
@@ -1938,18 +1957,10 @@ section.hero-section#top {
   padding-top: var(--space-8) !important;
 }
 
-/* skills-section visibility */
-.skills-section.scroll-animate {
-  opacity: 1 !important;
-  transform: none !important;
-}
-
-.skills-section.scroll-animate.animate {
-  opacity: 1 !important;
-  transform: none !important;
-}
-
-/* content containers */
+/* ===============================================
+   CONTAINER CONTENT MANAGEMENT
+   =============================================== */
+/* Content within containers should respect Quarto's system */
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -1982,39 +1993,11 @@ section.hero-section#top {
   padding: 0 var(--space-12);
   width: 100%;
   box-sizing: border-box;
-  position: relative;
-  z-index: 1;
 }
 
-/* section content */
-.skills-section .section-content * {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* invisible-drumset page */
-body:has(main#main-content) .skills-section,
-.invisible-drumset-page .skills-section {
-  opacity: 1 !important;
-  transform: none !important;
-  overflow: visible !important;
-  background: var(--apple-white) !important;
-}
-
-body:has(main#main-content) .skills-section *,
-.invisible-drumset-page .skills-section * {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* section-content display */
-.skills-section .section-content {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* page intros */
+/* ===============================================
+   QUARTO-FRIENDLY PAGE INTROS
+   =============================================== */
 .labs-intro {
   padding: var(--space-24) var(--space-12) var(--space-20) var(--space-12);
   margin-top: var(--space-16) !important;
@@ -2110,7 +2093,7 @@ body:has(main#main-content) .skills-section *,
   z-index: 0;
 }
 
-/* content z-index */
+/* Ensure all content is visible and above the background */
 .labs-intro > *,
 .blog-intro > *,
 .resources-intro > * {
@@ -2186,7 +2169,10 @@ body:has(main#main-content) .skills-section *,
   opacity: 1;
 }
 
-/* about page */
+/* ===============================================
+   ABOUT PAGE UNIQUE STYLES
+   =============================================== */
+/* About Hero Section - Apple Design - Matching Homepage */
 .about-hero {
   padding: var(--space-16) 0 var(--space-16) 0;
   margin-top: var(--space-16) !important;
@@ -2402,7 +2388,7 @@ body:has(main#main-content) .skills-section *,
   font-weight: 400;
 }
 
-/* education section */
+/* Education Section - Professional Apple Design Matching Homepage */
 .education-section {
   padding: var(--space-8) 0 var(--space-16) 0;
   background: var(--apple-gray-light);
@@ -2743,7 +2729,7 @@ body:has(main#main-content) .skills-section *,
   width: auto;
   justify-content: center;
   text-align: center;
-  /* button styling */
+  /* Ensure same padding, font-size, and border-radius as home page buttons */
   padding: var(--space-5) var(--space-10) !important;
   font-size: 1.125rem !important;
   border-radius: 30px !important;
@@ -2782,7 +2768,9 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* labs page */
+/* ===============================================
+   LABS PAGE SPECIFIC STYLES
+   =============================================== */
 .progress-indicator {
   background: linear-gradient(135deg, var(--apple-blue-light), rgba(0, 122, 255, 0.1));
   border: 1px solid rgba(0, 122, 255, 0.3);
@@ -2983,19 +2971,27 @@ body:has(main#main-content) .skills-section *,
 }
 
 .skills-section {
-  padding: var(--space-16) 0;
-  background: var(--apple-white);
-  text-align: left;
+  padding: var(--space-48) 0;
+  background: linear-gradient(135deg, var(--apple-gray-light) 0%, var(--apple-white) 100%);
+  text-align: center;
   position: relative;
-  overflow: visible;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  overflow: hidden;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  max-width: 100vw !important;
   box-sizing: border-box;
 }
 
 .skills-section::before {
-  display: none;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 122, 255, 0.05) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .skills-grid {
@@ -3084,7 +3080,9 @@ body:has(main#main-content) .skills-section *,
   margin: 0;
 }
 
-/* blog page */
+/* ===============================================
+   BLOG PAGE SPECIFIC STYLES
+   =============================================== */
 .blog-section {
   padding: var(--space-32) 0;
   background: var(--apple-white);
@@ -3170,7 +3168,9 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* resources page */
+/* ===============================================
+   RESOURCES PAGE SPECIFIC STYLES
+   =============================================== */
 .resources-section {
   padding: var(--space-32) 0;
   background: var(--apple-white);
@@ -3438,7 +3438,9 @@ body:has(main#main-content) .skills-section *,
   z-index: 1;
 }
 
-/* about page styles */
+/* ===============================================
+   ABOUT PAGE SPECIFIC STYLES
+   =============================================== */
 .journey-grid {
   max-width: 1200px;
   width: 100%;
@@ -3698,7 +3700,9 @@ body:has(main#main-content) .skills-section *,
   margin-top: var(--space-8);
 }
 
-/* overrides */
+/* ===============================================
+   GLOBAL OVERRIDES
+   =============================================== */
 body, p, div, span, section, article, main, header, footer {
   color: var(--apple-gray-dark) !important;
 }
@@ -3720,7 +3724,9 @@ main, .main-content, .content, .page-layout {
   background-color: var(--apple-white) !important;
 }
 
-/* footer */
+/* ===============================================
+   PREMIUM FOOTER DESIGN
+   =============================================== */
 footer {
   padding: var(--space-16) 0 var(--space-12) 0 !important;
   text-align: center !important;
@@ -3736,7 +3742,10 @@ footer small {
   font-weight: 400;
 }
 
-/* accessibility */
+/* ===============================================
+   ACCESSIBILITY IMPROVEMENTS
+   =============================================== */
+/* Enhanced focus states for better accessibility */
 .btn:focus,
 .navbar-nav .nav-link:focus,
 .featured-link:focus,
@@ -3862,7 +3871,7 @@ footer small {
   top: 6px;
 }
 
-/* color contrast */
+/* Ensure proper color contrast */
 .featured-link,
 .lab-link,
 .btn {
@@ -3879,20 +3888,22 @@ footer small {
   border-color: var(--apple-blue);
 }
 
-/* text readability */
+/* Ensure text is readable */
 p, li, span, div {
   color: var(--apple-gray-dark);
   line-height: 1.6;
 }
 
-/* heading hierarchy */
+/* Ensure headings have proper hierarchy */
 h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); }
 h2 { font-size: clamp(2rem, 4vw, 3.5rem); }
 h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
 h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
 
-/* responsive containers */
+/* ===============================================
+   APPLE-STYLE CONTAINER RESPONSIVE DESIGN
+   =============================================== */
 
 @media (max-width: 1200px) {
   .apple-content-wrapper, .apple-section {
@@ -3936,5 +3947,55 @@ h5, h6 { font-size: clamp(1.125rem, 2vw, 1.25rem); }
   main.content {
     padding-left: 16px !important;
     padding-right: 16px !important;
+  }
+}
+
+/* ===============================================
+   VIDEO ELEMENT STYLING
+   =============================================== */
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-content video {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Ensure YouTube video containers and iframes are always visible, even in scroll-animate sections */
+.youtube-video-container,
+.youtube-embed-wrapper,
+.scroll-animate .youtube-video-container,
+.scroll-animate .youtube-embed-wrapper,
+.scroll-animate iframe[src*="youtube.com"],
+.scroll-animate iframe[src*="youtu.be"],
+.skills-section.scroll-animate .youtube-video-container,
+.skills-section.scroll-animate .youtube-embed-wrapper {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  transform: none !important;
+}
+
+.youtube-embed-wrapper iframe {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Force Results section content to be visible */
+.skills-section.scroll-animate .section-content {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+@media (max-width: 768px) {
+  .section-content video {
+    max-width: 95%;
+    min-width: 300px;
   }
 }
