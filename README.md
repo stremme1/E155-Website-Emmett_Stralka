@@ -1,11 +1,20 @@
-## Emmett Stralka – E155 Static Website
+# E155 Website - Emmett Stralka
 
+Personal portfolio website showcasing my projects, E155 labs, and professional experience.
 
-### Publishing (GitHub Pages – recommended)
+## Structure
 
-1. Commit and push your changes to GitHub.
-2. On GitHub, go to **Settings → Pages**.
-3. Under **Source**, select the branch you want to publish (e.g., `main` or `static-site`) and the root (`/`) as the folder.
-4. Save. GitHub Pages will build and give you a public URL for the site.
+- `index.html` - Homepage
+- `projects.html` - Project portfolio
+- `labs.html` - E155 lab assignments
+- `experience.html` - Professional experience
+- `about.html` - About page
+- `invisible-drumset.html` - E155 Final Project: Invisible Drumset
 
+## Technologies
 
+Built with vanilla HTML, CSS, and JavaScript. Hosted on GitHub Pages.
+
+## Deployment
+
+The site is automatically deployed via GitHub Pages from the main branch.
