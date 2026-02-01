@@ -447,7 +447,7 @@ header {
   max-width: 1400px !important;
   width: 100% !important;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 3rem;
   align-items: center;
   padding: 0 3rem !important;
@@ -478,17 +478,24 @@ main#main-content > section.hero-section {
   box-sizing: border-box !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: var(--space-4) !important;
+  padding-top: 0 !important;
+  margin-top: calc(-1 * var(--space-12)) !important;
 }
 
 /* Move hero-text up on invisible-drumset page - more aggressive */
 main#main-content > section.hero-section .hero-text {
-  margin-top: calc(-2 * var(--space-8)) !important;
+  margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
 main#main-content > section.hero-section .hero-text h1.labs-title {
   margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Make video wider on invisible-drumset page */
+main#main-content > section.hero-section .youtube-embed-wrapper {
+  max-width: 450px !important;
 }
 
 main#main-content > section.hero-section .hero-content {
