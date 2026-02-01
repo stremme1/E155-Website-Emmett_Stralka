@@ -501,8 +501,8 @@ main#main-content > section.hero-section .hero-content {
 }
 
 main#main-content > section.hero-section .hero-text {
-  margin-top: var(--space-12) !important;
-  padding-top: var(--space-12) !important;
+  margin-top: var(--space-16) !important;
+  padding-top: var(--space-16) !important;
   margin-bottom: 0 !important;
   text-align: left !important;
   align-self: flex-start !important;
@@ -516,7 +516,7 @@ main#main-content > section.hero-section .hero-text {
 
 main#main-content > section.hero-section .hero-text h1.labs-title {
   margin-top: 0 !important;
-  padding-top: 0 !important;
+  padding-top: var(--space-4) !important;
   margin-bottom: var(--space-4) !important;
   text-align: left !important;
   padding-left: 0 !important;
@@ -527,7 +527,7 @@ main#main-content > section.hero-section .hero-text h1.labs-title {
 
 main#main-content > section.hero-section .hero-text p {
   margin-top: 0 !important;
-  padding-top: 0 !important;
+  padding-top: var(--space-2) !important;
   text-align: left !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
@@ -537,12 +537,12 @@ main#main-content > section.hero-section .hero-text p {
 
 /* Make video wider on invisible-drumset page */
 main#main-content > section.hero-section .youtube-embed-wrapper {
-  max-width: 360px !important;
+  max-width: 450px !important;
 }
 
 /* Add padding to top of video container */
 main#main-content > section.hero-section .hero-media {
-  padding-top: var(--space-12) !important;
+  padding-top: var(--space-16) !important;
 }
 
 main#main-content > section.hero-section .hero-content {
