@@ -501,8 +501,8 @@ main#main-content > section.hero-section .hero-content {
 }
 
 main#main-content > section.hero-section .hero-text {
-  margin-top: var(--space-8) !important;
-  padding-top: var(--space-8) !important;
+  margin-top: var(--space-12) !important;
+  padding-top: var(--space-12) !important;
   margin-bottom: 0 !important;
   text-align: left !important;
   align-self: flex-start !important;
@@ -535,9 +535,14 @@ main#main-content > section.hero-section .hero-text p {
   opacity: 1 !important;
 }
 
-/* Make video smaller on invisible-drumset page */
+/* Make video wider on invisible-drumset page */
 main#main-content > section.hero-section .youtube-embed-wrapper {
-  max-width: 280px !important;
+  max-width: 360px !important;
+}
+
+/* Add padding to top of video container */
+main#main-content > section.hero-section .hero-media {
+  padding-top: var(--space-12) !important;
 }
 
 main#main-content > section.hero-section .hero-content {
