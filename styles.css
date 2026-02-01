@@ -553,6 +553,25 @@ main#main-content > section.hero-section .hero-content {
   text-align: left;
 }
 
+/* Override for invisible-drumset page - must come after base .hero-text */
+main#main-content > section.hero-section .hero-text {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--space-4) !important;
+  position: relative !important;
+  z-index: 2 !important;
+  max-width: 600px !important;
+  text-align: left !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  align-self: flex-start !important;
+  width: 100% !important;
+  transform: translateY(calc(-2 * var(--space-12))) !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 /* Ensure no bullet list appears under hero intro */
 .hero-text ul {
   display: none !important;
