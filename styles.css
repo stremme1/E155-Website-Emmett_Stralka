@@ -550,10 +550,11 @@ main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 500px !important;
+  max-width: 650px !important;
   width: 100% !important;
   aspect-ratio: 9 / 16 !important;
   padding-bottom: 0 !important; /* Use aspect-ratio instead of padding-bottom */
+  min-width: 0 !important; /* Prevent flex shrinking */
 }
 
 /* Ensure video container doesn't get constrained by Quarto */
