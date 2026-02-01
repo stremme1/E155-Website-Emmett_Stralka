@@ -3966,19 +3966,23 @@ video {
   margin: 0 auto;
 }
 
-/* Ensure iframes are always visible, even in scroll-animate sections */
-.scroll-animate iframe,
-.scroll-animate .video-container,
-.scroll-animate [style*="iframe"] {
+/* Ensure YouTube video containers and iframes are always visible, even in scroll-animate sections */
+.youtube-video-container,
+.youtube-embed-wrapper,
+.scroll-animate .youtube-video-container,
+.scroll-animate .youtube-embed-wrapper,
+.scroll-animate iframe[src*="youtube.com"],
+.scroll-animate iframe[src*="youtu.be"] {
   opacity: 1 !important;
   visibility: visible !important;
   display: block !important;
+  transform: none !important;
 }
 
-/* Ensure video containers with iframes are visible */
-div[style*="position: relative"][style*="iframe"] {
+.youtube-embed-wrapper iframe {
   opacity: 1 !important;
   visibility: visible !important;
+  display: block !important;
 }
 
 @media (max-width: 768px) {
