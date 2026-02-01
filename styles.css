@@ -478,8 +478,8 @@ main#main-content > section.hero-section {
   box-sizing: border-box !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: 0 !important;
-  margin-top: calc(-5 * var(--space-12)) !important;
+  padding-top: var(--space-8) !important;
+  margin-top: calc(-2 * var(--space-8)) !important;
   position: relative !important;
 }
 
@@ -490,11 +490,11 @@ main#main-content {
 }
 
 main#main-content > section.hero-section:first-child {
-  margin-top: calc(-5 * var(--space-12)) !important;
-  padding-top: 0 !important;
+  margin-top: calc(-2 * var(--space-8)) !important;
+  padding-top: var(--space-8) !important;
 }
 
-/* Move hero-text up on invisible-drumset page - more aggressive and ensure left alignment */
+/* Move hero-text up on invisible-drumset page - moderate positioning */
 main#main-content > section.hero-section .hero-content {
   align-items: flex-start !important;
   padding-top: 0 !important;
@@ -507,8 +507,11 @@ main#main-content > section.hero-section .hero-text {
   text-align: left !important;
   align-self: flex-start !important;
   width: 100% !important;
-  transform: translateY(calc(-1 * var(--space-12))) !important;
   padding-left: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 main#main-content > section.hero-section .hero-text h1.labs-title {
@@ -518,6 +521,8 @@ main#main-content > section.hero-section .hero-text h1.labs-title {
   text-align: left !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 main#main-content > section.hero-section .hero-text p {
@@ -526,11 +531,13 @@ main#main-content > section.hero-section .hero-text p {
   text-align: left !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
-/* Make video wider on invisible-drumset page */
+/* Make video moderate size on invisible-drumset page */
 main#main-content > section.hero-section .youtube-embed-wrapper {
-  max-width: 450px !important;
+  max-width: 380px !important;
 }
 
 main#main-content > section.hero-section .hero-content {
@@ -567,9 +574,10 @@ main#main-content > section.hero-section .hero-text {
   margin-bottom: 0 !important;
   align-self: flex-start !important;
   width: 100% !important;
-  transform: translateY(calc(-2 * var(--space-12))) !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* Ensure no bullet list appears under hero intro */
