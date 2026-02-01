@@ -545,13 +545,15 @@ main#main-content > section.hero-section .hero-text p,
   opacity: 1 !important;
 }
 
-/* Make video smaller on invisible-drumset page - AGGRESSIVE override */
+/* Make video smaller on invisible-drumset page - AGGRESSIVE override - maintain 9:16 YouTube Short aspect ratio */
 main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 320px !important;
+  max-width: 300px !important;
   width: 100% !important;
+  aspect-ratio: 9 / 16 !important;
+  padding-bottom: 177.78% !important; /* 16/9 * 100 = 177.78% for 9:16 portrait */
 }
 
 /* Add padding to top of video container - move up more */
