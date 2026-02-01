@@ -3972,7 +3972,9 @@ video {
 .scroll-animate .youtube-video-container,
 .scroll-animate .youtube-embed-wrapper,
 .scroll-animate iframe[src*="youtube.com"],
-.scroll-animate iframe[src*="youtu.be"] {
+.scroll-animate iframe[src*="youtu.be"],
+.skills-section.scroll-animate .youtube-video-container,
+.skills-section.scroll-animate .youtube-embed-wrapper {
   opacity: 1 !important;
   visibility: visible !important;
   display: block !important;
@@ -3983,6 +3985,12 @@ video {
   opacity: 1 !important;
   visibility: visible !important;
   display: block !important;
+}
+
+/* Force Results section content to be visible */
+.skills-section.scroll-animate .section-content {
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 @media (max-width: 768px) {
