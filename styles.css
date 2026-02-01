@@ -550,14 +550,15 @@ main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 420px !important;
+  max-width: 360px !important;
   width: 100% !important;
 }
 
-/* Add padding to top of video container */
+/* Add padding to top of video container - align with text */
 main#main-content > section.hero-section .hero-media,
 #main-content > section.hero-section .hero-media {
   padding-top: 60px !important;
+  margin-top: 0 !important;
 }
 
 main#main-content > section.hero-section .hero-content {
