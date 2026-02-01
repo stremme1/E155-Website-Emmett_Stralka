@@ -545,12 +545,12 @@ main#main-content > section.hero-section .hero-text p,
   opacity: 1 !important;
 }
 
-/* Make video wider on invisible-drumset page - AGGRESSIVE override */
+/* Make video smaller on invisible-drumset page - AGGRESSIVE override */
 main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 520px !important;
+  max-width: 480px !important;
   width: 100% !important;
 }
 
