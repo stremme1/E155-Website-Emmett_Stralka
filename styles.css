@@ -447,7 +447,7 @@ header {
   max-width: 1400px !important;
   width: 100% !important;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 3rem;
   align-items: center;
   padding: 0 3rem !important;
