@@ -469,8 +469,10 @@ main#main-content .hero-section .hero-content,
   padding-right: 3rem !important;
 }
 
-/* Override container constraints for hero-section on invisible-drumset page - break out like labs-intro */
-main#main-content > section.hero-section {
+/* Override container constraints for hero-section on invisible-drumset page - break out like labs-intro - AGGRESSIVE OVERRIDES */
+main#main-content > section.hero-section,
+#main-content > section.hero-section,
+section.hero-section {
   width: 100vw !important;
   margin-left: calc(-50vw + 50%) !important;
   margin-right: calc(-50vw + 50%) !important;
@@ -478,31 +480,35 @@ main#main-content > section.hero-section {
   box-sizing: border-box !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: var(--space-16) !important;
+  padding-top: 80px !important;
   margin-top: 0 !important;
   position: relative !important;
 }
 
 /* Remove any padding from main-content that affects hero-section */
-main#main-content {
+main#main-content,
+#main-content {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
-main#main-content > section.hero-section:first-child {
+main#main-content > section.hero-section:first-child,
+#main-content > section.hero-section:first-child {
   margin-top: 0 !important;
-  padding-top: var(--space-16) !important;
+  padding-top: 80px !important;
 }
 
-/* Move hero-text up on invisible-drumset page - moderate positioning */
-main#main-content > section.hero-section .hero-content {
+/* Move hero-text up on invisible-drumset page - AGGRESSIVE positioning with explicit pixels */
+main#main-content > section.hero-section .hero-content,
+#main-content > section.hero-section .hero-content {
   align-items: flex-start !important;
   padding-top: 0 !important;
 }
 
-main#main-content > section.hero-section .hero-text {
-  margin-top: var(--space-16) !important;
-  padding-top: var(--space-16) !important;
+main#main-content > section.hero-section .hero-text,
+#main-content > section.hero-section .hero-text {
+  margin-top: 60px !important;
+  padding-top: 60px !important;
   margin-bottom: 0 !important;
   text-align: left !important;
   align-self: flex-start !important;
@@ -514,9 +520,12 @@ main#main-content > section.hero-section .hero-text {
   opacity: 1 !important;
 }
 
-main#main-content > section.hero-section .hero-text h1.labs-title {
+main#main-content > section.hero-section .hero-text h1.labs-title,
+#main-content > section.hero-section .hero-text h1.labs-title,
+main#main-content > section.hero-section .hero-text h1,
+#main-content > section.hero-section .hero-text h1 {
   margin-top: 0 !important;
-  padding-top: var(--space-4) !important;
+  padding-top: 20px !important;
   margin-bottom: var(--space-4) !important;
   text-align: left !important;
   padding-left: 0 !important;
@@ -525,9 +534,10 @@ main#main-content > section.hero-section .hero-text h1.labs-title {
   opacity: 1 !important;
 }
 
-main#main-content > section.hero-section .hero-text p {
+main#main-content > section.hero-section .hero-text p,
+#main-content > section.hero-section .hero-text p {
   margin-top: 0 !important;
-  padding-top: var(--space-2) !important;
+  padding-top: 16px !important;
   text-align: left !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
@@ -535,14 +545,19 @@ main#main-content > section.hero-section .hero-text p {
   opacity: 1 !important;
 }
 
-/* Make video wider on invisible-drumset page */
-main#main-content > section.hero-section .youtube-embed-wrapper {
-  max-width: 450px !important;
+/* Make video wider on invisible-drumset page - AGGRESSIVE override */
+main#main-content > section.hero-section .youtube-embed-wrapper,
+#main-content > section.hero-section .youtube-embed-wrapper,
+main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
+#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
+  max-width: 520px !important;
+  width: 100% !important;
 }
 
 /* Add padding to top of video container */
-main#main-content > section.hero-section .hero-media {
-  padding-top: var(--space-16) !important;
+main#main-content > section.hero-section .hero-media,
+#main-content > section.hero-section .hero-media {
+  padding-top: 60px !important;
 }
 
 main#main-content > section.hero-section .hero-content {
