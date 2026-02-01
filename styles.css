@@ -478,7 +478,7 @@ main#main-content > section.hero-section {
   box-sizing: border-box !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  padding-top: var(--space-12) !important;
+  padding-top: var(--space-16) !important;
   margin-top: 0 !important;
   position: relative !important;
 }
@@ -491,7 +491,7 @@ main#main-content {
 
 main#main-content > section.hero-section:first-child {
   margin-top: 0 !important;
-  padding-top: var(--space-12) !important;
+  padding-top: var(--space-16) !important;
 }
 
 /* Move hero-text up on invisible-drumset page - moderate positioning */
@@ -501,8 +501,8 @@ main#main-content > section.hero-section .hero-content {
 }
 
 main#main-content > section.hero-section .hero-text {
-  margin-top: var(--space-4) !important;
-  padding-top: var(--space-4) !important;
+  margin-top: var(--space-8) !important;
+  padding-top: var(--space-8) !important;
   margin-bottom: 0 !important;
   text-align: left !important;
   align-self: flex-start !important;
@@ -537,7 +537,7 @@ main#main-content > section.hero-section .hero-text p {
 
 /* Make video smaller on invisible-drumset page */
 main#main-content > section.hero-section .youtube-embed-wrapper {
-  max-width: 320px !important;
+  max-width: 280px !important;
 }
 
 main#main-content > section.hero-section .hero-content {
