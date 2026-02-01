@@ -479,18 +479,53 @@ main#main-content > section.hero-section {
   padding-left: 0 !important;
   padding-right: 0 !important;
   padding-top: 0 !important;
-  margin-top: calc(-1 * var(--space-12)) !important;
+  margin-top: calc(-5 * var(--space-12)) !important;
+  position: relative !important;
 }
 
-/* Move hero-text up on invisible-drumset page - more aggressive */
+/* Remove any padding from main-content that affects hero-section */
+main#main-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+main#main-content > section.hero-section:first-child {
+  margin-top: calc(-5 * var(--space-12)) !important;
+  padding-top: 0 !important;
+}
+
+/* Move hero-text up on invisible-drumset page - more aggressive and ensure left alignment */
+main#main-content > section.hero-section .hero-content {
+  align-items: flex-start !important;
+  padding-top: 0 !important;
+}
+
 main#main-content > section.hero-section .hero-text {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+  align-self: flex-start !important;
+  width: 100% !important;
+  transform: translateY(calc(-1 * var(--space-12))) !important;
+  padding-left: 0 !important;
 }
 
 main#main-content > section.hero-section .hero-text h1.labs-title {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: var(--space-4) !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+main#main-content > section.hero-section .hero-text p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 /* Make video wider on invisible-drumset page */
