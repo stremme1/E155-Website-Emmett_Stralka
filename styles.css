@@ -545,15 +545,39 @@ main#main-content > section.hero-section .hero-text p,
   opacity: 1 !important;
 }
 
-/* Make video smaller on invisible-drumset page - AGGRESSIVE override - maintain 9:16 YouTube Short aspect ratio */
+/* Make video wider on invisible-drumset page - AGGRESSIVE override - maintain 9:16 YouTube Short aspect ratio */
 main#main-content > section.hero-section .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-embed-wrapper,
 main#main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper,
 #main-content > section.hero-section .youtube-video-container .youtube-embed-wrapper {
-  max-width: 300px !important;
+  max-width: 500px !important;
   width: 100% !important;
   aspect-ratio: 9 / 16 !important;
-  padding-bottom: 177.78% !important; /* 16/9 * 100 = 177.78% for 9:16 portrait */
+  padding-bottom: 0 !important; /* Use aspect-ratio instead of padding-bottom */
+}
+
+/* Ensure video container doesn't get constrained by Quarto */
+main#main-content > section.hero-section .hero-media,
+#main-content > section.hero-section .hero-media {
+  padding-top: 40px !important;
+  margin-top: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 1 auto !important;
+}
+
+/* Override any Quarto container constraints on video container */
+main#main-content > section.hero-section .youtube-video-container,
+#main-content > section.hero-section .youtube-video-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Ensure iframe maintains aspect ratio */
+main#main-content > section.hero-section .youtube-embed-wrapper iframe,
+#main-content > section.hero-section .youtube-embed-wrapper iframe {
+  aspect-ratio: 9 / 16 !important;
+  object-fit: contain !important;
 }
 
 /* Add padding to top of video container - move up more */
