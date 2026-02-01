@@ -3966,6 +3966,21 @@ video {
   margin: 0 auto;
 }
 
+/* Ensure iframes are always visible, even in scroll-animate sections */
+.scroll-animate iframe,
+.scroll-animate .video-container,
+.scroll-animate [style*="iframe"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Ensure video containers with iframes are visible */
+div[style*="position: relative"][style*="iframe"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 @media (max-width: 768px) {
   .section-content video {
     max-width: 95%;
